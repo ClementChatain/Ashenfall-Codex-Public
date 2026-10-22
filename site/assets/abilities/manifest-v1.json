@@ -487,6 +487,17 @@
       "sourceSha256": "398cd3d09a1e90b0bb9ea0ce9ccdd364584b53c800c83bf659bf8735bf9818a1"
     },
     {
+      "id": "danse-lame-tourbillon-des-branches",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Tourbillon des Branches",
+      "src": "assets/abilities/v1/danse-lame-tourbillon-des-branches.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "c919a77099a60f2088255c0fabfa624bf68a7abb1bd12dc641cfb300ce746a1e",
+      "sourceSha256": "acdcf8955200047f5197666b92ec5bcc0092f0e67d579bf774e738c8a07935dc"
+    },
+    {
       "id": "danse-lame-feinte-du-vent",
       "version": "abilities-v1",
       "status": "concept",
@@ -496,6 +507,72 @@
       "height": 512,
       "sha256": "65cda1642206638d529a9f702a1b0c6d86519d53c6e65563c91827273af82331",
       "sourceSha256": "60476fbf205f57c5be71d41369f97a2b7a3eb41c6f0b2a4e3e7a97a468ee9946"
+    },
+    {
+      "id": "danse-lame-sillage-tranchant",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Sillage Tranchant",
+      "src": "assets/abilities/v1/danse-lame-sillage-tranchant.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "9189d7a40304c432ed439cd0521229412ead1f862910d6c2655e1b96a3afcc15",
+      "sourceSha256": "1fdf13e67244e943e48e1555785df5d7b58b6899087d2e081286015f9d02fbf2"
+    },
+    {
+      "id": "danse-lame-souffle-de-printemps",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Souffle de Printemps",
+      "src": "assets/abilities/v1/danse-lame-souffle-de-printemps.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "09bcb2f11724b8656833bd2bd20df575e7ac27e8738973c778b28c20956437e6",
+      "sourceSha256": "8b5346cd7bb0056eab60b0720ff1fb776dccaa594467982abc42ae05089fc407"
+    },
+    {
+      "id": "danse-lame-coup-de-grace-sylvestre",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Coup de Grâce Sylvestre",
+      "src": "assets/abilities/v1/danse-lame-coup-de-grace-sylvestre.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "bf4edcd932f2ebb4dcbd44b97bea39af94b8cdca4bd731cef84ee365fa5756ae",
+      "sourceSha256": "2e129c339c97fc55c9fc3d2b91261f2b3c1fefc29719ad7384f0234e01d1e19d"
+    },
+    {
+      "id": "danse-lame-reflet-des-lames",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Reflet des Lames",
+      "src": "assets/abilities/v1/danse-lame-reflet-des-lames.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "76a1e29ed7f7acdda9569ec6f6c442a138938346e8313da2edaf3eeca3ef8bb2",
+      "sourceSha256": "d7a0d219de7eae2117d5f542bc09906948f61526835cf9cc1f44c14b9b335884"
+    },
+    {
+      "id": "traqueur-sylvestre-fleche-guidee",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Flèche Guidée",
+      "src": "assets/abilities/v1/traqueur-sylvestre-fleche-guidee.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "19e0be654f612dcee14a1b6c8b8c163263437bf2bcc0e25b7e4b46b4c1df32cb",
+      "sourceSha256": "0c1df3fcc741de13a9a012de0350cf35a4020fc20b5ec4a6b20d13e20b897ef9"
+    },
+    {
+      "id": "traqueur-sylvestre-marque-du-traqueur",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Marque du Traqueur",
+      "src": "assets/abilities/v1/traqueur-sylvestre-marque-du-traqueur.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "a6927138d7c588fc58c526184fb158f8ad00da5155741c4d7012c3bde5fea4bc",
+      "sourceSha256": "c63fb47a01e8cd9df1084fcfbed0cb6d8b1b9ffe82bbb9229969ee62c0f91df8"
     }
   ]
 }
