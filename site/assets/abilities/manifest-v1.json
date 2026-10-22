@@ -135,6 +135,17 @@
       "sourceSha256": "b20c261111c560606952882903e69ce781b178d90d3bfb56a42f54afdd80dbd0"
     },
     {
+      "id": "brise-fer-elan-du-marteau",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Élan du Marteau",
+      "src": "assets/abilities/v1/brise-fer-elan-du-marteau.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "3eb6189f2289ff2dbe3d5ae3c80af24bb0f3591ad01c10c0138d2beb6b0b4fe4",
+      "sourceSha256": "79e7b94d422429c7a3de72b12f385d9fb7e9329240f68b1fd709566be7cc9f77"
+    },
+    {
       "id": "brise-fer-coup-de-rupture",
       "version": "abilities-v1",
       "status": "concept",
@@ -157,6 +168,28 @@
       "sourceSha256": "24cab593b226af5cdedebac8197ee939be2415ab361b9b40809766f3d5c39188"
     },
     {
+      "id": "brise-fer-entaille-profonde",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Entaille Profonde",
+      "src": "assets/abilities/v1/brise-fer-entaille-profonde.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "3cb65e2b41e7d816cf8c5c613ae6ad68b4cc46a3e3cd103f98737d4f4f02e023",
+      "sourceSha256": "e91ec2abe9e0743a972bc95883d834366a53d1271ed6b88100fd8ffc9b7b870c"
+    },
+    {
+      "id": "brise-fer-marteau-du-verdict",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Marteau du Verdict",
+      "src": "assets/abilities/v1/brise-fer-marteau-du-verdict.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "0a685bcd32f1d6536eaa5bb17914089601e4840e2e42205e7ffeb1674244bf4a",
+      "sourceSha256": "486c59444000a299155275fccb7e48a598f6887e2c11cfd98f807905525dc523"
+    },
+    {
       "id": "brise-fer-rythme-de-forge",
       "version": "abilities-v1",
       "status": "concept",
@@ -166,6 +199,50 @@
       "height": 512,
       "sha256": "237703668657ba14bdd738557be367aac3b633ddb2ac638d531b6ee0af5e2629",
       "sourceSha256": "0941b23f95e46cbfb6dfea4e85ed205941872f79063c541a30e340b8e7ddb5a4"
+    },
+    {
+      "id": "brise-fer-frappe-d-entrave",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Frappe d'Entrave",
+      "src": "assets/abilities/v1/brise-fer-frappe-d-entrave.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f09b4b687adbf2b59b44d7c215883b911a955080d420d269edb2f236d9408f34",
+      "sourceSha256": "66d2132228d975ed3559aaa8336cb7448c8d4c2d10d61cf0dba534042e346b78"
+    },
+    {
+      "id": "brise-fer-derniere-fissure",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Dernière Fissure",
+      "src": "assets/abilities/v1/brise-fer-derniere-fissure.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f16da6847272be559776fde9de3e9cf279df1bad4e0bb0392a32b3a50a0261ed",
+      "sourceSha256": "66f3fbf4042d083f0501dbd3afd5d5d6001e26cd69b7ea7acc56c9ce3f652ffe"
+    },
+    {
+      "id": "artilleur-runique-tir-calibre",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Tir Calibré",
+      "src": "assets/abilities/v1/artilleur-runique-tir-calibre.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "31ebffb5049248d01a7520e31ed81f51f2a2a5eb46506b8fdb564eb507e74c6c",
+      "sourceSha256": "af5f9dcae00b5313a060ec004d482dca8e60c380a923e637309a26e106ab7af5"
+    },
+    {
+      "id": "artilleur-runique-surcharge",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Surcharge",
+      "src": "assets/abilities/v1/artilleur-runique-surcharge.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "ead709ab53447729b472f6ed41532c5b5dbfa05968f1604b9ce48113adcc4eb1",
+      "sourceSha256": "2bce564181195291061eae46cda684d6c0cec042b89d92c1ad2d73cd46d76c14"
     }
   ]
 }
