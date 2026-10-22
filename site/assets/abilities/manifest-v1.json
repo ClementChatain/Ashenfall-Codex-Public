@@ -1,0 +1,116 @@
+{
+  "version": "abilities-v1",
+  "status": "concept",
+  "icons": [
+    {
+      "id": "rempart-garde",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Garde",
+      "src": "assets/abilities/v1/rempart-garde.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "5d994c560495eeca7b79218af4879969fac38de2531293974b80b8a390124e54",
+      "sourceSha256": "41725aaa4247f5cfc6c8aa2d7de870b75b1f6f7982247f1d99662c3b1dc1613a"
+    },
+    {
+      "id": "rempart-defi-du-rempart",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Défi du Rempart",
+      "src": "assets/abilities/v1/rempart-defi-du-rempart.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "960f387ee4705eba6b6aa905ba0542e276f1ac7c1e913fdbfb117cb0dd23bb0b",
+      "sourceSha256": "3352caff2d4f6f1b8d71fbd0063c0a1ba58fdd43bb15877b27332a9b7c70013e"
+    },
+    {
+      "id": "rempart-coup-de-heurt",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Coup de Heurt",
+      "src": "assets/abilities/v1/rempart-coup-de-heurt.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "3670246b3f7a11943a9f00449026b84672a1e4b22978f259527c1d5c0b501112",
+      "sourceSha256": "a79fabf8edf71d258f7ababc5d9b4182747fc8e5226303a7f85b60e2681567d4"
+    },
+    {
+      "id": "rempart-interposition",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Interposition",
+      "src": "assets/abilities/v1/rempart-interposition.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "052eeea6f3c408e471d83826748eb1c6fd57d1783ba9e19a480bf8eef8675cda",
+      "sourceSha256": "f89896ef35086217c1923a8a043da3ee8f79af3f7772966d404193cd0049ab9a"
+    },
+    {
+      "id": "rempart-mur-d-echo",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Mur d'Écho",
+      "src": "assets/abilities/v1/rempart-mur-d-echo.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "26d83f3543cb17a9a4726da5e0ebf0f42989cb21f1e69004982ecf392dfaa941",
+      "sourceSha256": "46b6a225b39a0a4c0c523dc4f30cab55b2c5fb948aa980c64f2536c1bf672894"
+    },
+    {
+      "id": "rempart-ancrage-profond",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Ancrage Profond",
+      "src": "assets/abilities/v1/rempart-ancrage-profond.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "b91d4395ebabe1dabaca0549fca4821930eb3ec10458c657ad6b7db7419fdf05",
+      "sourceSha256": "937f44081b701f2f27cd2a01f669ffa7b4dc186df7cb4489463db484c09aaa9f"
+    },
+    {
+      "id": "rempart-contre-heurt",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Contre-Heurt",
+      "src": "assets/abilities/v1/rempart-contre-heurt.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "dbd072d4c22db32635e843a00cedcd1785c657903c12f68943a7176381b46924",
+      "sourceSha256": "44c2496fd30f398c793a99750fc498f26d796a074d159f7c2440a5fe5e17ffde"
+    },
+    {
+      "id": "rempart-cercle-de-fer",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Cercle de Fer",
+      "src": "assets/abilities/v1/rempart-cercle-de-fer.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "7b5af14fd0891bbff562b1bea37fc8590f7847630b9dd1d23ee50bb59fb37257",
+      "sourceSha256": "fac6f2383567874bff88076aeed444853411ac28a1c23cc4d45af944816b0728"
+    },
+    {
+      "id": "rempart-souffle-du-bastion",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Souffle du Bastion",
+      "src": "assets/abilities/v1/rempart-souffle-du-bastion.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "58b8e28e162ad47192971a36a348a55f1efa44f1f176fc6522c46d0c1afe0399",
+      "sourceSha256": "4a985f293a07c5e588271afa5a7fd7638a5eded2cb646595a1a533a771a91f23"
+    },
+    {
+      "id": "rempart-rempart-absolu",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Rempart Absolu",
+      "src": "assets/abilities/v1/rempart-rempart-absolu.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "b299ba2b75d9f43317fe8eaa6f3c7e69ef8bebf752ae3fef07f261d9332ffaa5",
+      "sourceSha256": "03b58c6fa58b7ebb09c5c66f07b1ba7c2848197a2c06618f7670078713335815"
+    }
+  ]
+}
