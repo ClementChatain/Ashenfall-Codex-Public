@@ -123,6 +123,48 @@ body[data-faction=humains] .fiche-art{background:radial-gradient(circle,#536f9b5
 .entry-art .class-concept{position:relative;z-index:1;width:64px;height:64px}
 .fiche-art .class-concept{width:128px;height:128px;background-size:512px 384px;border-radius:20px;box-shadow:0 0 0 14px #c7a66e10,0 14px 30px #0009}
 .concept-caption{font:11px var(--ui);color:#c1b7a0;letter-spacing:.05em;margin-top:8px}
+
+/* Codex V2.2 — real class dossiers and combat compendium */
+.class-hero{display:grid;grid-template-columns:minmax(220px,34%) 1fr;min-height:365px;overflow:hidden;border:1px solid #bca57350;border-radius:18px;background:radial-gradient(ellipse at 75% 0,#b99a5940,transparent 54%),linear-gradient(128deg,#1b302f,#101b20 72%);box-shadow:0 22px 70px #0007;margin:24px 0 22px}
+.class-portrait{position:relative;display:flex;align-items:center;justify-content:center;min-height:360px;border-right:1px solid #c9b07d3c;background:radial-gradient(circle at 45% 48%,#b69a6645,transparent 41%),repeating-linear-gradient(45deg,transparent,transparent 26px,#d7b87a08 27px,#d7b87a08 28px)}
+.class-portrait:before{content:'✧';position:absolute;font:250px var(--display);color:#d5b87811}
+.class-portrait .class-concept{z-index:1;transform:scale(1.2);box-shadow:0 0 0 18px #bf9e6020,0 0 0 36px #bf9e600d,0 18px 45px #000b}
+.class-copy{padding:48px clamp(28px,5vw,72px);display:flex;flex-direction:column;justify-content:center;gap:12px}
+.class-copy .fiche-title{margin:10px 0;font-size:clamp(62px,6.5vw,104px);overflow-wrap:anywhere}
+.class-quote{font:italic 500 clamp(20px,2.2vw,28px)/1.4 var(--display);color:#e6c997;margin:4px 0 12px}
+.class-summary{font:17px/1.8 var(--reading);color:#d9dfd6;max-width:62ch;margin:0}
+.class-metadata{display:flex;flex-wrap:wrap;gap:10px;padding-top:15px}
+.class-metadata span{font:600 11px var(--ui);letter-spacing:.06em;text-transform:uppercase;color:#dfcca4;border:1px solid #d6b87855;background:#d6b8780c;padding:10px 14px;border-radius:999px}
+.class-highlights{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0 0 29px}
+.class-highlight{border:1px solid #c7ab7843;border-radius:15px;padding:27px 30px;background:linear-gradient(145deg,#1c2b2c,#121d20);min-width:0}
+.class-highlight .fiche-kicker{display:block;margin-bottom:11px}.class-highlight h2{font:600 33px/1.1 var(--display);margin:0 0 11px;color:#f0dbb2}
+.class-highlight p{font:17px/1.73 var(--reading);color:#d2d8d1;margin:0;white-space:pre-line}
+.armory{border:1px solid #c7ab7844;border-radius:17px;padding:clamp(20px,4vw,44px);background:radial-gradient(circle at 88% 6%,#8a74402a,transparent 35%),linear-gradient(145deg,#172528,#101a1e);margin-bottom:23px}
+.armory-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:23px;border-bottom:1px solid #d1b27b31;padding-bottom:22px}
+.armory-head h2{font:600 clamp(34px,4vw,52px)/1 var(--display);margin:8px 0 0;color:#f0ddba}
+.armory-count{font:600 11px var(--ui);letter-spacing:.12em;color:#cab58e;text-transform:uppercase;white-space:nowrap}
+.ability-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ability-card{position:relative;display:grid;grid-template-columns:68px minmax(0,1fr);column-gap:17px;text-align:left;padding:20px;border:1px solid #bfa77946;border-radius:13px;background:linear-gradient(135deg,#223130d4,#162326);color:#f2e9d7;min-height:162px;transition:transform .2s,border-color .2s,background .2s}
+.ability-card:hover{transform:translateY(-3px);border-color:#d9b979;background:linear-gradient(135deg,#2a3b37,#192928)}
+.ability-index{position:absolute;right:18px;top:14px;font:600 10px var(--ui);color:#a8b3aa;letter-spacing:.15em}
+.ability-icon{height:68px;width:68px;display:grid;place-items:center;align-self:start;border-radius:11px;border:1px solid #d3b5746b;background:radial-gradient(circle at 35% 30%,#af945764,transparent 50%),#1d302f;box-shadow:inset 0 0 21px #0005,0 6px 16px #0005;color:#e9ce95;font:45px var(--display)}
+.ability-icon.is-concept{font-size:0;background-image:var(--ashen-concepts);background-repeat:no-repeat;background-size:272px 204px}
+.ability-main{min-width:0}.ability-main strong{display:block;font:600 27px/1.05 var(--display);padding:5px 18px 7px 0;overflow-wrap:anywhere}
+.ability-kind{font:700 10px var(--ui);text-transform:uppercase;letter-spacing:.12em;color:#d6b985}
+.ability-description{font:13px/1.55 var(--ui);color:#bac9c2;margin:10px 0 12px;overflow-wrap:anywhere}
+.ability-stats{display:flex;flex-wrap:wrap;gap:7px}
+.ability-stats span{font:600 10px var(--ui);padding:6px 9px;border:1px solid #baaa8741;border-radius:6px;background:#ffffff08;color:#e0dbc8}
+.ability-link{position:absolute;right:16px;bottom:12px;color:#d2b57b;font-size:18px}
+.editorial-source{border:1px solid #a38c6740;border-radius:13px;background:#111b1e;margin-bottom:20px;overflow:hidden}
+.editorial-source summary{cursor:pointer;padding:23px 29px;font:600 24px var(--display);color:#dec89f;list-style-position:inside}
+.editorial-source summary:focus-visible{outline:2px solid #edc991;outline-offset:-3px}
+.editorial-source .source-copy{padding:7px 30px 32px;font:15px/1.8 var(--reading);color:#c3d0c9;white-space:pre-wrap;max-height:520px;overflow:auto}
+.editorial-source small{display:block;font:12px var(--ui);color:#a6b8b1;margin-top:7px}
+.ability-profile .class-hero{grid-template-columns:220px 1fr;min-height:260px}.ability-profile .class-portrait{min-height:260px}.ability-profile .class-copy{padding:32px 42px}.ability-profile .fiche-title{font-size:clamp(43px,5vw,77px)}
+.ability-profile .class-portrait .entry-glyph{font-size:100px}.ability-profile .class-portrait .class-concept{transform:scale(.85)}
+.ability-profile .fiche-stat{min-height:98px}
+@media(max-width:960px){.ability-grid{grid-template-columns:1fr}.class-highlights{grid-template-columns:1fr}}
+@media(max-width:730px){.class-hero,.ability-profile .class-hero{grid-template-columns:1fr}.class-portrait,.ability-profile .class-portrait{min-height:195px;border-right:0;border-bottom:1px solid #c9b07d3c}.class-copy,.ability-profile .class-copy{padding:28px 25px 34px}.class-copy .fiche-title{font-size:62px}.class-highlight{padding:24px}.armory{padding:19px}.ability-card{grid-template-columns:56px 1fr;padding:15px;gap:13px;min-height:155px}.ability-icon{height:56px;width:56px;font-size:35px}.ability-main strong{font-size:24px}.armory-head{align-items:start;flex-direction:column;gap:9px}.editorial-source summary{padding:20px}}
 </style></head><body><aside id="side"><div class="brand">ASHENFALL</div><div class="sub">THE WORLD CODEX</div><nav id="nav"></nav><p style="font-size:12px;margin:35px 12px"><span id="mode">✦ Archives d’Ashenfall</span></p></aside><main id="main"><a class="skip" href="#main">Aller au contenu</a><header><button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button><span class="crumb" id="crumb">ASHENFALL / ACCUEIL</span><input type="search" id="search" placeholder="⌕ Rechercher..." aria-label="Rechercher"></header><div id="view" tabindex="-1" aria-live="polite"></div><footer>ASHENFALL · LES ARCHIVES DU MONDE</footer></main>
 <script>
 const cats=[['peuples','Peuples','♜','Civilisations et origines'],['classes','Classes','⚔','Les voies du combat'],['competences','Compétences','✧','Arts et pouvoirs'],['bestiaire','Bestiaire','♞','Créatures du monde'],['equipements','Équipements','⛨','Armes et armures'],['regions','Régions','⌖','Terres et territoires'],['lore','Histoires & Lore','❖','Chroniques et légendes'],['chronologie','Chronologie','◷','Les âges du monde'],['systemes','Systèmes de jeu','◇','Comprendre les mécaniques']];
@@ -147,6 +189,49 @@ const classInfo={
 'sentinelle':['humains','sentinelle'],'duelliste':['humains','duelliste'],'arcaniste':['humains','arcaniste'],'thaumaturge':['humains','thaumaturge']
 };
 function getClass(item){if(item[1]==='classes')return item[0];return Object.keys(classInfo).find(k=>item[0].startsWith(k+'-'))||null}
+
+function classSkillData(entry,index){
+const body=entry[4], field=(re)=>{const m=body.match(re);return m?m[1].trim():''};
+return {entry,index,kind:field(/^Type\s*:\s*(.+)$/mi)||entry[3].split('·')[0],cost:field(/^Coût\s*:\s*(.+)$/mi),cd:field(/^CD\s*\(s\)\s*:\s*(.+)$/mi),range:field(/^Portée\s*\(m\)\s*:\s*(.+)$/mi),effect:field(/^Contrôle\s*\/\s*mécanique\s*:\s*(.+)$/mi)||entry[3].split('·').slice(2).join('·').trim()}
+}
+function classOverview(item){
+const body=item[4];const section=(heading,next)=>{const i=body.indexOf(heading);if(i<0)return '';let text=body.slice(i+heading.length);const candidates=next.map(x=>text.indexOf(x)).filter(x=>x>=0);if(candidates.length)text=text.slice(0,Math.min(...candidates));return text.replace(/\s+/g,' ').trim().slice(0,570)};
+const identity=section('IDENTITÉ & STYLE DE JEU',['RESSOURCE & BOUCLE DE COMBAT','ARSENAL :']);
+const resource=section('RESSOURCE & BOUCLE DE COMBAT',['ARSENAL :','DOSSIER DE CLASSE']);
+const quote=(body.match(/[«][^»]{8,170}[»]/)||[])[0]||'';
+return {identity,resource,quote}
+}
+function renderClassDossier(item){
+const id=item[0], race=classInfo[id]&&classInfo[id][0]||'';
+document.body.dataset.faction=race;
+const skills=data.filter(e=>e[1]==='competences'&&e[0].startsWith(id+'-'));
+const overview=classOverview(item);
+const badges=item[3].split('·').map(v=>v.trim()).filter(Boolean);
+function card(e,i){
+const v=classSkillData(e,i);
+const stats=[v.cost!==''?'Coût '+v.cost:null,v.cd!==''?'Recharge '+v.cd+' s':null,v.range!==''?'Portée '+v.range+' m':null].filter(Boolean);
+const name=e[2].split(' — ')[0];
+return '<button class="ability-card" data-go="'+esc(e[0])+'" aria-label="Voir la compétence '+esc(name)+'"><span class="ability-index">'+String(i+1).padStart(2,'0')+' / '+String(skills.length).padStart(2,'0')+'</span><span class="ability-icon" aria-hidden="true">✧</span><span class="ability-main"><span class="ability-kind">'+esc(v.kind)+'</span><strong>'+esc(name)+'</strong><span class="ability-description">'+esc(v.effect||e[3])+'</span><span class="ability-stats">'+stats.map(x=>'<span>'+esc(x)+'</span>').join('')+'</span></span><span class="ability-link" aria-hidden="true">↗</span></button>'
+}
+return '<section class="content fiche"><button class="back" data-go="classes">← Toutes les classes</button>'+
+'<div class="class-hero"><div class="class-portrait">'+classVisual(item,true)+'</div><div class="class-copy"><span class="fiche-kicker">ASHENFALL / DOSSIER DE CLASSE</span><h1 class="fiche-title">'+esc(item[2])+'</h1>'+(overview.quote?'<p class="class-quote">'+esc(overview.quote)+'</p>':'')+'<p class="class-summary">'+esc(overview.identity||item[3])+'</p><div class="class-metadata">'+badges.map(b=>'<span>'+esc(b)+'</span>').join('')+'</div></div></div>'+
+'<div class="class-highlights"><article class="class-highlight"><span class="fiche-kicker">01 / PHILOSOPHIE</span><h2>Identité & combat</h2><p>'+esc(overview.identity||item[3])+'</p></article><article class="class-highlight"><span class="fiche-kicker">02 / MÉCANIQUE</span><h2>Ressource & rythme</h2><p>'+esc(overview.resource||'Les mécaniques détaillées sont documentées dans les archives de conception.')+'</p></article></div>'+
+'<section class="armory"><div class="armory-head"><div><span class="fiche-kicker">03 / GRIMOIRE DE CLASSE</span><h2>Arsenal de compétences</h2></div><span class="armory-count">'+skills.length+' fiches · version V0.1</span></div><p class="fiche-chapter-note">Chaque capacité possède sa propre fiche. Les visuels des 96 concepts ne sont pas encore attribués officiellement aux sorts.</p><div class="ability-grid">'+skills.map(card).join('')+'</div></section>'+
+'<details class="editorial-source"><summary>Archives de conception originales <small>Document intégral conservé pour consultation</small></summary><div class="source-copy">'+esc(item[4])+'</div></details>'+
+'<div class="fiche-warning">Version provisoire publiée · non canonique · susceptible d’évoluer.</div></section>'
+}
+function renderAbilityDossier(item){
+const cls=getClass(item),race=cls&&classInfo[cls]?classInfo[cls][0]:'';
+document.body.dataset.faction=race;
+const v=classSkillData(item,0),b=item[4],rows=[];
+const metaRegex=/^([^:\n]{2,45})\s*:\s*(.+)$/gm;let m;while((m=metaRegex.exec(b))!==null){if(/^(Peuple|Classe|Rôle|N°|Compétence|Type|Base \/ impact|Coefficient|Coût|CD \(s\)|Portée \(m\)|PvP x|Contrôle \/ mécanique|Puissance brute réf\.|Puissance PvP réf\.)$/.test(m[1].trim()))rows.push([m[1].trim(),m[2].trim()])}
+const stats=rows.filter(([k])=>!['Peuple','Classe','Rôle','N°','Compétence','Contrôle / mécanique'].includes(k));
+return '<section class="content fiche ability-profile"><button class="back" data-go="'+esc(cls||'competences')+'">← '+esc(cls?(data.find(d=>d[0]===cls)||[])[2]||'Classe':'Compétences')+'</button><div class="class-hero"><div class="class-portrait"><span class="entry-glyph">✧</span></div><div class="class-copy"><span class="fiche-kicker">CODEX / COMPÉTENCES</span><h1 class="fiche-title">'+esc(item[2].split(' — ')[0])+'</h1><p class="class-summary">'+esc(v.effect||item[3])+'</p><div class="class-metadata">'+[v.kind,...item[3].split('·').slice(1,2)].filter(Boolean).map(x=>'<span>'+esc(x.trim())+'</span>').join('')+'</div></div></div>'+
+'<section class="armory"><div class="armory-head"><div><span class="fiche-kicker">FICHE TECHNIQUE / V0.1</span><h2>Caractéristiques</h2></div></div><div class="fiche-grid">'+stats.map(([k,value])=>'<div class="fiche-stat"><small>'+esc(k.replace('CD (s)','Recharge').replace('Portée (m)','Portée'))+'</small><strong>'+esc(value)+'</strong></div>').join('')+'</div><article class="class-highlight" style="margin-top:18px"><span class="fiche-kicker">EFFET EN COMBAT</span><h2>Mécanique</h2><p>'+esc(v.effect||'Consulter la description complète.')+'</p></article></section>'+
+'<details class="editorial-source"><summary>Notes d’équilibrage V0.1 <small>Hypothèses techniques, non canoniques</small></summary><div class="source-copy">'+esc(b)+'</div></details>'+
+'<div class="fiche-warning">Valeurs de prototype : elles nécessitent simulation et tests en jeu.</div></section>'
+}
+
 function renderFiche(item){
 const body=item[4],lines=body.split('\n'),metadata=[],description=[],related=[];
 const statRegex=/^(Peuple|Rôle|Type|Coût|CD|Portée|Durée|Ressource|Niveau|Zone|Effet|Cible|Famille|Rareté|Habitat|Origine|Dégâts|Soin|Temps de recharge|Arme)\s*:\s*(.+)$/i;
