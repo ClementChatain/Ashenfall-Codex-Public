@@ -61,6 +61,61 @@ header input{border-radius:30px;padding:12px 19px;background:#ffffff07;max-width
 @media(max-width:420px){.grid{grid-template-columns:1fr}.tile{min-height:128px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
 
+
+/* Ashenfall Codex — editorial art direction V2 */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Spectral:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap');
+:root{--display:'Cormorant Garamond',Georgia,serif;--reading:'Spectral',Georgia,serif;--ui:'Manrope',system-ui,sans-serif;--gold:#cbaa72;--text:#f0e6d3;--muted:#b3c0bd;--line:#c5a46c45}
+body{font-family:var(--reading);font-size:17px;letter-spacing:.003em;background:radial-gradient(circle at 90% 0%,#27473d27,transparent 45%),#0b1215}
+.nav,.navhead,.sub,.tag,.eyebrow,.fiche-category,.fiche-pill,.fiche-stat,.fiche-link,.fiche-warning,header,.entry .tag,.back,.tile small,.entry p,footer,input{font-family:var(--ui)}
+h1,h2,h3,.brand,.tile strong,.entry strong,.fiche-title{font-family:var(--display)}
+.brand{font-size:35px;letter-spacing:.095em;font-weight:600}.sub{letter-spacing:.31em}
+h1{font-size:clamp(56px,7vw,105px);font-weight:500;letter-spacing:-.037em;line-height:.97}
+h2{font-size:clamp(32px,3.2vw,44px);font-weight:600;letter-spacing:-.02em}
+.hero p:not(.eyebrow){font-family:var(--reading);font-size:19px;line-height:1.7}
+.hero{min-height:440px;isolation:isolate}.hero:after{content:'✥';font-size:330px;right:7%;top:25px;color:#d4b77a0b}
+.tile strong{font-size:31px;line-height:1.1}.tile small{font-size:12px;line-height:1.6}
+.entry strong{font-size:25px;line-height:1.06;font-weight:600}.entry p{font-size:12px}
+.fiche{max-width:1340px}
+.fiche-top{grid-template-columns:minmax(230px,340px) minmax(0,1fr);gap:48px;margin-top:28px}
+.fiche-art{min-height:350px;background:radial-gradient(circle at 50% 48%,#cab17930,transparent 44%),radial-gradient(circle at 70% 0%,#44685a44,transparent 55%),#152427}
+.fiche-art:after,.entry-art:after{content:'✦';position:absolute;right:16px;bottom:11px;color:#d8bb7e70;font-size:14px}
+.fiche-title{font-size:clamp(58px,6vw,94px);font-weight:600;line-height:.94;margin:22px 0}
+.fiche-summary{font-family:var(--reading);font-size:21px;line-height:1.55;color:#d1d9d1}
+.fiche-pill{font-size:11px;letter-spacing:.035em}
+.fiche-section{padding:clamp(24px,3vw,45px);position:relative;background:radial-gradient(circle at 100% 0%,#7c69401b,transparent 44%),linear-gradient(150deg,#172529,#111a1c)}
+.fiche-section:before{content:'✧';position:absolute;top:17px;right:23px;color:#bda06d70;font-size:17px}
+.fiche-section h2{font-family:var(--display);font-size:36px;font-weight:600;line-height:1.05;margin-bottom:22px}
+.fiche-prose{font-family:var(--reading);font-size:18px;line-height:1.9;color:#e0dfd4;max-width:77ch;white-space:pre-wrap}
+.fiche-prose+.fiche-prose{margin-top:16px}
+.fiche-section hr{border-color:#bba87929;margin:25px 0}
+.fiche-grid{grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:13px}
+.fiche-stat{background:linear-gradient(140deg,#1b2b2c,#132025);border-color:#c3a8753d;min-height:94px}
+.fiche-stat small{font-family:var(--ui);font-size:10px;line-height:1.4}
+.fiche-stat strong{font-family:var(--ui);font-size:17px;font-weight:600}
+.fiche-link{display:flex;justify-content:space-between;align-items:center;gap:12px;transition:background .2s,transform .2s}
+.fiche-link:hover{transform:translateY(-2px)}
+.fiche-link small{font-size:10px;display:block;color:#b6bbac;padding-top:7px}
+.fiche-link .link-title{font-family:var(--display);font-size:24px;font-weight:600}
+.fiche-kicker{font:700 10px var(--ui);letter-spacing:.2em;text-transform:uppercase;color:#c7af83}
+.fiche-chapter{font:600 29px var(--display);color:#e8d3a5;margin:22px 0 10px}
+.fiche-row{display:grid;grid-template-columns:minmax(125px,190px) minmax(0,1fr);gap:18px;padding:13px 0;border-bottom:1px solid #bba87923;font-family:var(--reading);font-size:16px}
+.fiche-row strong{font:700 11px var(--ui);letter-spacing:.08em;color:#d6bd8c;text-transform:uppercase;margin-top:5px}
+.fiche-skill-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fiche-skill-card{display:flex;align-items:center;gap:15px;text-align:left;padding:14px;border:1px solid #c2a57235;border-radius:10px;background:#ffffff05;color:var(--text)}
+.fiche-skill-card:hover{border-color:var(--gold);background:#c4a66e15}
+.fiche-skill-mark{display:grid;place-items:center;flex:0 0 52px;height:52px;border:1px solid #d8b9775e;border-radius:8px;background:radial-gradient(circle,#627b6d57,#192a2c);font:30px var(--display);color:#dfc18a}
+.fiche-skill-card strong{display:block;font:600 24px var(--display);line-height:1.05}
+.fiche-skill-card small{display:block;font:11px var(--ui);color:#b5bfbb;margin-top:8px}
+.fiche-chapter-note{font:12px var(--ui);color:#abb9b6;line-height:1.7}
+.fiche .notice{font-family:var(--ui)}
+body[data-faction=nains] .fiche-art{background:radial-gradient(circle,#a47b4c55,transparent 55%),#222420}
+body[data-faction=elfes] .fiche-art{background:radial-gradient(circle,#538a6855,transparent 55%),#152620}
+body[data-faction=humains] .fiche-art{background:radial-gradient(circle,#536f9b55,transparent 55%),#17212d}
+@media(max-width:950px){.fiche-top{gap:25px}.fiche-skill-list{grid-template-columns:1fr}}
+@media(max-width:800px){.fiche-top{grid-template-columns:1fr}.fiche-art{min-height:240px}.fiche-title{font-size:clamp(50px,12vw,74px)}.fiche-summary{font-size:19px}}
+@media(max-width:680px){.hero{min-height:330px}.tile strong{font-size:26px}.fiche-top{gap:20px}.fiche-section h2{font-size:31px}.fiche-prose{font-size:17px}.fiche-row{grid-template-columns:1fr;gap:5px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+
 </style></head><body><aside id="side"><div class="brand">ASHENFALL</div><div class="sub">THE WORLD CODEX</div><nav id="nav"></nav><p style="font-size:12px;margin:35px 12px"><span id="mode">✦ Archives d’Ashenfall</span></p></aside><main id="main"><a class="skip" href="#main">Aller au contenu</a><header><button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button><span class="crumb" id="crumb">ASHENFALL / ACCUEIL</span><input type="search" id="search" placeholder="⌕ Rechercher..." aria-label="Rechercher"></header><div id="view" tabindex="-1" aria-live="polite"></div><footer>ASHENFALL · LES ARCHIVES DU MONDE</footer></main>
 <script>
 const cats=[['peuples','Peuples','♜','Civilisations et origines'],['classes','Classes','⚔','Les voies du combat'],['competences','Compétences','✧','Arts et pouvoirs'],['bestiaire','Bestiaire','♞','Créatures du monde'],['equipements','Équipements','⛨','Armes et armures'],['regions','Régions','⌖','Terres et territoires'],['lore','Histoires & Lore','❖','Chroniques et légendes'],['chronologie','Chronologie','◷','Les âges du monde'],['systemes','Systèmes de jeu','◇','Comprendre les mécaniques']];
@@ -76,20 +131,34 @@ const categoryMap=Object.fromEntries(cats.map(c=>[c[0],c[1]]));
 function glyph(e){return ({classes:'⚔',competences:'✧',bestiaire:'♞',peuples:'♜',equipements:'⛨',regions:'⌖',lore:'❖',chronologie:'◷',systemes:'◇'})[e[1]]||'✦'}
 function badgeText(e){return preview?'BROUILLON · PRIVÉ':e[4].startsWith('VERSION DE TRAVAIL')?'VERSION PROVISOIRE':'ARCHIVE PUBLIÉE'}
 function cards(items){return items.length?'<div class="entries">'+items.map(e=>'<button class="entry" data-type="'+esc(e[1])+'" data-go="'+esc(e[0])+'"><div class="entry-art" aria-hidden="true"><span class="entry-glyph">'+glyph(e)+'</span></div><div class="entry-content"><strong>'+esc(e[2])+'</strong><p>'+esc(e[3])+'</p><span class="tag">'+badgeText(e)+'</span></div></button>').join('')+'</div>':'<div class="empty">Aucune fiche pour le moment. Les contenus seront ajoutés après validation.</div>'}
+
+const classInfo={
+'rempart':['nains','rempart'],'brise-fer':['nains','brise_fer'],'artilleur-runique':['nains','artilleur_runique'],'accordeur':['nains','accordeur'],
+'danse-lame':['elfes','danse_lame'],'traqueur-sylvestre':['elfes','traqueur_sylvestre'],'gardien-des-racines':['elfes','gardien_des_racines'],'tisseur-de-vie':['elfes','tisseur_de_vie'],
+'sentinelle':['humains','sentinelle'],'duelliste':['humains','duelliste'],'arcaniste':['humains','arcaniste'],'thaumaturge':['humains','thaumaturge']
+};
+function getClass(item){if(item[1]==='classes')return item[0];return Object.keys(classInfo).find(k=>item[0].startsWith(k+'-'))||null}
 function renderFiche(item){
-const b=item[4],lines=b.split('\n'),metadata=[],description=[],related=[];
-const keyPattern=/^(Peuple|Rôle|Type|Coût|CD|Portée|Durée|Ressource|Niveau|Zone|Effet|Cible|Famille|Rareté|Habitat|Origine|Dégâts|Soin|Temps de recharge|Arme)\s*:\s*(.+)$/i;
-for(const line of lines){const m=line.trim().match(keyPattern);if(m&&metadata.length<14)metadata.push([m[1],m[2]]);else if(/^Fiche\s*:\s*/i.test(line)){const id=line.replace(/^Fiche\s*:\s*/i,'').trim();const e=data.find(d=>d[0]===id);if(e&&!related.some(x=>x[0]===id))related.push(e)}else description.push(line)}
-if(item[1]==='classes'){const more=data.filter(d=>d[1]==='competences'&&d[0].startsWith(item[0]+'-'));for(const e of more)if(!related.some(x=>x[0]===e[0]))related.push(e)}
+const body=item[4],lines=body.split('\n'),metadata=[],description=[],related=[];
+const statRegex=/^(Peuple|Rôle|Type|Coût|CD|Portée|Durée|Ressource|Niveau|Zone|Effet|Cible|Famille|Rareté|Habitat|Origine|Dégâts|Soin|Temps de recharge|Arme)\s*:\s*(.+)$/i;
+for(const line of lines){const m=line.trim().match(statRegex);if(m&&metadata.length<18)metadata.push([m[1],m[2]]);else if(/^Fiche\s*:\s*/i.test(line)){const id=line.replace(/^Fiche\s*:\s*/i,'').trim();const entry=data.find(d=>d[0]===id);if(entry&&!related.some(e=>e[0]===id))related.push(entry)}else description.push(line)}
+const classId=getClass(item),race=classId&&classInfo[classId]?classInfo[classId][0]:item[1]==='peuples'?({nains:'nains',elfes:'elfes',humains:'humains'})[item[0]]:'';
+document.body.dataset.faction=race||'';
+if(item[1]==='classes'){for(const e of data.filter(d=>d[1]==='competences'&&d[0].startsWith(item[0]+'-')))if(!related.some(x=>x[0]===e[0]))related.push(e)}
+const relatedSkills=related.filter(e=>e[1]==='competences');
+const text=description.join('\n').replace(/VERSION DE TRAVAIL\s*[—-]\s*PROVISOIRE, NON CANONIQUE/gi,'').trim();
+const pieces=text.split(/\n\s*\n/).map(block=>block.trim()).filter(Boolean);
+function proseSection(block){const lines=block.split('\n').filter(Boolean);if(lines.length===1)return '<p class="fiche-prose">'+esc(lines[0])+'</p>';const first=lines[0];if(/^Classes étudiées|^Arsenal de référence|^Compétences|^Techniques/i.test(first)){return '<h3 class="fiche-chapter">'+esc(first)+'</h3><div class="fiche-prose">'+esc(lines.slice(1).join('\n'))+'</div>'}return '<div class="fiche-prose">'+esc(block)+'</div>'}
 const summaryTags=item[3].split('·').map(x=>x.trim()).filter(Boolean).slice(0,4);
-const cleanText=description.join('\n').replace(/VERSION DE TRAVAIL\s*[—-]\s*PROVISOIRE, NON CANONIQUE/gi,'').trim();
-const display=cleanText.split(/\n\s*\n/).map(part=>'<div class="fiche-prose">'+esc(part.trim())+'</div>').filter(part=>part!=='<div class="fiche-prose"></div>').join('<hr>');
-return '<section class="content fiche"><button class="back" data-go="'+esc(item[1])+'">← Retour aux '+esc(categoryMap[item[1]]||'archives')+'</button><div class="fiche-top"><div class="fiche-art" aria-label="Emblème de la fiche"><span class="entry-glyph" aria-hidden="true">'+glyph(item)+'</span></div><div class="fiche-intro"><span class="fiche-category">✦ CODEX / '+esc(categoryMap[item[1]]||'Archives')+'</span><h1 class="fiche-title">'+esc(item[2])+'</h1><p class="fiche-summary">'+esc(item[3])+'</p><div class="fiche-badges">'+summaryTags.map(t=>'<span class="fiche-pill">'+esc(t)+'</span>').join('')+'</div><span class="tag">'+badgeText(item)+'</span></div></div>'+
+const title=categoryMap[item[1]]||'Archives';
+const relatedBlock=relatedSkills.length?'<section class="fiche-section"><span class="fiche-kicker">GRIMOIRE / ARSENAL</span><h2>Compétences associées <span style="opacity:.5">('+relatedSkills.length+')</span></h2><div class="fiche-skill-list">'+relatedSkills.map(e=>'<button class="fiche-skill-card" data-go="'+esc(e[0])+'"><span class="fiche-skill-mark" aria-hidden="true">✧</span><span><strong>'+esc(e[2])+'</strong><small>'+esc(e[3])+'</small></span></button>').join('')+'</div></section>':related.length?'<section class="fiche-section"><h2>Fiches associées</h2><div class="fiche-linklist">'+related.map(e=>'<button class="fiche-link" data-go="'+esc(e[0])+'"><span class="link-title">'+esc(e[2])+'</span> ↗</button>').join('')+'</div></section>':'';
+const art='<div class="fiche-art" aria-label="Emblème conceptuel de la catégorie"><span class="entry-glyph" aria-hidden="true">'+glyph(item)+'</span></div>';
+const note=preview?'Brouillon privé. Ce contenu ne constitue pas le canon officiel.':body.startsWith('VERSION DE TRAVAIL')?'Version provisoire publiée · non canonique · susceptible d’évoluer.':'Contenu approuvé pour publication.';
+return '<section class="content fiche"><button class="back" data-go="'+esc(item[1])+'">← Retour · '+esc(title)+'</button><div class="fiche-top">'+art+'<div class="fiche-intro"><span class="fiche-category">✦ CODEX / '+esc(title)+'</span><h1 class="fiche-title">'+esc(item[2])+'</h1><p class="fiche-summary">'+esc(item[3])+'</p><div class="fiche-badges">'+summaryTags.map(t=>'<span class="fiche-pill">'+esc(t)+'</span>').join('')+'</div><span class="tag">'+badgeText(item)+'</span></div></div>'+
 (metadata.length?'<div class="fiche-grid">'+metadata.map(([k,v])=>'<div class="fiche-stat"><small>'+esc(k)+'</small><strong>'+esc(v)+'</strong></div>').join('')+'</div>':'')+
-'<article class="fiche-section"><h2>✧ Archives & description</h2>'+ (display||'<div class="fiche-prose">Description en cours de rédaction.</div>')+'</article>'+
-(related.length?'<section class="fiche-section"><h2>⚔ Fiches associées ('+related.length+')</h2><div class="fiche-linklist">'+related.map(e=>'<button class="fiche-link" data-go="'+esc(e[0])+'">'+esc(e[2])+' ↗</button>').join('')+'</div></section>':'')+
-'<div class="fiche-warning">'+(preview?'Brouillon privé. Ce contenu ne constitue pas le canon officiel.':(b.startsWith('VERSION DE TRAVAIL')?'Version provisoire publiée · non canonique · susceptible d’évoluer.':'Contenu approuvé pour publication.'))+'</div></section>'
+'<article class="fiche-section"><span class="fiche-kicker">CHRONIQUES · '+esc(title)+'</span><h2>'+esc(item[1]==='competences'?'Effets & fonctionnement':item[1]==='peuples'?'Histoire & héritage':item[1]==='bestiaire'?'Nature & observations':'Archives & savoirs')+'</h2>'+pieces.map(proseSection).join('<hr>')+'</article>'+relatedBlock+
+'<div class="fiche-warning">'+esc(note)+'</div></section>'
 }
-function render(){let route;try{route=decodeURIComponent(location.hash.slice(2)||'home')}catch{route='home'}let q=fold(search.value.trim()),cat=cats.find(c=>c[0]===route),item=data.find(e=>e[0]===route);document.querySelectorAll('.nav').forEach(n=>{const active=n.dataset.go===(cat?route:item?item[1]:'home');n.classList.toggle('active',active);if(active)n.setAttribute('aria-current','page');else n.removeAttribute('aria-current')});document.getElementById('crumb').textContent='ASHENFALL / '+(cat?cat[1]:item?item[2]:'ACCUEIL').toUpperCase();if(q){let hits=data.filter(e=>fold(e.slice(2).join(' ')).includes(q));view.innerHTML='<section class="content"><h2>Résultats de recherche ('+hits.length+')</h2>'+cards(hits)+'</section>';return}if(item){view.innerHTML=renderFiche(item);return}if(cat){let items=data.filter(e=>e[1]===route);view.innerHTML='<section class="hero"><p class="eyebrow">ENCYCLOPÉDIE</p><h1>'+esc(cat[1])+'</h1><p>'+esc(cat[3])+'</p></section><section class="content"><h2>Fiches disponibles · '+items.length+'</h2>'+cards(items)+'</section>';return}view.innerHTML='<section class="hero"><p class="eyebrow">LES ARCHIVES D’UN MONDE EN DEVENIR</p><h1>Un monde.<br><em>Mille histoires.</em></h1><p>Explorez les peuples, les classes et les mystères d’un univers façonné pierre après pierre.</p></section><section class="content"><div class="sectionhead"><p class="eyebrow">LE CODEX D’ASHENFALL</p><h2>Les portes du savoir</h2><p>Choisissez une archive pour commencer votre exploration.</p></div><div class="grid">'+cats.map(c=>'<button class="tile" data-go="'+c[0]+'"><span class="symbol">'+c[2]+'</span><strong>'+esc(c[1])+'</strong><small>'+esc(c[3])+'</small></button>').join('')+'</div><h2 style="margin-top:45px">Premières archives</h2>'+cards([...data.filter(e=>e[1]==='peuples'),...data.filter(e=>e[1]!=='peuples')].slice(0,4))+'</section>'}
+function render(){let route;try{route=decodeURIComponent(location.hash.slice(2)||'home')}catch{route='home'}let q=fold(search.value.trim()),cat=cats.find(c=>c[0]===route),item=data.find(e=>e[0]===route);document.querySelectorAll('.nav').forEach(n=>{const active=n.dataset.go===(cat?route:item?item[1]:'home');n.classList.toggle('active',active);if(active)n.setAttribute('aria-current','page');else n.removeAttribute('aria-current')});document.getElementById('crumb').textContent='ASHENFALL / '+(cat?cat[1]:item?item[2]:'ACCUEIL').toUpperCase();if(q){let hits=data.filter(e=>fold(e.slice(2).join(' ')).includes(q));view.innerHTML='<section class="content"><h2>Résultats de recherche ('+hits.length+')</h2>'+cards(hits)+'</section>';return}if(item){view.innerHTML=renderFiche(item);return}if(cat){let items=data.filter(e=>e[1]===route);document.body.dataset.faction='';view.innerHTML='<section class="hero"><p class="eyebrow">ENCYCLOPÉDIE</p><h1>'+esc(cat[1])+'</h1><p>'+esc(cat[3])+'</p></section><section class="content"><h2>Fiches disponibles · '+items.length+'</h2>'+cards(items)+'</section>';return}view.innerHTML='<section class="hero"><p class="eyebrow">LES ARCHIVES D’UN MONDE EN DEVENIR</p><h1>Un monde.<br><em>Mille histoires.</em></h1><p>Explorez les peuples, les classes et les mystères d’un univers façonné pierre après pierre.</p></section><section class="content"><div class="sectionhead"><p class="eyebrow">LE CODEX D’ASHENFALL</p><h2>Les portes du savoir</h2><p>Choisissez une archive pour commencer votre exploration.</p></div><div class="grid">'+cats.map(c=>'<button class="tile" data-go="'+c[0]+'"><span class="symbol">'+c[2]+'</span><strong>'+esc(c[1])+'</strong><small>'+esc(c[3])+'</small></button>').join('')+'</div><h2 style="margin-top:45px">Premières archives</h2>'+cards([...data.filter(e=>e[1]==='peuples'),...data.filter(e=>e[1]!=='peuples')].slice(0,4))+'</section>'}
 document.addEventListener('click',e=>{let el=e.target.closest('[data-go]');if(el){location.hash='#/'+encodeURIComponent(el.dataset.go);search.value='';render();document.getElementById('side').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false');view.focus();window.scrollTo({top:0,behavior:'instant'})}});search.addEventListener('input',render);window.addEventListener('hashchange',render);document.getElementById('mode').textContent=preview?'✦ Aperçu privé · contenu à valider':'✦ Encyclopédie · version provisoire';document.getElementById('menu').setAttribute('aria-expanded','false');document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.getElementById('side').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false')}});document.getElementById('menu').addEventListener('click',()=>{const open=document.getElementById('side').classList.toggle('open');document.getElementById('menu').setAttribute('aria-expanded',String(open))});render();
 </script></body></html>
