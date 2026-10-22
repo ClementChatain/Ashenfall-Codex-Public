@@ -111,6 +111,61 @@
       "height": 512,
       "sha256": "b299ba2b75d9f43317fe8eaa6f3c7e69ef8bebf752ae3fef07f261d9332ffaa5",
       "sourceSha256": "03b58c6fa58b7ebb09c5c66f07b1ba7c2848197a2c06618f7670078713335815"
+    },
+    {
+      "id": "brise-fer-frappe-fendante",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Frappe Fendante",
+      "src": "assets/abilities/v1/brise-fer-frappe-fendante.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "dc954726d305ec30ae4b73dac87aa32e2d73820af625ea53c3f7046a580c11ca",
+      "sourceSha256": "ddeef8adea855f5af36e9b072538e345cc6a832037f2ae0313248187b180f240"
+    },
+    {
+      "id": "brise-fer-brise-garde",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Brise-Garde",
+      "src": "assets/abilities/v1/brise-fer-brise-garde.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "8f3eb5d41e7c1acc22a7a4e4de0579faa3a993328675a381086319fd6083a6eb",
+      "sourceSha256": "b20c261111c560606952882903e69ce781b178d90d3bfb56a42f54afdd80dbd0"
+    },
+    {
+      "id": "brise-fer-coup-de-rupture",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Coup de Rupture",
+      "src": "assets/abilities/v1/brise-fer-coup-de-rupture.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "3c765cc2f134af75c07c9e267c4dd448fdf2b2842bb162f3865d7d7f27d0d163",
+      "sourceSha256": "de7fff9a6bd376f57437ec8ffdcfa284a4145065e3d97b6bd2d5382d212a6b4b"
+    },
+    {
+      "id": "brise-fer-onde-de-choc",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Onde de Choc",
+      "src": "assets/abilities/v1/brise-fer-onde-de-choc.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "cf06da29c26b90817f3525d172220a30c21dfe70f5aaf8140978c14471509591",
+      "sourceSha256": "24cab593b226af5cdedebac8197ee939be2415ab361b9b40809766f3d5c39188"
+    },
+    {
+      "id": "brise-fer-rythme-de-forge",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Rythme de Forge",
+      "src": "assets/abilities/v1/brise-fer-rythme-de-forge.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "237703668657ba14bdd738557be367aac3b633ddb2ac638d531b6ee0af5e2629",
+      "sourceSha256": "0941b23f95e46cbfb6dfea4e85ed205941872f79063c541a30e340b8e7ddb5a4"
     }
   ]
 }
