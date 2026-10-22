@@ -1,0 +1,39 @@
+# Template for the PUBLIC repository only. Installing it there requires approval.
+name: Deploy approved public Codex
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: codex-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.repository == 'ClementChatain/Ashenfall-Codex-Public' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Package the allowlisted public document only
+        run: |
+          test -s site/index.html
+          mkdir -p pages-output
+          cp site/index.html pages-output/index.html
+          touch pages-output/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages-output
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
