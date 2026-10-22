@@ -353,6 +353,149 @@
       "height": 512,
       "sha256": "317f9710917776cb46bff388b7141fd40a9f71728f955cbbc5612da594ce32df",
       "sourceSha256": "fdbb9c231987b6852fa0657b9da9f9fc3231a645801dd5c48066bcab0bdc480f"
+    },
+    {
+      "id": "accordeur-accord-protecteur",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Accord Protecteur",
+      "src": "assets/abilities/v1/accordeur-accord-protecteur.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "2ac797ebb9b836b3449220089a31d65496219a1ae3dc88e650ead5fda74b3c03",
+      "sourceSha256": "f303d4ccce5522ec5602cdc037dfcde56e5e6f4c679de481fd36ed58f739e8f4"
+    },
+    {
+      "id": "accordeur-cercle-d-harmonie",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Cercle d'Harmonie",
+      "src": "assets/abilities/v1/accordeur-cercle-d-harmonie.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "3fc540d5e03721741c84f6b90eb6795bb1361101387642920eb510897723894e",
+      "sourceSha256": "1e296c5d67adf7081503609c8117aba038b29e85711adb91a2a034680ae266e6"
+    },
+    {
+      "id": "accordeur-grande-resonance",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Grande Résonance",
+      "src": "assets/abilities/v1/accordeur-grande-resonance.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "38099ebb4c0c2b88d2e955e479ab76d4aae46dbee6de32c2657639c93475a216",
+      "sourceSha256": "7b9f68a552bd2e5c686ec2c4d1e2e43eaac6d019afd95d0108aceee25c8fd5ed"
+    },
+    {
+      "id": "accordeur-contre-dissonance",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Contre-Dissonance",
+      "src": "assets/abilities/v1/accordeur-contre-dissonance.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "fc0cf8176a655a0d5e8a9a3f3df5ff95fbd762479e8f34fe96eb570580f77817",
+      "sourceSha256": "617776b4b58a808df98696b8572526c2591c8de437d22e81951a50c01c538674"
+    },
+    {
+      "id": "accordeur-echo-restaurateur",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Écho Restaurateur",
+      "src": "assets/abilities/v1/accordeur-echo-restaurateur.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "bd2fcf7159dc68d455061b870e42a4906311ba0a784ab49be92a3fce242a5fc6",
+      "sourceSha256": "f05ab2220a4b680078e36ffa6ea35c34279586a875b9c36702e11289a4c5eafe"
+    },
+    {
+      "id": "accordeur-onde-discordante",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Onde Discordante",
+      "src": "assets/abilities/v1/accordeur-onde-discordante.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "d8ccf6f649d3164adf09e8d14af06e95fae0592ca9db89ccbdce48c1e5ad3d9b",
+      "sourceSha256": "053ad3a9b0750b91bfda0db1b5c6f7440df8ebc2ee33f78da62680b7bcbb3cc0"
+    },
+    {
+      "id": "accordeur-cadence-secourable",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Cadence Secourable",
+      "src": "assets/abilities/v1/accordeur-cadence-secourable.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "ca840ac9d84062d565ba0fdc1d86c8532998e56f30898363df4f57235ba10453",
+      "sourceSha256": "4c9429edffd1b3182175af6e0cb6505bf149ff914f2485b1e4157b60867f95e6"
+    },
+    {
+      "id": "accordeur-rappel-du-souffle",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Rappel du Souffle",
+      "src": "assets/abilities/v1/accordeur-rappel-du-souffle.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "034f954521233fbbc1c6a678573515dd44c450bfabf7448e047fbb8a2fa6a0d3",
+      "sourceSha256": "e6e3b6e4843009a614a0e1c090ac2400057ac0762618a1152f509afab318386e"
+    },
+    {
+      "id": "danse-lame-entaille-fluide",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Entaille Fluide",
+      "src": "assets/abilities/v1/danse-lame-entaille-fluide.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "e019dd9cc0477a348bd22ba6f65fecd441345a4a691d36e0063366ff17a797f6",
+      "sourceSha256": "af054b30ebdbfec9805d926b4117e8fcffacd772cb5d366908ae50ae7f7ba81a"
+    },
+    {
+      "id": "danse-lame-pas-de-feuille",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Pas de Feuille",
+      "src": "assets/abilities/v1/danse-lame-pas-de-feuille.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "7b48d0dcbff6bbda3e8f1b4af86f122419eb719bd3f049e2cc7a52040b545f71",
+      "sourceSha256": "c3a583fa6d42600c1d01355c5896dddd9013afe52e3ed2b01ff88b06efdc9a52"
+    },
+    {
+      "id": "danse-lame-lame-croisee",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Lame Croisée",
+      "src": "assets/abilities/v1/danse-lame-lame-croisee.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "939dc344f11138ffa3de5f6e97da86b90f6b5b3df3844035ca9e9a7a790875c3",
+      "sourceSha256": "723e872698ba25161e8f9c4d8ecd0b9d0f9aeffc665299a09d0afa6b668c4792"
+    },
+    {
+      "id": "danse-lame-danse-ascendante",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Danse Ascendante",
+      "src": "assets/abilities/v1/danse-lame-danse-ascendante.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f4fbd2569f0b7e17046beacfe13c42d91083a3db185b04fe0c90f1fb87bf1ca5",
+      "sourceSha256": "398cd3d09a1e90b0bb9ea0ce9ccdd364584b53c800c83bf659bf8735bf9818a1"
+    },
+    {
+      "id": "danse-lame-feinte-du-vent",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Feinte du Vent",
+      "src": "assets/abilities/v1/danse-lame-feinte-du-vent.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "65cda1642206638d529a9f702a1b0c6d86519d53c6e65563c91827273af82331",
+      "sourceSha256": "60476fbf205f57c5be71d41369f97a2b7a3eb41c6f0b2a4e3e7a97a468ee9946"
     }
   ]
 }
