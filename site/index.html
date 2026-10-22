@@ -351,7 +351,7 @@ return '<a class="spell-card" data-spell-group="'+t.group+'" href="#/'+encodeURI
 }
 function renderClassDossier(item){
 const id=item[0],race=classInfo[id]&&classInfo[id][0]||'';document.body.dataset.faction=race;
-const skills=data.filter(e=>e[1]==='competences'&&e[0].startsWith(id+'-')),overview=classOverview(item),role=roleInfo(item);
+const skills=data.filter(e=>e[1]==='competences'&&e[0].startsWith(id+'-')).sort((a,b)=>Number((a[4].match(/^N°\s*:\s*(\d+)/m)||[])[1]||999)-Number((b[4].match(/^N°\s*:\s*(\d+)/m)||[])[1]||999)),overview=classOverview(item),role=roleInfo(item);
 const raceEntry=data.find(e=>e[0]===race),groups=['Dégâts','Soins','Protection','Contrôle','Mobilité','Utilitaire'];
 const options=[{label:'Tous',count:skills.length},...groups.map(label=>({label,count:skills.filter(e=>arsenalGroup(e)===label).length})).filter(x=>x.count)];
 const filtered=arsenalFilter==='Tous'?skills:skills.filter(e=>arsenalGroup(e)===arsenalFilter);
