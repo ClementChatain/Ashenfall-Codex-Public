@@ -243,6 +243,116 @@
       "height": 512,
       "sha256": "ead709ab53447729b472f6ed41532c5b5dbfa05968f1604b9ce48113adcc4eb1",
       "sourceSha256": "2bce564181195291061eae46cda684d6c0cec042b89d92c1ad2d73cd46d76c14"
+    },
+    {
+      "id": "artilleur-runique-trait-perforant",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Trait Perforant",
+      "src": "assets/abilities/v1/artilleur-runique-trait-perforant.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "54c37873b6c297a9b0932645fb828409afcd3d507c4d73e68479983c573aea61",
+      "sourceSha256": "275f4e99e399983d1ec4a3549a71655833e01edd0363f9d6d03a1b0ace5fa585"
+    },
+    {
+      "id": "artilleur-runique-mine-de-recul",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Mine de Recul",
+      "src": "assets/abilities/v1/artilleur-runique-mine-de-recul.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "d905e51965dee49fd745c49f89072f444f9fb12a3d639c84d3773675967ad002",
+      "sourceSha256": "b4207cfed7503e7ac31c7bae262f1a09d3ddd92e1a728cf0af52b4f2f5066975"
+    },
+    {
+      "id": "artilleur-runique-decharge-runique",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Décharge Runique",
+      "src": "assets/abilities/v1/artilleur-runique-decharge-runique.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "0eed3b24a3d6e1b62af68af60442a16c2ed554072238cb5781803fce60422e39",
+      "sourceSha256": "4c9a49cbe5f19736f5424a29c15472dfcb9d90c5f1d878b3a98f81ca23f45226"
+    },
+    {
+      "id": "artilleur-runique-salve-mecanique",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Salve Mécanique",
+      "src": "assets/abilities/v1/artilleur-runique-salve-mecanique.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "0e7ba6167d714cf1d455b0143c4f0da4667ffe525d35de1e791cbc5adf9af7c2",
+      "sourceSha256": "4310c77703364a79cb34c1212f041a48d95522436797bfe457cfe47ffd3fb4d8"
+    },
+    {
+      "id": "artilleur-runique-marque-de-cible",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Marque de Cible",
+      "src": "assets/abilities/v1/artilleur-runique-marque-de-cible.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "a57115fe6c7e64b5a296db8c0b28cbfa134edc380220ce00262b86fdf2771db6",
+      "sourceSha256": "d50d95cec71f9c889aa1d2519a0455e274101640220e1f395d8874dfae9a336b"
+    },
+    {
+      "id": "artilleur-runique-tir-d-entrave",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Tir d'Entrave",
+      "src": "assets/abilities/v1/artilleur-runique-tir-d-entrave.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "8de750fc157ea4aff047a3bd7e651b5b1fd03ff8df8a0198b995a1a945631044",
+      "sourceSha256": "4b979904e33d2e4aa788ea65686e5cdfb82d96f39b7b72e5d8fcae0762024302"
+    },
+    {
+      "id": "artilleur-runique-purge-des-soupapes",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Purge des Soupapes",
+      "src": "assets/abilities/v1/artilleur-runique-purge-des-soupapes.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "33542d2d4f0a18347e5b482f565865c1841a1602c010360715795d6735710ba5",
+      "sourceSha256": "5cdb97c38795dcda19348dc7f2aa0b043845fa8af7a4db711016e0cc775f2370"
+    },
+    {
+      "id": "artilleur-runique-batterie-de-forge",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Batterie de Forge",
+      "src": "assets/abilities/v1/artilleur-runique-batterie-de-forge.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "b516d0c2ba4dbe030b7f1b8b81c2b07e69cee7bbde97edf9b7acb4678b2712d2",
+      "sourceSha256": "e51027c2a7428b89ff2dce37c71a50ba5ea26732c05f4522de79658523a98cca"
+    },
+    {
+      "id": "accordeur-note-reparatrice",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Note Réparatrice",
+      "src": "assets/abilities/v1/accordeur-note-reparatrice.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "c624a1ffad21eff587e0acf81ee0fdd08a46c023408e7e1b68d50da6555921f1",
+      "sourceSha256": "a76565cadc2563c737e5fab36497c60dd9e8fda5ceda1643bf57cbd79ec45b92"
+    },
+    {
+      "id": "accordeur-vibration-apaisante",
+      "version": "abilities-v1",
+      "status": "concept",
+      "title": "Vibration Apaisante",
+      "src": "assets/abilities/v1/accordeur-vibration-apaisante.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "317f9710917776cb46bff388b7141fd40a9f71728f955cbbc5612da594ce32df",
+      "sourceSha256": "fdbb9c231987b6852fa0657b9da9f9fc3231a645801dd5c48066bcab0bdc480f"
     }
   ]
 }
