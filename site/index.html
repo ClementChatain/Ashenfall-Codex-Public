@@ -201,6 +201,7 @@ const resource=section('RESSOURCE & BOUCLE DE COMBAT',['ARSENAL :','DOSSIER DE C
 const quote=(body.match(/[«][^»]{8,170}[»]/)||[])[0]||'';
 return {identity,resource,quote}
 }
+function conceptBadge(classId){const i=featuredClassOrder.indexOf(classId);if(i<0)return '<span class="ability-icon" aria-hidden="true">✧</span>';const size=68;return '<span class="ability-icon is-concept" style="background-position:-'+(i%4*size)+'px -'+(Math.floor(i/4)*size)+'px" role="img" aria-label="Illustration conceptuelle de la classe, sans attribution définitive à la compétence"></span>'}
 function renderClassDossier(item){
 const id=item[0], race=classInfo[id]&&classInfo[id][0]||'';
 document.body.dataset.faction=race;
@@ -211,7 +212,7 @@ function card(e,i){
 const v=classSkillData(e,i);
 const stats=[v.cost!==''?'Coût '+v.cost:null,v.cd!==''?'Recharge '+v.cd+' s':null,v.range!==''?'Portée '+v.range+' m':null].filter(Boolean);
 const name=e[2].split(' — ')[0];
-return '<button class="ability-card" data-go="'+esc(e[0])+'" aria-label="Voir la compétence '+esc(name)+'"><span class="ability-index">'+String(i+1).padStart(2,'0')+' / '+String(skills.length).padStart(2,'0')+'</span><span class="ability-icon" aria-hidden="true">✧</span><span class="ability-main"><span class="ability-kind">'+esc(v.kind)+'</span><strong>'+esc(name)+'</strong><span class="ability-description">'+esc(v.effect||e[3])+'</span><span class="ability-stats">'+stats.map(x=>'<span>'+esc(x)+'</span>').join('')+'</span></span><span class="ability-link" aria-hidden="true">↗</span></button>'
+return '<button class="ability-card" data-go="'+esc(e[0])+'" aria-label="Voir la compétence '+esc(name)+'"><span class="ability-index">'+String(i+1).padStart(2,'0')+' / '+String(skills.length).padStart(2,'0')+'</span>'+conceptBadge(id)+'<span class="ability-main"><span class="ability-kind">'+esc(v.kind)+'</span><strong>'+esc(name)+'</strong><span class="ability-description">'+esc(v.effect||e[3])+'</span><span class="ability-stats">'+stats.map(x=>'<span>'+esc(x)+'</span>').join('')+'</span></span><span class="ability-link" aria-hidden="true">↗</span></button>'
 }
 return '<section class="content fiche"><button class="back" data-go="classes">← Toutes les classes</button>'+
 '<div class="class-hero"><div class="class-portrait">'+classVisual(item,true)+'</div><div class="class-copy"><span class="fiche-kicker">ASHENFALL / DOSSIER DE CLASSE</span><h1 class="fiche-title">'+esc(item[2])+'</h1>'+(overview.quote?'<p class="class-quote">'+esc(overview.quote)+'</p>':'')+'<p class="class-summary">'+esc(overview.identity||item[3])+'</p><div class="class-metadata">'+badges.map(b=>'<span>'+esc(b)+'</span>').join('')+'</div></div></div>'+
