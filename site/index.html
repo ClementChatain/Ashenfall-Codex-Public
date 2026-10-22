@@ -181,6 +181,24 @@ body[data-faction=humains] .fiche-art{background:radial-gradient(circle,#536f9b5
 .technical-extra{margin-top:20px;background:#101a1e;border:1px solid #aa956942;border-radius:11px}.technical-extra summary{padding:17px 21px;cursor:pointer;font:600 14px var(--ui);color:#ead2a7}.technical-extra .fiche-grid{padding:0 17px 19px;grid-template-columns:repeat(auto-fit,minmax(155px,1fr))}
 @media(max-width:730px){.class-hero,.ability-profile .class-hero{grid-template-columns:1fr}.class-portrait,.ability-profile .class-portrait{min-height:130px}.class-copy,.ability-profile .class-copy{padding:23px}.class-copy .fiche-title{font-size:58px}.ability-profile .fiche-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.ability-profile .fiche-stat{padding:12px}.ability-profile .fiche-stat strong{font-size:17px}.class-highlight{padding:22px}.ability-grid{grid-template-columns:1fr}.armory{padding:18px}.ability-card{padding:16px;grid-template-columns:52px 1fr;gap:12px}.ability-icon{width:52px;height:52px}.ability-icon.is-concept{background-size:208px 156px}}
 @media(max-width:390px){.ability-profile .fiche-grid{grid-template-columns:1fr}.class-metadata span{padding:8px 10px}}
+
+/* V2.4 — taxonomy of roles and abilities */
+.role-banner{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;font:800 13px var(--ui);letter-spacing:.06em;text-transform:uppercase;padding:10px 16px;border-radius:8px;background:#bca67624;border:1px solid #d8ba7d8c;color:#ffe4a9;margin:4px 0}
+.role-banner[data-role=tank]{background:#547caa29;border-color:#75a2d4a8;color:#c4ddff}
+.role-banner[data-role=healer]{background:#488b6631;border-color:#7bba91b0;color:#bdf5d2}
+.role-banner[data-role=dps]{background:#a65b4930;border-color:#c98670aa;color:#ffc6b5}
+.spell-type{display:inline-flex;align-items:center;gap:7px;border-radius:7px;background:#b29b7224;border:1px solid #baa37565;padding:8px 11px;font:800 11px var(--ui);letter-spacing:.025em;color:#f7dbae;max-width:100%}
+.spell-type[data-group=heal]{background:#37745536;border-color:#78bf9088;color:#b0f5c7}
+.spell-type[data-group=damage]{background:#a05c4738;border-color:#c8846588;color:#ffcfb4}
+.spell-type[data-group=control]{background:#5272a53b;border-color:#7ba1dc8c;color:#cfdeff}
+.spell-type[data-group=defense]{background:#856d513d;border-color:#b9a17b8c;color:#f1deb9}
+.spell-type[data-group=utility]{background:#675f983d;border-color:#a39be28c;color:#e0d9ff}
+.ability-card .spell-type{margin:0 20px 4px 0;font-size:11px}.ability-profile .spell-type{font-size:13px;margin:5px 0}
+.entry-role{display:inline-flex;font:700 11px var(--ui);padding:7px 10px;border:1px solid #c5b18464;border-radius:6px;color:#e7d2a4;background:#c0a77c17;margin-top:8px}
+.entry-role[data-role=tank]{color:#c4ddff;border-color:#7ba3cd88}.entry-role[data-role=healer]{color:#bdf5d2;border-color:#7bb58f88}.entry-role[data-role=dps]{color:#ffc6b5;border-color:#c7857188}
+.ability-card{min-height:166px}.ability-description{margin-top:9px}
+.role-legend{font:13px/1.7 var(--ui);color:#c1ccc4;margin:0 0 20px}
+@media(max-width:680px){.role-banner{font-size:12px}.ability-card .spell-type{font-size:10px}}
 </style></head><body><aside id="side"><div class="brand">ASHENFALL</div><div class="sub">THE WORLD CODEX</div><nav id="nav"></nav><p style="font-size:12px;margin:35px 12px"><span id="mode">✦ Archives d’Ashenfall</span></p></aside><main id="main"><a class="skip" href="#main">Aller au contenu</a><header><button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button><span class="crumb" id="crumb">ASHENFALL / ACCUEIL</span><input type="search" id="search" placeholder="⌕ Rechercher..." aria-label="Rechercher"></header><div id="view" tabindex="-1" aria-live="polite"></div><footer>ASHENFALL · LES ARCHIVES DU MONDE</footer></main>
 <script>
 const cats=[['peuples','Peuples','♜','Civilisations et origines'],['classes','Classes','⚔','Les voies du combat'],['competences','Compétences','✧','Arts et pouvoirs'],['bestiaire','Bestiaire','♞','Créatures du monde'],['equipements','Équipements','⛨','Armes et armures'],['regions','Régions','⌖','Terres et territoires'],['lore','Histoires & Lore','❖','Chroniques et légendes'],['chronologie','Chronologie','◷','Les âges du monde'],['systemes','Systèmes de jeu','◇','Comprendre les mécaniques']];
@@ -205,6 +223,44 @@ const classInfo={
 'sentinelle':['humains','sentinelle'],'duelliste':['humains','duelliste'],'arcaniste':['humains','arcaniste'],'thaumaturge':['humains','thaumaturge']
 };
 function getClass(item){if(item[1]==='classes')return item[0];return Object.keys(classInfo).find(k=>item[0].startsWith(k+'-'))||null}
+
+
+const ROLE_NAMES={'Tank':'Tank','Heal':'Healer','DPS mêlée':'DPS mêlée','DPS distance':'DPS distance'};
+function roleInfo(entry){
+const summary=entry[3]||'',body=entry[4]||'';
+const raw=(body.match(/^Rôle\s*:\s*(.+)$/m)||[])[1]||summary.split('·')[1]||'';
+const role=ROLE_NAMES[raw.trim()]||raw.trim()||'À définir';
+const group=/^Tank$/i.test(role)?'tank':/^Healer$/i.test(role)?'healer':'dps';
+return {role,group};
+}
+const SPELL_TYPES={
+'Soin':'Heal direct','Soin zone':'Heal de zone','HoT':'Heal sur la durée','HoT zone':'Heal de zone (HoT)',
+'Dégâts':'Dégâts directs','DoT':'Dégâts DoT','Exécution':'Finisher',
+'Contrôle':'Contrôle','Provocation':'Contrôle · provocation','Zone':'Dégâts de zone',
+'Protection':'Protection','Défense':'Défense','Bouclier':'Bouclier',
+'Buff':'Amélioration','Debuff':'Affaiblissement','Dissipation':'Dissipation',
+'Résurrection':'Résurrection','Récupération':'Récupération','Mobilité':'Mobilité',
+'Invocation':'Invocation','Riposte':'Riposte'
+};
+function spellInfo(entry){
+const body=entry[4]||'',raw=((body.match(/^Type\s*:\s*(.+)$/m)||[])[1]||entry[3].split('·')[0]||'').trim();
+const effect=((body.match(/^Contrôle \/ mécanique\s*:\s*(.+)$/m)||[])[1]||'').trim();
+const title=entry[2]||'';
+let type=SPELL_TYPES[raw]||raw||'À préciser';
+if(raw==='Zone'){
+if(/ralentissement|attraction|immobili|repousse/i.test(effect))type='Contrôle de zone';
+else type='Dégâts de zone';
+}
+if(raw==='Dégâts'){
+if(/finition|consomme.*(?:fracture|avantage)|coup de grâce/i.test(effect)&&/Danse Ascendante|Coup de Rupture|Riposte Magistrale/i.test(title))type='Finisher';
+else if(/ralentissement|interruption/i.test(effect))type='Dégâts + contrôle';
+}
+if(raw==='Soin'&&/sur \d+\s*s|soin partagé \d+\s*s/i.test(effect))type='Heal sur la durée';
+if(raw==='Bouclier'&&/soin déclenché/i.test(effect))type='Soin réactif';
+const group=/^Heal|^Soin/.test(type)?'heal':/^Dégâts|^Finisher/.test(type)?'damage':/^Contrôle/.test(type)?'control':/^Protection|^Défense|^Bouclier|^Riposte/.test(type)?'defense':'utility';
+return {type,group,raw,effect};
+}
+function typeTag(entry){const t=spellInfo(entry);return '<span class="spell-type" data-group="'+t.group+'">'+esc(t.type)+'</span>'}
 
 function classSkillData(entry,index){
 const body=entry[4], field=(re)=>{const m=body.match(re);return m?m[1].trim():''};
@@ -235,7 +291,7 @@ function renderClassDossier(item){
 const id=item[0], race=classInfo[id]&&classInfo[id][0]||'';
 document.body.dataset.faction=race;
 const skills=data.filter(e=>e[1]==='competences'&&e[0].startsWith(id+'-'));
-const overview=classOverview(item);
+const overview=classOverview(item),role=roleInfo(item);
 const badges=item[3].split('·').map(v=>v.trim()).filter(Boolean);
 function card(e,i){
 const v=classSkillData(e,i);
@@ -246,14 +302,14 @@ return '<button class="ability-card" data-go="'+esc(e[0])+'" aria-label="Voir la
 return '<section class="content fiche"><button class="back" data-go="classes">← Toutes les classes</button>'+
 '<div class="class-hero"><div class="class-portrait">'+classVisual(item,true)+'</div><div class="class-copy"><span class="fiche-kicker">ASHENFALL / DOSSIER DE CLASSE</span><h1 class="fiche-title">'+esc(item[2])+'</h1>'+(overview.quote?'<p class="class-quote">'+esc(overview.quote)+'</p>':'')+'<p class="class-summary">'+esc(overview.clearIdentity||item[3])+'</p><div class="class-metadata">'+badges.map(b=>'<span>'+esc(b)+'</span>').join('')+'</div></div></div>'+
 '<div class="class-highlights"><article class="class-highlight"><span class="fiche-kicker">LE RÔLE DE CETTE CLASSE</span><h2>À quoi sert-elle ?</h2><p>'+esc(overview.identity||item[3])+'</p></article><article class="class-highlight"><span class="fiche-kicker">LES BASES DU GAMEPLAY</span><h2>Comment la jouer ?</h2><p>'+esc(overview.resourceIntro||'Consultez les archives pour les mécaniques détaillées.')+'</p></article></div>'+
-'<section class="armory"><div class="armory-head"><div><span class="fiche-kicker">LES 10 CAPACITÉS</span><h2>Arsenal de compétences</h2></div><span class="armory-count">'+skills.length+' fiches · version V0.1</span></div><p class="fiche-chapter-note">Choisissez une compétence pour découvrir son effet, sa portée et son temps de recharge. Les icônes sont des concepts visuels, pas encore les illustrations définitives.</p><div class="ability-grid">'+skills.map(card).join('')+'</div></section>'+
+'<section class="armory"><div class="armory-head"><div><span class="fiche-kicker">LES 10 CAPACITÉS</span><h2>Arsenal de compétences</h2></div><span class="armory-count">'+skills.length+' fiches · version V0.1</span></div><p class="fiche-chapter-note">Chaque compétence affiche son type : dégâts directs, DoT, finisher, contrôle, heal ou défense. Cliquez sur une carte pour consulter tous ses détails. Les icônes sont des concepts visuels, pas encore les illustrations définitives.</p><div class="ability-grid">'+skills.map(card).join('')+'</div></section>'+
 '<details class="editorial-source"><summary>Archives de conception originales <small>Document intégral conservé pour consultation</small></summary><div class="source-copy">'+esc(item[4])+'</div></details>'+
 '<div class="fiche-warning">Version provisoire publiée · non canonique · susceptible d’évoluer.</div></section>'
 }
 function renderAbilityDossier(item){
 const cls=getClass(item),race=cls&&classInfo[cls]?classInfo[cls][0]:'';
 document.body.dataset.faction=race;
-const v=classSkillData(item,0),b=item[4],rows=[];
+const v=classSkillData(item,0),type=spellInfo(item),b=item[4],rows=[];
 const metaRegex=/^([^:\n]{2,45})\s*:\s*(.+)$/gm;let m;while((m=metaRegex.exec(b))!==null){if(/^(Peuple|Classe|Rôle|N°|Compétence|Type|Base \/ impact|Coefficient|Coût|CD \(s\)|Portée \(m\)|PvP x|Contrôle \/ mécanique|Puissance brute réf\.|Puissance PvP réf\.)$/.test(m[1].trim()))rows.push([m[1].trim(),m[2].trim()])}
 const value=(key)=>{const row=rows.find(([k])=>k===key);return row?row[1]:''};
 const primary=[['Coût',value('Coût')],['Recharge',value('CD (s)')?(value('CD (s)')==='0'?'Immédiate':value('CD (s)')+' s'):''],['Portée',value('Portée (m)')?(value('Portée (m)')==='0'?'Personnelle':value('Portée (m)')+' m'):'']].filter(x=>x[1]!=='');
