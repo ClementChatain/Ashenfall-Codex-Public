@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "138017d345dcccfe5b0b5d8765541ca5bd544f9a",
+  "source_commit": "787648a3958ca503924ef97f09946437b75e9dc6",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -71,10 +71,10 @@
     "site/assets/abilities/v1/gardien-des-racines-etreinte-sylvestre.webp": "08def1ee88a526a7411eca4c63cc82f9daaca520",
     "site/assets/abilities/v1/gardien-des-racines-garde.webp": "cc733da6242cdac068bfc4d5cc8119a259e5f06a",
     "site/assets/abilities/v1/gardien-des-racines-pas-des-racines.webp": "34dae982bbedec1cdf89a6ab15caba1c5ad79171",
-    "site/assets/abilities/v1/gardien-des-racines-rejet-de-ronce.webp": "04fdd1810957763eef71dd5100cab6d383b8edd5",
+    "site/assets/abilities/v1/gardien-des-racines-rejet-de-ronce.webp": "98cfc1103ba35b77466118bc9d96e5598f4140f5",
     "site/assets/abilities/v1/gardien-des-racines-seve-persistante.webp": "8443dd5c595fa6f6a400a26ef6033ad4383de979",
     "site/assets/abilities/v1/rempart-ancrage-profond.webp": "a5003b33827d3f5ade6ab915ea3c52b61cfa0461",
-    "site/assets/abilities/v1/rempart-cercle-de-fer.webp": "8278c05e6c2bff25af6165392dadc8ce1cb1b233",
+    "site/assets/abilities/v1/rempart-cercle-de-fer.webp": "68692ec08022ec053e479f4dd621333ac79d2334",
     "site/assets/abilities/v1/rempart-contre-heurt.webp": "f92b718a46876fbd6634f841ec8495c9ec637e63",
     "site/assets/abilities/v1/rempart-coup-de-heurt.webp": "f7f4ab4c861ffc65aa30682a5b10076b0b45f2c7",
     "site/assets/abilities/v1/rempart-defi-du-rempart.webp": "15de425c5b276cdbb5035d1039fc9bf81a34b59b",
@@ -84,7 +84,7 @@
     "site/assets/abilities/v1/rempart-rempart-absolu.webp": "1883c4b99db7c0ecf53f3965a4e41719a11d4370",
     "site/assets/abilities/v1/rempart-souffle-du-bastion.webp": "09cabbdd4b9ee2be9c72b32fedcf21f11ffc3479",
     "site/assets/abilities/v1/sentinelle-cercle-de-vigilance.webp": "65f0e7fd083bea77fc731e36d01c51560111426f",
-    "site/assets/abilities/v1/sentinelle-contre-de-justice.webp": "91aada62ee8922ea5dd2203a286955dfa448aa8e",
+    "site/assets/abilities/v1/sentinelle-contre-de-justice.webp": "111dcb3cc5bd8ea6945f1ac084a7a9dea0eb000f",
     "site/assets/abilities/v1/sentinelle-defi-de-la-sentinelle.webp": "e4161e36480f8bd90df11bb2f012319b42e5bfac",
     "site/assets/abilities/v1/sentinelle-derniere-ligne.webp": "7005854739113ea8ee4e7ff09d17a227d456d174",
     "site/assets/abilities/v1/sentinelle-garde.webp": "0b71d557c8e8e1a8b89e31b8bbc5775c13abb087",
@@ -138,8 +138,90 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "26b41fd447deb4f451763019503ad16260540de0",
+    "site/index.html": "e50bba30c1c0f8202631b4439bbcbf504236ff49",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2"
   },
-  "receipts": []
+  "receipts": [
+    {
+      "id": "gardien-des-racines",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "94a90d35eb8ada2b4d90df87ac4a57981c275c482d7424e3db0953b89d982304",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "gardien-des-racines-rejet-de-ronce",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "924a6f819c6bce40ebfded95c15fd7663e0d1a8db2e67462cc200e2cdb25f87a",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "regles-equilibrage-v01",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "ad19ca41f584a120c490e78d3e25c2dd5b30758c391c4d73870bd8a72b6aa6b8",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "rempart",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "1647f98bfadcb295e102dcaa75708bb86b6ca33f1d57f85a94e06d4f33e6261a",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "rempart-cercle-de-fer",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "63d28129f96da81c1faaa61f40d94166fd32c6346a372d992fb3d4e929f17792",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "rempart-contre-heurt",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "3270090091aab43bd3724f365e4570568e18b184c8c3e5bb924e9963f5c3d973",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "sentinelle",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "07f9f75da6be3fed2d2f406b42fc8b39d4530455cdccb6030c7971a2ac7542cd",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "sentinelle-contre-de-justice",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "5a441255bc7265598fbd3ea2d0f15408c4a4eaee33bbe8177655575bc9f0227c",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "sentinelle-parade-du-veilleur",
+      "version": "0.2",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "0e7693d8c7574f8586a6004c3fadcb994ff746735e0ea1efdac0d5a2b097467f",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    }
+  ]
 }
