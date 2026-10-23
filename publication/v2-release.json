@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "fd6b0feabf5958183428e1b77149c63dc29c559d",
+  "source_commit": "25734576b231b908a69af461e11eed9c6019d1d6",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -138,12 +138,25 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "31203a29c4670cc8ea238da7128c8413df1533f8",
+    "site/index.html": "5ea6f54faa1921b5c17444ba5173103e603e1666",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
     "site/assets/emblems/v1/peuples-kharun.webp": "ba597e882f07dc217c82e263edec89c402b64736",
     "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
-    "site/assets/emblems/v1/peuples-orynth.webp": "fc7fca1b794a5152a439d95e0cace83434f1e1cd"
+    "site/assets/emblems/v1/peuples-orynth.webp": "fc7fca1b794a5152a439d95e0cace83434f1e1cd",
+    "site/assets/abilities/new-peoples-v1/aiguilleur--perce-intervalle.webp": "9ec355e605a4aeb6667e405d9be70b8c89e1c146",
+    "site/assets/abilities/new-peoples-v1/lance-rive--jet-appuye.webp": "2b6f95afc811d40d9355fc40334e1b765ed76a77",
+    "site/assets/abilities/new-peoples-v1/fendeur--effondrement.webp": "5093e2bb3154cb4901f0d79025204f91675e5361",
+    "site/assets/abilities/new-peoples-v1/sillonneur--coupe-de-rive.webp": "92f57e8c588326f60a1ae81504bae6c7d0ca74a7",
+    "site/assets/abilities/new-peoples-v1/porte-faille--armature-ouverte.webp": "a8c8905b68088f01bbdb54c804940ba014627f4f",
+    "site/assets/abilities/new-peoples-v1/brise-courant--ressac-de-proue.webp": "8f2d5f68e7dfa11341fe4304c0313ba45ff2cbb5",
+    "site/assets/abilities/new-peoples-v1/eveilleur--seconde-pousse.webp": "c0af8892a1afc8b843566867f17dd3123f74c1c0",
+    "site/assets/abilities/new-peoples-v1/lieur--attaches-de-secours.webp": "d3b25bdefbed9e6b1835e1566008ac56fefb1808",
+    "site/assets/abilities/new-peoples-v1/mue-lame--lame-deployee.webp": "4835c14539fba805214d85947248c4802ffd731a",
+    "site/assets/abilities/new-peoples-v1/enlaceur--enceinte-vivante.webp": "e78ed2fb72261ac6fada271244e88294d3943edd",
+    "site/assets/abilities/new-peoples-v1/eclateur--trait-de-fracture.webp": "f35ece43665606030b4a603d9c9d6927fe486708",
+    "site/assets/abilities/new-peoples-v1/passeur--traversee-partagee.webp": "9a80badcaea6f3eb972135f2cb34fd5270e748f6",
+    "site/assets/abilities/manifest-new-peoples-v1.json": "69cad54059619e1af89da4b959963473bdb304be"
   },
   "receipts": [
     {
