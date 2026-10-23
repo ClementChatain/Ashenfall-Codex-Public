@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "787648a3958ca503924ef97f09946437b75e9dc6",
+  "source_commit": "0559a4b0fe7339cd77e9ebfdead517ae4e809ac2",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -138,7 +138,7 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "e3d78d8bce2b5ae98ec325ce0a561b5aa11296ae",
+    "site/index.html": "68b17a2b9ab6568774cb8540ec42150c8ce71643",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b"
   },
@@ -221,6 +221,33 @@
       "status": "VALIDE",
       "visibility": "PUBLIC",
       "projection_sha256": "0e7693d8c7574f8586a6004c3fadcb994ff746735e0ea1efdac0d5a2b097467f",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "kharun",
+      "version": "1.0",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "4aa8fb909a3c4526625d73e800d3741ca72502d7f2065ed10a251f8e2314f2d5",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "vaelith",
+      "version": "1.0",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "6762692d4c4ff977f8de03f560113a66899f623de23e1cff03bcc463a3343d07",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "orynth",
+      "version": "1.0",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "e7ab6514ca068e7f81ecdcaeac63e70f132de849708200372c5c408aad421ba3",
       "validated_by": "ClementChatain",
       "publication_authorized_by": "ClementChatain"
     }
