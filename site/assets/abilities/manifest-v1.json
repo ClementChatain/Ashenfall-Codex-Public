@@ -1146,13 +1146,97 @@
       "id": "arcaniste-lance-astrale",
       "version": "abilities-v1",
       "status": "concept",
-      "revision": "v1",
+      "revision": "v2",
       "title": "Lance Astrale",
       "src": "assets/abilities/v1/arcaniste-lance-astrale.webp",
       "width": 512,
       "height": 512,
-      "sha256": "0dc1c0953e102e79a7d039600bd1322d1317dbbce42ef2623280cedd071eb1e5",
-      "sourceSha256": "681682d0fbd30e84db995ec0b2318682c5074ae4811c10901e2236fec0b3080b"
+      "sha256": "f890bf2891bf6f58c7a0c3a25c5914275cadda8938a9fd334c82fdca6183d313",
+      "sourceSha256": "7bd5d5bcc14d9fbba9c7956d0d4eeb2e33444aa8a6e65d9d547dfbd1c4277c23"
+    },
+    {
+      "id": "arcaniste-champ-de-refraction",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Champ de Réfraction",
+      "src": "assets/abilities/v1/arcaniste-champ-de-refraction.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "ed1f3eca3197b5eba2a06044f8a2915267d17262e9618b523c65d7bec6c0253f",
+      "sourceSha256": "0bbfe105c7adb50f59210f3333ddc0a170d5858cff83b26e3fc7983e6708538d"
+    },
+    {
+      "id": "arcaniste-eclats-convergents",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Éclats Convergents",
+      "src": "assets/abilities/v1/arcaniste-eclats-convergents.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "306ca796531490e0978a3161decaa88738042c40ff9f19b1350833284dadeae8",
+      "sourceSha256": "bef37d3f0efe9548f2070b93d1210a709897b7662732d8a9bc92e1f60c8d326e"
+    },
+    {
+      "id": "arcaniste-rupture-de-flux",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Rupture de Flux",
+      "src": "assets/abilities/v1/arcaniste-rupture-de-flux.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "79e5806aca4278b61c269eb3c204a0c06966d448b9232688162252d6efce8c58",
+      "sourceSha256": "43edcdd905e0ab8266ea165b27a634c96966baa278ffccd9c2622c714141f399"
+    },
+    {
+      "id": "arcaniste-singularite-mineure",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Singularité Mineure",
+      "src": "assets/abilities/v1/arcaniste-singularite-mineure.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "c574feb7936b669612bc0f487a3792e423da75b58e9cc21664674374884aed3e",
+      "sourceSha256": "8eaf00ae32e5ffc7061be80f2b043c7f919c08801ad7985650598da5468da041"
+    },
+    {
+      "id": "sentinelle-garde",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Garde",
+      "src": "assets/abilities/v1/sentinelle-garde.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "c9206ec78c552acc170359a4c8d318491ab1be1e3d4684b40d690c438e343ae3",
+      "sourceSha256": "d98d20f5f9e72af7b5b2a1a413f9825356deb4bdcf1e01c3bb2f28b783e03b0a"
+    },
+    {
+      "id": "sentinelle-defi-de-la-sentinelle",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Défi de la Sentinelle",
+      "src": "assets/abilities/v1/sentinelle-defi-de-la-sentinelle.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "79fcb265211020f52f24547f897d2bef327b5facb65224186f7f250ac24dd138",
+      "sourceSha256": "5bf23e8254d794656394011b8dc4673d59ecd31f23f56b5f2d858acb1467384f"
+    },
+    {
+      "id": "sentinelle-parade-du-veilleur",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Parade du Veilleur",
+      "src": "assets/abilities/v1/sentinelle-parade-du-veilleur.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "81f88a12e9c69fb093496d33cde1b4f3973aad08e260628695ecba95acadd77a",
+      "sourceSha256": "c8ec96b57d23af08dadd25ca97d4e64a12cb442fed3cb3140e81b27d06f61ea6"
     }
   ]
 }
