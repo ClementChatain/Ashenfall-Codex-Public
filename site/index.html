@@ -293,6 +293,21 @@ body[data-faction=nains] .people-sheet{--people-accent:#d4ad7c}
 @media(max-width:640px){.people-sheet .fiche-top{padding:20px;gap:18px}.people-class-grid{grid-template-columns:1fr}.people-class-card{padding:20px}.people-classes-head{align-items:flex-start}.people-switcher a{padding:10px 14px}}
 @media(prefers-reduced-motion:reduce){.people-class-card{transition:none}.people-class-card:hover{transform:none}}
 
+
+/* Explicit class identity on ability cards and detail pages. */
+.ability-class-context{display:flex;align-items:center;gap:12px;min-width:0;margin:16px 0 10px;padding:12px;border:1px solid #acbcb42b;border-radius:12px;background:#0b161bb3;color:#dce6df;text-align:left}
+.ability-class-emblem{display:flex;align-items:center;justify-content:center;flex:0 0 48px;width:48px;height:48px;overflow:hidden;border-radius:10px;background:#ffffff07}
+.ability-class-emblem img{width:44px;height:44px;object-fit:contain}
+.ability-class-copy{display:flex;flex-direction:column;gap:4px;min-width:0}
+.ability-class-copy small{font-size:9px;letter-spacing:.15em;color:#aab9ae}
+.entry .ability-class-copy strong,.ability-class-copy strong{font-family:inherit;font-size:14px;line-height:1.35;color:#e5e9e0}
+.ability-class-copy>span{font-size:12px;line-height:1.5;color:#b0bfb6}
+.ability-class-context.is-linked{margin:22px 0 30px;padding:18px;text-decoration:none;transition:border-color .2s,background .2s}
+.ability-class-context.is-linked:hover{border-color:#c0a575;background:#182626}
+.ability-class-context.is-linked:focus-visible{outline:3px solid #d1b780;outline-offset:4px}
+.ability-class-open{margin-left:auto;font-size:13px;color:#d1b780}
+@media(max-width:520px){.ability-class-context.is-linked{flex-wrap:wrap}.ability-class-open{margin-left:60px}.ability-class-copy{flex:1}}
+
 </style></head><body><aside id="side"><div class="brand">ASHENFALL</div><div class="sub">THE WORLD CODEX</div><nav id="nav"></nav><p style="font-size:12px;margin:35px 12px"><span id="mode">✦ Archives d’Ashenfall</span></p></aside><main id="main"><a class="skip" href="#main">Aller au contenu</a><header><button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button><span class="crumb" id="crumb">ASHENFALL / ACCUEIL</span><a href="chroniques/" style="color:#d4b47b;text-decoration:none;font-size:12px;white-space:nowrap;border:1px solid #73644b;border-radius:20px;padding:7px 11px">✦ Chroniques du monde</a><input type="search" id="search" placeholder="⌕ Rechercher..." aria-label="Rechercher"></header><div id="view" tabindex="-1" aria-live="polite"></div><footer>ASHENFALL · LES ARCHIVES DU MONDE</footer></main>
 <script>
 const cats=[['peuples','Peuples','♜','Civilisations et origines'],['classes','Classes','⚔','Les voies du combat'],['competences','Compétences','✧','Arts et pouvoirs'],['bestiaire','Bestiaire','♞','Créatures du monde'],['equipements','Équipements','⛨','Armes et armures'],['regions','Régions','⌖','Terres et territoires'],['lore','Histoires & Lore','❖','Chroniques et légendes'],['chronologie','Chronologie','◷','Les âges du monde'],['systemes','Systèmes de jeu','◇','Comprendre les mécaniques']];
@@ -315,7 +330,14 @@ function abilityVisual(entry,large=false){const art=abilityArtwork(entry);if(!ar
 function classVisual(e,large=false){if(abilityArtwork(e))return abilityVisual(e,large);if(classArtwork(e))return classEmblem(e,large);if(peupleArtwork(e))return peupleVisual(e,large);const idx=featuredClassOrder.indexOf(e[0]);if(e[1]!=='classes'||idx<0)return '<span class="entry-glyph">'+glyph(e)+'</span>';const d=large?128:64,cols=4;return '<span class="class-concept" style="background-position:-'+(idx%cols*d)+'px -'+(Math.floor(idx/cols)*d)+'px" role="img" aria-label="Concept visuel non attribué de la classe '+esc(e[2])+'"></span>'}
 function glyph(e){return ({classes:'⚔',competences:'✧',bestiaire:'♞',peuples:'♜',equipements:'⛨',regions:'⌖',lore:'❖',chronologie:'◷',systemes:'◇'})[e[1]]||'✦'}
 function badgeText(e){return preview?'BROUILLON · PRIVÉ':e[4].startsWith('VERSION DE TRAVAIL')?'VERSION PROVISOIRE':'ARCHIVE PUBLIÉE'}
-function cards(items){return items.length?'<div class="entries">'+items.map(e=>'<button class="entry" data-type="'+esc(e[1])+'" data-go="'+esc(e[0])+'"><div class="entry-art" aria-hidden="true">'+classVisual(e)+'</div><div class="entry-content"><strong>'+esc(e[2])+'</strong><p>'+esc(e[3])+'</p>'+(e[1]==='classes'?'<span class="entry-role" data-role="'+roleInfo(e).group+'">'+esc(roleInfo(e).role)+'</span>':e[1]==='competences'?typeTag(e):'')+'<span class="tag">'+badgeText(e)+'</span></div></button>').join('')+'</div>':'<div class="empty">Aucune fiche pour le moment. Les contenus seront ajoutés après validation.</div>'}
+function abilityClassContext(entry,linked=false){
+const id=getClass(entry),cls=data.find(e=>e[0]===id&&e[1]==='classes');if(!cls)return '';
+const raceId=classInfo[id][0],race=data.find(e=>e[0]===raceId),role=roleInfo(cls);
+const inner='<span class="ability-class-emblem" aria-hidden="true">'+classVisual(cls)+'</span><span class="ability-class-copy"><small>CLASSE</small><strong>'+esc(cls[2])+'</strong><span>'+esc(race?race[2]:'')+' · '+esc(role.role)+'</span></span>'+(linked?'<span class="ability-class-open" aria-hidden="true">Voir la classe ↗</span>':'');
+return linked?'<a class="ability-class-context is-linked" href="#/'+encodeURIComponent(id)+'">'+inner+'</a>':'<span class="ability-class-context">'+inner+'</span>';
+}
+
+function cards(items){return items.length?'<div class="entries">'+items.map(e=>'<button class="entry" data-type="'+esc(e[1])+'" data-go="'+esc(e[0])+'"><div class="entry-art" aria-hidden="true">'+classVisual(e)+'</div><div class="entry-content"><strong>'+esc(e[2])+'</strong><p>'+esc(e[3])+'</p>'+(e[1]==='classes'?'<span class="entry-role" data-role="'+roleInfo(e).group+'">'+esc(roleInfo(e).role)+'</span>':e[1]==='competences'?typeTag(e)+abilityClassContext(e):'')+'<span class="tag">'+badgeText(e)+'</span></div></button>').join('')+'</div>':'<div class="empty">Aucune fiche pour le moment. Les contenus seront ajoutés après validation.</div>'}
 
 const classInfo={
 'rempart':['nains','rempart'],'brise-fer':['nains','brise_fer'],'artilleur-runique':['nains','artilleur_runique'],'accordeur':['nains','accordeur'],
@@ -420,6 +442,7 @@ const value=(key)=>{const row=rows.find(([k])=>k===key);return row?row[1]:''};
 const primary=[['Coût',value('Coût')],['Recharge',value('CD (s)')?(value('CD (s)')==='0'?'Immédiate':value('CD (s)')+' s'):''],['Portée',value('Portée (m)')?(value('Portée (m)')==='0'?'Personnelle':value('Portée (m)')+' m'):'']].filter(x=>x[1]!=='');
 const advanced=rows.filter(([k])=>['Base / impact','Coefficient','PvP x','Puissance brute réf.','Puissance PvP réf.'].includes(k));
 return '<section class="content fiche ability-profile"><button class="back" data-go="'+esc(cls||'competences')+'">← '+esc(cls?(data.find(d=>d[0]===cls)||[])[2]||'Classe':'Compétences')+'</button><div class="class-hero"><div class="class-portrait">'+(abilityArtwork(item)?abilityVisual(item,true):(cls?classVisual(data.find(e=>e[0]===cls),true):'<span class="entry-glyph">✧</span>'))+'<span class="skill-class-caption">'+esc(cls?(data.find(e=>e[0]===cls)||[])[2]||'':'')+'</span></div><div class="class-copy"><span class="fiche-kicker">CODEX / COMPÉTENCES</span><h1 class="fiche-title">'+esc(item[2].split(' — ')[0])+'</h1>'+typeTag(item)+'</div></div>'+
+abilityClassContext(item,true)+
 '<section class="armory"><div class="armory-head"><div><span class="fiche-kicker">EN UN COUP D’ŒIL</span><h2>Les informations essentielles</h2></div></div><div class="fiche-grid">'+primary.map(([k,value])=>'<div class="fiche-stat"><small>'+esc(k)+'</small><strong>'+esc(value)+'</strong></div>').join('')+'</div><article class="class-highlight" style="margin-top:18px"><span class="fiche-kicker">EN COMBAT</span><h2>Que fait cette compétence ?</h2><p>'+esc(explainEffect(v.effect||'Consulter la description complète.'))+'</p></article>'+ (advanced.length?'<details class="technical-extra"><summary>Afficher les valeurs d’équilibrage avancées</summary><div class="fiche-grid">'+advanced.map(([k,value])=>'<div class="fiche-stat"><small>'+esc(k)+'</small><strong>'+esc(value)+'</strong></div>').join('')+'</div></details>':'')+'</section>'+
 renderUsageGuide(item)+'<details class="editorial-source"><summary>Notes d’équilibrage V0.1 <small>Hypothèses techniques, non canoniques</small></summary><div class="source-copy">'+esc(b)+'</div></details>'+
 '<div class="fiche-warning">Valeurs de prototype : elles nécessitent simulation et tests en jeu.</div></section>'
