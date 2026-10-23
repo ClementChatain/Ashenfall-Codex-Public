@@ -24,11 +24,19 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
-      - name: Package the allowlisted public document only
+      - name: Package the allowlisted public Codex and ability icons
         run: |
           test -s site/index.html
           mkdir -p pages-output
           cp site/index.html pages-output/index.html
+          if [ -d site/assets/abilities ]; then
+            mkdir -p pages-output/assets
+            cp -R site/assets/abilities pages-output/assets/abilities
+          fi
+          if [ -d site/assets/emblems ]; then
+            mkdir -p pages-output/assets
+            cp -R site/assets/emblems pages-output/assets/emblems
+          fi
           touch pages-output/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -37,3 +45,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
