@@ -853,6 +853,114 @@
       "height": 512,
       "sha256": "b3ee8d350e2fae9ba37632b24dab2386768dc1cb637a0de9d6f245fcdfdccace",
       "sourceSha256": "8527611dfe9f679f88c6fcd7792cff253b200ac0757ca122f299d6b26ac963e5"
+    },
+    {
+      "id": "tisseur-de-vie-graine-de-vie",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Graine de Vie",
+      "src": "assets/abilities/v1/tisseur-de-vie-graine-de-vie.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "382b0bf2e032daf2c468f446fd177b9c790335f0f727cb122ad73ddb95823387",
+      "sourceSha256": "f6397ab48151119d149ea83be4484fbfb68433e56530858b5ddf4584cd667e30"
+    },
+    {
+      "id": "tisseur-de-vie-elan-vital",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Élan Vital",
+      "src": "assets/abilities/v1/tisseur-de-vie-elan-vital.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "fc2a1e0ccef88b8d32d6bf54206b929a950cc5d08221752d7a320e16e3f07621",
+      "sourceSha256": "e663ade745d4ee43e7056cd8a720bcaf71a06f6b4029852154d2c330adb80d10"
+    },
+    {
+      "id": "tisseur-de-vie-ecorce-secourable",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Écorce Secourable",
+      "src": "assets/abilities/v1/tisseur-de-vie-ecorce-secourable.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "9d9c18d0903412cf0c200bed68061e33e79d792386e7d95fb630471495d38d17",
+      "sourceSha256": "026d5a09783f7e6d8c0aa7fa2938296ef26e5ed29ef81d8d31736719b5b174a6"
+    },
+    {
+      "id": "tisseur-de-vie-souffle-des-feuilles",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Souffle des Feuilles",
+      "src": "assets/abilities/v1/tisseur-de-vie-souffle-des-feuilles.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "6c98692d0ed6cec6a9603fb0ad982c8f2413c0953d738b59ad6b8af427b2ca9f",
+      "sourceSha256": "75dc6c8b96595f5c0b0a1540a31ffa48645358b9ceae1c62cb0a8faf13cf362f"
+    },
+    {
+      "id": "tisseur-de-vie-racines-bienveillantes",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Racines Bienveillantes",
+      "src": "assets/abilities/v1/tisseur-de-vie-racines-bienveillantes.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f1cf65a248e1e3d616feb6bfacd49834268979503e3cd14fae64539825d5219e",
+      "sourceSha256": "6aacba82d170004ca0c16a9a72640f02cd39070f0be9a172f63aa9416b2d137f"
+    },
+    {
+      "id": "tisseur-de-vie-pollen-revigorant",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Pollen Revigorant",
+      "src": "assets/abilities/v1/tisseur-de-vie-pollen-revigorant.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "38d4e6271cfaab4a5e3d18f6a8227b42df569cc59b8a081006f0ed6170e15f6e",
+      "sourceSha256": "876a92b012468a935c75fefa710b12ab6768a3cc93244c5f300e6093f0fe4ac6"
+    },
+    {
+      "id": "tisseur-de-vie-renouveau-profond",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Renouveau Profond",
+      "src": "assets/abilities/v1/tisseur-de-vie-renouveau-profond.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "06c40e9910e083a6f7502c5e3f98b05a87fa652d12d703b30844aa0a2160cfa3",
+      "sourceSha256": "092b62166a9d82bd6406362430c813d922385acc5670b8064427b389028f9996"
+    },
+    {
+      "id": "tisseur-de-vie-retour-du-printemps",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Retour du Printemps",
+      "src": "assets/abilities/v1/tisseur-de-vie-retour-du-printemps.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "5d7d4334732519e475e8bc6934fc7654557fe8143c7f56fabdcb8c1794d292d3",
+      "sourceSha256": "41f7393db374c49d5bafc7c1ee934648e206b0bf3cfd3eee9874b8bc53242aa7"
+    },
+    {
+      "id": "duelliste-estoc-precis",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Estoc Précis",
+      "src": "assets/abilities/v1/duelliste-estoc-precis.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "eaf5714c60b7dfb0ee8335e1b72235501645e4cb941bc765fcac4d1f364663fb",
+      "sourceSha256": "18e2773a4fa36ee90b318b0b48731bfbf6777ef73ff9055bccaa6edb200ec72d"
     }
   ]
 }
