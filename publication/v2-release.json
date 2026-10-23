@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "787648a3958ca503924ef97f09946437b75e9dc6",
+  "source_commit": "a91490b0b5cb7281e19a2bb088471048217bee2b",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -138,9 +138,12 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "7a3cbf9cb86153c42d037a492e4f03f1120c6079",
+    "site/index.html": "17b4e126da9b99d8e8254acc6c3242ed7f275d6c",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
-    "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b"
+    "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
+    "site/assets/emblems/v1/peuples-kharun.webp": "ba597e882f07dc217c82e263edec89c402b64736",
+    "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
+    "site/assets/emblems/v1/peuples-orynth.webp": "fc7fca1b794a5152a439d95e0cace83434f1e1cd"
   },
   "receipts": [
     {
