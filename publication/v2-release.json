@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "a91490b0b5cb7281e19a2bb088471048217bee2b",
+  "source_commit": "b7bcd29bb19065324d5d2a6533dec10aa50efaf4",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -138,7 +138,7 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "17b4e126da9b99d8e8254acc6c3242ed7f275d6c",
+    "site/index.html": "41ea542e8b352578ddcbc81128b82b739ac1cc7b",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
     "site/assets/emblems/v1/peuples-kharun.webp": "ba597e882f07dc217c82e263edec89c402b64736",
@@ -251,6 +251,114 @@
       "status": "VALIDE",
       "visibility": "PUBLIC",
       "projection_sha256": "e7ab6514ca068e7f81ecdcaeac63e70f132de849708200372c5c408aad421ba3",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "porte-faille",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "89d2a2e3fbfb5623cb09e4c2e123d5dc059d6e093ebea80f2f857f0ef8682e1f",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "fendeur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "99aad6bf852a45755e72fbcc7731e1823302e50b3621878d33f5c8056f88a0f1",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "eclateur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "c474eaaf83e29a524094f1368be961e39de52ace1d960d754ef894e377bbe3b6",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "lieur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "9081e2c746913d2b69821fe52a0c52660687142e8f9eddb4807ce95f25b0ebba",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "enlaceur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "1460f25503ed08a6ef3bb015bf6170f2a157732d8e92e977e45e35c27aa1d6b2",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "mue-lame",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "52ef5e1fbbebbbf7b2e15f903928f31fd7275618fb916295657fd9173cad59fb",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "aiguilleur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "57dd2e44e820ad9f7fd46ba48fd4e979654e4acd22163e2bddce29e8209c1790",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "eveilleur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "49a41bbba4b8d7dd711efeea7913f5a669ccd4d02037d75676eef0f40eba6cd5",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "brise-courant",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "93ae97a9e142a5dd3b2087ecafec29e676e0df745940e6af402263ca9e0979d6",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "sillonneur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "2db2851819c63e9c55111d4a046c7c84a801a9d3e318d8fa9458338a5e6697fb",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "lance-rive",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "8df98bfca4e099784f0cb44011cf1911d748c035b74574608b9e62f332fa9eba",
+      "validated_by": "ClementChatain",
+      "publication_authorized_by": "ClementChatain"
+    },
+    {
+      "id": "passeur",
+      "version": "0.1",
+      "status": "VALIDE",
+      "visibility": "PUBLIC",
+      "projection_sha256": "cd1e9e46ceb64f96ee76174f8699bda502e9d14be2690139ca1a9ce04b08671f",
       "validated_by": "ClementChatain",
       "publication_authorized_by": "ClementChatain"
     }
