@@ -1,0 +1,16 @@
+name: Validate public V2 release
+on:
+  pull_request:
+  push:
+    branches: ['fix/archiviste-v2-*', main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/verify_public_v2.py

@@ -1,9 +1,11 @@
-# Template for the PUBLIC repository only. Installing it there requires approval.
 name: Deploy approved public Codex
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+    inputs:
+      approved_commit:
+        description: Exact public commit explicitly approved by Clement for deployment
+        required: true
+        type: string
 permissions:
   contents: read
 concurrency:
@@ -24,6 +26,14 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
+      - name: Require explicitly approved commit
+        env:
+          APPROVED_COMMIT: ${{ inputs.approved_commit }}
+        run: test "$APPROVED_COMMIT" = "$GITHUB_SHA"
+      - name: Verify complete public release
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 scripts/verify_public_v2.py --for-deployment
       - name: Package the allowlisted public Codex and ability icons
         run: |
           test -s site/index.html
@@ -45,4 +55,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
