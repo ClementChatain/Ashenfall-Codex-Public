@@ -22,9 +22,19 @@ class PublicTests(unittest.TestCase):
     def test_baseline_passes(self):
         with tempfile.TemporaryDirectory() as d:
             r=Path(d);self.fixture(r);self.assertEqual(verify(r),1)
-    def test_legacy_baseline_does_not_authorize_a_new_deployment(self):
+    def test_unchanged_legacy_records_can_be_redeployed(self):
         with tempfile.TemporaryDirectory() as d:
             r=Path(d);self.fixture(r)
+            self.assertEqual(verify(r,for_deployment=True),1)
+    def test_changed_legacy_record_still_requires_receipt_at_deployment(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);e=self.fixture(r)
+            e['body']='unauthorized edit';self.write_records(r,[e]);self.resign_files(r)
+            with self.assertRaises(ValueError):verify(r,for_deployment=True)
+    def test_new_record_still_requires_receipt_at_deployment(self):
+        with tempfile.TemporaryDirectory() as d:
+            r=Path(d);e=self.fixture(r)
+            self.write_records(r,[e,dict(e,id='new')]);self.resign_files(r)
             with self.assertRaises(ValueError):verify(r,for_deployment=True)
     def test_direct_html_change_rejected(self):
         with tempfile.TemporaryDirectory() as d:

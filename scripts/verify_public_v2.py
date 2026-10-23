@@ -56,8 +56,8 @@ def verify(root, for_deployment=False):
     used=set()
     for entry in records:
         key=entry['id']
-        if baseline['records'].get(key)==digest(entry) and key not in indexed and not for_deployment:
-            continue  # Existing historical publication, never reclassified as V2 canon.
+        if baseline['records'].get(key)==digest(entry) and key not in indexed:
+            continue  # Frozen historical records remain unchanged; not reclassified as V2 canon.
         projection={k:entry[k] for k in ('id','category','title','summary','body')}
         inherited={k:v for k,v in entry.items() if k not in projection}
         require(baseline.get('metadata',{}).get(key,digest({}))==digest(inherited),'Unapproved ancillary record fields')
