@@ -1038,13 +1038,13 @@
       "id": "duelliste-lame-de-revers",
       "version": "abilities-v1",
       "status": "concept",
-      "revision": "v1",
+      "revision": "v2",
       "title": "Lame de Revers",
       "src": "assets/abilities/v1/duelliste-lame-de-revers.webp",
       "width": 512,
       "height": 512,
-      "sha256": "f93822d4b0790fc1d17adc80e8a2c84675220b8234e43c86a57b4be06e026936",
-      "sourceSha256": "348e928fa3fa12097f176934055cb4c67ac81a93914027326bc15e4acffc3d56"
+      "sha256": "f99fc659614891e4e7efd22ca6677627dd7f668a3d88b177219b5fbc6efb9991",
+      "sourceSha256": "39ce9a70747304be3fe373d13b4c11d6aa3a34cc7907087feb92a1809cc10e59"
     },
     {
       "id": "duelliste-desarmement-technique",
@@ -1069,6 +1069,90 @@
       "height": 512,
       "sha256": "2e0b40fb49d9fd2880fbed2332c874ec371274e86dc32e860f1e5b09105a768b",
       "sourceSha256": "603b64e499761b9178821e16b4a2facaf8a663ec16ffa20934b11013132d40c8"
+    },
+    {
+      "id": "duelliste-maitrise-du-duel",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Maîtrise du Duel",
+      "src": "assets/abilities/v1/duelliste-maitrise-du-duel.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "bf17f6f725eac09d6a5de8da56749c93cfe9c7bf236456eb02d3a8af8c934c4e",
+      "sourceSha256": "ea74116116371899bd1f4a4414d5179f719788405f44f91893906d9228ca4ee3"
+    },
+    {
+      "id": "arcaniste-trait-arcanique",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Trait Arcanique",
+      "src": "assets/abilities/v1/arcaniste-trait-arcanique.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "bd44a811971034b24d4d8bb4ee16136f7fc1e460a6f267d2f8f273dbda5c5783",
+      "sourceSha256": "3fdcc35050a16ab581233031ac248d6271b91dbca958bb13bdfba78f6dce4236"
+    },
+    {
+      "id": "arcaniste-sceau-de-convergence",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Sceau de Convergence",
+      "src": "assets/abilities/v1/arcaniste-sceau-de-convergence.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "8f1f3e648e7d25d289332a0af5beae6ad53202ad207dfc64eefaaea8ddb51ce9",
+      "sourceSha256": "3aee55b8b9e784c5e626700da765902fa04a93cf6d49857b9e83a473e04a9682"
+    },
+    {
+      "id": "arcaniste-decharge-instable",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Décharge Instable",
+      "src": "assets/abilities/v1/arcaniste-decharge-instable.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "08c8ec2502f583bfc837014e782e64f1cb94365e609b9c518e8c1d7b489f7c39",
+      "sourceSha256": "cf7db2414295ddb11e493b7d96b66cf367d08b570b1f66bced4c2e80c59c6f49"
+    },
+    {
+      "id": "arcaniste-translation-courte",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Translation Courte",
+      "src": "assets/abilities/v1/arcaniste-translation-courte.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f6dabdc549c7b382be568fb6eed34a35fd07f6c0a30b5b93f8a9775cc73916b7",
+      "sourceSha256": "948192a894e9b7d9a49f257de0e93e8bd634c4b2aaae8052dbfe95b2f87d83d1"
+    },
+    {
+      "id": "arcaniste-onde-de-distorsion",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Onde de Distorsion",
+      "src": "assets/abilities/v1/arcaniste-onde-de-distorsion.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "82516ec8695b13791cff3a012993dce3b264523ca21e6980dd55c0712674c5b8",
+      "sourceSha256": "c0108a3e5caf47dc4c1eb07579e41e8322445448b43a908de5694949fbba25a1"
+    },
+    {
+      "id": "arcaniste-lance-astrale",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Lance Astrale",
+      "src": "assets/abilities/v1/arcaniste-lance-astrale.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "0dc1c0953e102e79a7d039600bd1322d1317dbbce42ef2623280cedd071eb1e5",
+      "sourceSha256": "681682d0fbd30e84db995ec0b2318682c5074ae4811c10901e2236fec0b3080b"
     }
   ]
 }
