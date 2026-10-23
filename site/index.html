@@ -264,6 +264,35 @@ body[data-faction=humains] .fiche-art{background:radial-gradient(circle,#536f9b5
 .usage-heading h2{margin:4px 0 12px;font-family:var(--display,Georgia,serif);font-size:clamp(25px,3vw,34px);font-weight:500;color:#eee9d8}.usage-intro{max-width:760px;line-height:1.7;font-size:13px;color:#aab8b4}
 .usage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0 0}.usage-item{padding:20px;border:1px solid #b8bba41a;border-radius:10px;background:#0b141a66;min-width:0}.usage-item dt{display:flex;align-items:center;gap:12px;font-size:15px;font-weight:650;color:#e8e2d1}.usage-item dt span{color:#c4a974;font-size:10px;letter-spacing:.08em}.usage-item dd{margin:12px 0 0;color:#becbc6;line-height:1.8;font-size:14px}.usage-item-0{border-color:#c0a16755}.usage-item-3{border-color:#b9946b44}
 @media(max-width:700px){.usage-grid{grid-template-columns:1fr;gap:12px}.usage-guide{padding:20px 16px}.usage-item{padding:17px}.spell-purpose{padding-left:16px;padding-right:16px}}
+
+/* People: direct access to their classes */
+.people-sheet{--people-accent:#b5c4df}
+body[data-faction=elfes] .people-sheet{--people-accent:#99d2ae}
+body[data-faction=nains] .people-sheet{--people-accent:#d4ad7c}
+.people-sheet .fiche-top{border:1px solid #ffffff16;border-radius:24px;padding:28px;background:radial-gradient(ellipse at top left,#ffffff09,transparent 65%),#101819;gap:32px}
+.people-sheet .fiche-title{color:var(--people-accent)}
+.people-switcher{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.people-switcher a{padding:10px 18px;border:1px solid #ffffff20;border-radius:100px;color:#b8c4c5;text-decoration:none;font-size:14px}
+.people-switcher a[aria-current=page]{background:#ffffff0d;border-color:var(--people-accent);color:var(--people-accent)}
+.people-classes{margin:34px 0 42px}
+.people-classes-head{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:20px}
+.people-classes h2{margin:5px 0 8px}
+.people-classes-head p{color:#abbaba;margin:0;line-height:1.6}
+.people-class-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.people-class-card{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:24px;min-width:0;border:1px solid #ffffff1b;border-radius:20px;background:linear-gradient(145deg,#ffffff08,#ffffff02);text-decoration:none;color:#edf1ed;transition:transform .2s,border-color .2s,background .2s}
+.people-class-card:hover{transform:translateY(-4px);border-color:var(--people-accent);background:#ffffff09}
+.people-class-card:focus-visible,.people-switcher a:focus-visible{outline:3px solid var(--people-accent);outline-offset:4px}
+.people-class-top{display:flex;align-items:center;justify-content:space-between;width:100%;gap:12px}
+.people-class-art{display:flex;align-items:center;justify-content:center;width:88px;height:88px;border-radius:18px;background:#0003;overflow:hidden}
+.people-class-art img{width:80px;height:80px;object-fit:contain}
+.people-class-card h3{font-size:24px;margin:0;line-height:1.25;color:#f0f1eb}
+.people-class-card p{font-size:14px;line-height:1.7;color:#b5c1bf;margin:0}
+.people-class-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid #ffffff15;width:100%;font-size:12px;color:#aab8b4}
+.people-class-footer strong{color:var(--people-accent);font-weight:500}
+@media(min-width:1500px){.people-class-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:640px){.people-sheet .fiche-top{padding:20px;gap:18px}.people-class-grid{grid-template-columns:1fr}.people-class-card{padding:20px}.people-classes-head{align-items:flex-start}.people-switcher a{padding:10px 14px}}
+@media(prefers-reduced-motion:reduce){.people-class-card{transition:none}.people-class-card:hover{transform:none}}
+
 </style></head><body><aside id="side"><div class="brand">ASHENFALL</div><div class="sub">THE WORLD CODEX</div><nav id="nav"></nav><p style="font-size:12px;margin:35px 12px"><span id="mode">✦ Archives d’Ashenfall</span></p></aside><main id="main"><a class="skip" href="#main">Aller au contenu</a><header><button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button><span class="crumb" id="crumb">ASHENFALL / ACCUEIL</span><a href="chroniques/" style="color:#d4b47b;text-decoration:none;font-size:12px;white-space:nowrap;border:1px solid #73644b;border-radius:20px;padding:7px 11px">✦ Chroniques du monde</a><input type="search" id="search" placeholder="⌕ Rechercher..." aria-label="Rechercher"></header><div id="view" tabindex="-1" aria-live="polite"></div><footer>ASHENFALL · LES ARCHIVES DU MONDE</footer></main>
 <script>
 const cats=[['peuples','Peuples','♜','Civilisations et origines'],['classes','Classes','⚔','Les voies du combat'],['competences','Compétences','✧','Arts et pouvoirs'],['bestiaire','Bestiaire','♞','Créatures du monde'],['equipements','Équipements','⛨','Armes et armures'],['regions','Régions','⌖','Terres et territoires'],['lore','Histoires & Lore','❖','Chroniques et légendes'],['chronologie','Chronologie','◷','Les âges du monde'],['systemes','Systèmes de jeu','◇','Comprendre les mécaniques']];
@@ -396,6 +425,13 @@ renderUsageGuide(item)+'<details class="editorial-source"><summary>Notes d’éq
 '<div class="fiche-warning">Valeurs de prototype : elles nécessitent simulation et tests en jeu.</div></section>'
 }
 
+function renderPeopleClasses(item){
+const classes=Object.keys(classInfo).filter(id=>classInfo[id][0]===item[0]).map(id=>data.find(e=>e[0]===id&&e[1]==='classes')).filter(Boolean);
+if(!classes.length)return '';
+return '<section class="people-classes" aria-labelledby="people-classes-title"><div class="people-classes-head"><div><p class="dossier-eyebrow">TROUVEZ VOTRE STYLE DE JEU</p><h2 id="people-classes-title">Les classes du peuple</h2><p>Choisissez une classe pour explorer son gameplay et ses compétences.</p></div></div><div class="people-class-grid">'+classes.map(entry=>{const role=roleInfo(entry),count=data.filter(e=>e[1]==='competences'&&getClass(e)===entry[0]).length,overview=classOverview(entry);return '<a class="people-class-card" href="#/'+encodeURIComponent(entry[0])+'"><div class="people-class-top"><span class="people-class-art" aria-hidden="true">'+classVisual(entry)+'</span><span class="role-banner" data-role="'+role.group+'">'+esc(role.role)+'</span></div><h3>'+esc(entry[2])+'</h3><p>'+esc(overview.clearIdentity||entry[3])+'</p><span class="people-class-footer"><span>'+count+' compétences</span><strong>Explorer la classe <span aria-hidden="true">↗</span></strong></span></a>'}).join('')+'</div><p class="dossier-provisional">Classes de conception · version de travail non canonique.</p></section>'
+}
+function peopleSwitcher(item){return '<nav class="people-switcher" aria-label="Choisir un peuple">'+data.filter(e=>e[1]==='peuples').map(e=>'<a href="#/'+encodeURIComponent(e[0])+'"'+(e[0]===item[0]?' aria-current="page"':'')+'>'+esc(e[2])+'</a>').join('')+'</nav>'}
+
 function renderFiche(item){
 if(item[1]==='classes')return renderClassDossier(item);
 if(item[1]==='competences')return renderAbilityDossier(item);
@@ -416,7 +452,8 @@ const relatedBlock=relatedSkills.length?'<section class="fiche-section"><span cl
 const entryArtwork=peupleArtwork(item)||classArtwork(item);
 const art='<div class="fiche-art"'+(entryArtwork?' data-artwork="'+esc(entryArtwork.version)+'"':' aria-label="Emblème conceptuel de la catégorie"')+'>'+classVisual(item,true)+(entryArtwork?'<span class="peuple-art-status">EMBLÈME · CONCEPT V1</span>':'')+'</div>';
 const note=preview?'Brouillon privé. Ce contenu ne constitue pas le canon officiel.':body.startsWith('VERSION DE TRAVAIL')?'Version provisoire publiée · non canonique · susceptible d’évoluer.':'Contenu approuvé pour publication.';
-return '<section class="content fiche"><button class="back" data-go="'+esc(item[1])+'">← Retour · '+esc(title)+'</button><div class="fiche-top">'+art+'<div class="fiche-intro"><span class="fiche-category">✦ CODEX / '+esc(title)+'</span><h1 class="fiche-title">'+esc(item[2])+'</h1><p class="fiche-summary">'+esc(item[3])+'</p><div class="fiche-badges">'+summaryTags.map(t=>'<span class="fiche-pill">'+esc(t)+'</span>').join('')+'</div><span class="tag">'+badgeText(item)+'</span></div></div>'+
+return '<section class="content fiche'+(item[1]==='peuples'?' people-sheet':'')+'"><button class="back" data-go="'+esc(item[1])+'">← Retour · '+esc(title)+'</button><div class="fiche-top">'+art+'<div class="fiche-intro"><span class="fiche-category">✦ CODEX / '+esc(title)+'</span><h1 class="fiche-title">'+esc(item[2])+'</h1><p class="fiche-summary">'+esc(item[3])+'</p><div class="fiche-badges">'+summaryTags.map(t=>'<span class="fiche-pill">'+esc(t)+'</span>').join('')+'</div><span class="tag">'+badgeText(item)+'</span></div></div>'+
+(item[1]==='peuples'?peopleSwitcher(item)+renderPeopleClasses(item):'')+
 (metadata.length?'<div class="fiche-grid">'+metadata.map(([k,v])=>'<div class="fiche-stat"><small>'+esc(k)+'</small><strong>'+esc(v)+'</strong></div>').join('')+'</div>':'')+
 '<article class="fiche-section"><span class="fiche-kicker">CHRONIQUES · '+esc(title)+'</span><h2>'+esc(item[1]==='competences'?'Effets & fonctionnement':item[1]==='peuples'?'Histoire & héritage':item[1]==='bestiaire'?'Nature & observations':'Archives & savoirs')+'</h2>'+pieces.map(proseSection).join('<hr>')+'</article>'+relatedBlock+
 '<div class="fiche-warning">'+esc(note)+'</div></section>'
@@ -424,6 +461,7 @@ return '<section class="content fiche"><button class="back" data-go="'+esc(item[
 function render(){let route;try{route=decodeURIComponent(location.hash.slice(2)||'home')}catch{route='home'}let q=fold(search.value.trim()),cat=cats.find(c=>c[0]===route),item=data.find(e=>e[0]===route);document.querySelectorAll('.nav').forEach(n=>{const active=n.dataset.go===(cat?route:item?item[1]:'home');n.classList.toggle('active',active);if(active)n.setAttribute('aria-current','page');else n.removeAttribute('aria-current')});document.getElementById('crumb').textContent='ASHENFALL / '+(cat?cat[1]:item?item[2]:'ACCUEIL').toUpperCase();if(q){let hits=data.filter(e=>fold(e.slice(2).join(' ')).includes(q));view.innerHTML='<section class="content"><h2>Résultats de recherche ('+hits.length+')</h2>'+cards(hits)+'</section>';return}if(item){view.innerHTML=renderFiche(item);return}if(cat){let items=data.filter(e=>e[1]===route);document.body.dataset.faction='';if(filterCategory!==route){listingFilter='Tous';filterCategory=route}const filt=(route==='classes'||route==='competences')?filtersFor(items,route,listingFilter,'catalogue'):{html:'',filtered:items};view.innerHTML='<section class="hero"><p class="eyebrow">ENCYCLOPÉDIE</p><h1>'+esc(cat[1])+'</h1><p>'+esc(cat[3])+'</p></section><section class="content"><h2>Explorer les fiches</h2>'+filt.html+'<p class="results-context"><strong>'+filt.filtered.length+'</strong> sur '+items.length+' fiches affichées</p>'+cards(filt.filtered)+'</section>';return}view.innerHTML='<section class="hero"><p class="eyebrow">LES ARCHIVES D’UN MONDE EN DEVENIR</p><h1>Un monde.<br><em>Mille histoires.</em></h1><p>Explorez les peuples, les classes et les mystères d’un univers façonné pierre après pierre.</p></section><section class="content"><div class="sectionhead"><p class="eyebrow">LE CODEX D’ASHENFALL</p><h2>Les portes du savoir</h2><p>Choisissez une archive pour commencer votre exploration.</p></div><div class="grid">'+cats.map(c=>'<button class="tile" data-go="'+c[0]+'"><span class="symbol">'+c[2]+'</span><strong>'+esc(c[1])+'</strong><small>'+esc(c[3])+'</small></button>').join('')+'</div><h2 style="margin-top:45px">Premières archives</h2>'+cards([...data.filter(e=>e[1]==='peuples'),...data.filter(e=>e[1]!=='peuples')].slice(0,4))+'</section>'}
 document.addEventListener('click',e=>{const routeLink=e.target.closest('a[href^="#/"]');if(routeLink){search.value='';arsenalFilter='Tous';document.getElementById('side').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false');window.scrollTo({top:0,behavior:'instant'})}const filter=e.target.closest('[data-filter-scope]');if(filter){if(filter.dataset.filterScope==='arsenal')arsenalFilter=filter.dataset.filterValue;else listingFilter=filter.dataset.filterValue;render();return}let el=e.target.closest('[data-go]');if(el){location.hash='#/'+encodeURIComponent(el.dataset.go);search.value='';arsenalFilter='Tous';render();document.getElementById('side').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false');view.focus();window.scrollTo({top:0,behavior:'instant'})}});search.addEventListener('input',render);window.addEventListener('hashchange',render);document.getElementById('mode').textContent=preview?'✦ Aperçu privé · contenu à valider':'✦ Encyclopédie · version provisoire';document.getElementById('menu').setAttribute('aria-expanded','false');document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.getElementById('side').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false')}});document.getElementById('menu').addEventListener('click',()=>{const open=document.getElementById('side').classList.toggle('open');document.getElementById('menu').setAttribute('aria-expanded',String(open))});render();
 </script></body></html>
+
 
 
 
