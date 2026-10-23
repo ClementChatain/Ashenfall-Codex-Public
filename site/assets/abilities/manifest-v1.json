@@ -879,6 +879,18 @@
       "sourceSha256": "e663ade745d4ee43e7056cd8a720bcaf71a06f6b4029852154d2c330adb80d10"
     },
     {
+      "id": "tisseur-de-vie-floraison-commune",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Floraison Commune",
+      "src": "assets/abilities/v1/tisseur-de-vie-floraison-commune.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "7283f117f25efb32b3bf99c7438eec874f213db55767059f2c691991e8ff9fbb",
+      "sourceSha256": "a1daf99093591c14918b34c7be3f11a09fa20663df990247b954893c664e3e1d"
+    },
+    {
       "id": "tisseur-de-vie-ecorce-secourable",
       "version": "abilities-v1",
       "status": "concept",
@@ -961,6 +973,102 @@
       "height": 512,
       "sha256": "eaf5714c60b7dfb0ee8335e1b72235501645e4cb941bc765fcac4d1f364663fb",
       "sourceSha256": "18e2773a4fa36ee90b318b0b48731bfbf6777ef73ff9055bccaa6edb200ec72d"
+    },
+    {
+      "id": "duelliste-parade-mesuree",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Parade Mesurée",
+      "src": "assets/abilities/v1/duelliste-parade-mesuree.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "fff62c2c43ebbbb4c09eb8fbbf9b31d2490062d5ebe1c5516b6f5ff90c6c11f8",
+      "sourceSha256": "19c5e464ccdb0a8358808da61487a15d2627a2abaa87f8d0a64e19d0f9fb00ea"
+    },
+    {
+      "id": "duelliste-feinte-du-renard",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Feinte du Renard",
+      "src": "assets/abilities/v1/duelliste-feinte-du-renard.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "c20996d6447f610b946654ca4a70e3f52993b442fc56df933283d1d528ef7632",
+      "sourceSha256": "1c0377d41bae63698697b2182e9ca44da001aa7cec5b750f81fadacf463d3b5f"
+    },
+    {
+      "id": "duelliste-riposte-magistrale",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Riposte Magistrale",
+      "src": "assets/abilities/v1/duelliste-riposte-magistrale.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f7390962945e3e9482ffc4a4f6113993ec1eb293fd42c8391b560507994e7995",
+      "sourceSha256": "fbe3e6361d8f7d395ed98a2abb87941b4cfb57072ffc135c962632a99a662093"
+    },
+    {
+      "id": "duelliste-fente-eclair",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Fente Éclair",
+      "src": "assets/abilities/v1/duelliste-fente-eclair.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "274259a9378b870623d416772c3790df5fc5f11cb46a9982d0a0e6ac96e78b97",
+      "sourceSha256": "6c8fa7c6f06bd8b54fa928b98844c678eb4faf9f06888d39af7010e838454f53"
+    },
+    {
+      "id": "duelliste-double-estoc",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Double Estoc",
+      "src": "assets/abilities/v1/duelliste-double-estoc.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "28e4bb405a4cf3ba49f0ba4417bc9ae9a3cf746bb6be584d67fad77236b1967e",
+      "sourceSha256": "5ce58a0ed508af418124ce6ffaf61a05a8380c1fa87fa7ec33591f0f6203be78"
+    },
+    {
+      "id": "duelliste-lame-de-revers",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Lame de Revers",
+      "src": "assets/abilities/v1/duelliste-lame-de-revers.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "f93822d4b0790fc1d17adc80e8a2c84675220b8234e43c86a57b4be06e026936",
+      "sourceSha256": "348e928fa3fa12097f176934055cb4c67ac81a93914027326bc15e4acffc3d56"
+    },
+    {
+      "id": "duelliste-desarmement-technique",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Désarmement Technique",
+      "src": "assets/abilities/v1/duelliste-desarmement-technique.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "a68a362494c5e653077674151ee75214b9e5aa6ec120cb802e8bee9e4ffe21ec",
+      "sourceSha256": "2cdca15ed40faaeff953d490b2d80d73c6f68004e8584c9474cc3eae1aaa01f1"
+    },
+    {
+      "id": "duelliste-dernier-mot",
+      "version": "abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Dernier Mot",
+      "src": "assets/abilities/v1/duelliste-dernier-mot.webp",
+      "width": 512,
+      "height": 512,
+      "sha256": "2e0b40fb49d9fd2880fbed2332c874ec371274e86dc32e860f1e5b09105a768b",
+      "sourceSha256": "603b64e499761b9178821e16b4a2facaf8a663ec16ffa20934b11013132d40c8"
     }
   ]
 }
