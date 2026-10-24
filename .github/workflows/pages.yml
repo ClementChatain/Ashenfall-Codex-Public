@@ -50,6 +50,10 @@ jobs:
             mkdir -p pages-output/assets
             cp -R site/assets/emblems pages-output/assets/emblems
           fi
+          if [ -d site/assets/classes ]; then
+            mkdir -p pages-output/assets
+            cp -R site/assets/classes pages-output/assets/classes
+          fi
           touch pages-output/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

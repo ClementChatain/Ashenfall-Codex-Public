@@ -1,0 +1,246 @@
+{
+  "version": "class-portraits-v1",
+  "status": "concept",
+  "portraits": [
+    {
+      "id": "porte-faille",
+      "title": "Porte-Faille",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/porte-faille.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Porte-Faille",
+      "sha256": "9af659476a774736bb983ce45fb64ac8e83ef762f8ded818d610876ca048716a"
+    },
+    {
+      "id": "fendeur",
+      "title": "Fendeur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/fendeur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Fendeur",
+      "sha256": "bc01dcf34e47df5650bd278a06e9781fc373541d531465a5fc257d584c81a0d9"
+    },
+    {
+      "id": "eclateur",
+      "title": "Éclateur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/eclateur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Éclateur",
+      "sha256": "63f9d69c741db5d5884e3f70a9bf0121f842584041081b113e24d305e956fc0a"
+    },
+    {
+      "id": "lieur",
+      "title": "Lieur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/lieur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Lieur",
+      "sha256": "3dafe62763c4e2ec030a425cd7c540b93fcb58bd135237d0ada1c0faaa44b227"
+    },
+    {
+      "id": "enlaceur",
+      "title": "Enlaceur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/enlaceur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Enlaceur",
+      "sha256": "8c3dc1118c37fddd5172830f32d4c23ac407ea5ef75e440199a291df6831fef8"
+    },
+    {
+      "id": "mue-lame",
+      "title": "Mue-Lame",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/mue-lame.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Mue-Lame",
+      "sha256": "33d21c4df37711d08960fae4c121b9ca959bb8406f542df63dd1ab7fea626a33"
+    },
+    {
+      "id": "aiguilleur",
+      "title": "Aiguilleur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/aiguilleur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Aiguilleur",
+      "sha256": "0bdec8f9e7da49dc612c26bf1f34fed63c1fe555c18cf49162838fbcc80776d9"
+    },
+    {
+      "id": "eveilleur",
+      "title": "Éveilleur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/eveilleur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Éveilleur",
+      "sha256": "98f19e8b576c801986ca8f158032fd1d3d339c794068b4933eb1bb46604f8fec"
+    },
+    {
+      "id": "brise-courant",
+      "title": "Brise-Courant",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/brise-courant.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Brise-Courant",
+      "sha256": "ab6ca2d86e1804147d1a5e1c9b4a48686ba3083e88d31af89cd7944e99cc1152"
+    },
+    {
+      "id": "sillonneur",
+      "title": "Sillonneur",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/sillonneur.webp",
+      "width": 377,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Sillonneur",
+      "sha256": "6215a73a429561f5420b492a9e0ccab0626c99a25a25d5d01efca50cb178ea3d"
+    },
+    {
+      "id": "lance-rive",
+      "title": "Lance-Rive",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/lance-rive.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Lance-Rive",
+      "sha256": "f48d8c884073e39f91454247b01b3519500937f77b8618aa8464138572a9d8b9"
+    },
+    {
+      "id": "passeur",
+      "title": "Passeur",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/passeur.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Passeur",
+      "sha256": "dbd63ba7558ade3f4c31ff64fd15341890da07d94263a5ae94e26fcd2ae2cc87"
+    },
+    {
+      "id": "rempart",
+      "title": "Rempart",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/rempart.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Rempart",
+      "sha256": "100beebee59a7a2b75bd570b6f5283700fab1717ef1162a5e081851dbd0d2dd7"
+    },
+    {
+      "id": "brise-fer",
+      "title": "Brise-Fer",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/brise-fer.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Brise-Fer",
+      "sha256": "19175ec232949708f323fdf2e07e9a4780183b66eed99568ac0300315d78c273"
+    },
+    {
+      "id": "artilleur-runique",
+      "title": "Artilleur runique",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/artilleur-runique.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Artilleur runique",
+      "sha256": "1758ceabffb4658707691192461931133b9f0d4692f526667f449491e4d8ba80"
+    },
+    {
+      "id": "accordeur",
+      "title": "Accordeur",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/accordeur.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Accordeur",
+      "sha256": "be62521848f0476f190d23881116ca16cdb4acdd895487dbddab0864fbded6fa"
+    },
+    {
+      "id": "gardien-des-racines",
+      "title": "Gardien des Racines",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/gardien-des-racines.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Gardien des Racines",
+      "sha256": "edddf8351b1fd00e5c1cf021fa8724d66283b6cf89897802364d7d30998ae5fe"
+    },
+    {
+      "id": "danse-lame",
+      "title": "Danse-lame",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/danse-lame.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Danse-lame",
+      "sha256": "01562625b9f4c3fa328d1da640befa401e095d4a9a9a15ba4e3df9dfbab47cb3"
+    },
+    {
+      "id": "traqueur-sylvestre",
+      "title": "Traqueur sylvestre",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/traqueur-sylvestre.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Traqueur sylvestre",
+      "sha256": "f5164456b1199e07068f433fdf9d6bba6a5d2595a474dd44789020a2825e4892"
+    },
+    {
+      "id": "tisseur-de-vie",
+      "title": "Tisseur de Vie",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/tisseur-de-vie.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Tisseur de Vie",
+      "sha256": "6783e2bff30bf527487266bfeb12818b8a56d623f574f061ec1e2931ead58fa5"
+    },
+    {
+      "id": "sentinelle",
+      "title": "Sentinelle",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/sentinelle.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Sentinelle",
+      "sha256": "b1be971fd2ebb1eaaa5dcba235021b7833f520c7fa54ffd8751eff9cb821e638"
+    },
+    {
+      "id": "duelliste",
+      "title": "Duelliste",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/duelliste.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Duelliste",
+      "sha256": "2db4ac8f3a0f80936248f389cb70a01e359ae56909fc46351186bad6b175e6ca"
+    },
+    {
+      "id": "arcaniste",
+      "title": "Arcaniste",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/arcaniste.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Arcaniste",
+      "sha256": "f62e47539bc37fc2b68931a195da277779ee63d87dc4669d825d6e8e92a32f22"
+    },
+    {
+      "id": "thaumaturge",
+      "title": "Thaumaturge",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/thaumaturge.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Thaumaturge",
+      "sha256": "a2aa3c6972dde04d5873fcb505ab896b69908071db063bd487a6796767b1b0f0"
+    }
+  ]
+}
