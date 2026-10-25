@@ -134,3 +134,24 @@ test('random command sequences preserve invariants and never mutate their input'
     }
   }
 });
+
+const {rempartPresets,buildPreset}=await import('../site/assets/classes/masteries-v1/presets.mjs');
+for(const [index,preset] of rempartPresets.entries())test('default template '+preset.id+': complete, reachable 20-point build',()=>{
+  const result=buildPreset(rempart,preset.id);
+  assert.equal(result.valid,true);assert.deepEqual(result.warnings,[]);assert.equal(spentPoints(rempart,result.build),20);
+  assert.deepEqual(rempart.paths.map(p=>pathPoints(rempart,result.build,p.id)),[[12,0,6],[6,12,0],[0,6,12]][index]);
+  assert.deepEqual(result.build.synergies,[preset.synergy]);
+  for(const [legacy,points,choice] of preset.nodes){const n=node(rempart,legacy);assert.equal(result.build.ranks[n.id],points);if(choice)assert.equal(result.build.choices[n.id],choice);}
+});
+test('templates preserve loadout and shortcuts, release unavailable talents and reject wrong models',()=>{
+  const previous=buildPreset(rempart,'citadelle').build;
+  previous.loadout.count=30;
+  previous.loadout.slots[29]={abilityId:'talent:'+rempart.nodes.find(n=>n.legacyId==='b-7').id,shortcut:'Ctrl+9'};
+  // Use an always-available reference ability alongside a talent removed by the template.
+  previous.loadout.slots[0]={abilityId:'ability:'+rempart.abilities[0].id,shortcut:'1'};
+  const original=JSON.stringify(previous);const result=buildPreset(rempart,'broyeur',previous);
+  assert.equal(result.valid,true);assert.equal(JSON.stringify(previous),original);
+  assert.equal(result.build.loadout.count,30);assert.equal(result.build.loadout.slots[29].abilityId,'');assert.equal(result.build.loadout.slots[29].shortcut,'Ctrl+9');
+  assert.deepEqual(result.build.loadout.slots[0],previous.loadout.slots[0]);
+  assert.throws(()=>buildPreset(generic,'citadelle'));assert.throws(()=>buildPreset(rempart,'missing'));
+});

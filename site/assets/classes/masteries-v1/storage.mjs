@@ -1,4 +1,4 @@
-import {emptyBuild,validateBuild,migrateLegacy} from './engine.mjs?v=native-v1';
+import {emptyBuild,validateBuild,migrateLegacy} from './engine.mjs?v=templates-v1';
 
 export class BuildStore{
   constructor(def,storage){this.def=def;this.storage=storage;this.key='ashenfall-build-v2:'+def.id;this.originalRaw=null;this.legacyRaw=null;this.backupRaw=null;}

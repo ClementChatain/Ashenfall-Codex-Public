@@ -36,3 +36,9 @@ python3 scripts/smoke_codex_ui.py --base-url http://127.0.0.1:8030/
 Les ressources natives restent dans `assets/classes/`, déjà copié par Pages et couvert par les empreintes de `publication/v2-release.json`. Les tests Node sont exécutés par les workflows de validation et de déploiement. Développer sur une branche issue de `main`, fusionner puis déclencher `pages.yml` sur `main` avec le SHA complet. Contrôler ensuite les fichiers et la navigation sur le domaine actuel avant d’annoncer la mise en production.
 
 Travail futur : valider les coefficients et la classification active/passive avant tout calcul de combat ou restriction d’équipement ; prévoir une migration explicite si les définitions changent. Les illustrations et les 278 fiches publiques ne sont pas modifiées par cette intégration.
+
+## Templates proposés du Rempart
+
+Sur le modèle Bastion / Fracture / Vigie, trois cartes proposent les répartitions approuvées dans la conversation : **La Citadelle** (12/0/6 + Rempart Vivant), **Le Broyeur** (6/12/0 + Riposte de Fer) et **Le Garde du corps** (0/6/12 + Défi Fracassant). Chaque build dépense 20 points et renseigne les choix de rang 2. Leur détail est consultable avant chargement ; aucun template n’est appliqué automatiquement à l’ouverture.
+
+`presets.mjs` construit chaque configuration par les commandes du moteur et valide les prérequis à chaque étape. Le chargement est une opération annulable et sauvegardée ; il conserve l’équipement indicatif, les emplacements et les raccourcis, en libérant uniquement les affectations devenues indisponibles. Les exemples restent modifiables, exportables et partageables comme les autres builds. Ils ne changent ni les talents ni les coefficients. Le Garde du corps conserve le choix PvE du Balayage présenté dans la proposition initiale.
