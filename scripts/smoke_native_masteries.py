@@ -48,6 +48,12 @@ def main():
         page.reload()
         remaining(18)
         expect(node.locator('input[value="a"]')).to_be_checked()
+        node.locator('[data-delta="-1"]').click()
+        node.locator('[data-delta="-1"]').click()
+        assert page.evaluate("document.activeElement.dataset.delta") == '1'
+        node.locator('[data-delta="1"]').click()
+        node.locator('[data-delta="1"]').click()
+        node.locator('input[value="a"]').check()
         results.append('keyboard focus, choices, undo/redo, reload persistence')
 
         page.locator('.mastery-loadout summary').click()
