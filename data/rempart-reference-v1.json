@@ -1,0 +1,1441 @@
+{
+  "schemaVersion": 1,
+  "id": "rempart-reference-v1",
+  "status": "EN_ETUDE",
+  "version": "1.0.0",
+  "scope": "pve_reference",
+  "label": "Base de travail Rempart V1",
+  "authorization": "Demande de Clément : mettre en place toutes les stats du Rempart comme base d’équilibrage ; coefficients de référence ajustables, pas preuve d’équilibre.",
+  "actor": {
+    "hp": 10000,
+    "power": 1000,
+    "armor": 3000,
+    "armorConstant": 7000,
+    "magicResistance": 2500,
+    "resistanceConstant": 10000,
+    "endurance": 100,
+    "enduranceRegen": 8,
+    "stability": 100,
+    "stabilityStart": 0,
+    "stabilityDecayPerSecond": 2,
+    "stabilityDecayDelay": 5,
+    "blockChance": 0.2,
+    "blockReduction": 0.3,
+    "blockEnduranceCost": 8,
+    "parryChance": 0.05,
+    "criticalChance": 0.05,
+    "criticalMultiplier": 1.5,
+    "moveSpeed": 5,
+    "threatMultiplier": 3,
+    "attackRange": 3,
+    "gcd": 1.5,
+    "veilleRange": 8
+  },
+  "rules": {
+    "damageBonuses": "additive_to_reference",
+    "distinctReductions": "multiplicative",
+    "strongDefense": "maximum_only",
+    "sameNamedEffect": "refresh_no_stack",
+    "guardSplit": "raw_before_recipient_mitigation",
+    "guardTransfer": 0.5,
+    "guardRange": 15,
+    "stabilitySpend": "none_in_v1",
+    "stabilityPurpose": "Elan de Granit threshold; no implicit consumption",
+    "pvp": "coefficients shown when historical; PvP balance not simulated"
+  },
+  "nodes": {
+    "b-0": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "knockback_reduction",
+          "values": [
+            0.1,
+            0.2
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "knockback_reduction",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "stability_on_knockback",
+            "values": [
+              5
+            ],
+            "unit": "points",
+            "scope": "self",
+            "condition": "always",
+            "internalCooldown": 3
+          }
+        ]
+      }
+    },
+    "b-1": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_reduction",
+          "values": [
+            0.03,
+            0.06
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "tenir-la-ligne",
+          "group": "strong"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              2
+            ],
+            "unit": "seconds",
+            "scope": "tenir-la-ligne",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "stability_regen",
+            "values": [
+              2
+            ],
+            "unit": "points/s",
+            "scope": "self",
+            "condition": "tenir-la-ligne"
+          }
+        ]
+      }
+    },
+    "b-2": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "block_cost_reduction",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "block_cost_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "contre-frappe",
+            "condition": "after_block",
+            "window": 3
+          }
+        ]
+      }
+    },
+    "b-3": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "max_hp_bonus",
+          "values": [
+            0.03,
+            0.06
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "max_hp_bonus",
+            "values": [
+              0.04
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "hp_below_35"
+          }
+        ]
+      }
+    },
+    "b-4": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_reduction",
+          "values": [
+            0.03,
+            0.06
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "mur-de-boucliers",
+          "group": "strong"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              2
+            ],
+            "unit": "seconds",
+            "scope": "mur-de-boucliers",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.08
+            ],
+            "unit": "percent",
+            "scope": "incoming_aoe",
+            "condition": "mur-de-boucliers"
+          }
+        ]
+      }
+    },
+    "b-5": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "stability_on_resist",
+          "values": [
+            2,
+            4
+          ],
+          "unit": "points",
+          "scope": "self",
+          "condition": "always",
+          "internalCooldown": 1
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "stability_on_resist",
+            "values": [
+              2
+            ],
+            "unit": "points",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "control_duration_reduction",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ]
+      }
+    },
+    "b-6": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            1,
+            2
+          ],
+          "unit": "seconds",
+          "scope": "dernier-bastion",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              1
+            ],
+            "unit": "seconds",
+            "scope": "dernier-bastion",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "guarded_ally",
+            "condition": "dernier-bastion"
+          }
+        ]
+      }
+    },
+    "b-7": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "damage_reduction",
+          "values": [
+            0.03,
+            0.06
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.03
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "transferred_damage_reduction",
+            "values": [
+              0.15
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ]
+      }
+    },
+    "f-0": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "balayage-de-fer",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.15
+            ],
+            "unit": "percent",
+            "scope": "balayage-de-fer",
+            "condition": "pve"
+          }
+        ],
+        "b": [
+          {
+            "stat": "stability_per_target",
+            "values": [
+              2
+            ],
+            "unit": "points",
+            "scope": "balayage-de-fer",
+            "condition": "always",
+            "targetCap": 5
+          }
+        ]
+      }
+    },
+    "f-1": {
+      "kind": "modifier",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "contre-frappe",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "contre-frappe",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "secondary_targets",
+            "values": [
+              2
+            ],
+            "unit": "targets",
+            "scope": "contre-frappe",
+            "condition": "always",
+            "coefficient": 0.5,
+            "group": "riposte_aoe"
+          }
+        ]
+      }
+    },
+    "f-2": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "coup-de-fracture",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "coup-de-fracture",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "slow",
+            "values": [
+              0.2
+            ],
+            "unit": "percent",
+            "scope": "coup-de-fracture",
+            "condition": "always",
+            "duration": 2
+          }
+        ]
+      }
+    },
+    "f-3": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.08,
+            0.16
+          ],
+          "unit": "percent",
+          "scope": "marteau-implacable",
+          "condition": "target_slowed"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.08
+            ],
+            "unit": "percent",
+            "scope": "marteau-implacable",
+            "condition": "target_slowed"
+          }
+        ],
+        "b": [
+          {
+            "stat": "slow",
+            "values": [
+              0.15
+            ],
+            "unit": "percent",
+            "scope": "marteau-implacable",
+            "condition": "always",
+            "duration": 2
+          }
+        ]
+      }
+    },
+    "f-4": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            0.5,
+            1
+          ],
+          "unit": "seconds",
+          "scope": "brise-garde",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              1
+            ],
+            "unit": "seconds",
+            "scope": "brise-garde",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "enemy_damage_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "brise-garde"
+          }
+        ]
+      }
+    },
+    "f-5": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "onde-de-choc",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "radius_bonus",
+            "values": [
+              0.2
+            ],
+            "unit": "percent",
+            "scope": "onde-de-choc",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "stability_on_hit",
+            "values": [
+              5
+            ],
+            "unit": "points",
+            "scope": "onde-de-choc",
+            "condition": "always"
+          }
+        ]
+      }
+    },
+    "f-6": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.04,
+            0.08
+          ],
+          "unit": "percent",
+          "scope": "aoe",
+          "condition": "fureur-inebranlable"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.04
+            ],
+            "unit": "percent",
+            "scope": "aoe",
+            "condition": "fureur-inebranlable"
+          }
+        ],
+        "b": [
+          {
+            "stat": "parry_chance",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "fureur-inebranlable"
+          }
+        ]
+      }
+    },
+    "f-7": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.08,
+            0.16
+          ],
+          "unit": "percent",
+          "scope": "briseur-de-ligne",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_bonus",
+            "values": [
+              0.08
+            ],
+            "unit": "percent",
+            "scope": "briseur-de-ligne",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "interrupt",
+            "values": [
+              0.5
+            ],
+            "unit": "seconds",
+            "scope": "briseur-de-ligne",
+            "condition": "always"
+          }
+        ]
+      }
+    },
+    "v-0": {
+      "kind": "modifier",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            0.5,
+            1
+          ],
+          "unit": "seconds",
+          "scope": "defi",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "cooldown_reduction",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "defi",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "interrupt",
+            "values": [
+              0.5
+            ],
+            "unit": "seconds",
+            "scope": "defi",
+            "condition": "target_casting"
+          }
+        ]
+      }
+    },
+    "v-1": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "transferred_damage_reduction",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "self",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "transferred_damage_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "move_speed_bonus",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "guarded_ally_within_12m"
+          }
+        ]
+      }
+    },
+    "v-2": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "damage_bonus",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "onde-de-rupture",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "radius_bonus",
+            "values": [
+              0.2
+            ],
+            "unit": "percent",
+            "scope": "onde-de-rupture",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.08
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "after_knockback",
+            "duration": 3
+          }
+        ]
+      }
+    },
+    "v-3": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "cooldown_reduction",
+          "values": [
+            0.05,
+            0.1
+          ],
+          "unit": "percent",
+          "scope": "charge-inebranlable",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "cooldown_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "charge-inebranlable",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.08
+            ],
+            "unit": "percent",
+            "scope": "self",
+            "condition": "after_charge",
+            "duration": 3
+          }
+        ]
+      }
+    },
+    "v-4": {
+      "kind": "modifier",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            1,
+            2
+          ],
+          "unit": "seconds",
+          "scope": "ancrage",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              1
+            ],
+            "unit": "seconds",
+            "scope": "ancrage",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "knockback_reduction",
+            "values": [
+              0.2
+            ],
+            "unit": "percent",
+            "scope": "guarded_ally",
+            "condition": "ancrage",
+            "group": "garde_ancrage"
+          }
+        ]
+      }
+    },
+    "v-5": {
+      "kind": "passive",
+      "ranks": [
+        {
+          "stat": "damage_reduction",
+          "values": [
+            0.02,
+            0.04
+          ],
+          "unit": "percent",
+          "scope": "guarded_ally",
+          "condition": "within_veille_range"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "veille_range",
+            "values": [
+              4
+            ],
+            "unit": "meters",
+            "scope": "self",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "share_veille",
+            "values": [
+              1
+            ],
+            "unit": "flag",
+            "scope": "self",
+            "condition": "always"
+          }
+        ]
+      }
+    },
+    "v-6": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            1,
+            2
+          ],
+          "unit": "seconds",
+          "scope": "serment-du-rempart",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "duration",
+            "values": [
+              1
+            ],
+            "unit": "seconds",
+            "scope": "serment-du-rempart",
+            "condition": "always"
+          }
+        ],
+        "b": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.1
+            ],
+            "unit": "percent",
+            "scope": "guarded_ally",
+            "condition": "serment_and_ally_hp_below_35"
+          }
+        ]
+      }
+    },
+    "v-7": {
+      "kind": "active",
+      "ranks": [
+        {
+          "stat": "duration",
+          "values": [
+            1,
+            2
+          ],
+          "unit": "seconds",
+          "scope": "sentinelle-eternelle",
+          "condition": "always"
+        }
+      ],
+      "choices": {
+        "a": [
+          {
+            "stat": "damage_reduction",
+            "values": [
+              0.05
+            ],
+            "unit": "percent",
+            "scope": "party",
+            "condition": "sentinelle-eternelle"
+          }
+        ],
+        "b": [
+          {
+            "stat": "heal_max_hp",
+            "values": [
+              0.02
+            ],
+            "unit": "percent",
+            "scope": "party",
+            "condition": "always",
+            "duration": 4
+          }
+        ]
+      }
+    }
+  },
+  "synergies": {
+    "riposte-de-fer": [
+      {
+        "stat": "secondary_targets",
+        "values": [
+          2
+        ],
+        "unit": "targets",
+        "scope": "contre-frappe",
+        "condition": "after_block",
+        "coefficient": 0.5,
+        "group": "riposte_aoe"
+      }
+    ],
+    "rempart-vivant": [
+      {
+        "stat": "damage_reduction",
+        "values": [
+          0.08
+        ],
+        "unit": "percent",
+        "scope": "guarded_ally",
+        "condition": "tenir-la-ligne"
+      }
+    ],
+    "percee-protectrice": [
+      {
+        "stat": "damage_reduction",
+        "values": [
+          0.08
+        ],
+        "unit": "percent",
+        "scope": "guarded_ally",
+        "condition": "after_knockback",
+        "duration": 3
+      }
+    ],
+    "elan-de-granit": [
+      {
+        "stat": "damage_bonus",
+        "values": [
+          0.1
+        ],
+        "unit": "percent",
+        "scope": "balayage-de-fer",
+        "condition": "stability_at_least_20"
+      }
+    ],
+    "defi-fracassant": [
+      {
+        "stat": "next_attack_bonus",
+        "values": [
+          0.15
+        ],
+        "unit": "percent",
+        "scope": "self",
+        "condition": "after_interrupt",
+        "window": 4
+      }
+    ],
+    "garde-inebranlable": [
+      {
+        "stat": "knockback_reduction",
+        "values": [
+          0.2
+        ],
+        "unit": "percent",
+        "scope": "guarded_ally",
+        "condition": "ancrage",
+        "group": "garde_ancrage"
+      }
+    ]
+  },
+  "actions": {
+    "garde": {
+      "label": "Garde",
+      "powerCoefficient": 0,
+      "enduranceCost": 0,
+      "cooldown": 1.5,
+      "castTime": 0,
+      "gcd": 0,
+      "range": 15,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "transfer": 0.5,
+      "persistent": true
+    },
+    "defi": {
+      "label": "Défi du Rempart",
+      "powerCoefficient": 0,
+      "enduranceCost": 0,
+      "cooldown": 12,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 15,
+      "targets": 1,
+      "radius": 0,
+      "duration": 3,
+      "pvpDuration": 4,
+      "pvpOtherTargetDamageReduction": 0.15
+    },
+    "coup-de-heurt": {
+      "label": "Coup de Heurt",
+      "powerCoefficient": 0.55,
+      "enduranceCost": 10,
+      "cooldown": 10,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "interrupt": 1
+    },
+    "interposition": {
+      "label": "Interposition",
+      "powerCoefficient": 0,
+      "enduranceCost": 10,
+      "cooldown": 15,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 12,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "immunity": 0
+    },
+    "mur-echo": {
+      "label": "Mur d’Écho",
+      "powerCoefficient": 0,
+      "enduranceCost": 20,
+      "cooldown": 30,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 8,
+      "targets": 1,
+      "radius": 0,
+      "duration": 5,
+      "damageReduction": 0.25,
+      "defenseGroup": "strong",
+      "party": true
+    },
+    "ancrage": {
+      "label": "Ancrage Profond",
+      "powerCoefficient": 0,
+      "enduranceCost": 10,
+      "cooldown": 25,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 6,
+      "knockbackReduction": 0.7
+    },
+    "contre-frappe": {
+      "label": "Contre-Heurt / Contre-Frappe",
+      "powerCoefficient": 0.85,
+      "enduranceCost": 8,
+      "cooldown": 4,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "requiresBlockWindow": 3
+    },
+    "heurt-bastion": {
+      "label": "Heurt du Bastion",
+      "powerCoefficient": 0.4,
+      "enduranceCost": 12,
+      "cooldown": 15,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "knockback": 8
+    },
+    "souffle": {
+      "label": "Souffle du Bastion",
+      "powerCoefficient": 0,
+      "enduranceCost": 0,
+      "cooldown": 20,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 4,
+      "enduranceRestored": 35
+    },
+    "absolu": {
+      "label": "Rempart Absolu",
+      "powerCoefficient": 0,
+      "enduranceCost": 0,
+      "cooldown": 90,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 4,
+      "damageReduction": 0.45,
+      "defenseGroup": "strong"
+    },
+    "tenir-la-ligne": {
+      "label": "Tenir la Ligne",
+      "powerCoefficient": 0,
+      "enduranceCost": 15,
+      "cooldown": 20,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 6,
+      "unlock": "b-1",
+      "damageReduction": 0.15,
+      "defenseGroup": "strong"
+    },
+    "mur-de-boucliers": {
+      "label": "Mur de Boucliers",
+      "powerCoefficient": 0,
+      "enduranceCost": 20,
+      "cooldown": 30,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 5,
+      "unlock": "b-4",
+      "damageReduction": 0.2,
+      "defenseGroup": "strong"
+    },
+    "dernier-bastion": {
+      "label": "Dernier Bastion",
+      "powerCoefficient": 0,
+      "enduranceCost": 0,
+      "cooldown": 90,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 4,
+      "unlock": "b-6",
+      "damageReduction": 0.4,
+      "defenseGroup": "strong"
+    },
+    "balayage-de-fer": {
+      "label": "Balayage de Fer",
+      "powerCoefficient": 0.6,
+      "enduranceCost": 12,
+      "cooldown": 6,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 5,
+      "radius": 5,
+      "duration": 0,
+      "unlock": "f-0"
+    },
+    "coup-de-fracture": {
+      "label": "Coup de Fracture",
+      "powerCoefficient": 0.95,
+      "enduranceCost": 12,
+      "cooldown": 5,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "unlock": "f-2"
+    },
+    "marteau-implacable": {
+      "label": "Marteau Implacable",
+      "powerCoefficient": 0.85,
+      "enduranceCost": 14,
+      "cooldown": 8,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "unlock": "f-3"
+    },
+    "brise-garde": {
+      "label": "Brise-Garde",
+      "powerCoefficient": 0.45,
+      "enduranceCost": 10,
+      "cooldown": 12,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 5,
+      "unlock": "f-4",
+      "targetArmorReduction": 0.1
+    },
+    "onde-de-choc": {
+      "label": "Onde de Choc",
+      "powerCoefficient": 0.7,
+      "enduranceCost": 16,
+      "cooldown": 10,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 5,
+      "radius": 5,
+      "duration": 0,
+      "unlock": "f-5"
+    },
+    "fureur-inebranlable": {
+      "label": "Fureur Inébranlable",
+      "powerCoefficient": 0,
+      "enduranceCost": 15,
+      "cooldown": 45,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 10,
+      "unlock": "f-6"
+    },
+    "briseur-de-ligne": {
+      "label": "Briseur de Ligne",
+      "powerCoefficient": 1.3,
+      "enduranceCost": 25,
+      "cooldown": 30,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 5,
+      "radius": 5,
+      "duration": 0,
+      "unlock": "f-7"
+    },
+    "onde-de-rupture": {
+      "label": "Onde de Rupture",
+      "powerCoefficient": 0.4,
+      "enduranceCost": 12,
+      "cooldown": 15,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 5,
+      "radius": 5,
+      "duration": 0,
+      "unlock": "v-2",
+      "knockback": 4
+    },
+    "charge-inebranlable": {
+      "label": "Charge Inébranlable",
+      "powerCoefficient": 0.5,
+      "enduranceCost": 10,
+      "cooldown": 15,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 12,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0,
+      "unlock": "v-3",
+      "interrupt": 1
+    },
+    "serment-du-rempart": {
+      "label": "Serment du Rempart",
+      "powerCoefficient": 0,
+      "enduranceCost": 15,
+      "cooldown": 45,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 5,
+      "unlock": "v-6",
+      "allyDamageReduction": 0.15
+    },
+    "sentinelle-eternelle": {
+      "label": "Sentinelle Éternelle",
+      "powerCoefficient": 0,
+      "enduranceCost": 20,
+      "cooldown": 90,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 10,
+      "targets": 1,
+      "radius": 0,
+      "duration": 6,
+      "unlock": "v-7",
+      "damageReduction": 0.15,
+      "party": true
+    },
+    "attack": {
+      "label": "Attaque de base",
+      "powerCoefficient": 0.35,
+      "enduranceCost": 0,
+      "cooldown": 1.5,
+      "castTime": 0,
+      "gcd": 1.5,
+      "range": 3,
+      "targets": 1,
+      "radius": 0,
+      "duration": 0
+    }
+  },
+  "aliases": {
+    "rempart-garde": "garde",
+    "rempart-defi-du-rempart": "defi",
+    "legacy:defi": "defi",
+    "rempart-coup-de-heurt": "coup-de-heurt",
+    "rempart-interposition": "interposition",
+    "rempart-mur-d-echo": "mur-echo",
+    "rempart-ancrage-profond": "ancrage",
+    "rempart-contre-heurt": "contre-frappe",
+    "rempart-cercle-de-fer": "heurt-bastion",
+    "rempart-souffle-du-bastion": "souffle",
+    "rempart-rempart-absolu": "absolu",
+    "legacy:attaque-de-base": "attack",
+    "legacy:frappe-du-rempart": "attack"
+  },
+  "knownPublicValues": [
+    "Garde:50%",
+    "Défi:PvE3s/PvP15%4s",
+    "Coup de Heurt:interrupt1s",
+    "Interposition:12m/no immunity",
+    "Mur Echo:25%5s",
+    "Ancrage:70%6s",
+    "Contre-Heurt:3s window",
+    "Heurt Bastion:8m single",
+    "Souffle:35 endurance/4s",
+    "Rempart Absolu:45%4s/non cumul fort"
+  ]
+}

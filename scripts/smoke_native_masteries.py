@@ -32,9 +32,14 @@ def main():
 
         visit('#/rempart/maitrises', 'rempart:v8')
         expect(page.locator('.mastery-preset')).to_have_count(3)
+        expect(page.locator('.mastery-reference')).to_contain_text('Référence Rempart V1')
+        assert 'valeur à définir' not in page.locator('.native-masteries').inner_text()
         for preset_id in ['citadelle', 'broyeur', 'garde-du-corps']:
             page.locator('[data-preset="'+preset_id+'"]').click()
             remaining(0)
+            if preset_id == 'citadelle':
+                expect(page.locator('.mastery-reference')).to_contain_text('11 000 PV')
+                expect(page.locator('.mastery-current-effects').first).to_contain_text('30 %')
             expect(page.locator('.mastery-status')).to_have_text('Configuration cohérente')
             expect(page.locator('.mastery-synergy.is-owned')).to_have_count(1)
             expect(page.locator('[data-focus-key="preset:'+preset_id+'"]')).to_be_focused()
@@ -53,7 +58,7 @@ def main():
         node = page.locator('.mastery-node').first
         plus = node.locator('[data-delta="1"]')
         expect(node).to_have_attribute('data-ms-state', 'available')
-        expect(node.locator('.mastery-effect-summary')).to_contain_text('valeur à définir')
+        expect(node.locator('.mastery-effect-summary')).to_contain_text('Rang 1')
         expect(page.locator('.mastery-node[data-ms-state="locked"]').first).to_contain_text('Verrouillé')
         plus.focus()
         page.keyboard.press('Enter')
@@ -65,7 +70,7 @@ def main():
         remaining(18)
         assert page.evaluate("document.activeElement.dataset.delta") == '-1'
         node.locator('input[value="a"]').check()
-        expect(node.locator('.mastery-choice-effect').first).to_contain_text('valeur à définir')
+        expect(node.locator('.mastery-choice-effect').first).to_contain_text('10 %')
         assert node.locator('input').first.evaluate('e => e.getBoundingClientRect().width') == 16
         page.locator('[data-ms="undo"]').click()
         expect(node.locator('input[value="a"]')).not_to_be_checked()

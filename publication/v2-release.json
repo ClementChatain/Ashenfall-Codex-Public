@@ -141,14 +141,16 @@
     "site/assets/classes/equipment-v01/brise-fer.webp": "126ba215dd3904d1a2c8dc00b38f4d54126643bf",
     "site/assets/classes/equipment-v01/rempart.webp": "29578437b1ce111c248061c747e2ec3947f553cd",
     "site/assets/classes/manifest-v1.json": "6925103de34d1e1a4c1b17e6bea7ca7cf1018d7e",
-    "site/assets/classes/masteries-v1/component.mjs": "d3088f34fa47a66ee08ffdebec7b3f253beb8b8a",
+    "site/assets/classes/masteries-v1/component.mjs": "9d146d7278f120be7266570bbc192d9dbd2ea635",
     "site/assets/classes/masteries-v1/definitions.mjs": "2b1cd8e39a3f00d25b6137fddc0d0c993369e00a",
     "site/assets/classes/masteries-v1/engine.mjs": "2a447e50d014b10c70723abdc01be9b417e3d2b0",
-    "site/assets/classes/masteries-v1/integration.mjs": "21cc2d59d4598d2d3be02dca864a6adc8848425d",
-    "site/assets/classes/masteries-v1/masteries.css": "d0b7b4ef3e4deb53b1f1e1554384743459e60abc",
-    "site/assets/classes/masteries-v1/presets.mjs": "503c7865a96a109926cc62b97a95f94924142f5a",
+    "site/assets/classes/masteries-v1/integration.mjs": "4474dc9d81018159434f413c94f22fcbe7afa113",
+    "site/assets/classes/masteries-v1/masteries.css": "167c0bf9e3ff3d134c03a107faa3be641f512ba8",
+    "site/assets/classes/masteries-v1/presets.mjs": "886d8df49410ce0cac90a0dcde60f495c97af13c",
+    "site/assets/classes/masteries-v1/reference-data.mjs": "18465857f1df70955a2588bd74a1bb07f4aec363",
+    "site/assets/classes/masteries-v1/reference.mjs": "253bc68b92536ac059914a92add301ea4a6dc00c",
     "site/assets/classes/masteries-v1/route.js": "17b0a8e432fbb10ebff07834c16a54efcea2270c",
-    "site/assets/classes/masteries-v1/storage.mjs": "4ab1e7ba005957fdc46a68155ccfa6b5a10f853f",
+    "site/assets/classes/masteries-v1/storage.mjs": "70d920219f67c93fefecf82a82e83984f56f4df6",
     "site/assets/classes/peoples-v1/accordeur/artwork.json": "b8227f68d93e4d03944005b7d1ba62292551ed83",
     "site/assets/classes/peoples-v1/accordeur/base-01.webp": "4aaa0b3d4938262a72813f431a7901569c2de9a6",
     "site/assets/classes/peoples-v1/accordeur/base-02.webp": "4b97a8e3f4492cef6ca331315979bbf6f6eb9743",
@@ -706,7 +708,7 @@
     "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
-    "site/index.html": "a243a49877e307ea202d447e1911cc9354a975e5"
+    "site/index.html": "78b5903530a8c8f3335b6fbb7b1b6044a1900dc7"
   },
   "receipts": [
     {

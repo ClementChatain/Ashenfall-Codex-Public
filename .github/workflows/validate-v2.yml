@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
-      - run: node --test tests/masteries_engine.test.mjs
+      - run: node --test tests/*.test.mjs
       - run: python3 -m unittest discover -s tests -v
       - run: python3 scripts/verify_public_v2.py
