@@ -31,6 +31,25 @@ def main():
             expect(page.locator('[data-ms-remaining]')).to_have_text(str(n))
 
         visit('#/rempart/maitrises', 'rempart:v8')
+        expect(page.locator('.mastery-preset')).to_have_count(3)
+        for preset_id in ['citadelle', 'broyeur', 'garde-du-corps']:
+            page.locator('[data-preset="'+preset_id+'"]').click()
+            remaining(0)
+            expect(page.locator('.mastery-status')).to_have_text('Configuration cohérente')
+            expect(page.locator('.mastery-synergy.is-owned')).to_have_count(1)
+            expect(page.locator('[data-focus-key="preset:'+preset_id+'"]')).to_be_focused()
+            page.locator('[data-ms="undo"]').click()
+            remaining(20)
+            page.locator('[data-ms="redo"]').click()
+            remaining(0)
+            page.locator('[data-ms="undo"]').click()
+            remaining(20)
+        page.set_viewport_size({'width':390,'height':844})
+        assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
+        page.locator('.mastery-presets').screenshot(path=str(output / 'templates-mobile.png'))
+        page.set_viewport_size({'width':1536,'height':1000})
+        page.locator('.mastery-presets').screenshot(path=str(output / 'templates-desktop.png'))
+        results.append('three complete default templates, undo/redo and responsive cards')
         node = page.locator('.mastery-node').first
         plus = node.locator('[data-delta="1"]')
         plus.focus()
@@ -97,6 +116,7 @@ def main():
         for class_id in definitions['classes']:
             visit('#/' + class_id + '/maitrises', definitions['classes'][class_id]['defaultModel'])
             expect(page.locator('.mastery-node')).to_have_count(24)
+            expect(page.locator('.mastery-preset')).to_have_count(3 if class_id=='rempart' else 0)
             assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'), class_id
         visit('#/rempart/maitrises?mode=generic', 'rempart:generic')
         remaining(20)
