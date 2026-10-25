@@ -1,0 +1,9 @@
+{
+  "id": "eveilleur",
+  "status": "concept",
+  "source_sha256": "71edd1d025d6dcac7f9014f32b6163cc71502131e83c1b263b1c48c4602ab9d1",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "98f19e8b576c801986ca8f158032fd1d3d339c794068b4933eb1bb46604f8fec"
+}

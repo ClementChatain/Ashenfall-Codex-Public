@@ -1,0 +1,9 @@
+{
+  "id": "passeur",
+  "status": "concept",
+  "source_sha256": "cec6a1f6a6ab359a4a107fbe5ce0191d84065f475c99b5b8b17834f494e2ed3b",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "dbd63ba7558ade3f4c31ff64fd15341890da07d94263a5ae94e26fcd2ae2cc87"
+}

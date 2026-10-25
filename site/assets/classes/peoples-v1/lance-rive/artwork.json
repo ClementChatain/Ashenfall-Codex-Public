@@ -1,0 +1,9 @@
+{
+  "id": "lance-rive",
+  "status": "concept",
+  "source_sha256": "b2db6ddc10d31f08b5f4df88467210bcda1d9684bc8840e9847df2a36321b7bf",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "f48d8c884073e39f91454247b01b3519500937f77b8618aa8464138572a9d8b9"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "accordeur",
+  "status": "concept",
+  "source_sha256": "ea5a7b82a0c8ad6329c94784e35012d867e73b8bf0ec705e2711d12cbeb42ed2",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "be62521848f0476f190d23881116ca16cdb4acdd895487dbddab0864fbded6fa"
+}

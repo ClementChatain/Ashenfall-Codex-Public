@@ -40,7 +40,7 @@ def main():
             expect(page.locator('#atlas-stage-title')).to_contain_text('Ancestral')
             page.keyboard.press('ArrowLeft')
             expect(page.locator('#atlas-stage-title')).to_contain_text('Forgebrûlé')
-            expect(page.locator('.atlas-stage-dialog img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/master-06.webp')
+            expect(page.locator('.atlas-stage-dialog:not(.world-art-dialog) img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/master-06.webp')
             page.keyboard.press('Escape')
             expect(master).to_be_focused()
             page.locator('[data-equipment-gallery-tab="base"]').click()
@@ -51,13 +51,13 @@ def main():
             # Equipment inspection, circular keyboard navigation, Escape and focus restoration.
             first = page.locator('[data-stage-index="0"]')
             first.click()
-            expect(page.locator('.atlas-stage-dialog')).to_be_visible()
+            expect(page.locator('.atlas-stage-dialog:not(.world-art-dialog)')).to_be_visible()
             expect(page.locator('#atlas-stage-title')).to_contain_text('Départ')
             page.keyboard.press('ArrowLeft')
             expect(page.locator('#atlas-stage-title')).to_contain_text('Armure de maître')
-            expect(page.locator('.atlas-stage-dialog img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/base-06.webp')
+            expect(page.locator('.atlas-stage-dialog:not(.world-art-dialog) img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/base-06.webp')
             page.keyboard.press('Escape')
-            expect(page.locator('.atlas-stage-dialog')).not_to_be_visible()
+            expect(page.locator('.atlas-stage-dialog:not(.world-art-dialog)')).not_to_be_visible()
             expect(first).to_be_focused()
 
             page.locator('[data-color-variant="0"]').click()
@@ -98,7 +98,7 @@ def main():
             # Preserve the other three dwarf class pages and their original equipment sheets.
             for route in ['brise-fer', 'artilleur-runique', 'accordeur']:
                 page.goto(args.base_url + '#/' + route, wait_until='networkidle')
-                expect(page.locator('.atlas-stage')).to_have_count(6)
+                expect(page.locator('.atlas-stage:visible')).to_have_count(6)
                 assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
 
             # Sample every category of retained route, including the newer peoples.

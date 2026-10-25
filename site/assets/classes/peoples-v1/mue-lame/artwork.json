@@ -1,0 +1,9 @@
+{
+  "id": "mue-lame",
+  "status": "concept",
+  "source_sha256": "a47ce4d4cf67f301d0b095463d0b52e7cfb364cf201447c7cef4de70ec73d450",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "33d21c4df37711d08960fae4c121b9ca959bb8406f542df63dd1ab7fea626a33"
+}

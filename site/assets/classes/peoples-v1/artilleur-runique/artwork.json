@@ -1,0 +1,9 @@
+{
+  "id": "artilleur-runique",
+  "status": "concept",
+  "source_sha256": "3630e1810e7b207ca160cfe3763abf3634834027f58551f2a1419f6ee136cb3f",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "1758ceabffb4658707691192461931133b9f0d4692f526667f449491e4d8ba80"
+}

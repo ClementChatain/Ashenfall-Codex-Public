@@ -1,0 +1,9 @@
+{
+  "id": "lieur",
+  "status": "concept",
+  "source_sha256": "c8fddfab14b8700bfc2c7754e9cb0f6a8b72dcab41c92a7a0057fcb8090a3a83",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "3dafe62763c4e2ec030a425cd7c540b93fcb58bd135237d0ada1c0faaa44b227"
+}

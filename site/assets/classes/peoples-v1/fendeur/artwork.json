@@ -1,0 +1,9 @@
+{
+  "id": "fendeur",
+  "status": "concept",
+  "source_sha256": "e3bf0f01d9604b24227db4f1d527a164dacffeb2487a93dea4f70edbe0287892",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "bc01dcf34e47df5650bd278a06e9781fc373541d531465a5fc257d584c81a0d9"
+}

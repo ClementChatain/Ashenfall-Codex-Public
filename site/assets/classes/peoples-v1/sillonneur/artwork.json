@@ -1,0 +1,9 @@
+{
+  "id": "sillonneur",
+  "status": "concept",
+  "source_sha256": "27883a66a8d0e2c8af8c2777b859b8df88c310c3af1b8637b832c19b26076b02",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "6215a73a429561f5420b492a9e0ccab0626c99a25a25d5d01efca50cb178ea3d"
+}

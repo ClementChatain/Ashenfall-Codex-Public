@@ -4,6 +4,25 @@ Interface publique du Codex. Seuls les contenus explicitement approuvés sont ex
 
 Publication depuis main via GitHub Pages. Aucune source privée ni brouillon de lore.
 
+## Présentation des six peuples et des 24 classes
+
+La présentation illustrée couvre désormais Nains, Elfes, Humains, Kharûn, Vaelith et Orynth, avec quatre classes par peuple. La page `#/peuples` donne accès aux six fiches illustrées ; chaque classe conserve ses compétences, ses textes de référence, ses archives et ses portraits d’origine. Deux galeries séparent progression de base et six skins alternatifs, avec vues de détail et visionneuse au clavier. Le Rempart conserve sa présentation et ses variantes de couleur existantes. Les autres tenues restent des concepts artistiques, sans nouvelle statistique, niveau requis ou validation canonique.
+
+Le dossier `site/assets/classes/peoples-v1/` contient la présentation commune (`codex-peoples.js`, `codex-peoples.css`), sa configuration (`visual-data.js`) et 442 nouveaux WebP issus de 23 planches de classes et cinq panoramas. Les PNG sources et descriptions de génération sont archivés séparément dans Knowledge. Le script optionnel `scripts/prepare_all_peoples_artwork.py` prépare les dérivés avec Pillow ; son mode strict exige toutes les sources avant publication. Aucun build ni framework ajouté au site. Les ressources restent couvertes par les empreintes V2 et par le packaging `assets/classes` du workflow Pages.
+
+Les textes des 278 fiches et leurs métadonnées restent identiques. La couche de présentation lit les données publiques déjà présentes ; les mécaniques et fiches d’origine sont conservées. Les liens `simulateur/classes/?classe=<identifiant>` sélectionnent la bonne classe dans le simulateur existant, sans changer ses règles ou sauvegardes. Les URL des scripts et styles portent une version pour éviter de réutiliser la présentation précédente après déploiement.
+
+Vérifications de navigation (Playwright et Chromium requis uniquement pour la validation) :
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/smoke_all_peoples.py
+PYTHONDONTWRITEBYTECODE=1 python3 scripts/smoke_codex_ui.py
+```
+
+Le premier contrôle parcourt les six peuples et les 23 classes nouvellement traitées aux formats ordinateur, tablette et mobile, compare le texte de leurs archives aux fiches en mémoire, vérifie les images, les deux galeries, la recherche, le clavier et les liens vers les 24 classes du simulateur. Le second conserve les contrôles du Rempart. Les captures chargent les portraits hors écran avant la prise de vue. Aperçus : [peuples](docs/previews/all-peoples-v1/desktop-peuples.webp), [Gardien des Racines](docs/previews/all-peoples-v1/desktop-gardien-des-racines.webp), [Brise-Courant](docs/previews/all-peoples-v1/desktop-brise-courant.webp), [Elfes sur mobile](docs/previews/all-peoples-v1/mobile-elfes.webp).
+
+Les notes datées ci-dessous décrivent les étapes précédentes de la reprise ; les derniers runs GitHub Pages et les contrôles du domaine font foi pour le commit actuellement publié.
+
 ## Refonte illustrée en préparation
 
 ### Rempart : progression de base et skins de maître V2

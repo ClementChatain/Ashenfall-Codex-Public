@@ -1,0 +1,9 @@
+{
+  "id": "duelliste",
+  "status": "concept",
+  "source_sha256": "55c4e88c25e835eea094552bb026ca0af711392be9643eb86a76bd89295dae8a",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "2db4ac8f3a0f80936248f389cb70a01e359ae56909fc46351186bad6b175e6ca"
+}

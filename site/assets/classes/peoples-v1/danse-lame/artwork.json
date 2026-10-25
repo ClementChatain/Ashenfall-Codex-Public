@@ -1,0 +1,9 @@
+{
+  "id": "danse-lame",
+  "status": "concept",
+  "source_sha256": "d82a11b453ead1292d9d994ede7b8389f823008f015c895cf074114cc1903324",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "01562625b9f4c3fa328d1da640befa401e095d4a9a9a15ba4e3df9dfbab47cb3"
+}

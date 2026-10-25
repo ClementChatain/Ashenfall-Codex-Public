@@ -1,0 +1,9 @@
+{
+  "id": "aiguilleur",
+  "status": "concept",
+  "source_sha256": "0fc6aa414911ba297a83a17e19f94497afa164134263714cf797a5c691a82ab1",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "0bdec8f9e7da49dc612c26bf1f34fed63c1fe555c18cf49162838fbcc80776d9"
+}

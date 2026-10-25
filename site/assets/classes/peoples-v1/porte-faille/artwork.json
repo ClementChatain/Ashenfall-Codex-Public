@@ -1,0 +1,9 @@
+{
+  "id": "porte-faille",
+  "status": "concept",
+  "source_sha256": "d54ccc477b76de7b9c56cbe60c23f92f320a7de512b637708a675fae24976095",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "9af659476a774736bb983ce45fb64ac8e83ef762f8ded818d610876ca048716a"
+}

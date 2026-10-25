@@ -1,0 +1,9 @@
+{
+  "id": "enlaceur",
+  "status": "concept",
+  "source_sha256": "b90abf6c96fcd9b64ccaef3cc05d86291e4e751ef12e96135ddecfa00cef9fbe",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "8c3dc1118c37fddd5172830f32d4c23ac407ea5ef75e440199a291df6831fef8"
+}
