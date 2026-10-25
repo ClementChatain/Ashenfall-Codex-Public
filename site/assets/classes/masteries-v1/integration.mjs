@@ -24,7 +24,7 @@ async function sync(){
   }
   cleanup();const currentTicket=++ticket;host.textContent='Chargement des maîtrises…';
   try{
-    const {mountMasteries}=await import('./component.mjs?v=templates-v1');
+    const {mountMasteries}=await import('./component.mjs?v=mastery-readability-v1');
     if(currentTicket!==ticket||!visible(host)||route.read().id!==id)return;
     mounted=mountMasteries(host,{classId:id,modelId,
       onModelChange(next){route.navigate(id,'maitrises',id==='rempart'?modeFor(next):null,{replace:true});schedule();},

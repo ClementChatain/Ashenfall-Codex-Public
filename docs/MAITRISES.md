@@ -42,3 +42,9 @@ Travail futur : valider les coefficients et la classification active/passive ava
 Sur le modèle Bastion / Fracture / Vigie, trois cartes proposent les répartitions approuvées dans la conversation : **La Citadelle** (12/0/6 + Rempart Vivant), **Le Broyeur** (6/12/0 + Riposte de Fer) et **Le Garde du corps** (0/6/12 + Défi Fracassant). Chaque build dépense 20 points et renseigne les choix de rang 2. Leur détail est consultable avant chargement ; aucun template n’est appliqué automatiquement à l’ouverture.
 
 `presets.mjs` construit chaque configuration par les commandes du moteur et valide les prérequis à chaque étape. Le chargement est une opération annulable et sauvegardée ; il conserve l’équipement indicatif, les emplacements et les raccourcis, en libérant uniquement les affectations devenues indisponibles. Les exemples restent modifiables, exportables et partageables comme les autres builds. Ils ne changent ni les talents ni les coefficients. Le Garde du corps conserve le choix PvE du Balayage présenté dans la proposition initiale.
+
+## Lecture des talents et chiffres disponibles
+
+Les cartes distinguent **Acquis** (au moins un point investi), **Disponible** et **Verrouillé** avec un libellé, une pastille et un traitement de bordure. « Acquis » décrit l’investissement, pas la classification actif/passif d’une capacité. Les choix sélectionnés sont surlignés ; les boutons radio gardent une largeur fixe.
+
+Les sources du prototype ne définissent aucun coefficient de gain par rang ni par choix. L’interface affiche donc « valeur à définir » et ne transforme pas une absence de donnée en zéro. Sur les modèles génériques, les effets de référence disponibles sont identifiés séparément ; ils ne représentent pas le bonus obtenu en investissant un point. Toute proposition d’équilibrage doit être approuvée avant l’ajout de coefficients publics.

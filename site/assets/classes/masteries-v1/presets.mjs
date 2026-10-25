@@ -1,4 +1,4 @@
-import {emptyBuild,applyCommand,validateBuild,availableActions} from './engine.mjs?v=templates-v1';
+import {emptyBuild,applyCommand,validateBuild,availableActions} from './engine.mjs?v=mastery-readability-v1';
 
 // Approved example builds from the project conversation; existing V8 rules only.
 export const rempartPresets=[
