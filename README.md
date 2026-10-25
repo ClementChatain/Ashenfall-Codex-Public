@@ -6,6 +6,14 @@ Publication depuis main via GitHub Pages. Aucune source privée ni brouillon de 
 
 ## Refonte illustrée en préparation
 
+### Rempart : progression de base et skins de maître V2
+
+Aperçus : [skins sur ordinateur](docs/previews/rempart-equipment-v2/desktop-skins.webp), [équipement de base](docs/previews/rempart-equipment-v2/desktop-base.webp), [skins sur mobile](docs/previews/rempart-equipment-v2/mobile-skins.webp), [base sur mobile](docs/previews/rempart-equipment-v2/mobile-base.webp).
+
+Les deux références visuelles du créateur sont désormais distinguées : le sélecteur de galerie ouvre soit les six étapes de l’équipement de base, soit six exemples alternatifs de skins de maître (Ancestral, Garde d’honneur, Seigneur des montagnes, Forteresse d’acier, Sanctifié, Forgebrûlé). La galerie des skins est sélectionnée par défaut. La base comprend également six détails de pièces et quatre variantes de couleur. Les visionneuses possèdent des cycles distincts (six skins, six étapes, six détails, quatre couleurs), navigation au clavier et retour du focus. L’atelier existant utilise les véritables visuels des skins pour ses exemples ; son mélange de pièces reste schématique.
+
+Les trois planches ont été régénérées à la demande explicite du créateur. PNG sources archivés séparément dans Knowledge ; WebP et manifeste sous `site/assets/classes/rempart-equipment-v2/`. `scripts/prepare_rempart_artwork.py --base BASE.png --skins SKINS.png --colors COLORS.png` prépare 31 dérivés (Pillow requis uniquement pour cette préparation). Les nouveaux visuels restent des concepts, sans nouvelle statistique ou validation canonique. Les anciennes illustrations et les 278 fiches sont conservées. Préparation pour revue, sans publication automatique.
+
 Aperçus de la fiche Rempart : [ordinateur](docs/previews/illustrated-codex-v1/desktop.webp) · [mobile](docs/previews/illustrated-codex-v1/mobile.webp).
 
 La nouvelle présentation reprend la maquette du créateur : navigation horizontale, panneau des six peuples, sélection des classes naines, panorama, onglets et galerie d'équipements. Le cas Rempart possède un panorama et six illustrations avec angles et détails ; les autres classes naines réutilisent leurs planches existantes. Le reste du Codex conserve ses routes et ses contenus sous la nouvelle navigation. Les 278 fiches, leurs métadonnées et leurs valeurs ne changent pas.

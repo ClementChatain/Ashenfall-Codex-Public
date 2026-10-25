@@ -1,0 +1,150 @@
+{
+  "version": "rempart-equipment-v2",
+  "status": "concept",
+  "created_at": "2026-10-25",
+  "generation": "OpenAI image generation, following the two visual references and the creator’s regeneration request.",
+  "scope": "Base equipment progression, six alternative master skins, four color examples. No new gameplay statistics or canonical validation.",
+  "sources": {
+    "base": {
+      "sha256": "d838ec717a242ec442095fa48482140b430523dc9d22a2eb1f7c33a0f5fde086",
+      "width": 2161,
+      "height": 728
+    },
+    "skins": {
+      "sha256": "aa40837dcdf5069fc303982b382c75e2ad5c8e8b0382fa46dc266144292c360c",
+      "width": 1536,
+      "height": 1024
+    },
+    "colors": {
+      "sha256": "71f8aac5c0398e881ce3185d0932ba22c25f6363a7538f6eab1b19978534ba14",
+      "width": 2162,
+      "height": 727
+    }
+  },
+  "derivatives": [
+    {
+      "file": "base-01.webp",
+      "sha256": "d3b61953806487994508822103908c384bb56d458f4c32c36c01646fce29a27a"
+    },
+    {
+      "file": "base-02.webp",
+      "sha256": "5cdd75d2edb93713482514042c02b4ce77bb18f637987f79f60fcef1bce0ac1a"
+    },
+    {
+      "file": "base-03.webp",
+      "sha256": "57779d6a10148f8197c932cc1a06692e090c47967bda9d8edcfe60b72d567449"
+    },
+    {
+      "file": "base-04.webp",
+      "sha256": "42252f6f3bd181151421081010f1c77f3d147f604826fe2755a0c11a28bd8782"
+    },
+    {
+      "file": "base-05.webp",
+      "sha256": "5211f6bfe7e8e9b0022075ba5e1f8c774f43ea71d9301c45acd6b9b0cab9cc30"
+    },
+    {
+      "file": "base-06.webp",
+      "sha256": "8ea8fec4a54482687d103a70d5b668db4d8830918776b8fb12fecb1eb822047b"
+    },
+    {
+      "file": "base-board.webp",
+      "sha256": "51843f022bc88f7fa54fb84ec0d575d6af74bd35b86d5255c2674bf735e1183a"
+    },
+    {
+      "file": "color-01.webp",
+      "sha256": "45b11c2d43697722c641fe9139518d5d32be43ceca97e51a8e3faa213e2dd4af"
+    },
+    {
+      "file": "color-02.webp",
+      "sha256": "68f42eb12a0fa97d1ee380431a87eabba371f1f57140c8f47bfe7be3addd688a"
+    },
+    {
+      "file": "color-03.webp",
+      "sha256": "6312d57943fc658551b2151bd153602f698c5927bc40179d798bf5d779084e6d"
+    },
+    {
+      "file": "color-04.webp",
+      "sha256": "f7b3f65a18cac74213027983f15491fac1bad82013d24a022f82a3da31f5fd9d"
+    },
+    {
+      "file": "colors-board.webp",
+      "sha256": "763e84710ae48e64c37a0c7beda4562f012e407e86b3f0847b9b0cf88d08f1a1"
+    },
+    {
+      "file": "detail-01.webp",
+      "sha256": "5bf6b9024d6f073215f886e3d0ff97543948b9da1b23bf3b0cb1b0e03d83f5ef"
+    },
+    {
+      "file": "detail-02.webp",
+      "sha256": "8db9e850f7cfd9d1de7b113441a7bf3e8405cba7126fcf62da363baaba3f0023"
+    },
+    {
+      "file": "detail-03.webp",
+      "sha256": "5c134eb214d6b0358cac22618934e20169e21923b74488edc98d8262cbe3e9b8"
+    },
+    {
+      "file": "detail-04.webp",
+      "sha256": "5d2a8dec4484b046b61a4dcf7b7ffc375c58885586ca7aaa524adc28c78b0d1e"
+    },
+    {
+      "file": "detail-05.webp",
+      "sha256": "2b52d298a8753646a4910959e1e74ed1d250d58be30006c159c9d6d58f5a4240"
+    },
+    {
+      "file": "detail-06.webp",
+      "sha256": "e9322283e683ad899cc2c85e7f12ca17ee5cda42f5f278a0e8d7b1f5f932252f"
+    },
+    {
+      "file": "master-01.webp",
+      "sha256": "5370b30d105f3f757b3455c7198639b36e558f41e82a29e00431afbc88f1d9ee"
+    },
+    {
+      "file": "master-02.webp",
+      "sha256": "d36b46ebda724e1352addc2d61a6934c9f8ca120e3b346fc385367db684edd73"
+    },
+    {
+      "file": "master-03.webp",
+      "sha256": "31647367354797fe0fa550fc538f334c1fde48ba221d36a3b812fea3c0c0def4"
+    },
+    {
+      "file": "master-04.webp",
+      "sha256": "f553f69408587eaa8d59903eaeb8e4edc0f03eeaf44f04554e278b804bef143d"
+    },
+    {
+      "file": "master-05.webp",
+      "sha256": "1a05be3ee2378df0fb9e2f128403b68cd9e302ff7652fa3b0afe954287323969"
+    },
+    {
+      "file": "master-06.webp",
+      "sha256": "164cad097656a9cb3c12afb2265c5bd800150b0e51501ac5a91f0b6b833de79f"
+    },
+    {
+      "file": "master-front-01.webp",
+      "sha256": "d1549ffc663543eddb0d6a84f734a41272318616cf703a743bf947241bc08904"
+    },
+    {
+      "file": "master-front-02.webp",
+      "sha256": "6f7a081a85d7707ded6267124418ea3bba057fdfa2029f95e2814bccd0845a21"
+    },
+    {
+      "file": "master-front-03.webp",
+      "sha256": "706ebc96cd0c657b94f34ccd3ebf1adbe3f2ade5f449797b5335b6f3c381afe3"
+    },
+    {
+      "file": "master-front-04.webp",
+      "sha256": "9efc314a3c2a34e25ffd62985cad969662f069afe5484cbf82f0e5c409487530"
+    },
+    {
+      "file": "master-front-05.webp",
+      "sha256": "5d75054daed647758e039137838b5563b988578b1a4f8cfec9185a88256ba9dd"
+    },
+    {
+      "file": "master-front-06.webp",
+      "sha256": "e74b3d32bb1a898a7ee36927af2468c3248c98dcccfec4db31bcc5bc995cfb73"
+    },
+    {
+      "file": "skins-board.webp",
+      "sha256": "3ad4891d72500265a30f6c62f60513c1f6c9b8084b1893591aaea30e6284b22b"
+    }
+  ]
+}
