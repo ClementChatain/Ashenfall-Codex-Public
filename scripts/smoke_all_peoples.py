@@ -86,7 +86,7 @@ def main():
                     original = page.evaluate('(id)=>records.find(r=>r.id===id).body', id)
                     assert page.locator('.world-source-body').text_content() == original, id
                     page.locator('[data-world-tab="tree"]').click()
-                    expect(page.locator('.atlas-tree-panel a')).to_have_attribute('href', 'simulateur/classes/?classe=' + id)
+                    expect(page.locator('.native-masteries')).to_have_attribute('data-class-id', id)
                     page.locator('[data-world-tab="art"]').click()
                     page.locator('[data-portrait-open]').first.click()
                     expect(page.locator('#portrait-viewer')).to_be_visible()
@@ -105,7 +105,7 @@ def main():
                 for people in config['peoples'].values():
                     for id in people['classes']:
                         page.goto(args.base_url + 'simulateur/classes/?classe=' + id, wait_until='domcontentloaded')
-                        expect(page.locator('#class')).to_have_value(id)
+                        expect(page.locator('.native-masteries')).to_have_attribute('data-class-id', id)
 
             page.goto(args.base_url + '#/peuples', wait_until='networkidle')
             expect(page.locator('.world-people-index-card')).to_have_count(6)

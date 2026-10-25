@@ -49,14 +49,14 @@
     const overviewNodes=[...old.querySelectorAll('.dossier-details:not(.editorial-source), .fiche-section')].filter(node=>!node.closest('.spellbook'));
     overviewNodes.forEach(node=>{node.hidden=false;node.removeAttribute('data-dossier-panel');if(node.tagName==='DETAILS')node.open=true;});
     const current=classTabs.get(id)||'equipment';
-    const tabList=[['overview','◈','Aperçu'],['skills','⚔','Compétences'],['tree','⌘','Arbre'],['equipment','⛨','Équipements'],['lore','◷','Archives'],['art','▧','Illustrations']];
+    const tabList=[['overview','◈','Aperçu'],['skills','⚔','Compétences'],['tree','⌘','Maîtrises'],['equipment','⛨','Équipements'],['lore','◷','Archives'],['art','▧','Illustrations']];
     const oldStudy=dwarfEquipmentStudies[id];
     const hero='<header class="atlas-hero atlas-hero-universal" style="--hero-art:url(\''+absolute(people.landscape)+'\')"><img class="world-hero-portrait" src="'+classPortraits[id].src+'" alt="" width="411" height="732"><div class="atlas-hero-copy"><div class="atlas-title"><img src="'+emblemFor(item)+'" alt="" width="70" height="85"><div><a class="atlas-kicker" href="#/'+race+'">'+esc(people.title)+' · CLASSE JOUABLE</a><h1>'+esc(item[2])+'</h1></div></div><p class="atlas-identity">'+esc(lead)+'</p><p class="atlas-description">'+esc(description)+'</p>'+(overview.quote?'<blockquote>'+esc(overview.quote)+'</blockquote>':'')+'<span class="atlas-art-label">ILLUSTRATION DE CONCEPTION</span></div><dl class="atlas-facts"><div><dt><span aria-hidden="true">⛨</span>Rôle principal</dt><dd>'+esc(roleName(item))+'</dd></div><div><dt><span aria-hidden="true">◈</span>Peuple</dt><dd>'+esc(people.title)+'</dd></div><div><dt><span aria-hidden="true">✧</span>Arsenal</dt><dd>'+data.filter(e=>e[1]==='competences'&&getClass(e)===id).length+' compétences de référence</dd></div>'+(resource?'<div><dt><span aria-hidden="true">ϟ</span>Ressource</dt><dd>'+esc(resource.split(/[.:]/)[0])+'</dd></div>':'')+'</dl></header>';
     const panels={
       equipment:equipment(id),
       skills:spellbook?spellbook.outerHTML:'',
       overview:overviewNodes.length?overviewNodes.map(node=>node.outerHTML).join(''):'<article class="world-overview"><h2>Identité de la classe</h2><p>'+esc(intro)+'</p></article>',
-      tree:'<section class="atlas-tree-panel"><span class="atlas-kicker">PRÉPARER SA CONFIGURATION</span><h2>Arbre de maîtrises</h2><p>Le simulateur existant permet d’explorer les maîtrises de cette classe.</p><a class="atlas-action" href="simulateur/classes/?classe='+encodeURIComponent(id)+'">Ouvrir le simulateur '+esc(item[2])+' ↗</a></section>',
+      tree:'<section class="mastery-panel" data-mastery-host data-class-id="'+id+'"></section>',
       lore:'<details class="dossier-details editorial-source" open><summary>Fiche de conception intégrale<span>Version déjà présente dans le Codex</span></summary><pre class="world-source-body">'+esc(item[4])+'</pre></details>',
       art:'<section class="atlas-art-panel"><h2>Illustrations de '+esc(item[2])+'</h2><p>Les illustrations d’origine sont conservées. Les nouvelles tenues sont des concepts artistiques.</p><button type="button" data-portrait-open="'+id+'" aria-haspopup="dialog"><img src="'+classPortraits[id].src+'" alt="Portrait conceptuel de '+esc(item[2])+'" loading="lazy"><span>Examiner le portrait ↗</span></button><button type="button" data-world-art="board" data-world-art-class="'+id+'" data-world-art-index="0" aria-haspopup="dialog"><img src="'+config.board+'" alt="Planche des équipements et skins de '+esc(item[2])+'" loading="lazy"><span>Examiner la nouvelle planche ↗</span></button>'+(oldStudy?'<button type="button" data-equipment-open="'+id+'" aria-haspopup="dialog"><img src="'+oldStudy.src+'" alt="Planche de progression d’origine" loading="lazy"><span>Planche d’origine ↗</span></button>':'')+'</section>'
     };
@@ -79,7 +79,7 @@
   }
 
   function updateWorldChrome() {
-    let route;try{route=decodeURIComponent(location.hash.slice(2)||'home');}catch{route='home';}
+    const route=window.AshenfallRoute.read().id;
     const entry=entryFor(route), race=raceFor(entry)||'nains', config=visuals.peoples[race];
     document.body.dataset.worldRace=race;
     document.body.style.setProperty('--world-landscape','url("'+absolute(config.landscape)+'")');
