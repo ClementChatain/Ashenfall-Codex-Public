@@ -5,11 +5,14 @@
     {
       "id": "brise-fer",
       "status": "concept",
-      "source_sha256": "e73f1db1da0e9964fbff6f4f756da3324d9eda39383c48149df82853bf068f14",
+      "source_sha256": "5ad0c61d128730efbe97d76876f7d159c09d9e6f90b65344127c4ce96d6d3d17",
       "width": 1536,
       "height": 1024,
       "layout": "2 rows × 6 columns: base progression, then alternative skins",
-      "reference_sha256": "19175ec232949708f323fdf2e07e9a4780183b66eed99568ac0300315d78c273"
+      "reference_sha256": "d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c",
+      "row_split_pixels": 492,
+      "details_mode": "base",
+      "details_index": 5
     },
     {
       "id": "artilleur-runique",
@@ -594,79 +597,79 @@
     },
     {
       "file": "brise-fer/base-01.webp",
-      "sha256": "f3bbecc937c0f791f3ceb72dca7fb605accadc23c5735f559e3a274b57f9f3ff"
+      "sha256": "2be6177b252932913440c192b7c5792315be7a5fa31d68c431d058e22c965844"
     },
     {
       "file": "brise-fer/base-02.webp",
-      "sha256": "ccc37f72d1893281a9e2393ebf1a85fa46b7e202a606b9f7e1aee80035176591"
+      "sha256": "cb7eb30fc32b5f53e021f926ff054f6821be4bf4f35170610ce4fc924f7b8464"
     },
     {
       "file": "brise-fer/base-03.webp",
-      "sha256": "c91aea5d964b58f0028a94fbad0b708b32afdfee62f5a0f91844fb93a38229f8"
+      "sha256": "f9cb5f94a3c02036fe731ff4ff4ce51e0a2034cc04315b5d719b94909d1261cc"
     },
     {
       "file": "brise-fer/base-04.webp",
-      "sha256": "6ee3f9198c454a2ed59a7c8ae4de591e8f8dab07d24f2cd49b114020bba12930"
+      "sha256": "ec3ec7edd29ce026b87bb29d55bf68f4bc02f201a75185946f8d6cabd9750985"
     },
     {
       "file": "brise-fer/base-05.webp",
-      "sha256": "b291c4f2e3fa126f3a2ebfefc14016738e1809d49649ee663d1d4e3874fa5f37"
+      "sha256": "47a9aa89e6227e2f995a4f3c662b54ceb3eef45e265bfae236eb4a4cf3725420"
     },
     {
       "file": "brise-fer/base-06.webp",
-      "sha256": "598b7a5c542dfdb511dff8aa3befe4a85d334343ea54b3f33f842ec3a80bdeb4"
+      "sha256": "5cae081e380bb5cafb724e6ce57f7fe37577c835de01322d566b6faced38cfc0"
     },
     {
       "file": "brise-fer/board.webp",
-      "sha256": "d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c"
+      "sha256": "b279b463c057d3cdfb99fae4703763d2ee5f7b34707e5f24394ffb127e48506c"
     },
     {
       "file": "brise-fer/details-01.webp",
-      "sha256": "0c2d74e332a6a6803954cd38e1484fa4cabfd523e197681851fb863ab171f1e3"
+      "sha256": "feaab534b0142b579efda9a788214c666d45f1805b5a23bdb0d146c359e642d4"
     },
     {
       "file": "brise-fer/details-02.webp",
-      "sha256": "04a427ab8633815b4e73704ab69e6cdd3ea492bdfd2d62cf5a4bc4913b26416d"
+      "sha256": "3a9ecc25ee641d16850ebdeaebafc27e0aa1fcbef7f742eda16337f60b9e07b6"
     },
     {
       "file": "brise-fer/details-03.webp",
-      "sha256": "97bd022f76f0d38d693c81102fa7580dbf7334828e377268fd3fccc75363aaf1"
+      "sha256": "f2653ee5ad8f772e6dc10047ce4e9becd13784bb79c0ff5c869f9567c6b086fd"
     },
     {
       "file": "brise-fer/details-04.webp",
-      "sha256": "53ae4e4d6c76949d125f03efcecc2b0ffe9e2c47182a8bdc347e9f8ad39ca1d1"
+      "sha256": "b972f62ffef5fa26aa4e5cd31b76c93be73e61b8dbf1d4627e01ba4db0e97e69"
     },
     {
       "file": "brise-fer/details-05.webp",
-      "sha256": "47343052e743ff65b97d113db8bd75cb06440d965e12dd00b44677452272db37"
+      "sha256": "3f2c76365db3925f5471341c85f3ecb3619700d60a7ae8a9d0988b43269d099c"
     },
     {
       "file": "brise-fer/details-06.webp",
-      "sha256": "3f28c5c5c29443bcbc06958dd7dadfc27cddf5efb8b3c45cf4ab5d51775c4d46"
+      "sha256": "5cae081e380bb5cafb724e6ce57f7fe37577c835de01322d566b6faced38cfc0"
     },
     {
       "file": "brise-fer/skins-01.webp",
-      "sha256": "3f28c5c5c29443bcbc06958dd7dadfc27cddf5efb8b3c45cf4ab5d51775c4d46"
+      "sha256": "067b563e40ad30211dcf810ed81396196e8882084c340d867e8631fba677521d"
     },
     {
       "file": "brise-fer/skins-02.webp",
-      "sha256": "fb31e28175de4d091917bfde40bb180e1282045713ca9be15c6ee511e3caf960"
+      "sha256": "9a7ddb49279f68692c14e252a9540f4318298ceeefec7dc78a781139d486a650"
     },
     {
       "file": "brise-fer/skins-03.webp",
-      "sha256": "7cc34eb530d048212edcca2928895947925235d395f7798f596fb77f2401845d"
+      "sha256": "2e603e4826a593e07217408d19ad54f6d3ed3d894195eb8ca1c175b320e70794"
     },
     {
       "file": "brise-fer/skins-04.webp",
-      "sha256": "e1f75da2c2ef60b11715f6084e07751d8ea9a117d752dfc531f17ce142358e9e"
+      "sha256": "ac722bcab0673f5e47509f281dbce83ab616cfbdba67df5440c33e4e7a72a425"
     },
     {
       "file": "brise-fer/skins-05.webp",
-      "sha256": "3e2ca2abc2c5ae6052f122124f9520727b5d750f6b783ea53acb1fc9dd459ce1"
+      "sha256": "9fbaacaaef06f7234ac6d9984ec5d5b4242a952d01bd7fda9b271fb6be7bce25"
     },
     {
       "file": "brise-fer/skins-06.webp",
-      "sha256": "6ae176a469e32cea5bedf9424a4296c2785f3e3bce84d4c594712d2ca2a9158b"
+      "sha256": "0d8eaed6fd36ea1dc203ad5366128e67d22d5f9f42d9351c83b1529ca25d35e9"
     },
     {
       "file": "danse-lame/base-01.webp",

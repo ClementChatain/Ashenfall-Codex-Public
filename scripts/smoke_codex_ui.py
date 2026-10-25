@@ -28,6 +28,8 @@ def main():
             expect(page.locator('.atlas-title h1')).to_have_text('Rempart')
             expect(page.locator('[data-stage-class="rempart"]')).to_have_count(6)
             expect(page.locator('[data-master-skin]')).to_have_count(6)
+            expect(page.locator('[data-equipment-gallery="base"]')).to_be_visible()
+            page.locator('[data-equipment-gallery-tab="skins"]').click()
             expect(page.locator('[data-equipment-gallery="skins"]')).to_be_visible()
             expect(page.locator('[data-equipment-gallery="base"]')).not_to_be_visible()
             assert 'undefined' not in page.locator('body').inner_text()
@@ -100,6 +102,14 @@ def main():
                 page.goto(args.base_url + '#/' + route, wait_until='networkidle')
                 expect(page.locator('.atlas-stage:visible')).to_have_count(6)
                 assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
+
+            # Re-entering a class starts with base gear, even after choosing skins.
+            for route, prefix in [('brise-fer', 'world'), ('rempart', 'equipment')]:
+                page.goto(args.base_url + '#/' + route, wait_until='networkidle')
+                page.locator('[data-'+prefix+'-gallery-tab="skins"]').click()
+                page.goto(args.base_url + '#/home')
+                page.goto(args.base_url + '#/' + route)
+                expect(page.locator('[data-'+prefix+'-gallery="base"]')).to_be_visible()
 
             # Sample every category of retained route, including the newer peoples.
             for route in ['home', 'peuples', 'classes', 'competences', 'bestiaire', 'regions', 'equipements', 'lore', 'nains', 'elfes', 'humains', 'kharun', 'vaelith', 'orynth', 'gardien-des-racines', 'porte-faille', 'rempart-garde', 'chroniques-rupture']:

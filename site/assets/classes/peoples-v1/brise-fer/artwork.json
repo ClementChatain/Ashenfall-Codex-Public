@@ -1,9 +1,12 @@
 {
   "id": "brise-fer",
   "status": "concept",
-  "source_sha256": "e73f1db1da0e9964fbff6f4f756da3324d9eda39383c48149df82853bf068f14",
+  "source_sha256": "5ad0c61d128730efbe97d76876f7d159c09d9e6f90b65344127c4ce96d6d3d17",
   "width": 1536,
   "height": 1024,
   "layout": "2 rows × 6 columns: base progression, then alternative skins",
-  "reference_sha256": "19175ec232949708f323fdf2e07e9a4780183b66eed99568ac0300315d78c273"
+  "reference_sha256": "d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c",
+  "row_split_pixels": 492,
+  "details_mode": "base",
+  "details_index": 5
 }

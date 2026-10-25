@@ -5,7 +5,8 @@
   const equipmentAsset = 'assets/classes/rempart-equipment-v2/';
   const dwarfIds = ['rempart', 'brise-fer', 'artilleur-runique', 'accordeur'];
   const tabs = new Map();
-  let rempartGallery = 'skins';
+  let rempartGallery = 'base';
+  let activeClassRoute=null;
   const masterSkins = [
     ['Ancestral', 'Bleu et or'],
     ['Garde d’honneur', 'Rouge et or'],
@@ -72,6 +73,7 @@
   }
 
   renderClassDossier = function(item) {
+    if(item[0]!==activeClassRoute&&item[0]==='rempart'){tabs.set(item[0],'equipment');rempartGallery='base';}activeClassRoute=item[0];
     if (!dwarfIds.includes(item[0])) return originalDossier(item);
     const id = item[0], overview = classOverview(item), role = roleInfo(item);
     const page = document.createElement('div');
@@ -113,6 +115,7 @@
       if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
     });
   }
+  window.addEventListener('hashchange',event=>{const id=new URL(event.newURL).hash.slice(2).split(/[/?]/)[0];if(!dwarfIds.includes(id))activeClassRoute=null;});
   render = function(){ originalRender(); updateChrome(); };
 
   document.addEventListener('click',event=>{
