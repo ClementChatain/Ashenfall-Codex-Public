@@ -52,14 +52,21 @@ def main():
         results.append('three complete default templates, undo/redo and responsive cards')
         node = page.locator('.mastery-node').first
         plus = node.locator('[data-delta="1"]')
+        expect(node).to_have_attribute('data-ms-state', 'available')
+        expect(node.locator('.mastery-effect-summary')).to_contain_text('valeur à définir')
+        expect(page.locator('.mastery-node[data-ms-state="locked"]').first).to_contain_text('Verrouillé')
         plus.focus()
         page.keyboard.press('Enter')
         remaining(19)
+        expect(node).to_have_attribute('data-ms-state', 'owned')
+        expect(node.locator('.mastery-node-state')).to_contain_text('Acquis · 1 point')
         assert page.evaluate("document.activeElement.dataset.delta") == '1'
         page.keyboard.press('Enter')
         remaining(18)
         assert page.evaluate("document.activeElement.dataset.delta") == '-1'
         node.locator('input[value="a"]').check()
+        expect(node.locator('.mastery-choice-effect').first).to_contain_text('valeur à définir')
+        assert node.locator('input').first.evaluate('e => e.getBoundingClientRect().width') == 16
         page.locator('[data-ms="undo"]').click()
         expect(node.locator('input[value="a"]')).not_to_be_checked()
         page.locator('[data-ms="redo"]').click()
