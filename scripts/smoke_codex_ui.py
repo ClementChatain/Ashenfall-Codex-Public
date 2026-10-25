@@ -26,10 +26,27 @@ def main():
             response = page.goto(args.base_url + '#/rempart', wait_until='networkidle')
             assert response.status == 200
             expect(page.locator('.atlas-title h1')).to_have_text('Rempart')
-            expect(page.locator('.atlas-stage')).to_have_count(6)
+            expect(page.locator('[data-stage-class="rempart"]')).to_have_count(6)
+            expect(page.locator('[data-master-skin]')).to_have_count(6)
+            expect(page.locator('[data-equipment-gallery="skins"]')).to_be_visible()
+            expect(page.locator('[data-equipment-gallery="base"]')).not_to_be_visible()
             assert 'undefined' not in page.locator('body').inner_text()
             assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'), name
             page.screenshot(path=str(args.output / (name + '-rempart.png')), full_page=True)
+
+            # Master skins are six alternatives, with their own images and circular viewer.
+            master = page.locator('[data-master-skin="0"]')
+            master.click()
+            expect(page.locator('#atlas-stage-title')).to_contain_text('Ancestral')
+            page.keyboard.press('ArrowLeft')
+            expect(page.locator('#atlas-stage-title')).to_contain_text('Forgebrûlé')
+            expect(page.locator('.atlas-stage-dialog img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/master-06.webp')
+            page.keyboard.press('Escape')
+            expect(master).to_be_focused()
+            page.locator('[data-equipment-gallery-tab="base"]').click()
+            expect(page.locator('[data-equipment-gallery="base"]')).to_be_visible()
+            expect(page.locator('[data-equipment-gallery="skins"]')).not_to_be_visible()
+            page.screenshot(path=str(args.output / (name + '-base.png')), full_page=True)
 
             # Equipment inspection, circular keyboard navigation, Escape and focus restoration.
             first = page.locator('[data-stage-index="0"]')
@@ -38,9 +55,21 @@ def main():
             expect(page.locator('#atlas-stage-title')).to_contain_text('Départ')
             page.keyboard.press('ArrowLeft')
             expect(page.locator('#atlas-stage-title')).to_contain_text('Armure de maître')
+            expect(page.locator('.atlas-stage-dialog img')).to_have_attribute('src', 'assets/classes/rempart-equipment-v2/base-06.webp')
             page.keyboard.press('Escape')
             expect(page.locator('.atlas-stage-dialog')).not_to_be_visible()
             expect(first).to_be_focused()
+
+            page.locator('[data-color-variant="0"]').click()
+            expect(page.locator('#atlas-stage-title')).to_contain_text('Bleu')
+            page.keyboard.press('ArrowLeft')
+            expect(page.locator('#atlas-stage-title')).to_contain_text('Noir')
+            expect(page.locator('[data-stage-total]')).to_have_text('4')
+            page.keyboard.press('Escape')
+            page.locator('[data-art-detail="0"]').click()
+            expect(page.locator('#atlas-stage-title')).to_contain_text('Casque')
+            expect(page.locator('[data-stage-total]')).to_have_text('6')
+            page.keyboard.press('Escape')
 
             # Section tabs must reveal content, rather than corrupting the hash route.
             page.locator('[data-dossier-tab="skills"]').click()
