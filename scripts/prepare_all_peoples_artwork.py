@@ -67,31 +67,46 @@ def main():
         if id not in results:
             continue
         source = Path(results[id]['path'])
+        if not source.is_absolute():
+            source = args.results.resolve().parents[2] / source
+        reference = Path(job['reference'])
+        if not reference.is_absolute():
+            reference = args.results.resolve().parents[2] / reference
         sha = digest(source)
         folder = args.output / id
         metadata_path = folder / 'artwork.json'
         metadata = json.loads(metadata_path.read_text()) if metadata_path.exists() else {}
-        if metadata.get('source_sha256') != sha:
+        layout_defaults = {'row_split_pixels': round(metadata.get('height', 1024) / 2), 'details_mode': 'skins', 'details_index': 0}
+        layout_changed = any(metadata.get(key, default) != job.get(key, default) for key, default in layout_defaults.items())
+        if metadata.get('source_sha256') != sha or metadata.get('reference_sha256') != digest(reference) or layout_changed:
             board = Image.open(source).convert('RGB')
             if board.width < 1200 or board.height < 800:
                 raise ValueError(f'{id}: insufficient source dimensions for the reviewed 2×6 layout')
             save(board, folder / 'board.webp')
+            split = job.get('row_split_pixels', round(board.height / 2))
+            if not isinstance(split, int) or not 0 < split < board.height:
+                raise ValueError('Invalid artwork row split')
             for row, mode in enumerate(['base', 'skins']):
                 for index in range(6):
-                    tile = board.crop((round(index * board.width / 6), round(row * board.height / 2), round((index + 1) * board.width / 6), round((row + 1) * board.height / 2)))
+                    tile = board.crop((round(index * board.width / 6), 0 if row == 0 else split, round((index + 1) * board.width / 6), split if row == 0 else board.height))
                     save(tile, folder / f'{mode}-{index + 1:02}.webp')
-            master = board.crop((0, round(board.height / 2), round(board.width / 6), board.height))
+            detail_column = job.get('details_index', 0)
+            if type(detail_column) is not int or not 0 <= detail_column < 6 or job.get('details_mode', 'skins') not in ['base', 'skins']:
+                raise ValueError('Invalid detail source')
+            detail_base = job.get('details_mode', 'skins') == 'base'
+            master = board.crop((round(detail_column * board.width / 6), 0 if detail_base else split, round((detail_column + 1) * board.width / 6), split if detail_base else board.height))
             boxes = [(.18, .03, .82, .29), (.05, .18, .95, .45), (.20, .30, .80, .62),
                      (.15, .50, .85, .78), (.00, .20, .55, .78), (.00, .00, 1., 1.)]
             for index, box in enumerate(boxes):
                 save(master.crop(tuple(round(value * (master.width if axis % 2 == 0 else master.height)) for axis, value in enumerate(box))), folder / f'details-{index + 1:02}.webp')
-            metadata = {'id': id, 'status': 'concept', 'source_sha256': sha, 'width': board.width, 'height': board.height, 'layout': '2 rows × 6 columns: base progression, then alternative skins', 'reference_sha256': digest(Path(job['reference']))}
+            metadata = {'id': id, 'status': 'concept', 'source_sha256': sha, 'width': board.width, 'height': board.height, 'layout': '2 rows × 6 columns: base progression, then alternative skins', 'reference_sha256': digest(reference), 'row_split_pixels': split, 'details_mode': job.get('details_mode','skins'), 'details_index': detail_column}
             metadata_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
-        classes[id] = {'title': job['title'], 'race': job['race'], 'board': relative(folder / 'board.webp'),
-                       'base': [relative(folder / f'base-{i + 1:02}.webp') for i in range(6)],
-                       'skins': [relative(folder / f'skins-{i + 1:02}.webp') for i in range(6)],
-                       'details': [relative(folder / f'details-{i + 1:02}.webp') for i in range(6)],
-                       'skinLabels': [item[0] for item in names[id]] if id in names else ['Variante ' + x for x in ['I', 'II', 'III', 'IV', 'V', 'VI']]}
+        asset = lambda path: relative(path) + ('?v=' + job['asset_version'] if job.get('asset_version') else '')
+        classes[id] = {'title': job['title'], 'race': job['race'], 'board': asset(folder / 'board.webp'),
+                       'base': [asset(folder / f'base-{i + 1:02}.webp') for i in range(6)],
+                       'skins': [asset(folder / f'skins-{i + 1:02}.webp') for i in range(6)],
+                       'details': [asset(folder / f'details-{i + 1:02}.webp') for i in range(6)],
+                       'skinLabels': job.get('skinLabels', [item[0] for item in names[id]] if id in names else ['Variante ' + x for x in ['I', 'II', 'III', 'IV', 'V', 'VI']])}
         source_manifest.append(metadata)
 
     config = {'version': 'all-peoples-v1', 'status': 'concept', 'peoples': peoples, 'classes': classes}

@@ -57,6 +57,8 @@ def main():
                     expect(page.locator('.atlas-class-selector a')).to_have_count(4)
                     expect(page.locator('[data-world-art="skins"]')).to_have_count(6)
                     expect(page.locator('[data-world-art="base"]')).to_have_count(6)
+                    expect(page.locator('[data-world-gallery="base"]')).to_be_visible()
+                    page.locator('[data-world-gallery-tab="skins"]').click()
                     expect(page.locator('[data-world-gallery="skins"]')).to_be_visible()
                     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'), (device, id)
                     assert 'undefined' not in page.locator('#view').inner_text(), id

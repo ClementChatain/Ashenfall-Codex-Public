@@ -7,6 +7,7 @@
   const previousFiche = renderFiche;
   const previousRender = render;
   const classTabs = new Map(), galleries = new Map();
+  let activeClassRoute=null;
   const baseLabels = ['Départ', 'Premières protections', 'Tenue renforcée', 'Tenue avancée', 'Tenue accomplie', 'Tenue de maître'];
   const roman = ['I', 'II', 'III', 'IV', 'V', 'VI'];
   const entryFor = id => data.find(entry => entry[0] === id);
@@ -28,12 +29,13 @@
   }
 
   function equipment(id) {
-    const config=visuals.classes[id], mode=galleries.get(id)||'skins';
+    const config=visuals.classes[id], mode=galleries.get(id)||'base';
     return '<nav class="atlas-equipment-switch" aria-label="Choisir une galerie d’équipements"><button type="button" data-world-gallery-tab="base" aria-pressed="'+(mode==='base')+'"><span aria-hidden="true">Ⅰ—Ⅵ</span>Équipement de base<small>Progression visuelle</small></button><button type="button" data-world-gallery-tab="skins" aria-pressed="'+(mode==='skins')+'"><span aria-hidden="true">✧</span>Skins de maître<small>Six apparences alternatives</small></button></nav>'+['base','skins'].map(key=>'<section class="atlas-progression" data-world-gallery="'+key+'"'+(mode===key?'':' hidden')+' aria-labelledby="world-'+key+'-title"><div class="atlas-section-heading"><span aria-hidden="true">✧</span><div><h2 id="world-'+key+'-title">'+(key==='base'?'Progression de l’équipement de base':'Tenues de maître · exemples de skins')+'</h2><p>'+esc(config.title)+' · '+esc(visuals.peoples[config.race].title)+' · '+(key==='base'?'Six études, du départ à la tenue de maître.':'Six alternatives visuelles au même stade de maîtrise.')+'</p></div></div>'+artCards(id,key)+'<p class="atlas-concept-note">'+note+'</p></section>').join('')+'<section class="world-equipment-details"><h3>Vues de détail</h3><div class="atlas-detail-grid">'+config.details.map((src,index)=>'<button type="button" data-world-art="details" data-world-art-class="'+id+'" data-world-art-index="'+index+'" aria-haspopup="dialog"><img src="'+src+'" alt="Détail artistique '+(index+1)+' de '+esc(config.title)+'" loading="lazy"><span>Détail '+roman[index]+'</span></button>').join('')+'</div></section>';
   }
 
   renderClassDossier = function(item) {
     const id=item[0], config=visuals.classes[id];
+    if(id!==activeClassRoute&&config){classTabs.set(id,'equipment');galleries.set(id,'base');}activeClassRoute=id;
     if(!config)return previousClass(item);
     const race=config.race, people=visuals.peoples[race];
     const old=document.createElement('div');old.innerHTML=previousClass(item);
@@ -96,6 +98,7 @@
       if(hero&&!view.querySelector('.world-home-peoples'))hero.insertAdjacentHTML('afterend','<nav class="world-home-peoples" aria-label="Explorer les peuples">'+Object.entries(visuals.peoples).map(([id,p])=>'<a href="#/'+id+'"><img src="assets/emblems/v1/peuples-'+id+'.webp" alt="" width="42" height="42"><span>'+esc(p.title)+'</span></a>').join('')+'</nav>');
     }
   }
+  window.addEventListener('hashchange',event=>{const id=new URL(event.newURL).hash.slice(2).split(/[/?]/)[0];if(id!=='rempart'&&!visuals.classes[id])activeClassRoute=null;});
   render = function(){previousRender();updateWorldChrome();};
 
   const dialog=document.createElement('dialog');dialog.className='atlas-stage-dialog world-art-dialog';dialog.setAttribute('aria-labelledby','world-art-title');
