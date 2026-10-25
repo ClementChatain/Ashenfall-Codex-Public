@@ -1,0 +1,9 @@
+{
+  "id": "sentinelle",
+  "status": "concept",
+  "source_sha256": "cded3e4f068c63142bd8abb766decba307ab9b08d51e1df5eecdbb9ec3de54f8",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "b1be971fd2ebb1eaaa5dcba235021b7833f520c7fa54ffd8751eff9cb821e638"
+}

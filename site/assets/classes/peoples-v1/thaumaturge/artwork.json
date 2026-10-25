@@ -1,0 +1,9 @@
+{
+  "id": "thaumaturge",
+  "status": "concept",
+  "source_sha256": "d137a2c8630546e7e5cd68f71600d012838e253b2be6fbf77afb2e6d9eef698e",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "a2aa3c6972dde04d5873fcb505ab896b69908071db063bd487a6796767b1b0f0"
+}

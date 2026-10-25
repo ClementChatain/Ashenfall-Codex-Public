@@ -1,0 +1,9 @@
+{
+  "id": "eclateur",
+  "status": "concept",
+  "source_sha256": "2201082f51907cde3aabdc5f220d72045e216f9357489027915e375552dbbcbe",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "63f9d69c741db5d5884e3f70a9bf0121f842584041081b113e24d305e956fc0a"
+}

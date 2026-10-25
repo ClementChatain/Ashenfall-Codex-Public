@@ -1,0 +1,9 @@
+{
+  "id": "gardien-des-racines",
+  "status": "concept",
+  "source_sha256": "7c8bfdd44a0857c9bc7b1a42608c4fb0d59729c63a813acedd421ab36ace92c4",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "c9567ba7ea4f89b75367d86d955a6c57ff204058c3c02b2b289e826a213edc32"
+}

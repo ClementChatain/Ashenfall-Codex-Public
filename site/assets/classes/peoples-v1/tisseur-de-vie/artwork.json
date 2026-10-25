@@ -1,0 +1,9 @@
+{
+  "id": "tisseur-de-vie",
+  "status": "concept",
+  "source_sha256": "95caad01de6e6466b19cf2cac86da8e70334d4c9eb88b093b3647b7f3d4c421e",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "6783e2bff30bf527487266bfeb12818b8a56d623f574f061ec1e2931ead58fa5"
+}

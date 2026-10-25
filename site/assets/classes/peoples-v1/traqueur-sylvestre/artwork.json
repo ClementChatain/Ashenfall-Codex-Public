@@ -1,0 +1,9 @@
+{
+  "id": "traqueur-sylvestre",
+  "status": "concept",
+  "source_sha256": "a5be07a51c100d3d08a8ba1305ec2666bffbd5af90c8311e09026b173fc06893",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "f5164456b1199e07068f433fdf9d6bba6a5d2595a474dd44789020a2825e4892"
+}

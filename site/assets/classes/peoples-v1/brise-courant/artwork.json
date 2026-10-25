@@ -1,0 +1,9 @@
+{
+  "id": "brise-courant",
+  "status": "concept",
+  "source_sha256": "10cb0e6f4c36c78b1b314708134593faa2b9a04895d04f9a02742181855d5950",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "ab6ca2d86e1804147d1a5e1c9b4a48686ba3083e88d31af89cd7944e99cc1152"
+}

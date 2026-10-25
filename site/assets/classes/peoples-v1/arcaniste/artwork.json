@@ -1,0 +1,9 @@
+{
+  "id": "arcaniste",
+  "status": "concept",
+  "source_sha256": "0254117187abc67a785136ae816980043913db2b506e800f4939bb93b56efeed",
+  "width": 1536,
+  "height": 1024,
+  "layout": "2 rows × 6 columns: base progression, then alternative skins",
+  "reference_sha256": "f62e47539bc37fc2b68931a195da277779ee63d87dc4669d825d6e8e92a32f22"
+}
