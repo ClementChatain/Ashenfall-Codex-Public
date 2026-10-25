@@ -58,6 +58,9 @@ jobs:
           test -s simulateur/rempart/index.html
           mkdir -p pages-output/simulateur/rempart
           cp simulateur/rempart/index.html pages-output/simulateur/rempart/index.html
+          test -s simulateur/classes/index.html
+          mkdir -p pages-output/simulateur/classes
+          cp simulateur/classes/index.html pages-output/simulateur/classes/index.html
           touch pages-output/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
