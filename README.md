@@ -6,6 +6,8 @@ Publication depuis main via GitHub Pages. Aucune source privée ni brouillon de 
 
 ## Refonte illustrée en préparation
 
+Aperçus de la fiche Rempart : [ordinateur](docs/previews/illustrated-codex-v1/desktop.webp) · [mobile](docs/previews/illustrated-codex-v1/mobile.webp).
+
 La nouvelle présentation reprend la maquette du créateur : navigation horizontale, panneau des six peuples, sélection des classes naines, panorama, onglets et galerie d'équipements. Le cas Rempart possède un panorama et six illustrations avec angles et détails ; les autres classes naines réutilisent leurs planches existantes. Le reste du Codex conserve ses routes et ses contenus sous la nouvelle navigation. Les 278 fiches, leurs métadonnées et leurs valeurs ne changent pas.
 
 Le code de présentation est isolé dans `site/assets/classes/redesign-v1/codex-ui.css` et `codex-ui.js`, chargés depuis `site/index.html`. Les ressources de ce dossier sont incluses par le packaging `assets/classes` existant, sans modifier le workflow Pages. `artwork-manifest.json` consigne les empreintes et le statut conceptuel des nouveaux WebP. Les originaux existants restent consultables dans l'onglet Illustrations et via la planche d'origine ; l'atelier de composition est conservé dans un volet dépliable. Les passifs ne sont pas inventés : l'onglet reste désactivé faute de données distinctes.
