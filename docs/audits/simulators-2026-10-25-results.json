@@ -1,0 +1,682 @@
+{
+  "checks": [
+    {
+      "id": "ALL_24_CLASSES_BUDGET_AND_TIERS",
+      "result": "pass",
+      "evidence": [
+        {
+          "id": "accordeur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "arcaniste",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "artilleur-runique",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "brise-fer",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "danse-lame",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "duelliste",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "gardien-des-racines",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "rempart",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "sentinelle",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "thaumaturge",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "tisseur-de-vie",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "traqueur-sylvestre",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "porte-faille",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "fendeur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "eclateur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "lieur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "enlaceur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "mue-lame",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "aiguilleur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "eveilleur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "brise-courant",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "sillonneur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "lance-rive",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        },
+        {
+          "id": "passeur",
+          "talents": 24,
+          "skills": 10,
+          "locked": true,
+          "at4": true,
+          "at5": true,
+          "spent": 20,
+          "remaining": 0,
+          "overflowBlocked": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "GENERAL_RANK2_CHOICES_AND_REFUND",
+      "result": "pass",
+      "evidence": {
+        "rank1_choices": 0,
+        "rank2_choices": 2,
+        "choice_before_refund": "a",
+        "cleared_after_refund": true
+      }
+    },
+    {
+      "id": "CLASSES_ALLOCATION_PRESERVES_KEYBOARD_FOCUS",
+      "result": "fail",
+      "evidence": {
+        "tag": "BODY",
+        "node": null
+      }
+    },
+    {
+      "id": "REMPART_ALLOCATION_PRESERVES_KEYBOARD_FOCUS",
+      "result": "fail",
+      "evidence": {
+        "tag": "BODY",
+        "node": null
+      }
+    },
+    {
+      "id": "GENERAL_SYNERGY_REQUIRES_5_PLUS_5_AND_COSTS_2",
+      "result": "pass",
+      "evidence": {
+        "spent": 12,
+        "owned": [
+          "0-1"
+        ],
+        "left": 8
+      }
+    },
+    {
+      "id": "GENERAL_AUTOSAVE_ROUNDTRIP",
+      "result": "pass",
+      "evidence": {
+        "spent": 12,
+        "owned": [
+          "0-1"
+        ]
+      }
+    },
+    {
+      "id": "GENERAL_PROTECTED_REFUND",
+      "result": "pass",
+      "evidence": {
+        "rank": 1,
+        "valid": true,
+        "spent": 6
+      }
+    },
+    {
+      "id": "GENERAL_REFUND_EXPLAINS_REJECTION",
+      "result": "fail",
+      "evidence": {
+        "dialogs": [],
+        "rank_after_attempt": 1
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_NEGATIVE_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": -4,
+        "ranks": {
+          "0-0": -4
+        },
+        "spent": -4,
+        "remaining": 24,
+        "valid": true,
+        "display": "24 / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_FRACTIONAL_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": 0.5,
+        "ranks": {
+          "0-0": 0.5
+        },
+        "spent": 0.5,
+        "remaining": 19.5,
+        "valid": true,
+        "display": "19.5 / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_OVER_MAX_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": 3,
+        "ranks": {
+          "0-0": 3
+        },
+        "spent": 3,
+        "remaining": 17,
+        "valid": true,
+        "display": "17 / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_NON_NUMERIC_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": "broken",
+        "ranks": {
+          "0-0": "broken"
+        },
+        "spent": "nan",
+        "remaining": "nan",
+        "valid": true,
+        "display": "NaN / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_LOCKED_TIER_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": null,
+        "ranks": {
+          "0-6": 1
+        },
+        "spent": 1,
+        "remaining": 19,
+        "valid": false,
+        "display": "19 / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_REJECTS_UNKNOWN_ID_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": null,
+        "ranks": {
+          "unknown-talent": 5
+        },
+        "spent": 5,
+        "remaining": 15,
+        "valid": true,
+        "display": "15 / 20 libres"
+      }
+    },
+    {
+      "id": "GENERAL_RECOVERS_MALFORMED_JSON",
+      "result": "pass",
+      "evidence": {
+        "errors": [],
+        "remaining": 20
+      }
+    },
+    {
+      "id": "GENERAL_HANDLES_STORAGE_FAILURE",
+      "result": "fail",
+      "evidence": {
+        "errors": [
+          "Audit quota exceeded"
+        ],
+        "display": "20 / 20 libres",
+        "internal_remaining": 19
+      }
+    },
+    {
+      "id": "GENERAL_RELOAD_KEEPS_CURRENT_CLASS",
+      "result": "fail",
+      "evidence": {
+        "url_after_switch": "http://127.0.0.1:8020/simulateur/classes/?classe=arcaniste#duelliste",
+        "class_after_reload": "arcaniste"
+      }
+    },
+    {
+      "id": "GENERAL_HASH_NAVIGATION_UPDATES_CLASS",
+      "result": "fail",
+      "evidence": {
+        "hash": "#thaumaturge",
+        "selected": "arcaniste"
+      }
+    },
+    {
+      "id": "REMPART_BUDGET_AND_TIERS",
+      "result": "pass",
+      "evidence": {
+        "initial": true,
+        "at4": true,
+        "at5": true,
+        "spent": 20,
+        "remaining": 0,
+        "allBlocked": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "REMPART_SYNERGY_COST_AND_PROTECTED_REFUND",
+      "result": "pass",
+      "evidence": {
+        "acquired": {
+          "owned": [
+            0
+          ],
+          "spent": 12
+        },
+        "refund_blocked_while_owned": true,
+        "after_removing_synergy": {
+          "owned": [],
+          "rank": 0,
+          "spent": 9
+        }
+      }
+    },
+    {
+      "id": "REMPART_RANK2_CHOICES_AND_REFUND",
+      "result": "pass",
+      "evidence": {
+        "rank1_choices": 0,
+        "rank2_choices": 2,
+        "choice_cleared": true
+      }
+    },
+    {
+      "id": "REMPART_MANUAL_SAVE_ROUNDTRIP",
+      "result": "pass",
+      "evidence": {
+        "rank": 1,
+        "spent": 1,
+        "valid": true
+      }
+    },
+    {
+      "id": "REMPART_REJECTS_FRACTIONAL_SAVE",
+      "result": "fail",
+      "evidence": {
+        "rank": 0.5,
+        "spent": 0.5,
+        "valid": true
+      }
+    },
+    {
+      "id": "REMPART_REJECTS_DUPLICATE_SYNERGIES",
+      "result": "fail",
+      "evidence": {
+        "owned": [
+          1,
+          1
+        ],
+        "spent": 14,
+        "valid": true
+      }
+    },
+    {
+      "id": "REMPART_LOAD_IS_ATOMIC_AND_RECOVERABLE",
+      "result": "fail",
+      "evidence": {
+        "state_after_failed_load": {
+          "rank": 1,
+          "slot": null
+        },
+        "dialogs": [
+          "Cannot read properties of null (reading 'ability')"
+        ],
+        "errors_on_next_click": [
+          "Cannot read properties of null (reading 'ability')"
+        ]
+      }
+    },
+    {
+      "id": "REMPART_REDUCING_BAR_CLAMPS_SELECTION",
+      "result": "fail",
+      "evidence": {
+        "selected": 29,
+        "visible": 10,
+        "hiddenSlot": {
+          "ability": "Frappe du Rempart",
+          "key": "AUDIT"
+        }
+      }
+    },
+    {
+      "id": "REMPART_SHORTCUT_IS_RENDERED_AS_TEXT",
+      "result": "fail",
+      "evidence": {
+        "html_executed": true,
+        "scope": "Synthetic shortcut entered in isolated local browser; no external payload or data transfer."
+      }
+    },
+    {
+      "id": "CLASSES_DESKTOP_LAYOUT",
+      "result": "pass",
+      "evidence": {
+        "javascript_errors": [],
+        "horizontal_overflow": false,
+        "viewport": [
+          1440,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "CLASSES_MOBILE_LAYOUT",
+      "result": "pass",
+      "evidence": {
+        "javascript_errors": [],
+        "horizontal_overflow": false,
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "REMPART_DESKTOP_LAYOUT",
+      "result": "pass",
+      "evidence": {
+        "javascript_errors": [],
+        "horizontal_overflow": false,
+        "viewport": [
+          1440,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "REMPART_MOBILE_LAYOUT",
+      "result": "pass",
+      "evidence": {
+        "javascript_errors": [],
+        "horizontal_overflow": false,
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "WEAPON_SELECT_HAS_NO_RULE_EFFECT",
+      "unchanged": true,
+      "before": {
+        "abilities": [
+          "Frappe du Rempart",
+          "Garde",
+          "Défi",
+          "Posture défensive",
+          "Esquive",
+          "Attaque de base"
+        ],
+        "canBlock": true
+      },
+      "after": {
+        "abilities": [
+          "Frappe du Rempart",
+          "Garde",
+          "Défi",
+          "Posture défensive",
+          "Esquive",
+          "Attaque de base"
+        ],
+        "canBlock": true
+      }
+    },
+    {
+      "id": "EVERY_UNLOCKED_TALENT_IS_OFFERED_AS_ACTION",
+      "example_in_action_options": true
+    },
+    {
+      "id": "THRESHOLDS_USE_ALL_OTHER_POINTS_NOT_ONLY_LOWER_TIERS",
+      "evidence": {
+        "lowerTierPoints": 9,
+        "upperRanks": [
+          1,
+          1
+        ],
+        "pathPoints": 11,
+        "valid": true
+      },
+      "classification": "Design decision to clarify; current label says points in path, not points in lower tiers."
+    }
+  ],
+  "passed": 14,
+  "failed": 17
+}
