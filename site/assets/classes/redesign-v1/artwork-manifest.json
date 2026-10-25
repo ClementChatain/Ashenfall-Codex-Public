@@ -1,0 +1,45 @@
+{
+  "version": "illustrated-codex-v1",
+  "status": "concept",
+  "created_at": "2026-10-25",
+  "purpose": "Refonte visuelle préparée à partir de la maquette fournie par le créateur. Aucun ajout de validation canonique ou de statistiques.",
+  "generation": "OpenAI image generation; adaptations WebP et découpe technique en six colonnes.",
+  "images": [
+    {
+      "file": "dwarf-city.webp",
+      "sha256": "ba198a9b406c84e40b0cd906ad610ff240df9406ecfaebbe3ca0fe64df4982bd"
+    },
+    {
+      "file": "rempart-hero.webp",
+      "sha256": "a3dbf7eb6c385d29115226715cd969ce3d1a487eb51da549850b11ad76f65edd"
+    },
+    {
+      "file": "rempart-progression.webp",
+      "sha256": "9b602b5e6c6f16616952a09fcd63c4f12a461960a991a53bfed1afec482b05af"
+    },
+    {
+      "file": "rempart-stage-01.webp",
+      "sha256": "ee01c09b49ca5b69e6dd859b172d3a645c84682b48b7b123a3e8a7eb6c99afca"
+    },
+    {
+      "file": "rempart-stage-02.webp",
+      "sha256": "c4894b5179d0b3a3593c3e054fa51633fdeb966b345d0f9afea3e8f6190a0902"
+    },
+    {
+      "file": "rempart-stage-03.webp",
+      "sha256": "b48c03fb6101c9d4a124f73a2c764d0a83dc7192c5e795cbef4339d600dd08c5"
+    },
+    {
+      "file": "rempart-stage-04.webp",
+      "sha256": "1036adbea876992e03ec649a8b5f06709f503939373d5a417e59a4d9eced3688"
+    },
+    {
+      "file": "rempart-stage-05.webp",
+      "sha256": "90fac2a7b0afb0c4695f49a1d942dca14135bfed60d2b03b63238a4265ebd1be"
+    },
+    {
+      "file": "rempart-stage-06.webp",
+      "sha256": "643b9c82b5760e5fc0754312b2f8a8a1a775f1c1263b85dafdb7eb1ac7bd43b7"
+    }
+  ]
+}
