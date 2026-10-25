@@ -78,7 +78,7 @@ def main():
             assert page.url.endswith('#/rempart')
             expect(page.locator('.spellbook-grid')).to_be_visible()
             page.locator('[data-dossier-tab="tree"]').click()
-            expect(page.locator('.atlas-tree-panel a')).to_have_attribute('href', 'simulateur/rempart/')
+            expect(page.locator('.native-masteries')).to_have_attribute('data-model-id', 'rempart:v8')
             page.locator('[data-dossier-tab="art"]').click()
             page.locator('.atlas-art-panel [data-portrait-open]').click()
             expect(page.locator('#portrait-viewer')).to_be_visible()

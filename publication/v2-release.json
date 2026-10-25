@@ -141,6 +141,13 @@
     "site/assets/classes/equipment-v01/brise-fer.webp": "126ba215dd3904d1a2c8dc00b38f4d54126643bf",
     "site/assets/classes/equipment-v01/rempart.webp": "29578437b1ce111c248061c747e2ec3947f553cd",
     "site/assets/classes/manifest-v1.json": "6925103de34d1e1a4c1b17e6bea7ca7cf1018d7e",
+    "site/assets/classes/masteries-v1/component.mjs": "6c9167ea1514028882a677234554526d90ad6e94",
+    "site/assets/classes/masteries-v1/definitions.mjs": "2b1cd8e39a3f00d25b6137fddc0d0c993369e00a",
+    "site/assets/classes/masteries-v1/engine.mjs": "2a447e50d014b10c70723abdc01be9b417e3d2b0",
+    "site/assets/classes/masteries-v1/integration.mjs": "8fd4021ce9ebfc29332846976c9c1ba96bda93d1",
+    "site/assets/classes/masteries-v1/masteries.css": "39d10ea7d790b94a79850eefed9298d62f7196f5",
+    "site/assets/classes/masteries-v1/route.js": "17b0a8e432fbb10ebff07834c16a54efcea2270c",
+    "site/assets/classes/masteries-v1/storage.mjs": "b911d11703315d5899593d077993ae2de06e39d9",
     "site/assets/classes/peoples-v1/accordeur/artwork.json": "b8227f68d93e4d03944005b7d1ba62292551ed83",
     "site/assets/classes/peoples-v1/accordeur/base-01.webp": "4aaa0b3d4938262a72813f431a7901569c2de9a6",
     "site/assets/classes/peoples-v1/accordeur/base-02.webp": "4b97a8e3f4492cef6ca331315979bbf6f6eb9743",
@@ -263,7 +270,7 @@
     "site/assets/classes/peoples-v1/brise-fer/skins-05.webp": "f6764d7d08c1bbda5af43db9ba0a6899172648da",
     "site/assets/classes/peoples-v1/brise-fer/skins-06.webp": "823e0b85da0babb51a42bcd1f0240c08e5afc1de",
     "site/assets/classes/peoples-v1/codex-peoples.css": "795b03dd6ad663f0d508c39876606f1dd8d0fe6b",
-    "site/assets/classes/peoples-v1/codex-peoples.js": "8dd0e4172ca6b32112a0e9059ee6d03477f2d2b2",
+    "site/assets/classes/peoples-v1/codex-peoples.js": "68d361ef00e409582bf5d9ff56c5b6a0ce969465",
     "site/assets/classes/peoples-v1/danse-lame/artwork.json": "5ede2cfacf102788127cd8389b201301207ab7f8",
     "site/assets/classes/peoples-v1/danse-lame/base-01.webp": "17607b4f230657dc955335d188bdd4b7169172d0",
     "site/assets/classes/peoples-v1/danse-lame/base-02.webp": "5213ca894a41b1cbf385482f36179c0ed047cb53",
@@ -636,7 +643,7 @@
     "site/assets/classes/portraits-v1/traqueur-sylvestre.webp": "d176542ffa7d27d59ce8a3757ba57570396e7f0f",
     "site/assets/classes/redesign-v1/artwork-manifest.json": "37acd331c899bb55ad89d159ef6c6d9d8ceb0d25",
     "site/assets/classes/redesign-v1/codex-ui.css": "41e9223ceaef6b169b0869d506be97bd3757db9f",
-    "site/assets/classes/redesign-v1/codex-ui.js": "1a7191230572250357e5f5454496d154669ef3b0",
+    "site/assets/classes/redesign-v1/codex-ui.js": "c2f2d6b9f5bf18abef7604bac12826adf07cf732",
     "site/assets/classes/redesign-v1/dwarf-city.webp": "1584f2c097348754abbeda5db466664186a6a22e",
     "site/assets/classes/redesign-v1/rempart-hero.webp": "64a5cbc10f30f3b8e244bb268a24d5940bcc336d",
     "site/assets/classes/redesign-v1/rempart-progression.webp": "11c322c6da717aca6b0bf12782a1bffe40042f3a",
@@ -698,7 +705,7 @@
     "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
-    "site/index.html": "63516b71cba8cce51fc77ce863ea36fb7ee0d560"
+    "site/index.html": "7dec1fc04c5e8426739c8e83ba6d24fbf0c1a9bc"
   },
   "receipts": [
     {
