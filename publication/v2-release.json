@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_commit": "f17fb87d5e9a7cad88236d1e0f6934804b4456d7",
+  "source_commit": "e2f10aab61a3c26a04af5607bf146e828213ff43",
   "files": {
     "site/assets/abilities/manifest-v1.json": "455b9f4c529eaa44271d9c6a7a68cbdda2d2fad0",
     "site/assets/abilities/v1/accordeur-accord-protecteur.webp": "a831abc405abd1b9cd45acff7b1aa8d3e4c3f07e",
@@ -138,7 +138,7 @@
     "site/assets/emblems/v1/peuples-elfes.webp": "b852f1bf7acdc712b2511dffc721d5b4b2f4af28",
     "site/assets/emblems/v1/peuples-humains.webp": "a988cf894730230a174a301f39d2e1a87cf47d4a",
     "site/assets/emblems/v1/peuples-nains.webp": "e2cc02f4e3f54b8e6487c535a6788300c65cb2e8",
-    "site/index.html": "78b86de712e1835dac574c002c425f20d62b9316",
+    "site/index.html": "c054e891e53218e3607c15018a712d6f4986def3",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
     "site/assets/emblems/v1/peuples-kharun.webp": "ba597e882f07dc217c82e263edec89c402b64736",
@@ -181,7 +181,11 @@
     "site/assets/classes/portraits-v1/enlaceur.webp": "c8d5507464d4400d00d7e987b49bbdbc1249a48b",
     "site/assets/classes/portraits-v1/fendeur.webp": "785ffd53be72824bb27e962a4838ab51756e71e2",
     "site/assets/classes/portraits-v1/thaumaturge.webp": "adce9cd98b40074a0f9b70069d84965c1a0d24d0",
-    "site/assets/classes/manifest-v1.json": "6925103de34d1e1a4c1b17e6bea7ca7cf1018d7e"
+    "site/assets/classes/manifest-v1.json": "6925103de34d1e1a4c1b17e6bea7ca7cf1018d7e",
+    "site/assets/classes/equipment-v01/rempart.webp": "29578437b1ce111c248061c747e2ec3947f553cd",
+    "site/assets/classes/equipment-v01/brise-fer.webp": "126ba215dd3904d1a2c8dc00b38f4d54126643bf",
+    "site/assets/classes/equipment-v01/artilleur-runique.webp": "2f6df50f52e34a955f74b43986ef646112714858",
+    "site/assets/classes/equipment-v01/accordeur.webp": "f9319a64845df6db24c8d9380b5f8188b137ca4a"
   },
   "receipts": [
     {
