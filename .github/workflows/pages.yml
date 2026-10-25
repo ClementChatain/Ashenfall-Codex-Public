@@ -54,6 +54,10 @@ jobs:
             mkdir -p pages-output/assets
             cp -R site/assets/classes pages-output/assets/classes
           fi
+          # Approved public simulator, kept separate from the validated lore records.
+          test -s simulateur/rempart/index.html
+          mkdir -p pages-output/simulateur/rempart
+          cp simulateur/rempart/index.html pages-output/simulateur/rempart/index.html
           touch pages-output/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
