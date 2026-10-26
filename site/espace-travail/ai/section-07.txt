@@ -1,0 +1,195 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## Portail de travail Ashenfall
+Source: portal/README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 723ab7f8913aa642a2be463fa223cbd0189ad343179da89242e540a6edc11147
+Page: documents/a8fc9443f9fc8bacafc1d3f0.html
+Source publiée: raw/portal/README.md
+
+# Portail de travail Ashenfall
+
+Décision de Clément, 26 octobre 2026 : conserver les sources dans un dépôt privé, rendre le contenu du projet consultable sur un site et permettre aux IA de lire les références actualisées.
+
+Ce portail de travail accepte les propositions et documents internes avec leur statut d'origine. Leur présence sur le site ne les valide pas et ne les transforme pas en contenu officiel pour les joueurs. Le circuit de publication canonique V2 reste distinct. Clément a autorisé son déploiement le 26 octobre 2026, après avoir confirmé que le code du jeu devait rester privé.
+
+## Lecture
+
+- `index.html` : rubriques, recherche et documents.
+- `ai/index.html` : point d'entrée statique pour toute IA disposant d'un accès web.
+- `llms.txt` : consignes de lecture et liens relatifs.
+- `llms-full.txt` : texte complet, découpé aussi par rubrique dans `ai/`.
+- `manifest.json` : chemins, statuts déclarés, empreintes SHA-256 et révision source.
+- `documents/` : pages HTML statiques, lisibles sans JavaScript.
+- `raw/` : texte brut et illustrations, servis depuis le même domaine. Aucun lien privé nécessaire pour les lire.
+
+Un accès web n'est pas une mémoire partagée : chaque IA doit relire l'index avant une mission et consulter les documents concernés. Les outils sans navigation doivent recevoir un paquet de contexte exporté. Aucun fonctionnement automatique de Gemini, Claude Code ou des projets ChatGPT n'est prétendu.
+
+## Construire
+
+Depuis la racine du dépôt :
+
+```sh
+python3 -m unittest discover -s tests -p 'test_portal.py' -v
+python3 scripts/build_portal.py --output /tmp/ashenfall-workspace
+python3 -m http.server 8000 --bind 127.0.0.1 --directory /tmp/ashenfall-workspace
+```
+
+Le constructeur ne lit que les fichiers suivis par Git dans les rubriques autorisées. Il produit des pages HTML et du texte, sans appel au dépôt privé depuis le navigateur ou jeton embarqué. Pillow (>=11.3,<13) prépare les images WebP de 1800 pixels maximum ; les originaux restent privés. La sortie doit être extérieure au dépôt ; aucun nettoyage récursif d'un dossier existant n'est effectué.
+
+## Couverture et limites
+
+Les rubriques couvrent les fiches, règles, décisions, propositions, archives de conception, illustrations et références techniques présentes dans Knowledge. Les textes et statuts ne sont pas réécrits. Le manifeste inventorie aussi les fichiers non exportés et leur motif.
+
+Les conversations brutes de `sources/`, les journaux de validation, les secrets techniques, le code exécutable et les métadonnées Git ne sont pas publiés. Les décisions éditoriales déjà conservées restent accessibles dans `decisions/` et les documents. Les pages n'exécutent pas les HTML de propositions : ils sont présentés comme textes d'archive téléchargeables en `.txt`. Les sources d'images raster sont copiées ; les fichiers actifs comme SVG et scripts restent exclus. Le filtre de secrets refuse les formats de jetons et clés privées connus mais ne remplace pas une revue des textes.
+
+Les documents Unity non présents dans Knowledge et les conversations non transférées ne peuvent pas être inventoriés par ce constructeur. `portal/etat-projet.md` doit rester explicite sur ces absences. Les fiches Unity de Knowledge sont des références de production, pas une preuve d'implémentation.
+
+## Actualisation
+
+À chaque évolution significative : mettre à jour la source concernée, le journal de changement et l'état courant, puis reconstruire et publier la même révision. Le manifeste expose la révision et la date de fabrication ; cette date ne certifie pas qu'un texte ancien est à jour. Un nouveau commit privé ne met pas à jour le site tant qu'il n'est pas déployé.
+
+`portal/lecture-ia.md` contient le contrat commun. L'accès HTTP et la lecture réelle sont à vérifier dans chaque environnement ; ne pas annoncer « toutes les IA connectées » sur la seule existence des fichiers.
+
+## Hébergement
+
+Cette PR prépare un artefact autonome dans le dépôt privé. Le workflow `portal.yml` teste et assemble le portail, sans changer le domaine, la visibilité des dépôts, les secrets, ni le Codex en ligne. Le déploiement doit utiliser cet artefact depuis un hébergement relié au dépôt privé. GitHub Pages depuis un dépôt privé dépend du forfait GitHub ; ne pas rendre le dépôt public pour contourner cette limite. Aucun plan payant n'est présumé.
+
+Le forfait GitHub actuel ne permet pas Pages directement depuis Knowledge privé. Le déploiement utilise donc le dépôt de diffusion du Codex existant : seuls les fichiers construits pour le site vont dans site/espace-travail/. Les sources du générateur, l'historique privé, le projet Unity et les sources Blender n'y vont jamais. Le workflow Pages doit inclure ce dossier et le manifeste public doit couvrir ses fichiers. Le portail et ses exports deviennent publiquement consultables, conformément à la décision, sans rendre Knowledge public.
+
+
+## Décision — consultation centralisée du projet
+Source: portal/decision-portail-2026-10-26.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f3fb9cd1d4ff820732bf1ece75befe8472c88d9acc874eda345ae384863f60c4
+Page: documents/6e1ed2dfa016e6834b604ed8.html
+Source publiée: raw/portal/decision-portail-2026-10-26.md
+
+# Décision — consultation centralisée du projet
+
+Date : 26 octobre 2026. Auteur de la décision : Clément.
+
+Le dépôt de référence reste privé ; le contenu du projet devient consultable dans un portail web central accessible aux IA équipées d'un accès HTTP. La source est l'instruction citée dans `portal/evolutions.md`.
+
+Cette instruction remplace, pour le **portail de travail**, l'ancienne limitation aux seules fiches VALIDE/PUBLIC. Propositions, documents internes et archives de conception peuvent y figurer avec leurs statuts d'origine. La disponibilité web d'une source ne vaut ni validation canonique ni implémentation Unity. Le circuit V2 de publication officielle conserve ses contrôles pour le Codex joueurs tant qu'une évolution distincte n'est pas décidée.
+
+Les secrets techniques, données personnelles hors projet, conversations brutes et fichiers d'authentification ne sont pas inclus. L'historique et les fichiers source du dépôt ne sont pas rendus publics par un changement de visibilité GitHub. Le portail publie uniquement le dossier construit, jamais la racine du dépôt.
+
+La décision autorise la préparation du portail et de son mécanisme d'actualisation. Aucun statut de déploiement, raccordement DNS, abonnement GitHub ou synchronisation universelle n'est supposé acquis.
+
+
+## État de référence du projet
+Source: portal/etat-projet.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 097773c0cedc0c70a50764aa43a590cdd62561d393d299e3b0aacafb11a35f57
+Page: documents/cb0d9e7627b1ceef358da673.html
+Source publiée: raw/portal/etat-projet.md
+
+# État de référence du projet
+
+Relevé actualisé le 26 octobre 2026. Les vérifications de fichiers portent sur une archive prise à 18:37 ; ce n'est pas une inspection du poste actuel ni un essai du jeu.
+
+## Direction validée
+
+L'objectif final est un MMORPG persistant. Le prototype reste solo, avec séparation données/règles/présentation et sans infrastructure réseau prématurée. Clément confirme que Claude a inscrit cette direction dans D325 et actualisé CLAUDE.md, PROJECT_BRIEF.md et ROADMAP après la sauvegarde. Ces nouvelles versions ne sont pas encore reçues ; D325 est absente de l'archive. Les formulations historiques « pas de MMO » dans les copies ne remplacent pas cette décision.
+
+## Vérifié directement dans l'archive
+
+- Archive reçue : ASHENFALL_20261026_183738_etat-M13-M14-non-commite.zip ; 146 550 442 octets, 3 085 entrées, contrôle ZIP sans erreur.
+- SHA-256 : 37f08fd4e65e28048ecf6bc8574bc06a949d6e7057f2f0b8e2bbfbc6016206ff.
+- Unity : 6000.6.6f1, révision d20c9ac777da dans ProjectVersion.txt.
+- Git local : main, HEAD 3f1f0ae25fedaca7a14855f494e541962750a188 ; aucune section remote dans la configuration archivée. Ce commit n'inclut pas tout le travail non commité.
+- Input System : Dodge = clavier C ; Jump = Espace ; manette : esquive bouton Est, saut bouton Sud.
+- Sources M14 présentes : PlayerJump.cs, PointerMovement.cs et M14ControlsTests.cs.
+- Les 46 entrées du manifeste des copies correspondent à leurs empreintes SHA-256 tronquées déclarées. Les 47 documents Markdown du relais sont conservés dans docs/jeu-unity/releve-2026-10-26-1837/.
+
+## Rapporté par Claude et transmis par Clément
+
+- Projet sur le poste : C:\DEV\ASHENFALL\Unity ; rendu URP et builds WebGL.
+- M0 à M12.1 validés selon le relevé ; M13.1 livré sans validation visuelle retrouvée ; M14 implémenté sans validation manuelle retrouvée.
+- Dernière suite complète rapportée : 612/612 avant M14. Tests M14 réussis séparément après correction d'un test ; aucun résultat complet après M14 fourni.
+- Dernier état rapporté de l'essai complet : encore en cours le 26 octobre à 18:38:32. Ceci décrit cette observation historique, pas une exécution actuellement vérifiée.
+- Build développement M14 rapporté à 18:13 ; diffusion M13.1 à 07:57. Les builds et journaux ne sont pas inclus : résultats non reproduits ici.
+- Sauvegarde locale à C:\Sauvegardes_ASHENFALL, sur le même disque. Une copie de cette archive a également été reçue dans cette conversation ; aucun dépôt distant du jeu ni mécanisme de sauvegarde récurrent n'est établi.
+
+## Actualisation attendue
+
+1. Recevoir le ZIP documentaire PORTAIL_RELAIS régénéré après D325 et les corrections, sans renvoyer toute la sauvegarde du jeu.
+2. Recevoir le résultat complet M14 une fois disponible et son lien avec la version testée.
+3. Faire valider le jeu manuellement par Clément avant toute clôture ou commit de clôture.
+4. Mettre en place une sauvegarde distante du projet dans une opération distincte. L'intégration des documents au portail ne sauvegarde pas le code Unity ni les fichiers Blender.
+5. Raccorder le portail à un hébergement accessible. Aucun accès commun effectif de toutes les IA n'est encore attesté.
+
+Le dépôt du portail reste privé. Le Codex existant provient d'un dépôt public distinct dont la visibilité n'a pas changé. Les archives historiques sont des sources datées, pas des instructions qui annulent les décisions actuelles.
+
+
+## Journal des évolutions transversales
+Source: portal/evolutions.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6314ff05eda53ac54a6c149989c5f2f41fb98c6106083c14c985be7f77e4df37
+Page: documents/cf08987bf002175af946fda4.html
+Source publiée: raw/portal/evolutions.md
+
+# Journal des évolutions transversales
+
+## 26 octobre 2026 — Portail central et accès des IA
+
+- **Décision organisationnelle de Clément** : « on laisse le repo en privée et on passe tout le contenu sur un site web ou on peut tout retrouver » ; « chaque IA soit en capacité de lire son contenu pour se caler aux différentes évols ».
+- **Source** : instruction utilisateur dans la session d'audit de fonctionnement du 26 octobre 2026. Aucun identifiant durable de conversation n'est inventé.
+- **Statut de la décision** : retenue par Clément. **Réalisation** : préparation du portail dans une PR privée, publication non effectuée.
+- **Impacts** : navigation centrale, HTML statique, exports texte, manifeste versionné et contrat de lecture commun. Les contenus de travail restent distingués des décisions canoniques.
+- **Limites** : hébergement privé à vérifier, documents Unity actuels absents, lecture réelle à tester séparément depuis chaque IA.
+
+## 26 octobre 2026 — Réception du relevé Unity
+
+- Archive complète reçue et vérifiée : 3 085 entrées, aucune erreur ZIP. Git main à 3f1f0ae, Unity 6000.6.6f1 et touches C/Espace vérifiés directement dans les fichiers archivés.
+- Intégration de 47 documents Markdown du relais avec notice de fraîcheur ; 46 empreintes du manifeste vérifiées. Sources de jeu et archive complète non publiées.
+- Le compte rendu plus récent de Claude indique D325 et les corrections documentaires après l'archive. Ces changements sont rapportés, leurs fichiers ne sont pas reçus. Résultat complet M14 encore absent.
+- Statut : intégration documentaire dans la PR privée #54 ; aucun déploiement, test du jeu ou commit de clôture Unity.
+
+
+## Contrat de lecture commun aux IA
+Source: portal/lecture-ia.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6418fd58db479d44e295911decd1840df27369963720955ceb14ca9609a3255c
+Page: documents/6720c8d405adfacbd2a24db0.html
+Source publiée: raw/portal/lecture-ia.md
+
+# Contrat de lecture commun aux IA
+
+Version 1 — 26 octobre 2026. Destination : ChatGPT 01, 02 et 03, Claude Code et toute autre IA intervenant sur Ashenfall.
+
+## Au début d'une mission
+
+1. Ouvrir le point d'entrée `ai/index.html` du portail déployé et son `manifest.json`. Relever la révision source et la date de construction.
+2. Lire l'état du projet et le journal des évolutions, puis les documents du périmètre. Le paquet d'une rubrique dans `ai/` facilite la lecture sans charger tout le projet.
+3. Distinguer décision validée, proposition, archive et implémentation. La publication d'un document de travail n'en change pas le statut. Comparer les dates, versions et preuves de décision, sans choisir arbitrairement le texte le plus récent.
+4. Si la mission concerne le jeu local, comparer sa révision, son état de travail et sa version Unity avec le relevé du portail. Une divergence se signale ; le site ne prouve pas l'état du disque.
+5. En cas d'accès impossible ou de contradiction bloquante, annoncer précisément ce qui manque. Utiliser l'export texte ou le dépôt authentifié si disponible ; ne pas prétendre avoir lu le site.
+
+## Après une évolution
+
+- Le responsable du travail actualise les sources, l'état courant et le journal ; il prépare les éléments de relais sans les faire retranscrire par Clément.
+- Chaque entrée indique date, changement, source/version, statut, impacts et éventuelle validation.
+- La publication met à disposition les mêmes sources et la même révision pour toutes les IA. Aucun agent n'est autorisé à prétendre avoir rafraîchi les autres sessions.
+- Les tests pertinents et validations utilisateur existantes restent applicables. Pas de commit de clôture Unity sans validation de Clément.
+
+## Responsabilités
+
+| Espace | Travail | Référence attendue |
+|---|---|---|
+| 01 | Cadrage et suivi du jeu | État technique, missions, tests et builds identifiés |
+| Claude Code | Implémentation et comptes rendus | Code et documents du projet Unity réel |
+| 02 | Conception et propositions | Décisions validées par Clément, sources et versions |
+| 03 / Archiviste | Conservation et portail | Fiches, statuts, liens et version réellement publiée |
+| IA créatives | Livrables selon brief | Référence retenue, version et destination |
+
+Le MMORPG persistant reste l'objectif ; séparer données, règles et présentation sans introduire de réseau prématurément. Une contrainte technique ne justifie pas une nouvelle règle de lore.

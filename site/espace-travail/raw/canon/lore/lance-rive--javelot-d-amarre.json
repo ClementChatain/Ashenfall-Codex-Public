@@ -1,0 +1,57 @@
+{
+  "id": "lance-rive--javelot-d-amarre",
+  "category": "competences",
+  "title": "Javelot d’Amarre",
+  "summary": "Dégâts directs / ralentissement · Lance-Rive",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 5\nCompétence : Javelot d’Amarre\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 22\nLancement : 0,35 s\nPvP x : 1\nContrôle / mécanique : Ralentissement 35 % pendant 3 s ; ni attraction ni immobilisation.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0585",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lance-rive"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0585",
+  "public_projection": {
+    "id": "lance-rive--javelot-d-amarre",
+    "category": "competences",
+    "title": "Javelot d’Amarre",
+    "summary": "Dégâts directs / ralentissement · Lance-Rive",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 5\nCompétence : Javelot d’Amarre\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 22\nLancement : 0,35 s\nPvP x : 1\nContrôle / mécanique : Ralentissement 35 % pendant 3 s ; ni attraction ni immobilisation.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive--javelot-d-amarre.json",
+    "record_sha256": "47edb7a653a8e014b6c3b1247658b5e293b604914aae08cd2257b67432c4faa8"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

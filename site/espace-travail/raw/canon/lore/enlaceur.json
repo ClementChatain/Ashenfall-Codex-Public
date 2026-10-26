@@ -1,0 +1,63 @@
+{
+  "id": "enlaceur",
+  "category": "classes",
+  "title": "Enlaceur",
+  "summary": "Vaelith · Tank · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui réduit progressivement la liberté de ses adversaires.\n\nIl porte une armure souple faite de bandes entrecroisées et manie une longue arme courbe à deux mains. Sa silhouette forme une enceinte ouverte autour de lui.\n\nSon identité serait celle d’un tank qui contient les mouvements et organise l’espace rapproché. Le Gardien des Racines elfe évoque l’ancrage ; l’Enlaceur accompagne les déplacements ennemis pour les ramener dans une position défavorable. Il protège par sa présence active et son placement, avec moins de confort lorsqu’il doit simplement encaisser sans pouvoir manœuvrer.\n\nImpression recherchée : Plus on cherche à lui échapper, plus le passage se referme.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉtreinte 0–100 ; départ 20. Arc d’Enceinte : +10 sur touche. Une attaque ennemie directe parée dans Garde Entrelacée : +10, une fois par utilisation. Aucun gain automatique sur chaque cible immobilisée. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nUne enceinte locale et des contrôles courts gênent les passages. L’Enlaceur doit maintenir sa position ; il ne déplace jamais un joueur contre un obstacle invisible et ne bloque pas physiquement les alliés.\n\nBoucle : Se placer → tracer une enceinte → forcer un choix de passage → garder sa ressource pour protéger ou repousser.\n\nContre-jeu : Sortir du rayon, combattre à distance et profiter de ses protections personnelles plus courtes ; ses zones ne suivent pas les ennemis.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : enlaceur--garde\n2. Défi de l’Enceinte — Provocation\nFiche : enlaceur--defi-de-l-enceinte\n3. Arc d’Enceinte — Dégâts directs\nFiche : enlaceur--arc-d-enceinte\n4. Garde Entrelacée — Protection\nFiche : enlaceur--garde-entrelacee\n5. Pas d’Enroulement — Mobilité\nFiche : enlaceur--pas-d-enroulement\n6. Revers de Liane — Contrôle — bump\nFiche : enlaceur--revers-de-liane\n7. Nœud de Passage — Immobilisation\nFiche : enlaceur--noeud-de-passage\n8. Enceinte Vivante — Zone / protection\nFiche : enlaceur--enceinte-vivante\n9. Prise Profonde — Ancrage\nFiche : enlaceur--prise-profonde\n10. Dernier Enlacement — Défense majeure\nFiche : enlaceur--dernier-enlacement\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0305",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "vaelith"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0305",
+  "public_projection": {
+    "id": "enlaceur",
+    "category": "classes",
+    "title": "Enlaceur",
+    "summary": "Vaelith · Tank · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui réduit progressivement la liberté de ses adversaires.\n\nIl porte une armure souple faite de bandes entrecroisées et manie une longue arme courbe à deux mains. Sa silhouette forme une enceinte ouverte autour de lui.\n\nSon identité serait celle d’un tank qui contient les mouvements et organise l’espace rapproché. Le Gardien des Racines elfe évoque l’ancrage ; l’Enlaceur accompagne les déplacements ennemis pour les ramener dans une position défavorable. Il protège par sa présence active et son placement, avec moins de confort lorsqu’il doit simplement encaisser sans pouvoir manœuvrer.\n\nImpression recherchée : Plus on cherche à lui échapper, plus le passage se referme.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉtreinte 0–100 ; départ 20. Arc d’Enceinte : +10 sur touche. Une attaque ennemie directe parée dans Garde Entrelacée : +10, une fois par utilisation. Aucun gain automatique sur chaque cible immobilisée. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nUne enceinte locale et des contrôles courts gênent les passages. L’Enlaceur doit maintenir sa position ; il ne déplace jamais un joueur contre un obstacle invisible et ne bloque pas physiquement les alliés.\n\nBoucle : Se placer → tracer une enceinte → forcer un choix de passage → garder sa ressource pour protéger ou repousser.\n\nContre-jeu : Sortir du rayon, combattre à distance et profiter de ses protections personnelles plus courtes ; ses zones ne suivent pas les ennemis.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : enlaceur--garde\n2. Défi de l’Enceinte — Provocation\nFiche : enlaceur--defi-de-l-enceinte\n3. Arc d’Enceinte — Dégâts directs\nFiche : enlaceur--arc-d-enceinte\n4. Garde Entrelacée — Protection\nFiche : enlaceur--garde-entrelacee\n5. Pas d’Enroulement — Mobilité\nFiche : enlaceur--pas-d-enroulement\n6. Revers de Liane — Contrôle — bump\nFiche : enlaceur--revers-de-liane\n7. Nœud de Passage — Immobilisation\nFiche : enlaceur--noeud-de-passage\n8. Enceinte Vivante — Zone / protection\nFiche : enlaceur--enceinte-vivante\n9. Prise Profonde — Ancrage\nFiche : enlaceur--prise-profonde\n10. Dernier Enlacement — Défense majeure\nFiche : enlaceur--dernier-enlacement\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-enlaceur.json",
+    "record_sha256": "45962b5bcd193de49973d7e1737f8e587670a79b4f135dfc037a16c2e2dc7c9f"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

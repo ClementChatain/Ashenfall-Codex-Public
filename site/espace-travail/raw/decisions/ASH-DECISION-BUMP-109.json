@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle-parade-du-veilleur",
+  "record_version": "0.2",
+  "validated_record_sha256": "19e05aa0f1c7568cc4fe5d3c43b606bba41491686da358c6e0da5ecaaf72fca6",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

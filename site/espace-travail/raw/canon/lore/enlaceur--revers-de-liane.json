@@ -1,0 +1,57 @@
+{
+  "id": "enlaceur--revers-de-liane",
+  "category": "competences",
+  "title": "Revers de Liane",
+  "summary": "Contrôle — bump · Enlaceur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Enlaceur\nRôle : Tank\nN° : 6\nCompétence : Revers de Liane\nType : Contrôle\nType clair : Contrôle — bump\nBase / impact : 100\nCoefficient : 0.2\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 28\nPortée (m) : 4\nLancement : 0,45 s, télégraphié\nPvP x : 1\nContrôle / mécanique : Une cible repoussée de 6 m à l’opposé du tank. Aucune attraction préparatoire. Règles communes des bumps.\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nPuissance totale brute : 300\nPuissance totale PvP : 300\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n\nProjection (m) : 6\nPréparation (s) : 0.45\nCibles : 1\nDescription : Une cible repoussée de 6 m à l’opposé du tank. Aucune attraction préparatoire. Règles communes des bumps.\nRègles communes : Immunité projections 10 s après réussite ; blocage frontal annule déplacement ; ancrage distance −70 % ; arrêt aux obstacles sans dégâts de collision ; boss immunisés aux déplacements.\n",
+  "lore_id": "ASH-LORE-0516",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "enlaceur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0516",
+  "public_projection": {
+    "id": "enlaceur--revers-de-liane",
+    "category": "competences",
+    "title": "Revers de Liane",
+    "summary": "Contrôle — bump · Enlaceur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Enlaceur\nRôle : Tank\nN° : 6\nCompétence : Revers de Liane\nType : Contrôle\nType clair : Contrôle — bump\nBase / impact : 100\nCoefficient : 0.2\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 28\nPortée (m) : 4\nLancement : 0,45 s, télégraphié\nPvP x : 1\nContrôle / mécanique : Une cible repoussée de 6 m à l’opposé du tank. Aucune attraction préparatoire. Règles communes des bumps.\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nPuissance totale brute : 300\nPuissance totale PvP : 300\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n\nProjection (m) : 6\nPréparation (s) : 0.45\nCibles : 1\nDescription : Une cible repoussée de 6 m à l’opposé du tank. Aucune attraction préparatoire. Règles communes des bumps.\nRègles communes : Immunité projections 10 s après réussite ; blocage frontal annule déplacement ; ancrage distance −70 % ; arrêt aux obstacles sans dégâts de collision ; boss immunisés aux déplacements.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-enlaceur--revers-de-liane.json",
+    "record_sha256": "389f88bd7f4e5ab11edccb6035c9b765d37903a34b1901d573367695f1a5be53"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

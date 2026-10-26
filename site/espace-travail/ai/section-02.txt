@@ -1,0 +1,3020 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## ABILITIES V01 aiguilleur  aiguille d entrave
+Source: decisions/ABILITIES-V01-aiguilleur--aiguille-d-entrave.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: c7dd64666b5fd4d1379169ed63d6a49ee5c2106b01413d2196b51623a75fd598
+Page: documents/76b0e0a2100b72be77bff717.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--aiguille-d-entrave.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--aiguille-d-entrave",
+  "record_version": "0.1",
+  "validated_record_sha256": "1c4b9a36eda2e387faa7e3c1744f53ffe2703b1992f6fafa303d7f470c70b743",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  aiguille de silence
+Source: decisions/ABILITIES-V01-aiguilleur--aiguille-de-silence.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 32660fc9ce6d6fbe70638c2b52857f3183940d6c6cbe153f29f11f82f7a359cc
+Page: documents/523036ad620dc63adda01c60.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--aiguille-de-silence.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--aiguille-de-silence",
+  "record_version": "0.1",
+  "validated_record_sha256": "100ea64e9db0a46446f6b0823ccb49c4f3700091fdacd089cbd921ed213f34b6",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  aiguille droite
+Source: decisions/ABILITIES-V01-aiguilleur--aiguille-droite.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8e584e2c6ab5cdd501b1e3e02b8ba0f4d3edf0e385af50c479168e3e3e1bb603
+Page: documents/7cecb4e0e29d70dffcba4e65.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--aiguille-droite.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--aiguille-droite",
+  "record_version": "0.1",
+  "validated_record_sha256": "2978c35eb780cdd05ec528998cad58f5be3494a0bb294bc106c638154da770f0",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  decalage
+Source: decisions/ABILITIES-V01-aiguilleur--decalage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 2950f2e8cce22e1e09e846a3750859da18c57a2dbab822f0b5ce159c82fbbbee
+Page: documents/bc8474ec9d3f37164bcb38e6.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--decalage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--decalage",
+  "record_version": "0.1",
+  "validated_record_sha256": "8428dec0da13fcacf9ef2fc8f865ebca8271571872f633d2e690ccc38b99d182",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  eventail d aiguilles
+Source: decisions/ABILITIES-V01-aiguilleur--eventail-d-aiguilles.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e7610758c17f26f1b5a5d975a41c7ddc3f723508adc4ad645932ad9fee1fdc1e
+Page: documents/81ad144af7095a62cf74268e.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--eventail-d-aiguilles.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--eventail-d-aiguilles",
+  "record_version": "0.1",
+  "validated_record_sha256": "9d98e73a73553e7397398b30bfb84d766a199c52d854c26f5e7d347e9fd7a91e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  fil incisif
+Source: decisions/ABILITIES-V01-aiguilleur--fil-incisif.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 24e1bc896a834cf06bb1cf2fe1c321cac46b09c0385f5296b5f398e591a3747d
+Page: documents/c7c37c582a8bcd8be953c8e3.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--fil-incisif.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--fil-incisif",
+  "record_version": "0.1",
+  "validated_record_sha256": "b641a6c543017f9af67dff0777cfec1aa527a369ef701e1a7a05d37b0dcb856b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  garde de profil
+Source: decisions/ABILITIES-V01-aiguilleur--garde-de-profil.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b0ab14fd18f8ec504a1c11b780ec3ac34a2aee5a417f88bfef732d9e56f09a19
+Page: documents/7d40639c0779c41b32603540.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--garde-de-profil.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--garde-de-profil",
+  "record_version": "0.1",
+  "validated_record_sha256": "658dc9956260d70d6e8bf27b35b15b4dd2f6cb89980f938cf754412ff371f663",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  perce intervalle
+Source: decisions/ABILITIES-V01-aiguilleur--perce-intervalle.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 1f7ea4e97d98cfd1bfc1f98a0da34c64b72b0c572076df5b47559bbdd0a54c04
+Page: documents/23c08411ab4bd144e43e6d2f.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--perce-intervalle.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--perce-intervalle",
+  "record_version": "0.1",
+  "validated_record_sha256": "0199a028d72f40797f3d47163fcbb19e3ef03024f75af71c8bd7fff3357d70a5",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  point final
+Source: decisions/ABILITIES-V01-aiguilleur--point-final.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: c36d39fc21b3b9f77acdb123bdcfdfcdd21ce060e9eee6516a29f357c545bc2f
+Page: documents/e55cb4d5ccf914d4e98a98f7.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--point-final.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--point-final",
+  "record_version": "0.1",
+  "validated_record_sha256": "431d22278443fe0a6f8568c60bf1af189f4c6d9a04822980921bbc2b6342e744",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur  repere d angle
+Source: decisions/ABILITIES-V01-aiguilleur--repere-d-angle.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6cd07797c9325874be3c5bc96ecb997ac7d85c5f1e893473e80c474cdbb1f21e
+Page: documents/c2b43705bc6f43b3f658ebce.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur--repere-d-angle.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur--repere-d-angle",
+  "record_version": "0.1",
+  "validated_record_sha256": "862523ed19fe672d0d3c53b5ace6fe87fdb27763b1dd9a31a36ccbf848dd5b31",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 aiguilleur
+Source: decisions/ABILITIES-V01-aiguilleur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 4b8cee7a078c2072abcc9a8af8b3fc80094c8b8f752d33a972affb0db8c54001
+Page: documents/e2e61d57c222b7e52aeaeb0d.html
+Source publiée: raw/decisions/ABILITIES-V01-aiguilleur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur",
+  "record_version": "0.2",
+  "validated_record_sha256": "d61b5cfa412cec07640636773f73e10e05f44b92e38533d0ead7fafaa413d03e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  brisure d elan
+Source: decisions/ABILITIES-V01-brise-courant--brisure-d-elan.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 23778af92017765a9325789c6b996745bb732e61d9d349899f0c65a081fbc982
+Page: documents/8b68085b818c708e7a8e8acd.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--brisure-d-elan.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--brisure-d-elan",
+  "record_version": "0.1",
+  "validated_record_sha256": "b095577aba21b3823a0579e1c9cbb3da9e19f0d3a7c6931432510a3df761131a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  contrepoids
+Source: decisions/ABILITIES-V01-brise-courant--contrepoids.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f15143c617d5efe249b9b34036edc3b1c133cb17e0334372db5aeb1a333aee8e
+Page: documents/1033fdd9eaeb35d08bd925c9.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--contrepoids.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--contrepoids",
+  "record_version": "0.1",
+  "validated_record_sha256": "c93e1c4547fb319f6c0b6b35f4a89398ed8f901f4a17b52a905f8ea6af6f9865",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  couper la trajectoire
+Source: decisions/ABILITIES-V01-brise-courant--couper-la-trajectoire.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 0069d24f99f1f7274bbfa3da7332adf796b60efaf106624aec79b8778af6d7ee
+Page: documents/fe5a87a2dc12db8928c59565.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--couper-la-trajectoire.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--couper-la-trajectoire",
+  "record_version": "0.1",
+  "validated_record_sha256": "6f2c2f32e030e5f8b425f83e3d93043ffd73663b66d61c84d34458d391a49766",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  defi de la proue
+Source: decisions/ABILITIES-V01-brise-courant--defi-de-la-proue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 0e7daeb631f02fb61beee805198d6b91a8aded87a3a4133a444eadf866663c51
+Page: documents/6f9bd19ae6eb0b475af5b7d9.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--defi-de-la-proue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--defi-de-la-proue",
+  "record_version": "0.1",
+  "validated_record_sha256": "b6c1dcea084cfe55efa0e04e4b740556518952e48bcfc3cf3f8a5603237ea60a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  deviation
+Source: decisions/ABILITIES-V01-brise-courant--deviation.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 83aa1cf226c7fe2acdf6f65fb9aab051bf5acc7355a44552ff27a9ac0ab82d95
+Page: documents/b360295bd3eba48f48e7aa20.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--deviation.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--deviation",
+  "record_version": "0.1",
+  "validated_record_sha256": "c1b253373f24540ad4fce93cc39a61288ee110f3db76f299008f8c29b2c9dd44",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  garde
+Source: decisions/ABILITIES-V01-brise-courant--garde.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 9cb91c6d01cdc4fe46fdf973fe0881beea67ad4537127c47a6b6d8c8d8729a98
+Page: documents/eeb25676d9cdafd63ca629bc.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--garde.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--garde",
+  "record_version": "0.1",
+  "validated_record_sha256": "6054700c656f6d063a932823955955b2bc60ca0d705d2b4c463d6317193e58cf",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  proue inflexible
+Source: decisions/ABILITIES-V01-brise-courant--proue-inflexible.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e6210a4bf9277d66ce5510a245fe68d497f9a6a56a099333c111924fb316fe58
+Page: documents/f67220f7fc2a33c871c31fd9.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--proue-inflexible.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--proue-inflexible",
+  "record_version": "0.1",
+  "validated_record_sha256": "4f3fbb5a89f43c2a532dd770aafebc90c4e8b6d23096a1ef80c4c4da828ca207",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  ressac de proue
+Source: decisions/ABILITIES-V01-brise-courant--ressac-de-proue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 918c72f8fb6029248fdb75d4d1cd4f90c7e2d92550bd822759d8d28a9e39a824
+Page: documents/636c98224ac9dfcda94d95a0.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--ressac-de-proue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--ressac-de-proue",
+  "record_version": "0.1",
+  "validated_record_sha256": "bd2cce239006b1bc7af0dc7225af0bb7c90851ac1cac8af68c23efd696bfbef4",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  sillage abrite
+Source: decisions/ABILITIES-V01-brise-courant--sillage-abrite.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b8a437454d673f88d55491e518be514a50d927516e31be09eaae5c6785eafb22
+Page: documents/effaade9ba4eeff31c98a4df.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--sillage-abrite.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--sillage-abrite",
+  "record_version": "0.1",
+  "validated_record_sha256": "7045b97e37e0f57929e182d68c47a8b15e8b1c58d81cbbddfce531a5a520f25a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant  taille de proue
+Source: decisions/ABILITIES-V01-brise-courant--taille-de-proue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 0f733327d1633805d8eb13121bc08fb5ad93af60d01dc5fb4a526a5b7c7803b8
+Page: documents/287451e0f915255c16ee41ba.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant--taille-de-proue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant--taille-de-proue",
+  "record_version": "0.1",
+  "validated_record_sha256": "72a954ea6ee5a6c5ca32b65d6e6e02b3fed9d155655a2a391a91c0dedf073b26",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 brise courant
+Source: decisions/ABILITIES-V01-brise-courant.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 39ed1df303c92203e33c747f177d74e6e3cac6c9e0cf366a743ec2a731dfe6b4
+Page: documents/7a00ce88ca32e3fa74a240d3.html
+Source publiée: raw/decisions/ABILITIES-V01-brise-courant.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant",
+  "record_version": "0.2",
+  "validated_record_sha256": "ae31162182ae132b7c4369f7f4c64020883513a69c14d9a922b829e2750f6e5d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  balise de faille
+Source: decisions/ABILITIES-V01-eclateur--balise-de-faille.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7292fd0665c4a9298f24bcfc89d9ba34963c9538fb75110c95d14886b8c89a19
+Page: documents/991c519a665af6396d4f49c9.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--balise-de-faille.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--balise-de-faille",
+  "record_version": "0.1",
+  "validated_record_sha256": "e9f550e87f9356b93568fd43edcd6ba0b834d3a340dd2b6aab55bca31687022d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  eboulis projete
+Source: decisions/ABILITIES-V01-eclateur--eboulis-projete.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 50519f14f35d1a5b04a4633d8aea00aa1a203100bceed1283002ed968256a8fd
+Page: documents/b9f3d4d454fd724961fcad18.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--eboulis-projete.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--eboulis-projete",
+  "record_version": "0.1",
+  "validated_record_sha256": "c1eededa179ff2f0d5c8872eeab26a39fbe944d0347807a69e10328a1bbd88b7",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  eclat d arret
+Source: decisions/ABILITIES-V01-eclateur--eclat-d-arret.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8f7669b2a45be9e1ad1aff2cfa3e08243bd8ac901a498093041fad290acd9f37
+Page: documents/677229fe47f2e5f7db0cd74f.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--eclat-d-arret.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--eclat-d-arret",
+  "record_version": "0.1",
+  "validated_record_sha256": "732af457c69e1087c476f5ee06af120ec661da5dc88c499ae4a0a74d1c59851b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  eclat lance
+Source: decisions/ABILITIES-V01-eclateur--eclat-lance.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: d2f8ccb88a62deed89fcd0c176e22779cde5ef4acfe9f7214eafacc564c2424f
+Page: documents/3c389b37d0758451053316a1.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--eclat-lance.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--eclat-lance",
+  "record_version": "0.1",
+  "validated_record_sha256": "9a3bcfe36b0fa3d7293eacd93ed1310bfb7efe95f5ace62328b0e501307f08c8",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  mise sous tension
+Source: decisions/ABILITIES-V01-eclateur--mise-sous-tension.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e06de2c830cefec05549606b0e05f398e6acd2842b853b702ad0bc903f77839b
+Page: documents/fab68527cb1905fc057803da.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--mise-sous-tension.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--mise-sous-tension",
+  "record_version": "0.1",
+  "validated_record_sha256": "337b36cb2e8c806156e9f5b2a2bc3ca095c06078351d1b7700e756794cfd4359",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  noyau brise
+Source: decisions/ABILITIES-V01-eclateur--noyau-brise.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: da4d195a0600a10fc85c6c4ea8b6d52e16ae4e3306e3b6e8712ea7c82ce11984
+Page: documents/f293fee17dd785141e641175.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--noyau-brise.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--noyau-brise",
+  "record_version": "0.1",
+  "validated_record_sha256": "746beaf3b4626a503a2bc6eeb7e10ad611b6171b5c7d24a803e04a7c93112310",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  pare eclats
+Source: decisions/ABILITIES-V01-eclateur--pare-eclats.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 20a445ced6fea17b17e6e5169b9288ad598bbae3b3b68990fe818dbe7965b37d
+Page: documents/92afec4be4a1bef65bb80189.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--pare-eclats.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--pare-eclats",
+  "record_version": "0.1",
+  "validated_record_sha256": "7b8d1ae13d76d602e7630a5ed8d25d466a27f42cc4240fb9265dbf3dc84ef78c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  poussiere incisive
+Source: decisions/ABILITIES-V01-eclateur--poussiere-incisive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3c724371656a6c2ad6916204bad90054fa44ce329022754210ee751b4c8aca3b
+Page: documents/34739e9fe92623b656abdcf8.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--poussiere-incisive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--poussiere-incisive",
+  "record_version": "0.1",
+  "validated_record_sha256": "1d25c84889621be95f449593e3aaafb6a172cfc1924c801cdcf5b30264c14e19",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  recul de carriere
+Source: decisions/ABILITIES-V01-eclateur--recul-de-carriere.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8756a5de7b49bcdf1710f9378f52047f9fb3be5f9ee5088c04b3214a5b991f30
+Page: documents/d7ac016a7e641c77753ea940.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--recul-de-carriere.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--recul-de-carriere",
+  "record_version": "0.1",
+  "validated_record_sha256": "6a7dd04ff334869473d56a5ccde7cd622c421d6e2f29338efd1e02e69a1fd121",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur  trait de fracture
+Source: decisions/ABILITIES-V01-eclateur--trait-de-fracture.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3d0d894356df3032000280439c190bc7dd55c2e3ec27e5fb1bf332683257d94f
+Page: documents/0b52a747f196e9828445e6ba.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur--trait-de-fracture.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur--trait-de-fracture",
+  "record_version": "0.1",
+  "validated_record_sha256": "3c793e11feb3777a4998fcee461cb40fcd9020df8a8cd7f4c6210601ffdd347a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eclateur
+Source: decisions/ABILITIES-V01-eclateur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 24f2c1048cdf68aed844825364ca9812f9f1a884dc40641535f7d6263795598a
+Page: documents/92f2872cf7538ff318c46292.html
+Source publiée: raw/decisions/ABILITIES-V01-eclateur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur",
+  "record_version": "0.2",
+  "validated_record_sha256": "b87ab9685701d637d3c2f690296b4f47b41b743c48eb7457e4df5e6b6c386bb7",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  arc d enceinte
+Source: decisions/ABILITIES-V01-enlaceur--arc-d-enceinte.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f14a79e43c38d40a901ea8cbf28364bbd55f3b03703126572681183d9ccff838
+Page: documents/2d0abed68a817d56f11e9ae0.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--arc-d-enceinte.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--arc-d-enceinte",
+  "record_version": "0.1",
+  "validated_record_sha256": "9d83f969f0d4dcc4fbc1dac7869716c3975191694a532cd9b41a0d0461a62b01",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  defi de l enceinte
+Source: decisions/ABILITIES-V01-enlaceur--defi-de-l-enceinte.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3be3455ec16cc4797310469cd7f8777d3993577b633ba9ac8d17e5a2f9767339
+Page: documents/dca62e24b92b67bb9e957a7e.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--defi-de-l-enceinte.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--defi-de-l-enceinte",
+  "record_version": "0.1",
+  "validated_record_sha256": "8603442a0bbb6b41dd1df4dcf107fe84d3815ca8a60d7018730c9668f8eaaea0",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  dernier enlacement
+Source: decisions/ABILITIES-V01-enlaceur--dernier-enlacement.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 35b776a9e33527ac350cc96bbae70e3f1622f35e83e26ab588f80b32b14785cc
+Page: documents/0ddc9ef2f7d1fb944a581ece.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--dernier-enlacement.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--dernier-enlacement",
+  "record_version": "0.1",
+  "validated_record_sha256": "215ea3082ce3291b32c3ba56fa9f530efbebf50b68f8bed09335edccf90a857c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  enceinte vivante
+Source: decisions/ABILITIES-V01-enlaceur--enceinte-vivante.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: aa50baa8e59ecf5343d954643b66c4f9e1e7245ac3703cc51d83f04b8410e979
+Page: documents/944a0beecce0356fa4cbbfa2.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--enceinte-vivante.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--enceinte-vivante",
+  "record_version": "0.1",
+  "validated_record_sha256": "41a1d6ae44decb49fafeed0aab3a9927545b85f71ad34208a02c00adf023afc8",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  garde entrelacee
+Source: decisions/ABILITIES-V01-enlaceur--garde-entrelacee.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: cd73936d276a1c2aaca52106b91b281be60263de98b5a26cea8c2286f9e38ec8
+Page: documents/c3d54850ffbf24ba01f95cce.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--garde-entrelacee.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--garde-entrelacee",
+  "record_version": "0.1",
+  "validated_record_sha256": "f91845d5d14f607664f4f40765f69aae51a0ef971c60de7f668c136149ef6954",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  garde
+Source: decisions/ABILITIES-V01-enlaceur--garde.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 282a9fa190d434b966122a920bd77a742106fc8822fd97c43d1c226418e3d27e
+Page: documents/ed90415884eccf0b7e91acf4.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--garde.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--garde",
+  "record_version": "0.1",
+  "validated_record_sha256": "cc9119e8a62e502036289f2dc67afaa364f9e8ac4c0d5f64ac2b95f6c1eafd91",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  noeud de passage
+Source: decisions/ABILITIES-V01-enlaceur--noeud-de-passage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8001c85c629a8e12d7d2b3fe7f1f9f50806ca7f1faf399bf5810902c8add1473
+Page: documents/f9bb535ac059dd0ee84d6b22.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--noeud-de-passage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--noeud-de-passage",
+  "record_version": "0.1",
+  "validated_record_sha256": "89b203e47e23d2b05f217934b23233c25a12b781504af2b85ac88614ec4a0c02",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  pas d enroulement
+Source: decisions/ABILITIES-V01-enlaceur--pas-d-enroulement.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 512281d4b6a8fd06f14cad32ec4b31405458aa300e9f3438fc5d22b3fc5fae05
+Page: documents/a47ff60d8ac7c2338bc54966.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--pas-d-enroulement.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--pas-d-enroulement",
+  "record_version": "0.1",
+  "validated_record_sha256": "b7a87301a451b2bcf96a5188a41d1c00b3da1a9417bbd87281bb55ef47157397",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  prise profonde
+Source: decisions/ABILITIES-V01-enlaceur--prise-profonde.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 9599bc2a1fffb3ebb98dbb15e037dba8f57c4c26c07a612cd79c9f0d13bb3f00
+Page: documents/0e445138732357889107ce69.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--prise-profonde.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--prise-profonde",
+  "record_version": "0.1",
+  "validated_record_sha256": "eb915210815a4f5feb772abd3446efbe5f56a8b255e3d842c40943baaade706f",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur  revers de liane
+Source: decisions/ABILITIES-V01-enlaceur--revers-de-liane.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e04834dd03f401b15f81d91d32f51f2cde8c0e950b02d025cccddfec5f025a42
+Page: documents/5d28d2251af7b6d38e2c0020.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur--revers-de-liane.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur--revers-de-liane",
+  "record_version": "0.1",
+  "validated_record_sha256": "389f88bd7f4e5ab11edccb6035c9b765d37903a34b1901d573367695f1a5be53",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 enlaceur
+Source: decisions/ABILITIES-V01-enlaceur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: d77d2102fc497933710f7b84fdbd6c6ab4602afd5b9b13d898bfc29a9924b855
+Page: documents/f3ef3814f8f311b844e46b08.html
+Source publiée: raw/decisions/ABILITIES-V01-enlaceur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur",
+  "record_version": "0.2",
+  "validated_record_sha256": "45962b5bcd193de49973d7e1737f8e587670a79b4f135dfc037a16c2e2dc7c9f",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  bourgeon attentif
+Source: decisions/ABILITIES-V01-eveilleur--bourgeon-attentif.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: c08504cde6034805bad7ec230441d1153201f5dd94bd5bb59b0ef527236568b6
+Page: documents/1d3db0a501f037a85ad99dac.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--bourgeon-attentif.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--bourgeon-attentif",
+  "record_version": "0.1",
+  "validated_record_sha256": "ce2c0fe0fec9673862cd688c42335061e55ec09987f1fba29228b8a240e78d3c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  ecarter le mal
+Source: decisions/ABILITIES-V01-eveilleur--ecarter-le-mal.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e3312c7da34b11ad91929e53672fabccd93faacfaed428b4a7a2007fc7d25a3b
+Page: documents/a03ade310d4f22e3f55604c7.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--ecarter-le-mal.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--ecarter-le-mal",
+  "record_version": "0.1",
+  "validated_record_sha256": "48a4f57e94dc84bd704cdb8a1dd4e81b64d760fa8e7bdbfe8863e663640f7fd2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  ecorce de relance
+Source: decisions/ABILITIES-V01-eveilleur--ecorce-de-relance.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 697ff736cf367655389293a8edd7aeb16236af2490de574bdc441f003ee4f463
+Page: documents/9aa3e5a9d0490e66e0d4d9ee.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--ecorce-de-relance.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--ecorce-de-relance",
+  "record_version": "0.1",
+  "validated_record_sha256": "e1275f98802cb1fe6d23e6ecc22fb919eaabb7dd0cc2ad4b38260eddc83de6ba",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  elan commun
+Source: decisions/ABILITIES-V01-eveilleur--elan-commun.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 9fdadfc97318f6241abed39f2affe60233ef26a108b1f83b87324b15967cba81
+Page: documents/0454256b08abfb937c359cd4.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--elan-commun.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--elan-commun",
+  "record_version": "0.1",
+  "validated_record_sha256": "5a7784f833aa9f562c9b3f76ce713a1f2bd6052b554684453cd8c495d67b2696",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  epine claire
+Source: decisions/ABILITIES-V01-eveilleur--epine-claire.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ab9f368e49cf89697ee417d3523cd0f06f4f5140e5b97fcdfd247ed8f9e6d1b1
+Page: documents/e0353335edd715e703edd61d.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--epine-claire.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--epine-claire",
+  "record_version": "0.1",
+  "validated_record_sha256": "9015e304bca0ce1d3c82cf43820a9aef4b97efb31d37fe4faa9c3a701db2c9c3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  impulsion vitale
+Source: decisions/ABILITIES-V01-eveilleur--impulsion-vitale.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 20fe51f9ccf777a9ee2d2829b11e38d8743b5ae75fc62da473ed7add5e65afab
+Page: documents/0e1555919791525f3ffac2d8.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--impulsion-vitale.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--impulsion-vitale",
+  "record_version": "0.1",
+  "validated_record_sha256": "87ad740c61c64e4d39d0c0ecd13a69bdb7310e96d3bef5e074ca829b7484bcf2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  poussee nouvelle
+Source: decisions/ABILITIES-V01-eveilleur--poussee-nouvelle.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: fb11f4bf486c313733eddb99db2ebf73c9d10bf19dd15dbe7299ab1073423cef
+Page: documents/894425dfe8ec6a553206ff62.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--poussee-nouvelle.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--poussee-nouvelle",
+  "record_version": "0.1",
+  "validated_record_sha256": "bfdbb708db8ee833d315fe0783192d29593616310db2e6b7e385919ddc11570f",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  retour du souffle neuf
+Source: decisions/ABILITIES-V01-eveilleur--retour-du-souffle-neuf.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 903087c2c633eaad07f1ef0b31ce0cc2916472f421f75b096741b045e1d8e3ab
+Page: documents/dc7b7f8a1692621a4a679bbe.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--retour-du-souffle-neuf.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--retour-du-souffle-neuf",
+  "record_version": "0.1",
+  "validated_record_sha256": "e3545bd09838ad0a32881385f6e9f06b804eb3fe098bf4a2f9801117f6310e06",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  reveil collectif
+Source: decisions/ABILITIES-V01-eveilleur--reveil-collectif.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 306867da376ca074988de73051a62851b938bf4bef61a40632e20c3b4eaff152
+Page: documents/65312b155b421a5c85fe8aae.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--reveil-collectif.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--reveil-collectif",
+  "record_version": "0.1",
+  "validated_record_sha256": "47f7bdd29683ffc9aa9d909576155e71d3238449ac4cca4d849f1638a0f90cde",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur  seconde pousse
+Source: decisions/ABILITIES-V01-eveilleur--seconde-pousse.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 937dbe69fc9f5cabb4fe3e6269101f7fd851be835df111fd04e366482964971b
+Page: documents/d7aa93747b41d39098925867.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur--seconde-pousse.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--seconde-pousse",
+  "record_version": "0.1",
+  "validated_record_sha256": "8fbb9affa4ac4468e9bfb845b3a980fed84c455735b96929926f0c7058706e2b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 eveilleur
+Source: decisions/ABILITIES-V01-eveilleur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b7f0ec609535d92eb2514303274a46899e866f8d136025e894fc9961fafc0dc3
+Page: documents/71bbac9ba11935cf9f47c52e.html
+Source publiée: raw/decisions/ABILITIES-V01-eveilleur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur",
+  "record_version": "0.2",
+  "validated_record_sha256": "f9b3dc6a97f0ef17cf77198a774602221f7e89aa4afad81f4f66174ee0bd40fb",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  effondrement
+Source: decisions/ABILITIES-V01-fendeur--effondrement.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: a6e390f811ee7a05a6fdbeb1ce2b2f1682d0c1c7fb2f0519e398fc2f05572484
+Page: documents/cd2fd15dfa49e478bfd02842.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--effondrement.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--effondrement",
+  "record_version": "0.1",
+  "validated_record_sha256": "ef55d0b71b171b3dfe33502893921c1a0c7b14731a9393fdea30ea3b91ee68dd",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  entrave de taille
+Source: decisions/ABILITIES-V01-fendeur--entrave-de-taille.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: cd2903fbd255c553593b01af153d3824ca7a77519ac0a4310f8562bd99224a67
+Page: documents/85f35d8eff612362a7538154.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--entrave-de-taille.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--entrave-de-taille",
+  "record_version": "0.1",
+  "validated_record_sha256": "2fcf48833e38ff24fab1e79201aa31be1a4b1d20a63b2cf2c60fd3655800b4ba",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  fermer les appuis
+Source: decisions/ABILITIES-V01-fendeur--fermer-les-appuis.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 36ca5560a56f8be5f05f698a4fca43d6c827d2a859d18ffae9bc40aac67b5b30
+Page: documents/1a528b27c3009dca85d0d2b9.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--fermer-les-appuis.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--fermer-les-appuis",
+  "record_version": "0.1",
+  "validated_record_sha256": "32980b75410809048d09568597b3fbd038c4cae6654ffe3bb71ce20f6de5e75a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  fissure persistante
+Source: decisions/ABILITIES-V01-fendeur--fissure-persistante.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 06d050b5ef52bf8298e5e6a8b71ffb5e5c0f41d6505a88e84fb79af852224538
+Page: documents/a2734250b18b215b6d3d86bd.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--fissure-persistante.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--fissure-persistante",
+  "record_version": "0.1",
+  "validated_record_sha256": "0fa4b3cd9a23e9b509dbe717fda985762f2cd666ed1be2524f741cf31e391fe4",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  frappe de taille
+Source: decisions/ABILITIES-V01-fendeur--frappe-de-taille.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 16263feb6c251c9fc16cea8f097ec663edb354f07ed57bbb6b30bf8ba447908f
+Page: documents/baac11329b5ad2b037790643.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--frappe-de-taille.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--frappe-de-taille",
+  "record_version": "0.1",
+  "validated_record_sha256": "59f2a6cee7fd70bd7ee3396a4082db1dd17f7679aea4bb1e6482cd75400c2a3a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  mesure de rupture
+Source: decisions/ABILITIES-V01-fendeur--mesure-de-rupture.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6e47f5c84bb6f353a305dba91bf1697fbae64fe79ac3a73ddc8d385e6ea80f4f
+Page: documents/13a1b21a4df9f5d61b68a4c1.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--mesure-de-rupture.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--mesure-de-rupture",
+  "record_version": "0.1",
+  "validated_record_sha256": "d139abb011f3d7e0e92804f50f9da342cb37e40e8d56a8a4dbe7960d8e693131",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  pas de coin
+Source: decisions/ABILITIES-V01-fendeur--pas-de-coin.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6e3b7379e4571233384c98c418e7706848d25a1658aecc4f5525e67889bdb13b
+Page: documents/075adbb962d866bb686c5150.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--pas-de-coin.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--pas-de-coin",
+  "record_version": "0.1",
+  "validated_record_sha256": "40a7c0088f8fc41c1a985737d79b4d47f2544d555a762d440dfa29dc21a824d0",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  reperage du joint
+Source: decisions/ABILITIES-V01-fendeur--reperage-du-joint.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 2d641104b28ca76698aed02b55b17f30c2ea51f9d9bab5150767ed6f84ef9ed1
+Page: documents/cd274fd1c3f0c693355aa101.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--reperage-du-joint.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--reperage-du-joint",
+  "record_version": "0.1",
+  "validated_record_sha256": "2a5a13994f7c25cb52fc284427ceeafc874937bcbb515d97552db6cd578be5b0",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  taille d eboulis
+Source: decisions/ABILITIES-V01-fendeur--taille-d-eboulis.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6f809cda1fd429c8a023e372de0a7af9c8ffefc5e36aca9fdb2fe880047453e5
+Page: documents/e10d86d9677facc784b97c83.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--taille-d-eboulis.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--taille-d-eboulis",
+  "record_version": "0.1",
+  "validated_record_sha256": "8904cbc278d2658236e7e54393e84b8d2cec754063e632a14b1cbbbebe370100",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur  ultime fissure
+Source: decisions/ABILITIES-V01-fendeur--ultime-fissure.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 176c5e57a13706851580a3817704c4a454690bdcc91679651f118849abca1718
+Page: documents/8d2b6196aafc4ec31f9beaee.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur--ultime-fissure.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur--ultime-fissure",
+  "record_version": "0.1",
+  "validated_record_sha256": "05987b16601bd11782c263aa1d825ab3b32b8c16dfbb7db45347681b8198107b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 fendeur
+Source: decisions/ABILITIES-V01-fendeur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 5b5030ccde7010c7899dc092350e464c4bdd162c6b5810460640d375ad4ad6db
+Page: documents/2bb7f15978e94255f43e49b5.html
+Source publiée: raw/decisions/ABILITIES-V01-fendeur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur",
+  "record_version": "0.2",
+  "validated_record_sha256": "5ec12fa032cd90fd11893b4b8093abaa20581cfe86cba8c1368c4335466a2c73",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  abri de voyage
+Source: decisions/ABILITIES-V01-lance-rive--abri-de-voyage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 0db0a314043e63f65721826acb8f294c9682151ffbccb4a3138663f66dded4fa
+Page: documents/15897d52c4226f6371ab7c8a.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--abri-de-voyage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--abri-de-voyage",
+  "record_version": "0.1",
+  "validated_record_sha256": "217edcd25871ff546f50d024640a66871b238258692954e459be6cdcec1b681d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  dernier javelot
+Source: decisions/ABILITIES-V01-lance-rive--dernier-javelot.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 19fc7886126fdfb6850eed9bdd6f0e1187ed1ceaf52b7fc62789d64623c48578
+Page: documents/3395bacb84166f744c4421ee.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--dernier-javelot.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--dernier-javelot",
+  "record_version": "0.1",
+  "validated_record_sha256": "da6a6db6bb20d797575d81d9a2dd67d3cc0796e1854d8e70e874b9bbe4113266",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  gerbe de rive
+Source: decisions/ABILITIES-V01-lance-rive--gerbe-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 010c886c7c4bc647dfca5ca53de198bedbd2f6b9bb56b56444391ee6a91e0071
+Page: documents/5346b1b4a3c842e682133e34.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--gerbe-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--gerbe-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "3f6c3c7d1b802f26fe6c4cb82a3f70198cc5c292d46789c75abc6343e2add69d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  javelot d amarre
+Source: decisions/ABILITIES-V01-lance-rive--javelot-d-amarre.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 34be76604eba6fcaa15e7556f5afe1c98109181a1f0b36a9cb99d7f7a1d83871
+Page: documents/49f923797c50a1094f7a127b.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--javelot-d-amarre.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--javelot-d-amarre",
+  "record_version": "0.1",
+  "validated_record_sha256": "47edb7a653a8e014b6c3b1247658b5e293b604914aae08cd2257b67432c4faa8",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  javelot de cadence
+Source: decisions/ABILITIES-V01-lance-rive--javelot-de-cadence.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 926b84c3fb51cb2304f3b86b4d967df44c6b4a371f9a832b752a3115887af877
+Page: documents/b64ff516deee9bd9b7bc9bc0.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--javelot-de-cadence.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--javelot-de-cadence",
+  "record_version": "0.1",
+  "validated_record_sha256": "8ace3fed5b859af034c531f257b0cc9eda87a9b061cffa33ced0702900960c4a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  jet appuye
+Source: decisions/ABILITIES-V01-lance-rive--jet-appuye.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 136ec32363952af9a5356614c83a563cd5465e7aee99d659d4bbcf98c2486544
+Page: documents/05b32f0b3e449914db896cb5.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--jet-appuye.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--jet-appuye",
+  "record_version": "0.1",
+  "validated_record_sha256": "371093189b5c3ef72ba328b27234e9d15e297da582d884e5ca905d2527f6c9db",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  jet de rive
+Source: decisions/ABILITIES-V01-lance-rive--jet-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8f88c4c4fd254dbe528f81757afc4f3cd2c346a62c73c30944b165bc7688c670
+Page: documents/551bcdb6c380a0d512697134.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--jet-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--jet-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "ca963e246da3bcd58c68de13a8f806fedcff2efa6b47a42f40892e70353a8515",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  pointe persistante
+Source: decisions/ABILITIES-V01-lance-rive--pointe-persistante.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: be7522ec2d3f5dcc4e5641e270d4425e8b933e392d5cfc9580b930ae9d019901
+Page: documents/7e38ccc8e6f25e9116cdc561.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--pointe-persistante.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--pointe-persistante",
+  "record_version": "0.1",
+  "validated_record_sha256": "68da0919ab5722b9c0219cca4e3386472bdafa42e531305a5e1c2a6885b6a385",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  retrait de rive
+Source: decisions/ABILITIES-V01-lance-rive--retrait-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ba9b3583065efb81138cdb3f972304855edfa528ba628fd087c577ddbcb6788a
+Page: documents/3948c17c3ba947a3209136e2.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--retrait-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--retrait-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "7d241ffc2c1e34fdac290c067007d48b897e5b9bef4fc28a1b436a252f4b2654",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive  trait de coupure
+Source: decisions/ABILITIES-V01-lance-rive--trait-de-coupure.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 5313a9494420386b07010014a4a156e4fe94e8b1c1e4c818dcbc537b7d8895f5
+Page: documents/4cb409ba55676d2592954a5f.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive--trait-de-coupure.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive--trait-de-coupure",
+  "record_version": "0.1",
+  "validated_record_sha256": "07df66c958c8926ebe513b828d060b7de9894c684b2b69c055eda0ac96feac9d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lance rive
+Source: decisions/ABILITIES-V01-lance-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ba6ac2d15cdee1399e5c8017b9a95b60dd36ae7cb9d704a752b581839f30d992
+Page: documents/a2f6ee29cda2872ca4c3ee94.html
+Source publiée: raw/decisions/ABILITIES-V01-lance-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive",
+  "record_version": "0.2",
+  "validated_record_sha256": "ddd20f63603a0c73a46a344eebdfaaa6492fe519a021ce533c84ccd2145c42f3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  attaches de secours
+Source: decisions/ABILITIES-V01-lieur--attaches-de-secours.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7e99f0b8b8526668865591be9759dd1cca418a229ac1cf482e17ccee1d56234c
+Page: documents/8229197a88dfd67c9ad08e26.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--attaches-de-secours.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--attaches-de-secours",
+  "record_version": "0.1",
+  "validated_record_sha256": "7686c5e2a791f9f36c7771944accbe6d4418f6db9ef6d5ee96576a4a1468ba94",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  delier l alteration
+Source: decisions/ABILITIES-V01-lieur--delier-l-alteration.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7129d47dd1fac97d254b75a99f279fffc8fc91b39f79511228d2e5657380f814
+Page: documents/479d62ae07e27f18f615f0f4.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--delier-l-alteration.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--delier-l-alteration",
+  "record_version": "0.1",
+  "validated_record_sha256": "531fa724c7824b42ed3366001736157b8882a8a3765a4e7d30bfb52e04a65457",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  eclat de maintien
+Source: decisions/ABILITIES-V01-lieur--eclat-de-maintien.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ece873f30a6cf5ff924f90fc9cc01d5c443e37ee98683fa47628a1c89fc00ec1
+Page: documents/f0c7c12e6553b56cc5563497.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--eclat-de-maintien.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--eclat-de-maintien",
+  "record_version": "0.1",
+  "validated_record_sha256": "f87d7c69cfb5282c0137f2c91952891000d250bace7795f06d5fc16bf156012d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  fil continu
+Source: decisions/ABILITIES-V01-lieur--fil-continu.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f7e649648e15966b243f066c85a134fd444066ab46d1f86d53bbcd66d7526177
+Page: documents/551cf1192a87f1b45fa0b44f.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--fil-continu.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--fil-continu",
+  "record_version": "0.1",
+  "validated_record_sha256": "393bc9de94bfd3897be93554ea63a6652ab613ab7a6868eb7eceb27d11cb553e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  point de suture
+Source: decisions/ABILITIES-V01-lieur--point-de-suture.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 916bb4ff237629ff0fc7c896ee5a086b44e226d223b43558f1cf5bd9ec1fb360
+Page: documents/5f117fe675489605deed0f66.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--point-de-suture.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--point-de-suture",
+  "record_version": "0.1",
+  "validated_record_sha256": "3f4531c8f6c82355bbccd33a86775fabb08d0eb185987fd7a42c2ebf69ae010c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  rappel des liens
+Source: decisions/ABILITIES-V01-lieur--rappel-des-liens.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 20dcd3242326d0b3be5086f53ceb7ad5f0047711db4568f2f5e03d9440b77f62
+Page: documents/ab9df18368a462a8261111fe.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--rappel-des-liens.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--rappel-des-liens",
+  "record_version": "0.1",
+  "validated_record_sha256": "2df08873c2cfb310f930063b9a5c013b6a8c139fde49f552083c1da679cfb9bc",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  reprise du joint
+Source: decisions/ABILITIES-V01-lieur--reprise-du-joint.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: d875dc7e18af623caed0a9560674ec6769857822884f9e427968cc891300ddde
+Page: documents/e7edc9ad5630737ed5df7408.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--reprise-du-joint.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--reprise-du-joint",
+  "record_version": "0.1",
+  "validated_record_sha256": "5d1df50fbfae8ffde7e1a199a6086ccab46a62c15363ccae91282c85d986e6d3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  serrage protecteur
+Source: decisions/ABILITIES-V01-lieur--serrage-protecteur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f3d1b99aa14c9a0811a34bd7f833cf776db964c9b507368152deb95919bf8302
+Page: documents/d6b33b73265df23e7498660c.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--serrage-protecteur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--serrage-protecteur",
+  "record_version": "0.1",
+  "validated_record_sha256": "76ce333500e26b336657cf56186dd15a54ff85f7894e869446f6711e107127f3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  tenir ensemble
+Source: decisions/ABILITIES-V01-lieur--tenir-ensemble.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8dae73571d258e35f2f60a151bf8548df3af5564171c988dc7ff53b526de6f43
+Page: documents/3e09b274bf983d69accfb207.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--tenir-ensemble.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--tenir-ensemble",
+  "record_version": "0.1",
+  "validated_record_sha256": "71f12d2a3e28a7a5d70fce8230108561ee9f2d1d848908cabeca60fd81e24de4",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur  trame de maintien
+Source: decisions/ABILITIES-V01-lieur--trame-de-maintien.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 237a09a4a94b3501ea71e38e10843fd9ea213497e8bbd14c15777c09bd759212
+Page: documents/55d0b195f3da247201b02730.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur--trame-de-maintien.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur--trame-de-maintien",
+  "record_version": "0.1",
+  "validated_record_sha256": "da82ceda5ca0cd1145f26e8aea78c3759349c838a39a317f3463996bd27e8ca1",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 lieur
+Source: decisions/ABILITIES-V01-lieur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 300bed407118f9b372ab1de9d7b1ac94c1d052043bf3c8cd050104bd4ee38558
+Page: documents/9c5e9345af205fbe7f90d178.html
+Source publiée: raw/decisions/ABILITIES-V01-lieur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur",
+  "record_version": "0.2",
+  "validated_record_sha256": "4154840334c9bb373f3558962898d9ba837a22e1bc0c46f392199320a8e95ed9",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  crochet de garde
+Source: decisions/ABILITIES-V01-mue-lame--crochet-de-garde.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 46622fe0c817fb771b15dafe69bfc57888fd651df05743030a8315b89b39073c
+Page: documents/ed7216c632642740b08f8fc2.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--crochet-de-garde.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--crochet-de-garde",
+  "record_version": "0.1",
+  "validated_record_sha256": "0f8f8ec857aed32dc48195678b9b2cbd443564df6150bdbfe1967a82266c3a26",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  croissant changeant
+Source: decisions/ABILITIES-V01-mue-lame--croissant-changeant.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: a408c6ce9f117cc0c6d1cbb7dd320cba293278ee580c9cea77147c0728acc143
+Page: documents/36258665aa1cc766c4924eec.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--croissant-changeant.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--croissant-changeant",
+  "record_version": "0.1",
+  "validated_record_sha256": "bd98ffb84873c4ec0939068ed3026adadd8e424a9e5e23e442309e897682e13f",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  derniere mue
+Source: decisions/ABILITIES-V01-mue-lame--derniere-mue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 44a4bcb0484a7373c63cf8fd51953102a142b605f6614f9c62887b773a6ad481
+Page: documents/0592e3524032418643d09166.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--derniere-mue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--derniere-mue",
+  "record_version": "0.1",
+  "validated_record_sha256": "835ae632627e18b3871f782876c3420fc53a63bb2e63de7258be8649dafde618",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  lame deployee
+Source: decisions/ABILITIES-V01-mue-lame--lame-deployee.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 73aae6beb8866a2426ddb6f92ab4e85053d443ede6956b2d82f872a068400d19
+Page: documents/fd4a42692452200093535970.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--lame-deployee.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--lame-deployee",
+  "record_version": "0.1",
+  "validated_record_sha256": "e7718300f4a19a122194b852615b694135d07490d65b03640db42f5b2c277636",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  lecture du mouvement
+Source: decisions/ABILITIES-V01-mue-lame--lecture-du-mouvement.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 1ed69639908a65da3de52630c4979e2c32027e2a2783e6139c16f574ca6eb007
+Page: documents/88688f3a64df8ff8f3cb1653.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--lecture-du-mouvement.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--lecture-du-mouvement",
+  "record_version": "0.1",
+  "validated_record_sha256": "a2198941c784d088cc8a361d68927914752cbe5f47e7e8a6f90bdd8f2812390c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  pas de mue
+Source: decisions/ABILITIES-V01-mue-lame--pas-de-mue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: a267c23226a111af6e5cb594f41f1699b97a3b045a3f9bbdb50b7b1a5564b72d
+Page: documents/a5f6d651c38e3c231a3e5664.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--pas-de-mue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--pas-de-mue",
+  "record_version": "0.1",
+  "validated_record_sha256": "83f94a36b8cf728213c5b6bdecbab23306d815e02978da24a30592494e43edbc",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  repli mesure
+Source: decisions/ABILITIES-V01-mue-lame--repli-mesure.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: d82d28e0118ede29c90af115b0f44ca72bc62ebfac0fdd6b150ede3a6761597b
+Page: documents/60e0598fc4537b5808decfdf.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--repli-mesure.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--repli-mesure",
+  "record_version": "0.1",
+  "validated_record_sha256": "1e9708a6296e4e436bb2f9657e8f04edc7054891860f6689d8713aaa46dbe3fb",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  revers d appui
+Source: decisions/ABILITIES-V01-mue-lame--revers-d-appui.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 778486ae41de6f01a6a61469501de02092040def7a1fe9455084bf7a2b1038a8
+Page: documents/2c0d571523dff33a289ee5ae.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--revers-d-appui.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--revers-d-appui",
+  "record_version": "0.1",
+  "validated_record_sha256": "8c69179a76a1fc9e1af1fc6f8acf58e2701d0e72e305e158b0802142d1a809a1",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  suture tranchante
+Source: decisions/ABILITIES-V01-mue-lame--suture-tranchante.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 2d96ec4602ff476b72996764fd0cc8f4adb45e9bbff7722dc1930d7a0e1add61
+Page: documents/97a30ae11e9ee6ffbcaa002a.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--suture-tranchante.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--suture-tranchante",
+  "record_version": "0.1",
+  "validated_record_sha256": "36b63ced0d311aaabf635eeb7c5446fe71f9a705bcddb8c5125e6938c656e8f1",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame  taille souple
+Source: decisions/ABILITIES-V01-mue-lame--taille-souple.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 9e0dfdd24e02c33692dcae92403700fdc8b5872413d5d8e81ac8471450419868
+Page: documents/a26c79597962827ba81c7924.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame--taille-souple.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame--taille-souple",
+  "record_version": "0.1",
+  "validated_record_sha256": "82eac0e96dc48f240459c3531ca767d15fdfccbb630e319151f102d82739133d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 mue lame
+Source: decisions/ABILITIES-V01-mue-lame.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b2c97eff69506b837ed1f4952a8865b42efb1fa73152b5255b8aeec52c6c4b0e
+Page: documents/6396a1d9a80b16ede42fa950.html
+Source publiée: raw/decisions/ABILITIES-V01-mue-lame.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame",
+  "record_version": "0.2",
+  "validated_record_sha256": "f45def0b00c246e90225e6ccd72fcc6d5482bd187ec52576974d7995a0466bb5",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 nouvelles regles combat v01
+Source: decisions/ABILITIES-V01-nouvelles-regles-combat-v01.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3c972d140d482c1027059bf1e6c604c1b2a068d91062163b786712a851adb98e
+Page: documents/841f3a16f2a9e8e6072e88ca.html
+Source publiée: raw/decisions/ABILITIES-V01-nouvelles-regles-combat-v01.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "nouvelles-regles-combat-v01",
+  "record_version": "0.1",
+  "validated_record_sha256": "63c45d625391c44c8fe95bb162c9bfa44252430719320a11b1f5c8f2101a717e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  abri de rive
+Source: decisions/ABILITIES-V01-passeur--abri-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b874ba676fa8f04bde6e1ea65cd2dd39edd0fb431ce70aba227f53f50c6d3a43
+Page: documents/44e5264e2a0fe49a9f0dd7ca.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--abri-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--abri-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "110ccf6ff0bf71a290b6a91e75bfcfc562bc4a00cc5b4433bdd31686e4c64ab5",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  franchir ensemble
+Source: decisions/ABILITIES-V01-passeur--franchir-ensemble.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ffa3e523fbac992f53b42f01061d11485ce89a0b9fcdda4596e7c8cbe3f3e942
+Page: documents/64e5b13caedbed913a26760b.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--franchir-ensemble.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--franchir-ensemble",
+  "record_version": "0.1",
+  "validated_record_sha256": "c9b6ffb6c62dbb8ff56c9dc6dae5c6fadb9175fc8a694ffb6cf9e5a3ab73296b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  halte commune
+Source: decisions/ABILITIES-V01-passeur--halte-commune.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7646e085c2d342145cdcec30d9a8cf9a17360937dbbacf99fdbae909f4745e54
+Page: documents/bda5bb936b4e68d633c1101e.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--halte-commune.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--halte-commune",
+  "record_version": "0.1",
+  "validated_record_sha256": "5361e6ca058f20aecd8b0aae9d35f0b4464a6f71c330fde58153d0c88595179c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  laver l entrave
+Source: decisions/ABILITIES-V01-passeur--laver-l-entrave.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e6708ca6b46d4e38dadd47e08a5264f1349ee3be457ed1cc8a1d6430df56ea4f
+Page: documents/ec8006a502b5308ebb429c4e.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--laver-l-entrave.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--laver-l-entrave",
+  "record_version": "0.1",
+  "validated_record_sha256": "87961d99194548ee1f4b4c8ea9b7c809c74ac8f826d736a7969d12ef8346c12a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  main tendue
+Source: decisions/ABILITIES-V01-passeur--main-tendue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f0706d8634f3efb587a3f07ec596ad42565b1bffaeb33af7742e5c9bde609bf8
+Page: documents/2390dbf975cae34bd0253ed0.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--main-tendue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--main-tendue",
+  "record_version": "0.1",
+  "validated_record_sha256": "c9ad5e2590d8128fc8f70ec3e7d83764d8a8cd8cd484bf2bea1da8c051897bfd",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  pierre lancee
+Source: decisions/ABILITIES-V01-passeur--pierre-lancee.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ec592c9c51074d407b8f559b00ebdf7803b23305b8f3d805f7c3809af199283d
+Page: documents/403c64eeb8449facd2fa458d.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--pierre-lancee.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--pierre-lancee",
+  "record_version": "0.1",
+  "validated_record_sha256": "8b5926c16f3bbb2d68400eca36e28834d07ad229811c70dcb43413484bdde045",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  retour a la rive
+Source: decisions/ABILITIES-V01-passeur--retour-a-la-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: c195c3cdef7aecbbca9a84377ba629950caa341d73f94b135846eca203ad8d86
+Page: documents/4ea81f307afeceb27444d625.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--retour-a-la-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--retour-a-la-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "daaa3fbc2b0edc5f5a4fedcd0dedbbc6c32636b807e4296c53c38e3806579c11",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  soin de passage
+Source: decisions/ABILITIES-V01-passeur--soin-de-passage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 48a3b2329d02153f6a37ecdde937a76fe9149e4189d57e066d7d3b77205ef837
+Page: documents/5095ebee95fa825c3489d0c9.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--soin-de-passage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--soin-de-passage",
+  "record_version": "0.1",
+  "validated_record_sha256": "ec4b8baa238d1edcd4305ab87db06b8b2d569993258ad773a625987cf9522513",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  souffle de rive
+Source: decisions/ABILITIES-V01-passeur--souffle-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e0c9be5e1be12b63422de5424322970c2dc93adc38fc94073e9a9fec63d0e81f
+Page: documents/9c7c71160ead777c34f58168.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--souffle-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--souffle-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "8973daf62127d50933e4a37ed958a047e9e4d03c8b50c4cd0bc135a21239434d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur  traversee partagee
+Source: decisions/ABILITIES-V01-passeur--traversee-partagee.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7076261d241a2964389a6637f3b38f80b0b659e4b0e3b16b0b0626c8cfff359c
+Page: documents/e756d30bc31ef108dfba8bd1.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur--traversee-partagee.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--traversee-partagee",
+  "record_version": "0.1",
+  "validated_record_sha256": "66d7ad607f66050943d9d809618f5bb44d7ef4816334bcd27e3c80c6f834038c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 passeur
+Source: decisions/ABILITIES-V01-passeur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 1052b0daed5e6bba4e3cf217b2922ac1479a26268430c1538414af6326f65f34
+Page: documents/2482053eb8113f90d347565e.html
+Source publiée: raw/decisions/ABILITIES-V01-passeur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur",
+  "record_version": "0.2",
+  "validated_record_sha256": "79327079e4ad9321085b834579b68749d815f3f05ab082a8233cf0a4a3b2ac68",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  armature ouverte
+Source: decisions/ABILITIES-V01-porte-faille--armature-ouverte.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 01f213338fe48625b2e41ad0de3672c4bcf3fcdb95f25a4d79091dffc295469c
+Page: documents/2b475ee314e8ab0f69219958.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--armature-ouverte.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--armature-ouverte",
+  "record_version": "0.1",
+  "validated_record_sha256": "f6a628c75edb11d60c9e95c24b2f4590bbc4048357ab71e1fcd80ec3ee39ca7c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  coin de rupture
+Source: decisions/ABILITIES-V01-porte-faille--coin-de-rupture.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8a3d26b2977c8405b1eb62f72048aaf771e1d4e477b8ef5813df23a9ccf83c9e
+Page: documents/9299d5775633cd4c9393c80c.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--coin-de-rupture.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--coin-de-rupture",
+  "record_version": "0.1",
+  "validated_record_sha256": "1633782a1fb668e9d4eb62648c0f7fed7f76904372805e6ef7182fe9c62f60a1",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  defi de la faille
+Source: decisions/ABILITIES-V01-porte-faille--defi-de-la-faille.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 10f6b59a75a7f51d2717609c57cf9515b44869fc6a0e67de01c824c435279f61
+Page: documents/14af9831d541fa920c575c59.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--defi-de-la-faille.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--defi-de-la-faille",
+  "record_version": "0.1",
+  "validated_record_sha256": "291c0c3507a07af55d6522a5cbc0806301910dff2c816c8449ca78e2095a82a3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  frappe de jointure
+Source: decisions/ABILITIES-V01-porte-faille--frappe-de-jointure.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 1cb9e4a82350d2fa36ec7ad27ee62e84b415dc9ad978805b0bb0e6ce008c7b4a
+Page: documents/883190a3bd0b64847e9da337.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--frappe-de-jointure.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--frappe-de-jointure",
+  "record_version": "0.1",
+  "validated_record_sha256": "dad24c7c20e18e4024146efd4c9736fa027b909ea39dbf9e903569ee49d3a7b4",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  garde
+Source: decisions/ABILITIES-V01-porte-faille--garde.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: abb6ab34d5e58498fd7eda2c1cb50ee7ec3a3f6cbab36b6e4161b01884af5850
+Page: documents/4f8ec7b2f09f3fadda0c4569.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--garde.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--garde",
+  "record_version": "0.1",
+  "validated_record_sha256": "1d75b87bc4970520ee8fa5200557e991aaff1bec224f3a7abd47bb1b803660ef",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  ouverture du front
+Source: decisions/ABILITIES-V01-porte-faille--ouverture-du-front.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 97fb39778767a1e033c233f0dac9b48dd283f6f7bb5ba4923e7e8f9e1ea914cf
+Page: documents/6b05b663c96799a7d0148e6b.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--ouverture-du-front.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--ouverture-du-front",
+  "record_version": "0.1",
+  "validated_record_sha256": "1676a20aaf00414024332e65074f7abf36736f93b9f9497f98f96bdb43bd8e83",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  pas de soutenement
+Source: decisions/ABILITIES-V01-porte-faille--pas-de-soutenement.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 306f14d48db9484cf217ded2e14a137b99307a66fa5f40fc2992fed5f1489693
+Page: documents/011cc6eda4175ea52be6c82d.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--pas-de-soutenement.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--pas-de-soutenement",
+  "record_version": "0.1",
+  "validated_record_sha256": "3c31c32d37137be9f52b7705a79b76902ffb3e84ab7ed2ce62df5355ac32c90d",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  repartition des charges
+Source: decisions/ABILITIES-V01-porte-faille--repartition-des-charges.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 91a735ffe1c5c050bbfcd189ffcaa1dea86bcad6df919055fd9bd37bc030eacd
+Page: documents/03f748a4f0736b9c2cc16191.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--repartition-des-charges.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--repartition-des-charges",
+  "record_version": "0.1",
+  "validated_record_sha256": "e59993057e990828862ac2db38ea7b40c6e375e098b8b4d1df6b4b7096272415",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  scellement des appuis
+Source: decisions/ABILITIES-V01-porte-faille--scellement-des-appuis.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 30acc18c720f421be877948025ab87ce8a980f73e0282c604c2540f4fa6f21c3
+Page: documents/9fef91253f728a78fe61b7da.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--scellement-des-appuis.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--scellement-des-appuis",
+  "record_version": "0.1",
+  "validated_record_sha256": "a98fe9d5dcf36dbfda792f5f099391dd7a9c4b07334628693168defc0553ee75",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille  tenir les fragments
+Source: decisions/ABILITIES-V01-porte-faille--tenir-les-fragments.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 53ee014e0e3339f95eb1b811dddde7f8fc7d272b1d5e23f7742b55753535af0e
+Page: documents/42ed1933755a699e25b5afa6.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille--tenir-les-fragments.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille--tenir-les-fragments",
+  "record_version": "0.1",
+  "validated_record_sha256": "ebe09dd0040f349be10ee804cbe6a83194ee0452701cd710d52fb91f1084248e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 porte faille
+Source: decisions/ABILITIES-V01-porte-faille.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 26480aaf11dbd9ec1b63bc44e3d9fbbecf97ec499a6e74439df3d94701ff7786
+Page: documents/53ef46fd29f01d59c7324bbc.html
+Source publiée: raw/decisions/ABILITIES-V01-porte-faille.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille",
+  "record_version": "0.2",
+  "validated_record_sha256": "39f5dd846281487db0da62edf282800fa881c747d3099a187370c7d2976a3d38",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  accroche du sillage
+Source: decisions/ABILITIES-V01-sillonneur--accroche-du-sillage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: debaee28b97f255d837282b7a90473715f6e02df191ea33f5ea982e0633c5af6
+Page: documents/f092356409acb9680c0a5a38.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--accroche-du-sillage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--accroche-du-sillage",
+  "record_version": "0.1",
+  "validated_record_sha256": "fa0f914b9037c785eb9bf4bcb30c16a3b9784a0a51985089e37cdb5a253ef0cd",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  coupe de rive
+Source: decisions/ABILITIES-V01-sillonneur--coupe-de-rive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: aae0afb743377e56dff8696d911acedf0603b77eeb326fcc694b829d79b8dbca
+Page: documents/4ff68fdade2773ecb463ee55.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--coupe-de-rive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--coupe-de-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "daf1a73728509dc0236b43902490abb9fef5dd274f4e5fe0cf1db2e79bcf78b2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  dernier passage
+Source: decisions/ABILITIES-V01-sillonneur--dernier-passage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6591484625c60feb25db2da263e5d7b133aed27e81e60a2cf24eb7f0ad37ba6a
+Page: documents/1ed434f06f3bbfc01b97be90.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--dernier-passage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--dernier-passage",
+  "record_version": "0.1",
+  "validated_record_sha256": "55c8918c5f5edcea1439ae91c9afbb96accae36eb0495699de7e2cbacc9ac78a",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  entaille continue
+Source: decisions/ABILITIES-V01-sillonneur--entaille-continue.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 4a0039aac6dc513b0ce693b1ad2672c6bd9dc0500a3203824cf3641d7c53e0e6
+Page: documents/d43426f642748dc079816ecf.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--entaille-continue.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--entaille-continue",
+  "record_version": "0.1",
+  "validated_record_sha256": "da98e42b137956093607de1eccc5309d11fb3e8ae760d6b9bc9e18ddc3334c9c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  large sillon
+Source: decisions/ABILITIES-V01-sillonneur--large-sillon.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 675a645a0ab2d5f26dc320f22414272b4045ccebd0a12d07a25339164317e4e8
+Page: documents/ebfc69f155550b17a4c9d5f8.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--large-sillon.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--large-sillon",
+  "record_version": "0.1",
+  "validated_record_sha256": "21d587472fc18a7a575f31ff455240c9782ff262d739e2f7c830d0ae16c09df5",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  pas lateral
+Source: decisions/ABILITIES-V01-sillonneur--pas-lateral.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: a786cc8e669cb6cfbb51ba371bbb6a441d34fe0f96a98b31f64a72d6925d242f
+Page: documents/dfe72887b60943ed4e867e65.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--pas-lateral.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--pas-lateral",
+  "record_version": "0.1",
+  "validated_record_sha256": "995842c0f263ccac04049525c722cbffe204fcbf0bc1d7932fdfc73515689949",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  profil bas
+Source: decisions/ABILITIES-V01-sillonneur--profil-bas.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 09b75556613d40e70764abf0d7f35e7c78e1a4f61ba281d20f8ab9b6a745f01e
+Page: documents/d37aefb47a41624ba2d4c55e.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--profil-bas.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--profil-bas",
+  "record_version": "0.1",
+  "validated_record_sha256": "b33998bdda55a0898b4fd6701785a806284aba0accf86eef8b0a36a9d493b229",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  taille de sillage
+Source: decisions/ABILITIES-V01-sillonneur--taille-de-sillage.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3be40a405a52850254dfcfbded9fe82dcf8f5a301ec5beef87191de96de6fd1a
+Page: documents/12eca271e0c10454e85ade15.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--taille-de-sillage.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--taille-de-sillage",
+  "record_version": "0.1",
+  "validated_record_sha256": "c4aee41d6de0ec39062543b0cd8e63bcb1a93c64a4b7a675f6a18e2ce6b80a05",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  tenir la ligne
+Source: decisions/ABILITIES-V01-sillonneur--tenir-la-ligne.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: d56656fd6ce10940e3019464ed2f949789119faac1eb0afaad6e1a221934ebb5
+Page: documents/7d4c89ee82292f6d8e3595fc.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--tenir-la-ligne.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--tenir-la-ligne",
+  "record_version": "0.1",
+  "validated_record_sha256": "b80dec2dca76332ecde23d15f0bef7ab5af0d0fc90c2d8a4278ec7518cf366b4",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur  traversee offensive
+Source: decisions/ABILITIES-V01-sillonneur--traversee-offensive.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 508be868e87d2768b578e595024312055e6820ef94fc48f2631b0cb7b6978e12
+Page: documents/bfb0d2789a4cdce8ea7f9089.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur--traversee-offensive.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur--traversee-offensive",
+  "record_version": "0.1",
+  "validated_record_sha256": "5d9029471d81632649c4f4c9876b3b88e4502d5fc30f3260b51e45f3a3b98021",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ABILITIES V01 sillonneur
+Source: decisions/ABILITIES-V01-sillonneur.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 65208b3e443b77b8c02b1b9b2ac379ccd2d3b46b53021d110e2a38480ec4468d
+Page: documents/e039c22d082225a90dd87087.html
+Source publiée: raw/decisions/ABILITIES-V01-sillonneur.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur",
+  "record_version": "0.2",
+  "validated_record_sha256": "87818eef8cde34d0103f4c2bd4844d78f4b39c38d5f8ac05a8d15dbf8f797f28",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH-DECISION-0001
+Source: decisions/ASH-DECISION-0001.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: f686f344273e3e6aeab3f2f5d566cf53b16c14cb6804b160365beffd83997aa7
+Page: documents/fa90e9575dcf63c1eb598b39.html
+Source publiée: raw/decisions/ASH-DECISION-0001.json
+
+{
+  "id": "ASH-DECISION-0001",
+  "record_id": "ASH-LORE-0001",
+  "record_version": "1.0",
+  "status": "VALIDE",
+  "validation_reference": "decisions/ASH-DECISION-0001.json",
+  "validation_date": "2026-10-23T06:43:17Z",
+  "record_sha256": "4f686026cc0b524b8b4b9b21a3dc84bbdb0b10c95aed87f57bc7ffaf1ae04385",
+  "validated_record_sha256": "dd51fc81caf10e04ca9bf2b9ae5081310f038be16b15d983c8e6cbf8faa5012a",
+  "creator": "ClementChatain",
+  "evidence_reference": "sources/decisions/fondation-i-2026-10-23.json",
+  "impact": "Enregistrement de l’extrait attesté ; aucun contenu narratif existant modifié, aucune implémentation Unity.",
+  "publication_authorized": false,
+  "full_transcript_available": false
+}
+
+
+## ASH DECISION BUMP 101
+Source: decisions/ASH-DECISION-BUMP-101.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3ff5777d8202672e4f3ae6da5ff441277a969416f828cdabb06093b6bd480d57
+Page: documents/3c23356ef66bcd43dfb6c957.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-101.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "gardien-des-racines",
+  "record_version": "0.2",
+  "validated_record_sha256": "907786e1b69416ee51bae080216c7e41836345d52e2f46918646758be032ffa2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 102
+Source: decisions/ASH-DECISION-BUMP-102.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8cc8840ede28fefca527e2830375624804fb9268774de7bdc7e113fdee081ace
+Page: documents/2cb55c7808404cfbc2ede519.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-102.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "rempart",
+  "record_version": "0.2",
+  "validated_record_sha256": "5861fc131bab6c015bebdb103782fba162e61ff1ba9e6b5ead8164f66b20c397",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 103
+Source: decisions/ASH-DECISION-BUMP-103.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 4c7c35481676c89d824c6291fb69e2a2efb91978786b0bf4051ea443e6382db2
+Page: documents/b12c32d4ea9fb5c2610b8d41.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-103.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle",
+  "record_version": "0.2",
+  "validated_record_sha256": "74c41a2e419f0bad2400804bf38a2b46eedd7548f1417710be42bc806262a9ce",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 104
+Source: decisions/ASH-DECISION-BUMP-104.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: cd346ba338654eda56461f7f67d097eb6a5ecf8b032128719c5dec0898368eda
+Page: documents/5063a110291a2dccb48b316e.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-104.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "gardien-des-racines-rejet-de-ronce",
+  "record_version": "0.2",
+  "validated_record_sha256": "014c3b22e35f1dcbbdb6302e2ad2dc1213941329adf4a00d940542ad01d516d8",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 105
+Source: decisions/ASH-DECISION-BUMP-105.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 7b4fc3ab9ee496b0e76bae64f7655a412b2dd33a36b7b2d3a4b9bdd48026a24d
+Page: documents/e62301bf362f5264f9310924.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-105.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "rempart-cercle-de-fer",
+  "record_version": "0.2",
+  "validated_record_sha256": "f6a4cbfe032482e43aa75724512132d15f17afe5ed378a22b3adfa55130ab830",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 106
+Source: decisions/ASH-DECISION-BUMP-106.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ab40bd9d6f9fb62609eae740603b9b7c33d3aebe36388f472c252fd58959acae
+Page: documents/6627cbd26273a687ae3ba922.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-106.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle-contre-de-justice",
+  "record_version": "0.2",
+  "validated_record_sha256": "da107d466787e15335fff89f79a5244fa6eb636741989e1f64ad7fff5403772b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 107
+Source: decisions/ASH-DECISION-BUMP-107.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 1b644e57a24891b0821b9e1f462b5890ff70c0dfb4667fba199447d90d729711
+Page: documents/65e6060915d36db17e289123.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-107.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "regles-equilibrage-v01",
+  "record_version": "0.2",
+  "validated_record_sha256": "5284a476abdfaea053b50212870360765846ddc36d4605f5ecc8e362fa90c7ac",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 108
+Source: decisions/ASH-DECISION-BUMP-108.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 19458eac8b6739a354e0240766d53b59629dcf7799c9e1b28fad2b9ae72e6c24
+Page: documents/d0f12b0b715b360e2639d051.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-108.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "rempart-contre-heurt",
+  "record_version": "0.2",
+  "validated_record_sha256": "972712425b404148ee762d86038847442ac52bec6fd3ce6dbcfc880ce7986f7b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION BUMP 109
+Source: decisions/ASH-DECISION-BUMP-109.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8b0dbf9a5326fd5762979b15c20fe1e49c33bfa1637df1189b6543bd51cdfeed
+Page: documents/da8375bb029982a451b7180f.html
+Source publiée: raw/decisions/ASH-DECISION-BUMP-109.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle-parade-du-veilleur",
+  "record_version": "0.2",
+  "validated_record_sha256": "19e05aa0f1c7568cc4fe5d3c43b606bba41491686da358c6e0da5ecaaf72fca6",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
+
+
+## ASH DECISION CLASSES 301
+Source: decisions/ASH-DECISION-CLASSES-301.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8902a501b9d8d59997252cb199b23b9c63a62be6742fc7af5995b996179914d4
+Page: documents/05352fd924f1879239248017.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-301.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "porte-faille",
+  "record_version": "0.1",
+  "validated_record_sha256": "adaa90a35ff59bd9f65c5be8ab33381cd24373d4057ad362be8ec5892ff8c16b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 302
+Source: decisions/ASH-DECISION-CLASSES-302.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 63f2041520f68f69c955c251e58638f480bd14db73775e0689be9be646140030
+Page: documents/0de307fe9a675fb968576edf.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-302.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "fendeur",
+  "record_version": "0.1",
+  "validated_record_sha256": "35521d3808bf553257c936decd46be07de85b872682e2e8531ec9c22c324c9dd",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 303
+Source: decisions/ASH-DECISION-CLASSES-303.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 95ef39cd08b60cbafab05e350aa8de35337641a868fac170cc2e7f5a8cff07b7
+Page: documents/60c04ce9df4f53702a1a4d97.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-303.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eclateur",
+  "record_version": "0.1",
+  "validated_record_sha256": "5d9972bde8a02f5732e2e4f0b4c7d05665e17c3800d99de8c400182c5ddb1d89",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 304
+Source: decisions/ASH-DECISION-CLASSES-304.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: e4c054a31c14bb40c73c5d835465e2e69df0316390da34305c362d3396f78638
+Page: documents/2f996b41e34f44156060c70e.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-304.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lieur",
+  "record_version": "0.1",
+  "validated_record_sha256": "db43a1d3c5da4afe0563005a688c333a0c63216b29e999bc788b87272b8eadb3",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 305
+Source: decisions/ASH-DECISION-CLASSES-305.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 0f007109f5e6252ded41bf562079b2ff11aa5a97cf632b2d9fd22967f4bd19c4
+Page: documents/8146a95109a232d42e0364b7.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-305.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "enlaceur",
+  "record_version": "0.1",
+  "validated_record_sha256": "0ae624bddbdd6a9dc8a722b5d1140444b0f6e86e5ea88fdc8e17f73b25235e46",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 306
+Source: decisions/ASH-DECISION-CLASSES-306.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 3b7d18140e5d338657810a7b50333079c03952030482030ae5a8c0220f54e639
+Page: documents/34c730094e428a91b3f1148c.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-306.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "mue-lame",
+  "record_version": "0.1",
+  "validated_record_sha256": "11973f916fa5f13551dfe690c018192502e08c191f25f2d186e389defa8546ea",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 307
+Source: decisions/ASH-DECISION-CLASSES-307.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: b9d5d5dba49b1db2e74cfac89b72c506eaee4c3b8fc0ff501952ba84b2b6a63e
+Page: documents/3aca37abf9a85b4645fec4cd.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-307.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur",
+  "record_version": "0.1",
+  "validated_record_sha256": "21cc61c427d130538d527b925e9bb6ab976fa1e6bd17970d29b9f232ea2ad486",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 308
+Source: decisions/ASH-DECISION-CLASSES-308.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 34377e256b6c00591f4cdd6eb165df93c38bf276ad465d912e901adddce0e124
+Page: documents/67be9b1d3785e04810d561b3.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-308.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur",
+  "record_version": "0.1",
+  "validated_record_sha256": "ad986f1ff75a172377a7b4ec55c48ccff8f3cf56a60b134e9ccaa6eb1fb4996b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 309
+Source: decisions/ASH-DECISION-CLASSES-309.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 727c559bedeca108f4f3eb13e0fc11c8c597590425f699f3be69947f86d7cc56
+Page: documents/00f088ed410c0734a2bfeba0.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-309.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant",
+  "record_version": "0.1",
+  "validated_record_sha256": "9c6cd6e2f935c1399f30bed4faf81c42ea17c29075fc68b85616cf14b21b0e3e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 310
+Source: decisions/ASH-DECISION-CLASSES-310.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ffecd20a26374d89c40bcac1a2e0f2ecfa2dc78688b914c605f093bc5a1062d6
+Page: documents/782bd26e7c9d772ba6d7f8a9.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-310.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sillonneur",
+  "record_version": "0.1",
+  "validated_record_sha256": "8aaf28f23dfe1795ea54d1b539ce726cfe5d8925f4e4862bc5c8af9bf099251c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 311
+Source: decisions/ASH-DECISION-CLASSES-311.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 87076458e381a9964339133cdada0dd4f832142680bcbb19e91ec2a4eddc04c7
+Page: documents/6689808661e86925d3db1730.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-311.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "lance-rive",
+  "record_version": "0.1",
+  "validated_record_sha256": "605efde642dcd24995070568d80b52a8e3a4f69b8fc5942a2dd34645fc185b51",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION CLASSES 312
+Source: decisions/ASH-DECISION-CLASSES-312.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 8c1bb2b0497fcf448708398dddad32ac44a1ae3df4779411171f8d89debed690
+Page: documents/431855a25dfbe38320e8f8cf.html
+Source publiée: raw/decisions/ASH-DECISION-CLASSES-312.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur",
+  "record_version": "0.1",
+  "validated_record_sha256": "e3886612636b274b00450800ccbc039a352b0ccf95831f92e50f8dd498f7eaec",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}
+
+
+## ASH DECISION PEUPLES 201
+Source: decisions/ASH-DECISION-PEUPLES-201.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 6d3ec27d8950a785db66e8279fd9217847c57714880f8052323c5062e7fd0955
+Page: documents/8cee2e0380e43026e4a09819.html
+Source publiée: raw/decisions/ASH-DECISION-PEUPLES-201.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "kharun",
+  "record_version": "1.0",
+  "validated_record_sha256": "09da4e0694be6346edfdb4bd529330e33724155ec509be28d1fd230a7acc312b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/six-peuples-2026-10-23.json"
+}
+
+
+## ASH DECISION PEUPLES 202
+Source: decisions/ASH-DECISION-PEUPLES-202.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: ead279297e608f507d0bfd8bdee7e1606f880e402007eeb516d8bdb3922e957f
+Page: documents/1795554577dc44a78814710e.html
+Source publiée: raw/decisions/ASH-DECISION-PEUPLES-202.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "vaelith",
+  "record_version": "1.0",
+  "validated_record_sha256": "7b5d12ab3e37bfba4720d23f766e199f79bf66d63e242043920d6c3fc288d668",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/six-peuples-2026-10-23.json"
+}
+
+
+## ASH DECISION PEUPLES 203
+Source: decisions/ASH-DECISION-PEUPLES-203.json
+Statut déclaré: VALIDE
+Version: None
+SHA-256: 29ec97411449575ee2c27095e5c412bd2585494ff6758cf8e7a61dd38969641b
+Page: documents/f7db817dc2698e279004cc89.html
+Source publiée: raw/decisions/ASH-DECISION-PEUPLES-203.json
+
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "orynth",
+  "record_version": "1.0",
+  "validated_record_sha256": "c41d230fa56fc8096009436c5eb40c189f66fe3d3e400ba4afb38782062487b6",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/six-peuples-2026-10-23.json"
+}

@@ -1,0 +1,1795 @@
+{
+  "schema_version": 1,
+  "status": "EN_ETUDE",
+  "visibility": "INTERNE",
+  "source": {
+    "repository": "ClementChatain/Ashenfall-Codex-Public",
+    "commit": "5c1554db15aa31e66b66499a8026abfeb1bf5e72",
+    "path": "site/assets/classes/masteries-v1/definitions.mjs",
+    "sha256": "31f018e1d775eacd9c98e6868ac2e63b74548516e858f74b3dd4927f071cacbc",
+    "authority": "public design snapshot; not proof of gameplay validation"
+  },
+  "classes": [
+    {
+      "id": "accordeur",
+      "name": "Accordeur",
+      "role": "Heal",
+      "model_ids": [
+        "accordeur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "accordeur-note-reparatrice",
+          "name": "Note Réparatrice",
+          "reference_effect": "Soin — +8 Harmonie si soin utile",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-vibration-apaisante",
+          "name": "Vibration Apaisante",
+          "reference_effect": "HoT — 3 ticks en 6s; +6 Harmonie",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-accord-protecteur",
+          "name": "Accord Protecteur",
+          "reference_effect": "Bouclier — Bouclier 6s; pas de cumul",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-cercle-d-harmonie",
+          "name": "Cercle d'Harmonie",
+          "reference_effect": "Soin zone — 5 alliés max; rayon 8m",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-grande-resonance",
+          "name": "Grande Résonance",
+          "reference_effect": "Soin zone — 5 alliés; incant. 1.5s",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-contre-dissonance",
+          "name": "Contre-Dissonance",
+          "reference_effect": "Dissipation — Retire 1 effet dissipable",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-echo-restaurateur",
+          "name": "Écho Restaurateur",
+          "reference_effect": "Soin — 3 rebonds; -20% par rebond",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-onde-discordante",
+          "name": "Onde Discordante",
+          "reference_effect": "Dégâts — +5 Harmonie si touche",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-cadence-secourable",
+          "name": "Cadence Secourable",
+          "reference_effect": "Buff — -20% incantation soins 7s",
+          "simulation": null
+        },
+        {
+          "id": "accordeur-rappel-du-souffle",
+          "name": "Rappel du Souffle",
+          "reference_effect": "Résurrection — Incant. 3s; 25% PV; limite de groupe",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "arcaniste",
+      "name": "Arcaniste",
+      "role": "DPS distance",
+      "model_ids": [
+        "arcaniste:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "arcaniste-trait-arcanique",
+          "name": "Trait Arcanique",
+          "reference_effect": "Dégâts — +8 Convergence",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-sceau-de-convergence",
+          "name": "Sceau de Convergence",
+          "reference_effect": "Buff — +15 Convergence; prochain sort +10%",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-decharge-instable",
+          "name": "Décharge Instable",
+          "reference_effect": "Dégâts — Incant. 1.1s",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-translation-courte",
+          "name": "Translation Courte",
+          "reference_effect": "Mobilité — Téléportation 7m; obstacles bloquent",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-onde-de-distorsion",
+          "name": "Onde de Distorsion",
+          "reference_effect": "Zone — Ralentissement 35% 3s",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-lance-astrale",
+          "name": "Lance Astrale",
+          "reference_effect": "Dégâts — Incant. 0.9s",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-champ-de-refraction",
+          "name": "Champ de Réfraction",
+          "reference_effect": "Défense — -25% dégâts 5s",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-eclats-convergents",
+          "name": "Éclats Convergents",
+          "reference_effect": "Dégâts — 3 projectiles",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-rupture-de-flux",
+          "name": "Rupture de Flux",
+          "reference_effect": "Contrôle — Interruption 1s",
+          "simulation": null
+        },
+        {
+          "id": "arcaniste-singularite-mineure",
+          "name": "Singularité Mineure",
+          "reference_effect": "Zone — Attraction 2m; 1s de préavis",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "artilleur-runique",
+      "name": "Artilleur runique",
+      "role": "DPS distance",
+      "model_ids": [
+        "artilleur-runique:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "artilleur-runique-tir-calibre",
+          "name": "Tir Calibré",
+          "reference_effect": "Dégâts — +8 Pression",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-surcharge",
+          "name": "Surcharge",
+          "reference_effect": "Buff — Prochain tir +20% dégâts; +15 chaleur",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-trait-perforant",
+          "name": "Trait Perforant",
+          "reference_effect": "Dégâts — Tir 0.8s; traverse 1 cible; +10 chaleur",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-mine-de-recul",
+          "name": "Mine de Recul",
+          "reference_effect": "Contrôle — Repousse 3m; 1 mine active",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-decharge-runique",
+          "name": "Décharge Runique",
+          "reference_effect": "Dégâts — +30 chaleur; incant. 1.1s",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-salve-mecanique",
+          "name": "Salve Mécanique",
+          "reference_effect": "Dégâts — 4 tirs; +18 Pression totale",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-marque-de-cible",
+          "name": "Marque de Cible",
+          "reference_effect": "Debuff — +8% dégâts personnels 7s",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-tir-d-entrave",
+          "name": "Tir d'Entrave",
+          "reference_effect": "Dégâts — Ralentissement 35% 3s",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-purge-des-soupapes",
+          "name": "Purge des Soupapes",
+          "reference_effect": "Récupération — -45 chaleur",
+          "simulation": null
+        },
+        {
+          "id": "artilleur-runique-batterie-de-forge",
+          "name": "Batterie de Forge",
+          "reference_effect": "Invocation — 4 tirs en 8s; 1 batterie max",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "brise-fer",
+      "name": "Brise-Fer",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "brise-fer:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "brise-fer-frappe-fendante",
+          "name": "Frappe Fendante",
+          "reference_effect": "Dégâts — +1 Fracture",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-brise-garde",
+          "name": "Brise-Garde",
+          "reference_effect": "Dégâts — -10% armure 5s; +1 Fracture",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-elan-du-marteau",
+          "name": "Élan du Marteau",
+          "reference_effect": "Mobilité — Charge 10m; pas de stun",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-coup-de-rupture",
+          "name": "Coup de Rupture",
+          "reference_effect": "Dégâts — Consomme 1-5 Fracture; +12%/charge",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-onde-de-choc",
+          "name": "Onde de Choc",
+          "reference_effect": "Zone — Ralentissement 30% 3s",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-entaille-profonde",
+          "name": "Entaille Profonde",
+          "reference_effect": "DoT — 3 ticks sur 6s",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-marteau-du-verdict",
+          "name": "Marteau du Verdict",
+          "reference_effect": "Dégâts — Préparation 1.2s; interruptible",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-rythme-de-forge",
+          "name": "Rythme de Forge",
+          "reference_effect": "Buff — +12% vitesse 8s",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-frappe-d-entrave",
+          "name": "Frappe d'Entrave",
+          "reference_effect": "Dégâts — Ralentissement 40% 3s",
+          "simulation": null
+        },
+        {
+          "id": "brise-fer-derniere-fissure",
+          "name": "Dernière Fissure",
+          "reference_effect": "Exécution — Cible <30% PV; consomme 3 Fracture",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "danse-lame",
+      "name": "Danse-lame",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "danse-lame:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "danse-lame-entaille-fluide",
+          "name": "Entaille Fluide",
+          "reference_effect": "Dégâts — +10 Cadence si alternance",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-pas-de-feuille",
+          "name": "Pas de Feuille",
+          "reference_effect": "Mobilité — Esquive 5m",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-lame-croisee",
+          "name": "Lame Croisée",
+          "reference_effect": "Dégâts — 2 frappes; +15 Cadence",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-danse-ascendante",
+          "name": "Danse Ascendante",
+          "reference_effect": "Dégâts — Finition; +15% si Cadence >=70",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-tourbillon-des-branches",
+          "name": "Tourbillon des Branches",
+          "reference_effect": "Zone — 3 frappes en 1.2s",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-feinte-du-vent",
+          "name": "Feinte du Vent",
+          "reference_effect": "Debuff — -10% parade 4s",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-sillage-tranchant",
+          "name": "Sillage Tranchant",
+          "reference_effect": "Dégâts — Attaque en déplacement",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-souffle-de-printemps",
+          "name": "Souffle de Printemps",
+          "reference_effect": "Buff — +12% vitesse attaque 8s",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-coup-de-grace-sylvestre",
+          "name": "Coup de Grâce Sylvestre",
+          "reference_effect": "Exécution — Cible <30% PV",
+          "simulation": null
+        },
+        {
+          "id": "danse-lame-reflet-des-lames",
+          "name": "Reflet des Lames",
+          "reference_effect": "Riposte — Fenêtre 3s après esquive",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "duelliste",
+      "name": "Duelliste",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "duelliste:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "duelliste-estoc-precis",
+          "name": "Estoc Précis",
+          "reference_effect": "Dégâts — +8 Avantage",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-parade-mesuree",
+          "name": "Parade Mesurée",
+          "reference_effect": "Défense — Fenêtre 0.45s; +20 Avantage si réussite",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-feinte-du-renard",
+          "name": "Feinte du Renard",
+          "reference_effect": "Debuff — +12 Avantage; -10% parade 4s",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-riposte-magistrale",
+          "name": "Riposte Magistrale",
+          "reference_effect": "Dégâts — Consomme Avantage",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-fente-eclair",
+          "name": "Fente Éclair",
+          "reference_effect": "Mobilité — Approche 8m",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-double-estoc",
+          "name": "Double Estoc",
+          "reference_effect": "Dégâts — 2 frappes",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-lame-de-revers",
+          "name": "Lame de Revers",
+          "reference_effect": "Dégâts — +15% si cible désorientée",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-desarmement-technique",
+          "name": "Désarmement Technique",
+          "reference_effect": "Contrôle — PvP: -20% dégâts arme 3s; pas de lock total",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-dernier-mot",
+          "name": "Dernier Mot",
+          "reference_effect": "Exécution — Cible <30% PV",
+          "simulation": null
+        },
+        {
+          "id": "duelliste-maitrise-du-duel",
+          "name": "Maîtrise du Duel",
+          "reference_effect": "Buff — +10% critique 8s",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "gardien-des-racines",
+      "name": "Gardien des Racines",
+      "role": "Tank",
+      "model_ids": [
+        "gardien-des-racines:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "gardien-des-racines-garde",
+          "name": "Garde",
+          "reference_effect": "Protection — Transfert 50%; instantané",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-defi-des-racines",
+          "name": "Défi des Racines",
+          "reference_effect": "Provocation — Taunt PvE 3s; PvP -15% hors Tank 4s",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-ecorce-vivante",
+          "name": "Écorce Vivante",
+          "reference_effect": "Défense — -25% dégâts 5s",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-pas-des-racines",
+          "name": "Pas des Racines",
+          "reference_effect": "Mobilité — Esquive courte; ne purge pas Garde",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-etreinte-sylvestre",
+          "name": "Étreinte Sylvestre",
+          "reference_effect": "Contrôle — Immobilisation 1.5s PvP",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-cercle-des-anciens",
+          "name": "Cercle des Anciens",
+          "reference_effect": "Protection — -18% dégâts alliés 5s",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-rejet-de-ronce",
+          "name": "Rejet de Ronce",
+          "reference_effect": "Contrôle — Repousse de 6 m à l’opposé du tank ; une cible",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-seve-persistante",
+          "name": "Sève Persistante",
+          "reference_effect": "Soin — Soin personnel sur 6s",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-ancrage-des-profondeurs",
+          "name": "Ancrage des Profondeurs",
+          "reference_effect": "Défense — -70% repoussements 6s",
+          "simulation": null
+        },
+        {
+          "id": "gardien-des-racines-cur-de-la-foret",
+          "name": "Cœur de la Forêt",
+          "reference_effect": "Défense — -40% dégâts 5s",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "rempart",
+      "name": "Rempart",
+      "role": "Tank",
+      "model_ids": [
+        "rempart:v8",
+        "rempart:generic"
+      ],
+      "simulation_profile": {
+        "path": "balance/rempart-reference-v1.json",
+        "engine": "scripts/simulate_rempart.mjs",
+        "version": "1.0.0",
+        "status": "EN_ETUDE",
+        "scope": "Rempart V8, PvE benchmark with one guarded ally; not full MMORPG/PvP"
+      },
+      "mastery_coefficients": {
+        "model": "rempart:v8",
+        "path": "balance/rempart-reference-v1.json",
+        "unmodeled_models": [
+          "rempart:generic"
+        ]
+      },
+      "abilities": [
+        {
+          "id": "rempart-garde",
+          "name": "Garde",
+          "reference_effect": "Protection — Transfert 50%; cible unique; instantané",
+          "simulation": {
+            "action": "garde",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-defi-du-rempart",
+          "name": "Défi du Rempart",
+          "reference_effect": "Provocation — Taunt PvE 3s; PvP -15% dégâts hors Tank 4s",
+          "simulation": {
+            "action": "defi",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-coup-de-heurt",
+          "name": "Coup de Heurt",
+          "reference_effect": "Dégâts — Interruption 1s; boss interruptible",
+          "simulation": {
+            "action": "coup-de-heurt",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-interposition",
+          "name": "Interposition",
+          "reference_effect": "Mobilité — Bond allié 12m; pas d'immunité",
+          "simulation": {
+            "action": "interposition",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-mur-d-echo",
+          "name": "Mur d'Écho",
+          "reference_effect": "Protection — -25% dégâts 5s; cône",
+          "simulation": {
+            "action": "mur-echo",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-ancrage-profond",
+          "name": "Ancrage Profond",
+          "reference_effect": "Défense — -70% repoussements 6s",
+          "simulation": {
+            "action": "ancrage",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-contre-heurt",
+          "name": "Contre-Heurt",
+          "reference_effect": "Dégâts — Riposte sous 3s après blocage",
+          "simulation": {
+            "action": "contre-frappe",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-cercle-de-fer",
+          "name": "Heurt du Bastion",
+          "reference_effect": "Contrôle — Repousse de 8 m à l’opposé du tank ; une cible",
+          "simulation": {
+            "action": "heurt-bastion",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-souffle-du-bastion",
+          "name": "Souffle du Bastion",
+          "reference_effect": "Récupération — +35 Endurance en 4s",
+          "simulation": {
+            "action": "souffle",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        },
+        {
+          "id": "rempart-rempart-absolu",
+          "name": "Rempart Absolu",
+          "reference_effect": "Défense — -45% dégâts 4s; non cumul fort",
+          "simulation": {
+            "action": "absolu",
+            "path": "balance/rempart-reference-v1.json",
+            "scope": "reference_v1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sentinelle",
+      "name": "Sentinelle",
+      "role": "Tank",
+      "model_ids": [
+        "sentinelle:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "sentinelle-garde",
+          "name": "Garde",
+          "reference_effect": "Protection — Transfert 50%; instantané",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-defi-de-la-sentinelle",
+          "name": "Défi de la Sentinelle",
+          "reference_effect": "Provocation — Taunt PvE 3s; PvP -15% hors Tank 4s",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-parade-du-veilleur",
+          "name": "Parade du Veilleur",
+          "reference_effect": "Défense — Parade active 0.5s; +15 Résolution réussie",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-interception-heroique",
+          "name": "Interception Héroïque",
+          "reference_effect": "Mobilité — Bond allié 12m",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-contre-de-justice",
+          "name": "Balayage du Veilleur",
+          "reference_effect": "Contrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-position-du-veilleur",
+          "name": "Position du Veilleur",
+          "reference_effect": "Défense — -25% dégâts 5s",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-cercle-de-vigilance",
+          "name": "Cercle de Vigilance",
+          "reference_effect": "Protection — -18% dégâts alliés 5s",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-lame-d-arret",
+          "name": "Lame d'Arrêt",
+          "reference_effect": "Dégâts — Interruption 1s",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-serment-de-fer",
+          "name": "Serment de Fer",
+          "reference_effect": "Défense — -45% dégâts 4s",
+          "simulation": null
+        },
+        {
+          "id": "sentinelle-derniere-ligne",
+          "name": "Dernière Ligne",
+          "reference_effect": "Protection — Bouclier urgence 5s",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "thaumaturge",
+      "name": "Thaumaturge",
+      "role": "Heal",
+      "model_ids": [
+        "thaumaturge:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "thaumaturge-rayon-restaurateur",
+          "name": "Rayon Restaurateur",
+          "reference_effect": "Soin — Équilibre +5 sur soin utile",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-transfert-vital",
+          "name": "Transfert Vital",
+          "reference_effect": "Soin — Équilibre -20",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-sceau-protecteur",
+          "name": "Sceau Protecteur",
+          "reference_effect": "Bouclier — Bouclier 6s",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-onde-de-retablissement",
+          "name": "Onde de Rétablissement",
+          "reference_effect": "Soin zone — 5 alliés; rayon 8m",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-conversion-d-urgence",
+          "name": "Conversion d'Urgence",
+          "reference_effect": "Soin — Instantané; déséquilibre 6s",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-purification-arcanique",
+          "name": "Purification Arcanique",
+          "reference_effect": "Dissipation — Retire 1 effet dissipable",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-lien-de-secours",
+          "name": "Lien de Secours",
+          "reference_effect": "Soin — Soin partagé 6s; 2 cibles",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-eclat-de-lumiere",
+          "name": "Éclat de Lumière",
+          "reference_effect": "Dégâts — Équilibre +5 si touche",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-harmonisation-interieure",
+          "name": "Harmonisation Intérieure",
+          "reference_effect": "Récupération — Restaure 30 Équilibre en 4s",
+          "simulation": null
+        },
+        {
+          "id": "thaumaturge-retour-a-la-vie",
+          "name": "Retour à la Vie",
+          "reference_effect": "Résurrection — Incant. 3s; 25% PV; limite groupe",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "tisseur-de-vie",
+      "name": "Tisseur de Vie",
+      "role": "Heal",
+      "model_ids": [
+        "tisseur-de-vie:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "tisseur-de-vie-seve-reparatrice",
+          "name": "Sève Réparatrice",
+          "reference_effect": "HoT — 4 ticks en 8s; +6 Floraison utile",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-graine-de-vie",
+          "name": "Graine de Vie",
+          "reference_effect": "Bouclier — Soin déclenché sous dégâts; 8s",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-elan-vital",
+          "name": "Élan Vital",
+          "reference_effect": "Soin — Soin direct; +5 Floraison utile",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-floraison-commune",
+          "name": "Floraison Commune",
+          "reference_effect": "Soin zone — 5 alliés; rayon 8m",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-ecorce-secourable",
+          "name": "Écorce Secourable",
+          "reference_effect": "Protection — -18% dégâts 6s",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-souffle-des-feuilles",
+          "name": "Souffle des Feuilles",
+          "reference_effect": "Dissipation — Retire 1 effet dissipable",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-racines-bienveillantes",
+          "name": "Racines Bienveillantes",
+          "reference_effect": "HoT zone — 3 ticks; 5 alliés",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-pollen-revigorant",
+          "name": "Pollen Revigorant",
+          "reference_effect": "Buff — +15% soins progressifs 8s",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-renouveau-profond",
+          "name": "Renouveau Profond",
+          "reference_effect": "Soin — Soin d'urgence",
+          "simulation": null
+        },
+        {
+          "id": "tisseur-de-vie-retour-du-printemps",
+          "name": "Retour du Printemps",
+          "reference_effect": "Résurrection — Incant. 3s; 25% PV; limite groupe",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "traqueur-sylvestre",
+      "name": "Traqueur sylvestre",
+      "role": "DPS distance",
+      "model_ids": [
+        "traqueur-sylvestre:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "traqueur-sylvestre-fleche-guidee",
+          "name": "Flèche Guidée",
+          "reference_effect": "Dégâts — +8 Observation",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-marque-du-traqueur",
+          "name": "Marque du Traqueur",
+          "reference_effect": "Debuff — +10 Observation à l'application",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-bond-sylvestre",
+          "name": "Bond Sylvestre",
+          "reference_effect": "Mobilité — Recul 6m",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-fleche-de-percee",
+          "name": "Flèche de Percée",
+          "reference_effect": "Dégâts — Incant. 1s; cible marquée +10%",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-pluie-de-feuilles",
+          "name": "Pluie de Feuilles",
+          "reference_effect": "Zone — 4 impacts zone",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-piege-de-ronces",
+          "name": "Piège de Ronces",
+          "reference_effect": "Contrôle — Immobilisation 1.5s PvP",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-fleche-silencieuse",
+          "name": "Flèche Silencieuse",
+          "reference_effect": "Dégâts — +15% hors combat uniquement",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-regard-du-predateur",
+          "name": "Regard du Prédateur",
+          "reference_effect": "Buff — +10% critique 7s",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-tir-de-repli",
+          "name": "Tir de Repli",
+          "reference_effect": "Dégâts — Recul 3m",
+          "simulation": null
+        },
+        {
+          "id": "traqueur-sylvestre-derniere-trajectoire",
+          "name": "Dernière Trajectoire",
+          "reference_effect": "Exécution — Cible marquée <30% PV",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "porte-faille",
+      "name": "Porte-Faille",
+      "role": "Tank",
+      "model_ids": [
+        "porte-faille:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "porte-faille--garde",
+          "name": "Garde",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--defi-de-la-faille",
+          "name": "Défi de la Faille",
+          "reference_effect": "Provocation",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--frappe-de-jointure",
+          "name": "Frappe de Jointure",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--armature-ouverte",
+          "name": "Armature Ouverte",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--pas-de-soutenement",
+          "name": "Pas de Soutènement",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--ouverture-du-front",
+          "name": "Ouverture du Front",
+          "reference_effect": "Contrôle — bump",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--coin-de-rupture",
+          "name": "Coin de Rupture",
+          "reference_effect": "Dégâts directs / interruption",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--repartition-des-charges",
+          "name": "Répartition des Charges",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--scellement-des-appuis",
+          "name": "Scellement des Appuis",
+          "reference_effect": "Ancrage",
+          "simulation": null
+        },
+        {
+          "id": "porte-faille--tenir-les-fragments",
+          "name": "Tenir les Fragments",
+          "reference_effect": "Défense majeure",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "fendeur",
+      "name": "Fendeur",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "fendeur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "fendeur--frappe-de-taille",
+          "name": "Frappe de Taille",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--reperage-du-joint",
+          "name": "Repérage du Joint",
+          "reference_effect": "Dégâts directs / préparation",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--effondrement",
+          "name": "Effondrement",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--pas-de-coin",
+          "name": "Pas de Coin",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--entrave-de-taille",
+          "name": "Entrave de Taille",
+          "reference_effect": "Dégâts directs / ralentissement",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--fissure-persistante",
+          "name": "Fissure Persistante",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--fermer-les-appuis",
+          "name": "Fermer les Appuis",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--taille-d-eboulis",
+          "name": "Taille d’Éboulis",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--mesure-de-rupture",
+          "name": "Mesure de Rupture",
+          "reference_effect": "Amélioration personnelle",
+          "simulation": null
+        },
+        {
+          "id": "fendeur--ultime-fissure",
+          "name": "Ultime Fissure",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "eclateur",
+      "name": "Éclateur",
+      "role": "DPS distance",
+      "model_ids": [
+        "eclateur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "eclateur--eclat-lance",
+          "name": "Éclat Lancé",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--mise-sous-tension",
+          "name": "Mise sous Tension",
+          "reference_effect": "Préparation",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--trait-de-fracture",
+          "name": "Trait de Fracture",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--recul-de-carriere",
+          "name": "Recul de Carrière",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--balise-de-faille",
+          "name": "Balise de Faille",
+          "reference_effect": "Préparation de zone",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--poussiere-incisive",
+          "name": "Poussière Incisive",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--pare-eclats",
+          "name": "Pare-Éclats",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--eboulis-projete",
+          "name": "Éboulis Projeté",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--eclat-d-arret",
+          "name": "Éclat d’Arrêt",
+          "reference_effect": "Dégâts directs / interruption",
+          "simulation": null
+        },
+        {
+          "id": "eclateur--noyau-brise",
+          "name": "Noyau Brisé",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "lieur",
+      "name": "Lieur",
+      "role": "Heal",
+      "model_ids": [
+        "lieur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "lieur--point-de-suture",
+          "name": "Point de Suture",
+          "reference_effect": "Soin direct",
+          "simulation": null
+        },
+        {
+          "id": "lieur--fil-continu",
+          "name": "Fil Continu",
+          "reference_effect": "Soin sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "lieur--serrage-protecteur",
+          "name": "Serrage Protecteur",
+          "reference_effect": "Absorption",
+          "simulation": null
+        },
+        {
+          "id": "lieur--trame-de-maintien",
+          "name": "Trame de Maintien",
+          "reference_effect": "Soin de zone",
+          "simulation": null
+        },
+        {
+          "id": "lieur--reprise-du-joint",
+          "name": "Reprise du Joint",
+          "reference_effect": "Soin direct d’urgence",
+          "simulation": null
+        },
+        {
+          "id": "lieur--delier-l-alteration",
+          "name": "Délier l’Altération",
+          "reference_effect": "Dissipation",
+          "simulation": null
+        },
+        {
+          "id": "lieur--attaches-de-secours",
+          "name": "Attaches de Secours",
+          "reference_effect": "Lien / soin conditionnel",
+          "simulation": null
+        },
+        {
+          "id": "lieur--eclat-de-maintien",
+          "name": "Éclat de Maintien",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "lieur--tenir-ensemble",
+          "name": "Tenir Ensemble",
+          "reference_effect": "Soin de groupe majeur",
+          "simulation": null
+        },
+        {
+          "id": "lieur--rappel-des-liens",
+          "name": "Rappel des Liens",
+          "reference_effect": "Résurrection",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "enlaceur",
+      "name": "Enlaceur",
+      "role": "Tank",
+      "model_ids": [
+        "enlaceur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "enlaceur--garde",
+          "name": "Garde",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--defi-de-l-enceinte",
+          "name": "Défi de l’Enceinte",
+          "reference_effect": "Provocation",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--arc-d-enceinte",
+          "name": "Arc d’Enceinte",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--garde-entrelacee",
+          "name": "Garde Entrelacée",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--pas-d-enroulement",
+          "name": "Pas d’Enroulement",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--revers-de-liane",
+          "name": "Revers de Liane",
+          "reference_effect": "Contrôle — bump",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--noeud-de-passage",
+          "name": "Nœud de Passage",
+          "reference_effect": "Immobilisation",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--enceinte-vivante",
+          "name": "Enceinte Vivante",
+          "reference_effect": "Zone / protection",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--prise-profonde",
+          "name": "Prise Profonde",
+          "reference_effect": "Ancrage",
+          "simulation": null
+        },
+        {
+          "id": "enlaceur--dernier-enlacement",
+          "name": "Dernier Enlacement",
+          "reference_effect": "Défense majeure",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "mue-lame",
+      "name": "Mue-Lame",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "mue-lame:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "mue-lame--taille-souple",
+          "name": "Taille Souple",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--revers-d-appui",
+          "name": "Revers d’Appui",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--lame-deployee",
+          "name": "Lame Déployée",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--pas-de-mue",
+          "name": "Pas de Mue",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--crochet-de-garde",
+          "name": "Crochet de Garde",
+          "reference_effect": "Dégâts directs / ralentissement",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--suture-tranchante",
+          "name": "Suture Tranchante",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--repli-mesure",
+          "name": "Repli Mesuré",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--croissant-changeant",
+          "name": "Croissant Changeant",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--lecture-du-mouvement",
+          "name": "Lecture du Mouvement",
+          "reference_effect": "Amélioration personnelle",
+          "simulation": null
+        },
+        {
+          "id": "mue-lame--derniere-mue",
+          "name": "Dernière Mue",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "aiguilleur",
+      "name": "Aiguilleur",
+      "role": "DPS distance",
+      "model_ids": [
+        "aiguilleur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "aiguilleur--aiguille-droite",
+          "name": "Aiguille Droite",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--repere-d-angle",
+          "name": "Repère d’Angle",
+          "reference_effect": "Dégâts directs / préparation",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--perce-intervalle",
+          "name": "Perce-Intervalle",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--decalage",
+          "name": "Décalage",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--aiguille-d-entrave",
+          "name": "Aiguille d’Entrave",
+          "reference_effect": "Dégâts directs / ralentissement",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--fil-incisif",
+          "name": "Fil Incisif",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--garde-de-profil",
+          "name": "Garde de Profil",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--eventail-d-aiguilles",
+          "name": "Éventail d’Aiguilles",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--aiguille-de-silence",
+          "name": "Aiguille de Silence",
+          "reference_effect": "Dégâts directs / interruption",
+          "simulation": null
+        },
+        {
+          "id": "aiguilleur--point-final",
+          "name": "Point Final",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "eveilleur",
+      "name": "Éveilleur",
+      "role": "Heal",
+      "model_ids": [
+        "eveilleur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "eveilleur--impulsion-vitale",
+          "name": "Impulsion Vitale",
+          "reference_effect": "Soin direct",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--bourgeon-attentif",
+          "name": "Bourgeon Attentif",
+          "reference_effect": "Soin déclenché",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--poussee-nouvelle",
+          "name": "Poussée Nouvelle",
+          "reference_effect": "Soin direct",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--elan-commun",
+          "name": "Élan Commun",
+          "reference_effect": "Soin de zone",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--seconde-pousse",
+          "name": "Seconde Pousse",
+          "reference_effect": "Soin direct d’urgence",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--ecarter-le-mal",
+          "name": "Écarter le Mal",
+          "reference_effect": "Dissipation",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--ecorce-de-relance",
+          "name": "Écorce de Relance",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--epine-claire",
+          "name": "Épine Claire",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--reveil-collectif",
+          "name": "Réveil Collectif",
+          "reference_effect": "Soin de groupe majeur",
+          "simulation": null
+        },
+        {
+          "id": "eveilleur--retour-du-souffle-neuf",
+          "name": "Retour du Souffle Neuf",
+          "reference_effect": "Résurrection",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "brise-courant",
+      "name": "Brise-Courant",
+      "role": "Tank",
+      "model_ids": [
+        "brise-courant:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "brise-courant--garde",
+          "name": "Garde",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--defi-de-la-proue",
+          "name": "Défi de la Proue",
+          "reference_effect": "Provocation",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--taille-de-proue",
+          "name": "Taille de Proue",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--deviation",
+          "name": "Déviation",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--couper-la-trajectoire",
+          "name": "Couper la Trajectoire",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--ressac-de-proue",
+          "name": "Ressac de Proue",
+          "reference_effect": "Contrôle — bump",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--brisure-d-elan",
+          "name": "Brisure d’Élan",
+          "reference_effect": "Dégâts directs / interruption",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--sillage-abrite",
+          "name": "Sillage Abrité",
+          "reference_effect": "Protection",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--contrepoids",
+          "name": "Contrepoids",
+          "reference_effect": "Ancrage",
+          "simulation": null
+        },
+        {
+          "id": "brise-courant--proue-inflexible",
+          "name": "Proue Inflexible",
+          "reference_effect": "Défense majeure",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "sillonneur",
+      "name": "Sillonneur",
+      "role": "DPS mêlée",
+      "model_ids": [
+        "sillonneur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "sillonneur--taille-de-sillage",
+          "name": "Taille de Sillage",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--traversee-offensive",
+          "name": "Traversée Offensive",
+          "reference_effect": "Dégâts / mobilité",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--coupe-de-rive",
+          "name": "Coupe de Rive",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--pas-lateral",
+          "name": "Pas Latéral",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--accroche-du-sillage",
+          "name": "Accroche du Sillage",
+          "reference_effect": "Dégâts directs / ralentissement",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--entaille-continue",
+          "name": "Entaille Continue",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--profil-bas",
+          "name": "Profil Bas",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--large-sillon",
+          "name": "Large Sillon",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--tenir-la-ligne",
+          "name": "Tenir la Ligne",
+          "reference_effect": "Amélioration personnelle",
+          "simulation": null
+        },
+        {
+          "id": "sillonneur--dernier-passage",
+          "name": "Dernier Passage",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "lance-rive",
+      "name": "Lance-Rive",
+      "role": "DPS distance",
+      "model_ids": [
+        "lance-rive:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "lance-rive--jet-de-rive",
+          "name": "Jet de Rive",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--javelot-de-cadence",
+          "name": "Javelot de Cadence",
+          "reference_effect": "Dégâts directs / préparation",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--jet-appuye",
+          "name": "Jet Appuyé",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--retrait-de-rive",
+          "name": "Retrait de Rive",
+          "reference_effect": "Mobilité",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--javelot-d-amarre",
+          "name": "Javelot d’Amarre",
+          "reference_effect": "Dégâts directs / ralentissement",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--pointe-persistante",
+          "name": "Pointe Persistante",
+          "reference_effect": "Dégâts sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--abri-de-voyage",
+          "name": "Abri de Voyage",
+          "reference_effect": "Protection personnelle",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--gerbe-de-rive",
+          "name": "Gerbe de Rive",
+          "reference_effect": "Dégâts de zone",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--trait-de-coupure",
+          "name": "Trait de Coupure",
+          "reference_effect": "Dégâts directs / interruption",
+          "simulation": null
+        },
+        {
+          "id": "lance-rive--dernier-javelot",
+          "name": "Dernier Javelot",
+          "reference_effect": "Exécution",
+          "simulation": null
+        }
+      ]
+    },
+    {
+      "id": "passeur",
+      "name": "Passeur",
+      "role": "Heal",
+      "model_ids": [
+        "passeur:generic"
+      ],
+      "simulation_profile": null,
+      "mastery_coefficients": null,
+      "abilities": [
+        {
+          "id": "passeur--soin-de-passage",
+          "name": "Soin de Passage",
+          "reference_effect": "Soin direct",
+          "simulation": null
+        },
+        {
+          "id": "passeur--souffle-de-rive",
+          "name": "Souffle de Rive",
+          "reference_effect": "Soin sur la durée",
+          "simulation": null
+        },
+        {
+          "id": "passeur--traversee-partagee",
+          "name": "Traversée Partagée",
+          "reference_effect": "Préparation / soin direct",
+          "simulation": null
+        },
+        {
+          "id": "passeur--halte-commune",
+          "name": "Halte Commune",
+          "reference_effect": "Soin de zone",
+          "simulation": null
+        },
+        {
+          "id": "passeur--main-tendue",
+          "name": "Main Tendue",
+          "reference_effect": "Soin direct d’urgence",
+          "simulation": null
+        },
+        {
+          "id": "passeur--laver-l-entrave",
+          "name": "Laver l’Entrave",
+          "reference_effect": "Dissipation",
+          "simulation": null
+        },
+        {
+          "id": "passeur--abri-de-rive",
+          "name": "Abri de Rive",
+          "reference_effect": "Absorption",
+          "simulation": null
+        },
+        {
+          "id": "passeur--pierre-lancee",
+          "name": "Pierre Lancée",
+          "reference_effect": "Dégâts directs",
+          "simulation": null
+        },
+        {
+          "id": "passeur--franchir-ensemble",
+          "name": "Franchir Ensemble",
+          "reference_effect": "Soin de groupe majeur",
+          "simulation": null
+        },
+        {
+          "id": "passeur--retour-a-la-rive",
+          "name": "Retour à la Rive",
+          "reference_effect": "Résurrection",
+          "simulation": null
+        }
+      ]
+    }
+  ]
+}

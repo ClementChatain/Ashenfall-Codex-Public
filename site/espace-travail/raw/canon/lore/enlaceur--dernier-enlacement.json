@@ -1,0 +1,57 @@
+{
+  "id": "enlaceur--dernier-enlacement",
+  "category": "competences",
+  "title": "Dernier Enlacement",
+  "summary": "Défense majeure · Enlaceur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Enlaceur\nRôle : Tank\nN° : 10\nCompétence : Dernier Enlacement\nType : Défense\nType clair : Défense majeure\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 60\nCD (s) : 90\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : −40 % de dégâts directs pendant 4 s. L’Enlaceur inflige 20 % de dégâts en moins pendant cet effet. Ne renforce pas ses contrôles.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0520",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "enlaceur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0520",
+  "public_projection": {
+    "id": "enlaceur--dernier-enlacement",
+    "category": "competences",
+    "title": "Dernier Enlacement",
+    "summary": "Défense majeure · Enlaceur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Enlaceur\nRôle : Tank\nN° : 10\nCompétence : Dernier Enlacement\nType : Défense\nType clair : Défense majeure\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 60\nCD (s) : 90\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : −40 % de dégâts directs pendant 4 s. L’Enlaceur inflige 20 % de dégâts en moins pendant cet effet. Ne renforce pas ses contrôles.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-enlaceur--dernier-enlacement.json",
+    "record_sha256": "215ea3082ce3291b32c3ba56fa9f530efbebf50b68f8bed09335edccf90a857c"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

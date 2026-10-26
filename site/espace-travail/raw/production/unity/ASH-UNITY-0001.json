@@ -1,0 +1,31 @@
+{
+  "id": "ASH-UNITY-0001",
+  "lore_id": "ASH-LORE-0001",
+  "lore_version": "1.0",
+  "status": "PROPOSITION",
+  "visibility": "INTERNE",
+  "zones": [],
+  "npcs": [],
+  "quests": [],
+  "dialogues": [],
+  "environments": [],
+  "assets": [],
+  "constraints": [
+    "Respecter les faits de ASH-LORE-0001.",
+    "Ne pas définir la cause, le mécanisme ou le sens des transformations.",
+    "Toute modification du jeu doit suivre son processus de validation propre."
+  ],
+  "dependencies": [
+    "ASH-LORE-0001@1.0"
+  ],
+  "acceptance": [
+    "La fiche renvoie à la version exacte du lore.",
+    "Aucun fait narratif supplémentaire n’est introduit.",
+    "Aucun code, scène, prefab ou asset Unity n’est modifié."
+  ],
+  "non_decisions": [
+    "Aucune zone ni quête ni PNJ ni asset déterminé.",
+    "Aucune mécanique Unity prescrite."
+  ],
+  "implementation_status": "NON_PLANIFIE"
+}

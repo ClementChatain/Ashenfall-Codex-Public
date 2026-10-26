@@ -1,0 +1,2118 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## Codex illustré — extension aux six peuples et 24 classes
+Source: artworks/all-peoples-v1/README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: eda92a8d4d39081bd0553b5bc7ee83ed205ab17e4e6787f7032cc5e64d98a2eb
+Page: documents/2ae9d89367a8275352fa0233.html
+Source publiée: raw/artworks/all-peoples-v1/README.md
+
+# Codex illustré — extension aux six peuples et 24 classes
+
+Sources artistiques de l’extension demandée le 25 octobre 2026 avec autorisation de publication directe. Le Rempart conserve ses galeries existantes ; 23 nouvelles planches comportent chacune deux rangées de six personnages (progression visuelle, puis skins alternatifs). Cinq panoramas complètent le décor nain déjà présent. Les portraits publics existants ont servi de références de silhouette, de rôle et d’équipement.
+
+Ces visuels sont des concepts artistiques. Ils n’ajoutent aucune validation narrative, statistique, niveau requis, personnage canonique ou lieu nommé. Les 278 fiches publiques et leurs métadonnées sont conservées.
+
+`sources/` conserve les 28 PNG originaux ; `manifest.json` leurs empreintes ; `results/` les descriptions de génération et chemins de reconstruction ; `jobs.json` les classes et références publiques.
+
+Depuis le dépôt public, les dérivés peuvent être reconstruits avec Pillow :
+
+```sh
+python3 scripts/prepare_all_peoples_artwork.py --results ../Ashenfall-Knowledge/artworks/all-peoples-v1/results --jobs ../Ashenfall-Knowledge/artworks/all-peoples-v1/jobs.json
+```
+
+Le script prépare les WebP et la configuration sous `site/assets/classes/peoples-v1/`. Ne jamais servir ce dossier de sources privées par HTTP. Les vérifications du rendu et de publication concernent le dépôt public et son domaine.
+
+## Révision Brise-Fer du 26 octobre 2026
+
+La reconstruction courante du Brise-Fer pointe vers [la planche V2](../brise-fer-v2/README.md). Les originaux V1 sont préservés. Le job fournit une séparation à y=492, les détails de la colonne VI de base, six libellés descriptifs de skins et une version d’URL pour éviter les anciennes images en cache. Les nouvelles sources et références utilisent des chemins relatifs à la racine Knowledge.
+
+
+## jobs
+Source: artworks/all-peoples-v1/jobs.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6501e23413c8120b2a1cbfe7db3ad6d040954af88e765a72d933b59f586c3bf3
+Page: documents/447f0b3b6981e2ab3baf7bd0.html
+Source publiée: raw/artworks/all-peoples-v1/jobs.json
+
+[
+  {
+    "id": "brise-fer",
+    "race": "nains",
+    "title": "Brise-Fer",
+    "summary": "Nain · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Marteau ou hache lourde, armure robuste. DPS de contact méthodique : il fragilise une cible, prépare une\n ouverture, puis déclenche une rupture dévastatrice.",
+    "reference": "artworks/brise-fer-v2/sources/reference-v1.webp",
+    "row_split_pixels": 492,
+    "details_mode": "base",
+    "details_index": 5,
+    "skinLabels": [
+      "Forge volcanique",
+      "Champion cérémoniel",
+      "Montagne sauvage",
+      "Os et fer noir",
+      "Blanc et or",
+      "Cristal bleu"
+    ],
+    "asset_version": "brise-fer-v2"
+  },
+  {
+    "id": "artilleur-runique",
+    "race": "nains",
+    "title": "Artilleur runique",
+    "summary": "Nain · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Arbalète mécanique ou lanceur runique, projectiles spécialisés et petits dispositifs de terrain. DPS à distance axé\n sur précision, lignes de tir et gestion des mécanismes.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/artilleur-runique.webp"
+  },
+  {
+    "id": "accordeur",
+    "race": "nains",
+    "title": "Accordeur",
+    "summary": "Nain · Heal · 10 compétences de référence V0.1",
+    "identity": "Instruments de Résonance, diapasons et dispositifs de stabilisation. Soigneur qui combine soins directs,\n prévention et rétablissement progressif.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/accordeur.webp"
+  },
+  {
+    "id": "gardien-des-racines",
+    "race": "elfes",
+    "title": "Gardien des Racines",
+    "summary": "Elfe · Tank · 10 compétences de référence V0.2",
+    "identity": "Male elf tank, silver and green natural leaf-pattern heavy armor, large shield and one handed mace.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/gardien-des-racines.webp"
+  },
+  {
+    "id": "danse-lame",
+    "race": "elfes",
+    "title": "Danse-lame",
+    "summary": "Elfe · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Female elf dual curved swords, light articulated silver and green leaf armor.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/danse-lame.webp"
+  },
+  {
+    "id": "traqueur-sylvestre",
+    "race": "elfes",
+    "title": "Traqueur sylvestre",
+    "summary": "Elfe · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Male elf archer, longbow quiver, dark green and brown layered leather, mobile forest scout.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/traqueur-sylvestre.webp"
+  },
+  {
+    "id": "tisseur-de-vie",
+    "race": "elfes",
+    "title": "Tisseur de Vie",
+    "summary": "Elfe · Heal · 10 compétences de référence V0.1",
+    "identity": "Female elf healer, green and ivory robes, branching organic wooden staff, light floral motifs.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/tisseur-de-vie.webp"
+  },
+  {
+    "id": "sentinelle",
+    "race": "humains",
+    "title": "Sentinelle",
+    "summary": "Humain · Tank · 10 compétences de référence V0.2",
+    "identity": "Human male knight tank, one handed sword and large shield, steel plate and burgundy cloak.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sentinelle.webp"
+  },
+  {
+    "id": "duelliste",
+    "race": "humains",
+    "title": "Duelliste",
+    "summary": "Humain · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Human female agile duelist, rapier and short parrying dagger, fitted dark crimson leather and light metal.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/duelliste.webp"
+  },
+  {
+    "id": "arcaniste",
+    "race": "humains",
+    "title": "Arcaniste",
+    "summary": "Humain · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Human male arcane caster, dark purple layered robes, held spherical arcane focus and slender wand.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/arcaniste.webp"
+  },
+  {
+    "id": "thaumaturge",
+    "race": "humains",
+    "title": "Thaumaturge",
+    "summary": "Humain · Heal · 10 compétences de référence V0.1",
+    "identity": "Human female healer, ivory and burgundy robes, gold circular ritual focus.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/thaumaturge.webp"
+  },
+  {
+    "id": "porte-faille",
+    "race": "kharun",
+    "title": "Porte-Faille",
+    "summary": "Kharûn · Tank · 10 compétences V0.1",
+    "identity": "Son équipement associe une arme courte à une grande pièce défensive composée de plaques imbriquées. Sa silhouette est large, presque monumentale, mais les éléments de sa protection semblent pouvoir s’écarter et se réassembler.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/porte-faille.webp"
+  },
+  {
+    "id": "fendeur",
+    "race": "kharun",
+    "title": "Fendeur",
+    "summary": "Kharûn · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il manie une longue arme de percussion à tête fendue, entre masse de guerre et outil d’écartement. Ses gestes sont lourds, précis, avec des changements d’appui très marqués.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/fendeur.webp"
+  },
+  {
+    "id": "eclateur",
+    "race": "kharun",
+    "title": "Éclateur",
+    "summary": "Kharûn · DPS distance · 10 compétences V0.1",
+    "identity": "Il porte des cadres de lancement ouverts, des anneaux de maintien et quelques fragments suspendus entre leurs supports. L’ensemble paraît brut et dangereux, avec une mécanique visible.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eclateur.webp"
+  },
+  {
+    "id": "lieur",
+    "race": "kharun",
+    "title": "Lieur",
+    "summary": "Kharûn · Soigneur · 10 compétences V0.1",
+    "identity": "Son équipement comprend des attaches, des cercles articulés et des fils métalliques épais, portés sur les avant-bras et autour du torse. Sa silhouette reste sobre, avec des gestes d’assemblage et de maintien.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lieur.webp"
+  },
+  {
+    "id": "enlaceur",
+    "race": "vaelith",
+    "title": "Enlaceur",
+    "summary": "Vaelith · Tank · 10 compétences V0.1",
+    "identity": "Il porte une armure souple faite de bandes entrecroisées et manie une longue arme courbe à deux mains. Sa silhouette forme une enceinte ouverte autour de lui.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/enlaceur.webp"
+  },
+  {
+    "id": "mue-lame",
+    "race": "vaelith",
+    "title": "Mue-Lame",
+    "summary": "Vaelith · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/mue-lame.webp"
+  },
+  {
+    "id": "aiguilleur",
+    "race": "vaelith",
+    "title": "Aiguilleur",
+    "summary": "Vaelith · DPS distance · 10 compétences V0.1",
+    "identity": "Son arme est un lance-aiguilles à branches articulées, porté près de l’avant-bras. Quelques longues aiguilles sont visibles le long de son équipement ; sa silhouette reste fine et immédiatement identifiable.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/aiguilleur.webp"
+  },
+  {
+    "id": "eveilleur",
+    "race": "vaelith",
+    "title": "Éveilleur",
+    "summary": "Vaelith · Soigneur · 10 compétences V0.1",
+    "identity": "Il porte des structures de bourgeons fermés, de petites coupelles et des pièces d’argent déployables. Ses gestes évoquent l’ouverture et l’impulsion.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eveilleur.webp"
+  },
+  {
+    "id": "brise-courant",
+    "race": "orynth",
+    "title": "Brise-Courant",
+    "summary": "Orynth · Tank · 10 compétences V0.1",
+    "identity": "Il manie une longue arme d’hast et porte un large avant-bras défensif. Sa silhouette est inclinée vers l’avant, avec des protections qui donnent une impression de proue.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/brise-courant.webp"
+  },
+  {
+    "id": "sillonneur",
+    "race": "orynth",
+    "title": "Sillonneur",
+    "summary": "Orynth · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il utilise une longue lame courbe à deux mains, portée basse, avec une armure compacte qui laisse les jambes libres. Sa gestuelle dessine de grands passages continus.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sillonneur.webp"
+  },
+  {
+    "id": "lance-rive",
+    "race": "orynth",
+    "title": "Lance-Rive",
+    "summary": "Orynth · DPS distance · 10 compétences V0.1",
+    "identity": "Il porte plusieurs javelots fins dans un harnais ouvert et utilise un propulseur court. L’armement lui donne une identité immédiatement différente des arcs, des dispositifs runiques et des armes arcaniques.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lance-rive.webp"
+  },
+  {
+    "id": "passeur",
+    "race": "orynth",
+    "title": "Passeur",
+    "summary": "Orynth · Soigneur · 10 compétences V0.1",
+    "identity": "Son équipement associe un bâton court, des anneaux ouverts et des pierres lisses enchâssées dans des supports métalliques. Sa silhouette évoque un guide de terrain, capable d’avancer au milieu des autres.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/passeur.webp"
+  }
+]
+
+
+## manifest
+Source: artworks/all-peoples-v1/manifest.json
+Statut déclaré: concept
+Version: all-peoples-v1
+SHA-256: c63d2001cf9bed12e13c8ce7d37af275e7bbc9eaefa17b27aabc2dfb6a787bbf
+Page: documents/cf02881be4a67d8f17c2db59.html
+Source publiée: raw/artworks/all-peoples-v1/manifest.json
+
+{
+  "version": "all-peoples-v1",
+  "status": "concept",
+  "authorization": "Le créateur demande le traitement de tous les autres peuples et classes, avec publication directe sans nouvelle validation intermédiaire.",
+  "scope": "Présentation et concepts artistiques seulement ; aucun nouveau lore, pouvoir, niveau requis ou statistique.",
+  "sources": [
+    {
+      "id": "accordeur",
+      "file": "sources/accordeur.png",
+      "sha256": "ea5a7b82a0c8ad6329c94784e35012d867e73b8bf0ec705e2711d12cbeb42ed2"
+    },
+    {
+      "id": "aiguilleur",
+      "file": "sources/aiguilleur.png",
+      "sha256": "0fc6aa414911ba297a83a17e19f94497afa164134263714cf797a5c691a82ab1"
+    },
+    {
+      "id": "arcaniste",
+      "file": "sources/arcaniste.png",
+      "sha256": "0254117187abc67a785136ae816980043913db2b506e800f4939bb93b56efeed"
+    },
+    {
+      "id": "artilleur-runique",
+      "file": "sources/artilleur-runique.png",
+      "sha256": "3630e1810e7b207ca160cfe3763abf3634834027f58551f2a1419f6ee136cb3f"
+    },
+    {
+      "id": "brise-courant",
+      "file": "sources/brise-courant.png",
+      "sha256": "10cb0e6f4c36c78b1b314708134593faa2b9a04895d04f9a02742181855d5950"
+    },
+    {
+      "id": "brise-fer",
+      "file": "sources/brise-fer.png",
+      "sha256": "e73f1db1da0e9964fbff6f4f756da3324d9eda39383c48149df82853bf068f14"
+    },
+    {
+      "id": "danse-lame",
+      "file": "sources/danse-lame.png",
+      "sha256": "d82a11b453ead1292d9d994ede7b8389f823008f015c895cf074114cc1903324"
+    },
+    {
+      "id": "duelliste",
+      "file": "sources/duelliste.png",
+      "sha256": "55c4e88c25e835eea094552bb026ca0af711392be9643eb86a76bd89295dae8a"
+    },
+    {
+      "id": "eclateur",
+      "file": "sources/eclateur.png",
+      "sha256": "2201082f51907cde3aabdc5f220d72045e216f9357489027915e375552dbbcbe"
+    },
+    {
+      "id": "enlaceur",
+      "file": "sources/enlaceur.png",
+      "sha256": "b90abf6c96fcd9b64ccaef3cc05d86291e4e751ef12e96135ddecfa00cef9fbe"
+    },
+    {
+      "id": "eveilleur",
+      "file": "sources/eveilleur.png",
+      "sha256": "71edd1d025d6dcac7f9014f32b6163cc71502131e83c1b263b1c48c4602ab9d1"
+    },
+    {
+      "id": "fendeur",
+      "file": "sources/fendeur.png",
+      "sha256": "e3bf0f01d9604b24227db4f1d527a164dacffeb2487a93dea4f70edbe0287892"
+    },
+    {
+      "id": "gardien-des-racines",
+      "file": "sources/gardien-des-racines.png",
+      "sha256": "7c8bfdd44a0857c9bc7b1a42608c4fb0d59729c63a813acedd421ab36ace92c4"
+    },
+    {
+      "id": "lance-rive",
+      "file": "sources/lance-rive.png",
+      "sha256": "b2db6ddc10d31f08b5f4df88467210bcda1d9684bc8840e9847df2a36321b7bf"
+    },
+    {
+      "id": "landscape-elfes",
+      "file": "sources/landscape-elfes.png",
+      "sha256": "645c44df76a53fb5b7a7593611a62c8852bc07e11957d465c50a62bc2c6ec7ad"
+    },
+    {
+      "id": "landscape-humains",
+      "file": "sources/landscape-humains.png",
+      "sha256": "fbadee58d10af840cbebcab1b245a687ceaf76fb19efb2d0368dfb34c8ff10a6"
+    },
+    {
+      "id": "landscape-kharun",
+      "file": "sources/landscape-kharun.png",
+      "sha256": "108df9e8d69e7b37f1716f1cb235748829d7f0dd4541f8a0c0aa47e78986130a"
+    },
+    {
+      "id": "landscape-orynth",
+      "file": "sources/landscape-orynth.png",
+      "sha256": "fc3b24ebf29468e23723f046a8e8652588800d708bcf60668c90242fd1302262"
+    },
+    {
+      "id": "landscape-vaelith",
+      "file": "sources/landscape-vaelith.png",
+      "sha256": "24e1b7105b7ce33a260462bd4a8e862706462f7ad2a3983f90c65e9004a7862a"
+    },
+    {
+      "id": "lieur",
+      "file": "sources/lieur.png",
+      "sha256": "c8fddfab14b8700bfc2c7754e9cb0f6a8b72dcab41c92a7a0057fcb8090a3a83"
+    },
+    {
+      "id": "mue-lame",
+      "file": "sources/mue-lame.png",
+      "sha256": "a47ce4d4cf67f301d0b095463d0b52e7cfb364cf201447c7cef4de70ec73d450"
+    },
+    {
+      "id": "passeur",
+      "file": "sources/passeur.png",
+      "sha256": "cec6a1f6a6ab359a4a107fbe5ce0191d84065f475c99b5b8b17834f494e2ed3b"
+    },
+    {
+      "id": "porte-faille",
+      "file": "sources/porte-faille.png",
+      "sha256": "d54ccc477b76de7b9c56cbe60c23f92f320a7de512b637708a675fae24976095"
+    },
+    {
+      "id": "sentinelle",
+      "file": "sources/sentinelle.png",
+      "sha256": "cded3e4f068c63142bd8abb766decba307ab9b08d51e1df5eecdbb9ec3de54f8"
+    },
+    {
+      "id": "sillonneur",
+      "file": "sources/sillonneur.png",
+      "sha256": "27883a66a8d0e2c8af8c2777b859b8df88c310c3af1b8637b832c19b26076b02"
+    },
+    {
+      "id": "thaumaturge",
+      "file": "sources/thaumaturge.png",
+      "sha256": "d137a2c8630546e7e5cd68f71600d012838e253b2be6fbf77afb2e6d9eef698e"
+    },
+    {
+      "id": "tisseur-de-vie",
+      "file": "sources/tisseur-de-vie.png",
+      "sha256": "95caad01de6e6466b19cf2cac86da8e70334d4c9eb88b093b3647b7f3d4c421e"
+    },
+    {
+      "id": "traqueur-sylvestre",
+      "file": "sources/traqueur-sylvestre.png",
+      "sha256": "a5be07a51c100d3d08a8ba1305ec2666bffbd5af90c8311e09026b173fc06893"
+    }
+  ]
+}
+
+
+## accordeur
+Source: artworks/all-peoples-v1/results/accordeur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f70474286a52f05f676a0b52fe635a6b3085619718f3ebb4862e20eb1bad2b88
+Page: documents/d880a50529f36f716288291e.html
+Source publiée: raw/artworks/all-peoples-v1/results/accordeur.json
+
+{
+  "id": "accordeur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/accordeur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Accordeur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Nain · Heal · 10 compétences de référence V0.1. Existing equipment description: Instruments de Résonance, diapasons et dispositifs de stabilisation. Soigneur qui combine soins directs,\n prévention et rétablissement progressif.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric nains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/accordeur.webp"
+}
+
+
+## aiguilleur
+Source: artworks/all-peoples-v1/results/aiguilleur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f861208a7127f24d05c9aa4051d447094cfd055a977c5cad5bcb2eb1e90ff272
+Page: documents/98908e6b4978cdae767d037b.html
+Source publiée: raw/artworks/all-peoples-v1/results/aiguilleur.json
+
+{
+  "id": "aiguilleur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/aiguilleur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Aiguilleur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Vaelith · DPS distance · 10 compétences V0.1. Existing equipment description: Son arme est un lance-aiguilles à branches articulées, porté près de l’avant-bras. Quelques longues aiguilles sont visibles le long de son équipement ; sa silhouette reste fine et immédiatement identifiable.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric vaelith environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/aiguilleur.webp"
+}
+
+
+## arcaniste
+Source: artworks/all-peoples-v1/results/arcaniste.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: e0fb317b91de2a1b68518e9b52bc27ffdf805f27b4b295ebf353382bad1427cf
+Page: documents/1d48bcc18f316920edf29393.html
+Source publiée: raw/artworks/all-peoples-v1/results/arcaniste.json
+
+{
+  "id": "arcaniste",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/arcaniste.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Arcaniste. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Humain · DPS distance · 10 compétences de référence V0.1. Existing equipment description: Human male arcane caster, dark purple layered robes, held spherical arcane focus and slender wand.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric humains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/arcaniste.webp"
+}
+
+
+## artilleur-runique
+Source: artworks/all-peoples-v1/results/artilleur-runique.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 4cc0a98e0dc4a8dc8722054fd96d5a777a651d58887d7de10e0cc16dd7c81ecf
+Page: documents/37baf18dc527b61ae33802b5.html
+Source publiée: raw/artworks/all-peoples-v1/results/artilleur-runique.json
+
+{
+  "id": "artilleur-runique",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/artilleur-runique.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Artilleur runique. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Nain · DPS distance · 10 compétences de référence V0.1. Existing equipment description: Arbalète mécanique ou lanceur runique, projectiles spécialisés et petits dispositifs de terrain. DPS à distance axé\n sur précision, lignes de tir et gestion des mécanismes.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric nains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/artilleur-runique.webp"
+}
+
+
+## brise-courant
+Source: artworks/all-peoples-v1/results/brise-courant.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: c7338f4c0c90d66743814914b5d8e7683eea40069941a94a97004d6ea0485f92
+Page: documents/2ca5044d585b37075b346d46.html
+Source publiée: raw/artworks/all-peoples-v1/results/brise-courant.json
+
+{
+  "id": "brise-courant",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/brise-courant.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Brise-Courant. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Orynth · Tank · 10 compétences V0.1. Existing equipment description: Il manie une longue arme d’hast et porte un large avant-bras défensif. Sa silhouette est inclinée vers l’avant, avec des protections qui donnent une impression de proue.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric orynth environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/brise-courant.webp"
+}
+
+
+## brise-fer
+Source: artworks/all-peoples-v1/results/brise-fer.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f505151e466537c5974fa30a36393c8fad604e514aca95511248cc8a4d6e1131
+Page: documents/9a0eabeb73008b999c6ddf6f.html
+Source publiée: raw/artworks/all-peoples-v1/results/brise-fer.json
+
+{
+  "id": "brise-fer",
+  "path": "artworks/brise-fer-v2/sources/board.png",
+  "prompt": "Révision artistique demandée le 26 octobre 2026 : progression très contrastée du novice en tunique sans armure au maître en plates massives ; six skins de maître de silhouettes et matières distinctes (volcanique, cérémonie, montagne, os, blanc/or, cristal bleu). Nain Brise-Fer au marteau lourd, grille 2×6, sans texte.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/brise-fer.webp"
+}
+
+
+## danse-lame
+Source: artworks/all-peoples-v1/results/danse-lame.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 5c3d89b13e85ee24cd84ee60d648f1575a0bb3734b5e37c43e19122e09ad6cbf
+Page: documents/1e3d2a00f8bbafab8b16ff4d.html
+Source publiée: raw/artworks/all-peoples-v1/results/danse-lame.json
+
+{
+  "id": "danse-lame",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/danse-lame.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Danse-lame. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Elfe · DPS mêlée · 10 compétences de référence V0.1. Existing equipment description: Female elf dual curved swords, light articulated silver and green leaf armor.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric elfes environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/danse-lame.webp"
+}
+
+
+## duelliste
+Source: artworks/all-peoples-v1/results/duelliste.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6980d400188eb32322e4579f1a1ed63950943b43608cc4d0365a36d38e0d96f5
+Page: documents/36ab07777078b89429361aba.html
+Source publiée: raw/artworks/all-peoples-v1/results/duelliste.json
+
+{
+  "id": "duelliste",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/duelliste.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Duelliste. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Humain · DPS mêlée · 10 compétences de référence V0.1. Existing equipment description: Human female agile duelist, rapier and short parrying dagger, fitted dark crimson leather and light metal.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric humains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/duelliste.webp"
+}
+
+
+## eclateur
+Source: artworks/all-peoples-v1/results/eclateur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: aed32e7153ebd4f6d534b41d83b8aaea333289c5d9059814e5bf79105923d61e
+Page: documents/fa79133ea04038872c205eae.html
+Source publiée: raw/artworks/all-peoples-v1/results/eclateur.json
+
+{
+  "id": "eclateur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/eclateur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Éclateur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Kharûn · DPS distance · 10 compétences V0.1. Existing equipment description: Il porte des cadres de lancement ouverts, des anneaux de maintien et quelques fragments suspendus entre leurs supports. L’ensemble paraît brut et dangereux, avec une mécanique visible.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric kharun environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eclateur.webp"
+}
+
+
+## enlaceur
+Source: artworks/all-peoples-v1/results/enlaceur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: bd9062ac1cc32cf550ca9bb792c96e9869d38690951eb02618e4c53014a9afde
+Page: documents/671ffa4258271b937148ff5a.html
+Source publiée: raw/artworks/all-peoples-v1/results/enlaceur.json
+
+{
+  "id": "enlaceur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/enlaceur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Enlaceur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Vaelith · Tank · 10 compétences V0.1. Existing equipment description: Il porte une armure souple faite de bandes entrecroisées et manie une longue arme courbe à deux mains. Sa silhouette forme une enceinte ouverte autour de lui.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric vaelith environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/enlaceur.webp"
+}
+
+
+## eveilleur
+Source: artworks/all-peoples-v1/results/eveilleur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f036da8d1aedb1b25bb4c348c3982e817b1792f11b7253be18807b07cf5d9115
+Page: documents/469d638d9145da15250ded09.html
+Source publiée: raw/artworks/all-peoples-v1/results/eveilleur.json
+
+{
+  "id": "eveilleur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/eveilleur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Éveilleur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Vaelith · Soigneur · 10 compétences V0.1. Existing equipment description: Il porte des structures de bourgeons fermés, de petites coupelles et des pièces d’argent déployables. Ses gestes évoquent l’ouverture et l’impulsion.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric vaelith environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eveilleur.webp"
+}
+
+
+## fendeur
+Source: artworks/all-peoples-v1/results/fendeur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 60dcb6f624e4528558bd48fe1c51447ef25e842a5858265e6f38d966f518ca96
+Page: documents/8f1637e0436bcf95bfa76a8e.html
+Source publiée: raw/artworks/all-peoples-v1/results/fendeur.json
+
+{
+  "id": "fendeur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/fendeur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Fendeur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Kharûn · DPS mêlée · 10 compétences V0.1. Existing equipment description: Il manie une longue arme de percussion à tête fendue, entre masse de guerre et outil d’écartement. Ses gestes sont lourds, précis, avec des changements d’appui très marqués.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric kharun environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/fendeur.webp"
+}
+
+
+## gardien-des-racines
+Source: artworks/all-peoples-v1/results/gardien-des-racines.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f633df2205d63385d4ea29a978f9ce6d76f44dcc48db7c7a0356a7ad55a404c2
+Page: documents/934da7c8a06308d17e796ec7.html
+Source publiée: raw/artworks/all-peoples-v1/results/gardien-des-racines.json
+
+{
+  "id": "gardien-des-racines",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/gardien-des-racines.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Gardien des Racines. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Elfe · Tank · 10 compétences de référence V0.2. Existing equipment description: Male elf tank, silver and green natural leaf-pattern heavy armor, large shield and one handed mace.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric elfes environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/gardien-des-racines.webp"
+}
+
+
+## lance-rive
+Source: artworks/all-peoples-v1/results/lance-rive.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: c23fc60e93ae39c7dd55e5ffd96beec2597b5ec37136b82a6d1820614a54271b
+Page: documents/1a81bda736f3a47269276507.html
+Source publiée: raw/artworks/all-peoples-v1/results/lance-rive.json
+
+{
+  "id": "lance-rive",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/lance-rive.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Lance-Rive. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Orynth · DPS distance · 10 compétences V0.1. Existing equipment description: Il porte plusieurs javelots fins dans un harnais ouvert et utilise un propulseur court. L’armement lui donne une identité immédiatement différente des arcs, des dispositifs runiques et des armes arcaniques.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric orynth environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lance-rive.webp"
+}
+
+
+## landscape-elfes
+Source: artworks/all-peoples-v1/results/landscape-elfes.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: e5275b6437782bcd27f8ac1154d50ca5854c7ad1d7914bfbd06560ed97891c1b
+Page: documents/f5b9f0bf84287272bfdb63f3.html
+Source publiée: raw/artworks/all-peoples-v1/results/landscape-elfes.json
+
+{
+  "id": "landscape-elfes",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/landscape-elfes.png",
+  "prompt": "Create a cinematic panoramic environment background for the Ashenfall fantasy Codex website. An ancient living forest of immense trees, elegant silver stone arches and high terraces entwined with roots, waterfalls and soft green light. Sophisticated forest civilization in harmony with living ecosystems. Deep blue-black shadows, antique golden highlights, luxurious dark fantasy illustration, painterly photorealistic AAA game art, high detail, quiet atmosphere. Very wide panoramic framing, 3:1. Left third darker and less detailed for white UI text overlay, scenic visual focus in center and right. No characters, no text, no logos, no labels, no UI. Decorative concept environment only, no real world landmarks.",
+  "reference": null
+}
+
+
+## landscape-humains
+Source: artworks/all-peoples-v1/results/landscape-humains.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: dcb8acd1f269610251979e2940966e5bf54c076c3605a309746ac0a4efb8969f
+Page: documents/a24c4b65d158f3de59f59d8b.html
+Source publiée: raw/artworks/all-peoples-v1/results/landscape-humains.json
+
+{
+  "id": "landscape-humains",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/landscape-humains.png",
+  "prompt": "Create a cinematic panoramic environment background for the Ashenfall fantasy Codex website. A monumental human stone city, towers and domes with burgundy banners, bridges over a broad river and mountain horizon, subtle violet and warm golden light. Explorers and arcane arts. Deep blue-black shadows, antique golden highlights, luxurious dark fantasy illustration, painterly photorealistic AAA game art, high detail, quiet atmosphere. Very wide panoramic framing, 3:1. Left third darker and less detailed for white UI text overlay, scenic visual focus in center and right. No characters, no text, no logos, no labels, no UI. Decorative concept environment only, no real world landmarks.",
+  "reference": null
+}
+
+
+## landscape-kharun
+Source: artworks/all-peoples-v1/results/landscape-kharun.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: aae2648f90022f9f0ecd03462df1c43cfaf9891c0959db2c820269dfaddb8a86
+Page: documents/03b081c57abaa948894ba24c.html
+Source publiée: raw/artworks/all-peoples-v1/results/landscape-kharun.json
+
+{
+  "id": "landscape-kharun",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/landscape-kharun.png",
+  "prompt": "Create a cinematic panoramic environment background for the Ashenfall fantasy Codex website. Huge mountain caverns and fractured dark stone, natural mineral formations, suspended stone terraces and mist through rock clefts, amber light and cold slate. Keep this an unnamed artistic environment, no invented historical landmarks. Deep blue-black shadows, antique golden highlights, luxurious dark fantasy illustration, painterly photorealistic AAA game art, high detail, quiet atmosphere. Very wide panoramic framing, 3:1. Left third darker and less detailed for white UI text overlay, scenic visual focus in center and right. No characters, no text, no logos, no labels, no UI. Decorative concept environment only, no real world landmarks.",
+  "reference": null
+}
+
+
+## landscape-orynth
+Source: artworks/all-peoples-v1/results/landscape-orynth.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 9a4cbc03a23ab98734a064c1ce54af9e4b1a0d66227dbc048c1094397e309f9e
+Page: documents/70def5bf3ef00fa1aa783295.html
+Source publiée: raw/artworks/all-peoples-v1/results/landscape-orynth.json
+
+{
+  "id": "landscape-orynth",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/landscape-orynth.png",
+  "prompt": "Create a cinematic panoramic environment background for the Ashenfall fantasy Codex website. Broad flowing rivers, pebble banks, cascades and reed beds between monumental weathered arches, silver mist and blue teal water, rugged river paths. An unnamed artistic river landscape. Deep blue-black shadows, antique golden highlights, luxurious dark fantasy illustration, painterly photorealistic AAA game art, high detail, quiet atmosphere. Very wide panoramic framing, 3:1. Left third darker and less detailed for white UI text overlay, scenic visual focus in center and right. No characters, no text, no logos, no labels, no UI. Decorative concept environment only, no real world landmarks.",
+  "reference": null
+}
+
+
+## landscape-vaelith
+Source: artworks/all-peoples-v1/results/landscape-vaelith.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: fb1976dea97c2ee0f522455ce89ed6f8eefee5ae0411763cef11497c3eb9b108
+Page: documents/cdddf70b573936d4757ca1ad.html
+Source publiée: raw/artworks/all-peoples-v1/results/landscape-vaelith.json
+
+{
+  "id": "landscape-vaelith",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/landscape-vaelith.png",
+  "prompt": "Create a cinematic panoramic environment background for the Ashenfall fantasy Codex website. A transformed ancient forest and misty wetlands, twisting living roots, silver leaves and branching arches mirrored in dark water, soft emerald and pale violet light, elegant organic shapes. Deep blue-black shadows, antique golden highlights, luxurious dark fantasy illustration, painterly photorealistic AAA game art, high detail, quiet atmosphere. Very wide panoramic framing, 3:1. Left third darker and less detailed for white UI text overlay, scenic visual focus in center and right. No characters, no text, no logos, no labels, no UI. Decorative concept environment only, no real world landmarks.",
+  "reference": null
+}
+
+
+## lieur
+Source: artworks/all-peoples-v1/results/lieur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 594afe1fbfd900cc4880f9307c86aa0379a2c25021fea81d091f82c490e16104
+Page: documents/ee8fcf10a114ae2b8b782412.html
+Source publiée: raw/artworks/all-peoples-v1/results/lieur.json
+
+{
+  "id": "lieur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/lieur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Lieur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Kharûn · Soigneur · 10 compétences V0.1. Existing equipment description: Son équipement comprend des attaches, des cercles articulés et des fils métalliques épais, portés sur les avant-bras et autour du torse. Sa silhouette reste sobre, avec des gestes d’assemblage et de maintien.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric kharun environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lieur.webp"
+}
+
+
+## mue-lame
+Source: artworks/all-peoples-v1/results/mue-lame.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 5d1b28631c7e76ae2476eed4f6e98a9e81a21fe17ef9c6b86289b1af00dccec0
+Page: documents/a71fd2dab1fc6975415fe71a.html
+Source publiée: raw/artworks/all-peoples-v1/results/mue-lame.json
+
+{
+  "id": "mue-lame",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/mue-lame.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Mue-Lame. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Vaelith · DPS mêlée · 10 compétences V0.1. Existing equipment description: Il utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric vaelith environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/mue-lame.webp"
+}
+
+
+## passeur
+Source: artworks/all-peoples-v1/results/passeur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: e9870dc2689d2a1cc5300fc02c8f5f2217a916cda2a54f754969a9191b8e6827
+Page: documents/db37852df0fefcabe6952e71.html
+Source publiée: raw/artworks/all-peoples-v1/results/passeur.json
+
+{
+  "id": "passeur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/passeur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Passeur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Orynth · Soigneur · 10 compétences V0.1. Existing equipment description: Son équipement associe un bâton court, des anneaux ouverts et des pierres lisses enchâssées dans des supports métalliques. Sa silhouette évoque un guide de terrain, capable d’avancer au milieu des autres.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric orynth environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/passeur.webp"
+}
+
+
+## porte-faille
+Source: artworks/all-peoples-v1/results/porte-faille.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 57c31378b789deff6db8186f7bd62d8cff0395ff21a4331ce712e841c9108776
+Page: documents/8002f7a6a9391d6bd9538285.html
+Source publiée: raw/artworks/all-peoples-v1/results/porte-faille.json
+
+{
+  "id": "porte-faille",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/porte-faille.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Porte-Faille. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Kharûn · Tank · 10 compétences V0.1. Existing equipment description: Son équipement associe une arme courte à une grande pièce défensive composée de plaques imbriquées. Sa silhouette est large, presque monumentale, mais les éléments de sa protection semblent pouvoir s’écarter et se réassembler.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric kharun environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/porte-faille.webp"
+}
+
+
+## sentinelle
+Source: artworks/all-peoples-v1/results/sentinelle.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 81ec64003ec3dd547433a871e1c27db78da39a545986549d05edea792670f634
+Page: documents/e1cf822ff00cdc0e5f2b3e02.html
+Source publiée: raw/artworks/all-peoples-v1/results/sentinelle.json
+
+{
+  "id": "sentinelle",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/sentinelle.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Sentinelle. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Humain · Tank · 10 compétences de référence V0.2. Existing equipment description: Human male knight tank, one handed sword and large shield, steel plate and burgundy cloak.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric humains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sentinelle.webp"
+}
+
+
+## sillonneur
+Source: artworks/all-peoples-v1/results/sillonneur.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: a963f21ba055da940004fa99b18df8cf9e2baa30685c610602d910668770c371
+Page: documents/0c54532a33c8395143f42cdb.html
+Source publiée: raw/artworks/all-peoples-v1/results/sillonneur.json
+
+{
+  "id": "sillonneur",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/sillonneur.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Sillonneur. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Orynth · DPS mêlée · 10 compétences V0.1. Existing equipment description: Il utilise une longue lame courbe à deux mains, portée basse, avec une armure compacte qui laisse les jambes libres. Sa gestuelle dessine de grands passages continus.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric orynth environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sillonneur.webp"
+}
+
+
+## thaumaturge
+Source: artworks/all-peoples-v1/results/thaumaturge.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: c1dfb660eb9adf38bec74c2740e2fb53ea723a57a5aea4c0a409aaa4ce966d18
+Page: documents/d6c50141b62836cedfdba56e.html
+Source publiée: raw/artworks/all-peoples-v1/results/thaumaturge.json
+
+{
+  "id": "thaumaturge",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/thaumaturge.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Thaumaturge. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Humain · Heal · 10 compétences de référence V0.1. Existing equipment description: Human female healer, ivory and burgundy robes, gold circular ritual focus.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric humains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/thaumaturge.webp"
+}
+
+
+## tisseur-de-vie
+Source: artworks/all-peoples-v1/results/tisseur-de-vie.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 60d780861c7146d50c7bfec1539a4eadc770975f9e04073a34a860d95f7b5798
+Page: documents/b3cf7742549ee1cdb07b68a4.html
+Source publiée: raw/artworks/all-peoples-v1/results/tisseur-de-vie.json
+
+{
+  "id": "tisseur-de-vie",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/tisseur-de-vie.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Tisseur de Vie. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Elfe · Heal · 10 compétences de référence V0.1. Existing equipment description: Female elf healer, green and ivory robes, branching organic wooden staff, light floral motifs.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric elfes environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/tisseur-de-vie.webp"
+}
+
+
+## traqueur-sylvestre
+Source: artworks/all-peoples-v1/results/traqueur-sylvestre.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 28166403260c6e3bac58f072eacede7a5c8ecdf6720648c9b4e25bb4934a2533
+Page: documents/fc87b37053586fe1e948bd2c.html
+Source publiée: raw/artworks/all-peoples-v1/results/traqueur-sylvestre.json
+
+{
+  "id": "traqueur-sylvestre",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/traqueur-sylvestre.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Traqueur sylvestre. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Elfe · DPS distance · 10 compétences de référence V0.1. Existing equipment description: Male elf archer, longbow quiver, dark green and brown layered leather, mobile forest scout.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric elfes environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/traqueur-sylvestre.webp"
+}
+
+
+## accordeur
+Source: artworks/all-peoples-v1/sources/accordeur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: ea5a7b82a0c8ad6329c94784e35012d867e73b8bf0ec705e2711d12cbeb42ed2
+Page: documents/49cd6ef0a60bbf287c996d33.html
+Source publiée: images/49cd6ef0a60bbf287c996d33.webp
+
+[Illustration : consulter la source publiée.]
+
+## aiguilleur
+Source: artworks/all-peoples-v1/sources/aiguilleur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 0fc6aa414911ba297a83a17e19f94497afa164134263714cf797a5c691a82ab1
+Page: documents/ca30f24d867e45bb93088b36.html
+Source publiée: images/ca30f24d867e45bb93088b36.webp
+
+[Illustration : consulter la source publiée.]
+
+## arcaniste
+Source: artworks/all-peoples-v1/sources/arcaniste.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 0254117187abc67a785136ae816980043913db2b506e800f4939bb93b56efeed
+Page: documents/14a3f843b71d2b3a9be15a1d.html
+Source publiée: images/14a3f843b71d2b3a9be15a1d.webp
+
+[Illustration : consulter la source publiée.]
+
+## artilleur-runique
+Source: artworks/all-peoples-v1/sources/artilleur-runique.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 3630e1810e7b207ca160cfe3763abf3634834027f58551f2a1419f6ee136cb3f
+Page: documents/53bc598b9de02456c404ef19.html
+Source publiée: images/53bc598b9de02456c404ef19.webp
+
+[Illustration : consulter la source publiée.]
+
+## brise-courant
+Source: artworks/all-peoples-v1/sources/brise-courant.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 10cb0e6f4c36c78b1b314708134593faa2b9a04895d04f9a02742181855d5950
+Page: documents/31e50c1f3b108c3b786b5341.html
+Source publiée: images/31e50c1f3b108c3b786b5341.webp
+
+[Illustration : consulter la source publiée.]
+
+## brise-fer
+Source: artworks/all-peoples-v1/sources/brise-fer.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: e73f1db1da0e9964fbff6f4f756da3324d9eda39383c48149df82853bf068f14
+Page: documents/4ecf0a5625b2c6191c7ba56b.html
+Source publiée: images/4ecf0a5625b2c6191c7ba56b.webp
+
+[Illustration : consulter la source publiée.]
+
+## danse-lame
+Source: artworks/all-peoples-v1/sources/danse-lame.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d82a11b453ead1292d9d994ede7b8389f823008f015c895cf074114cc1903324
+Page: documents/5dfc65d6df63d49e36c6d3e0.html
+Source publiée: images/5dfc65d6df63d49e36c6d3e0.webp
+
+[Illustration : consulter la source publiée.]
+
+## duelliste
+Source: artworks/all-peoples-v1/sources/duelliste.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 55c4e88c25e835eea094552bb026ca0af711392be9643eb86a76bd89295dae8a
+Page: documents/45eeafd5de7d325df9261fdb.html
+Source publiée: images/45eeafd5de7d325df9261fdb.webp
+
+[Illustration : consulter la source publiée.]
+
+## eclateur
+Source: artworks/all-peoples-v1/sources/eclateur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 2201082f51907cde3aabdc5f220d72045e216f9357489027915e375552dbbcbe
+Page: documents/d7c70eb8431555869b2a5cda.html
+Source publiée: images/d7c70eb8431555869b2a5cda.webp
+
+[Illustration : consulter la source publiée.]
+
+## enlaceur
+Source: artworks/all-peoples-v1/sources/enlaceur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: b90abf6c96fcd9b64ccaef3cc05d86291e4e751ef12e96135ddecfa00cef9fbe
+Page: documents/8918f747c917604fe91da802.html
+Source publiée: images/8918f747c917604fe91da802.webp
+
+[Illustration : consulter la source publiée.]
+
+## eveilleur
+Source: artworks/all-peoples-v1/sources/eveilleur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 71edd1d025d6dcac7f9014f32b6163cc71502131e83c1b263b1c48c4602ab9d1
+Page: documents/69c9e643f1c627af533456b5.html
+Source publiée: images/69c9e643f1c627af533456b5.webp
+
+[Illustration : consulter la source publiée.]
+
+## fendeur
+Source: artworks/all-peoples-v1/sources/fendeur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: e3bf0f01d9604b24227db4f1d527a164dacffeb2487a93dea4f70edbe0287892
+Page: documents/a29dc4b7982bf0e6e6457a39.html
+Source publiée: images/a29dc4b7982bf0e6e6457a39.webp
+
+[Illustration : consulter la source publiée.]
+
+## gardien-des-racines
+Source: artworks/all-peoples-v1/sources/gardien-des-racines.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 7c8bfdd44a0857c9bc7b1a42608c4fb0d59729c63a813acedd421ab36ace92c4
+Page: documents/c022649857004f3ec6150a63.html
+Source publiée: images/c022649857004f3ec6150a63.webp
+
+[Illustration : consulter la source publiée.]
+
+## lance-rive
+Source: artworks/all-peoples-v1/sources/lance-rive.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: b2db6ddc10d31f08b5f4df88467210bcda1d9684bc8840e9847df2a36321b7bf
+Page: documents/2ddd5c09c56a6cbdd0fce265.html
+Source publiée: images/2ddd5c09c56a6cbdd0fce265.webp
+
+[Illustration : consulter la source publiée.]
+
+## landscape-elfes
+Source: artworks/all-peoples-v1/sources/landscape-elfes.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 645c44df76a53fb5b7a7593611a62c8852bc07e11957d465c50a62bc2c6ec7ad
+Page: documents/beb047e3cbb04fa25d163dbe.html
+Source publiée: images/beb047e3cbb04fa25d163dbe.webp
+
+[Illustration : consulter la source publiée.]
+
+## landscape-humains
+Source: artworks/all-peoples-v1/sources/landscape-humains.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: fbadee58d10af840cbebcab1b245a687ceaf76fb19efb2d0368dfb34c8ff10a6
+Page: documents/17e92b122763b37766b73ce8.html
+Source publiée: images/17e92b122763b37766b73ce8.webp
+
+[Illustration : consulter la source publiée.]
+
+## landscape-kharun
+Source: artworks/all-peoples-v1/sources/landscape-kharun.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 108df9e8d69e7b37f1716f1cb235748829d7f0dd4541f8a0c0aa47e78986130a
+Page: documents/7c2cd72a7329ad7d6fc22f73.html
+Source publiée: images/7c2cd72a7329ad7d6fc22f73.webp
+
+[Illustration : consulter la source publiée.]
+
+## landscape-orynth
+Source: artworks/all-peoples-v1/sources/landscape-orynth.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: fc3b24ebf29468e23723f046a8e8652588800d708bcf60668c90242fd1302262
+Page: documents/e3d1f0784498739c0b10e994.html
+Source publiée: images/e3d1f0784498739c0b10e994.webp
+
+[Illustration : consulter la source publiée.]
+
+## landscape-vaelith
+Source: artworks/all-peoples-v1/sources/landscape-vaelith.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 24e1b7105b7ce33a260462bd4a8e862706462f7ad2a3983f90c65e9004a7862a
+Page: documents/da83df087c5dee7f4791ebad.html
+Source publiée: images/da83df087c5dee7f4791ebad.webp
+
+[Illustration : consulter la source publiée.]
+
+## lieur
+Source: artworks/all-peoples-v1/sources/lieur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: c8fddfab14b8700bfc2c7754e9cb0f6a8b72dcab41c92a7a0057fcb8090a3a83
+Page: documents/2a1ad2efcff4a012e8a07e60.html
+Source publiée: images/2a1ad2efcff4a012e8a07e60.webp
+
+[Illustration : consulter la source publiée.]
+
+## mue-lame
+Source: artworks/all-peoples-v1/sources/mue-lame.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: a47ce4d4cf67f301d0b095463d0b52e7cfb364cf201447c7cef4de70ec73d450
+Page: documents/99283ff8783a59e08dcfd745.html
+Source publiée: images/99283ff8783a59e08dcfd745.webp
+
+[Illustration : consulter la source publiée.]
+
+## passeur
+Source: artworks/all-peoples-v1/sources/passeur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: cec6a1f6a6ab359a4a107fbe5ce0191d84065f475c99b5b8b17834f494e2ed3b
+Page: documents/3a4fc7c399342aa5d8df99e4.html
+Source publiée: images/3a4fc7c399342aa5d8df99e4.webp
+
+[Illustration : consulter la source publiée.]
+
+## porte-faille
+Source: artworks/all-peoples-v1/sources/porte-faille.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d54ccc477b76de7b9c56cbe60c23f92f320a7de512b637708a675fae24976095
+Page: documents/24fd7676d42c55394617e9ef.html
+Source publiée: images/24fd7676d42c55394617e9ef.webp
+
+[Illustration : consulter la source publiée.]
+
+## sentinelle
+Source: artworks/all-peoples-v1/sources/sentinelle.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: cded3e4f068c63142bd8abb766decba307ab9b08d51e1df5eecdbb9ec3de54f8
+Page: documents/ab66eac0509b805952bafb29.html
+Source publiée: images/ab66eac0509b805952bafb29.webp
+
+[Illustration : consulter la source publiée.]
+
+## sillonneur
+Source: artworks/all-peoples-v1/sources/sillonneur.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 27883a66a8d0e2c8af8c2777b859b8df88c310c3af1b8637b832c19b26076b02
+Page: documents/1c5428ae359a636f49f965c4.html
+Source publiée: images/1c5428ae359a636f49f965c4.webp
+
+[Illustration : consulter la source publiée.]
+
+## thaumaturge
+Source: artworks/all-peoples-v1/sources/thaumaturge.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d137a2c8630546e7e5cd68f71600d012838e253b2be6fbf77afb2e6d9eef698e
+Page: documents/cd20994c7e8d00a80c14dc14.html
+Source publiée: images/cd20994c7e8d00a80c14dc14.webp
+
+[Illustration : consulter la source publiée.]
+
+## tisseur-de-vie
+Source: artworks/all-peoples-v1/sources/tisseur-de-vie.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 95caad01de6e6466b19cf2cac86da8e70334d4c9eb88b093b3647b7f3d4c421e
+Page: documents/170b7eaffcacb4ffbcee58b4.html
+Source publiée: images/170b7eaffcacb4ffbcee58b4.webp
+
+[Illustration : consulter la source publiée.]
+
+## traqueur-sylvestre
+Source: artworks/all-peoples-v1/sources/traqueur-sylvestre.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: a5be07a51c100d3d08a8ba1305ec2666bffbd5af90c8311e09026b173fc06893
+Page: documents/a8fad0762d4d769154dc1cef.html
+Source publiée: images/a8fad0762d4d769154dc1cef.webp
+
+[Illustration : consulter la source publiée.]
+
+## Brise-Fer — planche V2
+Source: artworks/brise-fer-v2/README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 43edc00f151d0042f3a494de9c48d5a1db3cf3d1f83028c27d511cb7b20122db
+Page: documents/5f308ca283181a8744e0714b.html
+Source publiée: raw/artworks/brise-fer-v2/README.md
+
+# Brise-Fer — planche V2
+
+Révision visuelle demandée le 26 octobre 2026. Le novice porte une tenue simple ; le maître des plates massives, un casque et un marteau monumental. Les six skins changent de silhouette, matières, casques et marteaux ; aucune statistique ou règle de classe modifiée.
+
+Sources PNG et référence V1 conservées avec leurs empreintes. Le séparateur horizontal est à y=492 sur 1024 ; découper à 512 couperait les casques de la deuxième rangée. Les détails proviennent du maître de base (colonne VI). `artworks/all-peoples-v1/jobs.json` et son résultat Brise-Fer pointent vers cette version ; les originaux V1 restent conservés.
+
+
+## brise-fer
+Source: artworks/brise-fer-v2/generation-v1.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 9e72922f0991a8221efbadedf015f300c18d7808549501943db85c04a3a66eae
+Page: documents/2cdebabf11c7b1daaf16d6e8.html
+Source publiée: raw/artworks/brise-fer-v2/generation-v1.json
+
+{
+  "id": "brise-fer",
+  "path": "/workspace/Ashenfall-Knowledge/artworks/all-peoples-v1/sources/brise-fer.png",
+  "prompt": "Create an Ashenfall RPG EQUIPMENT CONCEPT SHEET for Brise-Fer. Use the supplied existing character portrait as the visual identity reference: preserve race morphology, body proportions, gender presentation, face covering, weapon identity and role. The class is Nain · DPS mêlée · 10 compétences de référence V0.1. Existing equipment description: Marteau ou hache lourde, armure robuste. DPS de contact méthodique : il fragilise une cible, prépare une\n ouverture, puis déclenche une rupture dévastatrice.. This is purely artistic, no new canonical lore or game mechanics.\nEXACT COMPOSITION: TWO ROWS and SIX EQUAL-WIDTH COLUMNS, a strict 2x6 grid of TWELVE full-body figures, all feet visible and one character per cell. Landscape or square composition, each cell portrait aspect ratio. Fill every cell edge-to-edge; fine dark dividing lines. NO title, NO text, NO letters, NO labels, NO UI, no white margins.\nTOP ROW is BASE EQUIPMENT PROGRESSION for this SAME class: 1 simple starter clothing and class-appropriate basic weapon, 2 first protections, 3 reinforced outfit, 4 advanced outfit, 5 accomplished outfit, 6 refined master outfit. Preserve the correct role: robes stay robes for healers/casters, ranged weapons stay ranged, agile fighters stay agile, tanks maintain defensive silhouette. Do not give everyone heavy dwarf armor.\nBOTTOM ROW is SIX ALTERNATIVE MASTER SKINS for the SAME class, equally elaborate, NOT increasing levels: 1 classic race palette with aged gold, 2 crimson and bronze, 3 forest green and natural textures, 4 dark charcoal and silver, 5 ivory and pale gold, 6 midnight blue/violet with subtle colored inlays. Different garment silhouettes and craftsmanship, yet consistent class identity and same character. No exaggerated powers.\nPremium realistic painterly dark fantasy concept art, impeccable materials, consistent scale, anatomy and lighting, complete silhouettes, finely detailed fabrics and metal, dark atmospheric nains environment like the portrait. Twelve fully distinct cells. All clothing suitable for battle. A true 2-row 6-column sheet, no extra panels.",
+  "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/brise-fer.webp"
+}
+
+
+## manifest
+Source: artworks/brise-fer-v2/manifest.json
+Statut déclaré: concept
+Version: None
+SHA-256: 96c757f14b16c2ede07bc13f6534cff35f1f0a4d6f7f26fcff0e593ea5292a32
+Page: documents/7c2f91153c64f9fc793b7a21.html
+Source publiée: raw/artworks/brise-fer-v2/manifest.json
+
+{
+  "status": "concept",
+  "date": "2026-10-26",
+  "scope": "Révision visuelle autorisée ; aucune modification de lore ou statistiques.",
+  "sources": [
+    {
+      "file": "sources/board.png",
+      "sha256": "5ad0c61d128730efbe97d76876f7d159c09d9e6f90b65344127c4ce96d6d3d17"
+    },
+    {
+      "file": "sources/reference-v1.webp",
+      "sha256": "d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c"
+    }
+  ],
+  "row_split_pixels": 492,
+  "details": "Base VI",
+  "original_preserved": "artworks/all-peoples-v1/sources/brise-fer.png"
+}
+
+
+## board
+Source: artworks/brise-fer-v2/sources/board.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 5ad0c61d128730efbe97d76876f7d159c09d9e6f90b65344127c4ce96d6d3d17
+Page: documents/ca7a7f43cf4bd69d7eae4749.html
+Source publiée: images/ca7a7f43cf4bd69d7eae4749.webp
+
+[Illustration : consulter la source publiée.]
+
+## reference-v1
+Source: artworks/brise-fer-v2/sources/reference-v1.webp
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c
+Page: documents/242610f3a21ef6d579319ee6.html
+Source publiée: images/242610f3a21ef6d579319ee6.webp
+
+[Illustration : consulter la source publiée.]
+
+## Portraits des 24 classes — concepts V1
+Source: artworks/classes-portraits-v1/README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 5d84d528481e8e4989e0f20bffb816a6ae7286c26ae0f2fecf1ba4426dfde694
+Page: documents/be205de8d5f9248fd7f14d69.html
+Source publiée: raw/artworks/classes-portraits-v1/README.md
+
+# Portraits des 24 classes — concepts V1
+
+## Sélection et autorisation
+
+Clément, 24 octobre 2026 : « superbe : utilise des illustrations pour le site codex avec l'archiviste ».
+
+Cette décision sélectionne les six planches présentées dans la conversation (24 personnages), autorise leur découpe technique et leur publication dans le Codex. Elle ne transforme pas les concepts visuels en histoire canonique et ne change aucune compétence.
+
+## Conservation et associations
+
+Les six PNG originaux sont conservés dans sources/. Le manifeste documente chaque classe, son portrait WebP, les coordonnées de découpe et les empreintes du fichier public et de la planche source. Les intitulés des planches sont retirés des portraits ; aucun artwork n’est régénéré.
+
+## Diff et impacts
+
+Le catalogue, les cartes des classes par peuple et les en-têtes des fiches emploient les portraits individuels. Les emblèmes et assets historiques restent conservés. Les 240 compétences et les textes restent inchangés. Une règle responsive ajuste les portraits aux petits écrans. Le packaging de publication est étendu au seul répertoire public assets/classes.
+
+## Unity
+
+Aucune modification Unity. Ces concepts peuvent servir de référence artistique ultérieure ; ni modèles 3D ni apparence canonique définitive ne sont imposés.
+
+
+## manifest v1
+Source: artworks/classes-portraits-v1/manifest-v1.json
+Statut déclaré: concept
+Version: class-portraits-v1
+SHA-256: 2eef4eceea7560ed5a2529bf233f7938ebe4ba0cb10f6964c7d09cbc3068b02e
+Page: documents/5cf19bfaba162c42015d7ba8.html
+Source publiée: raw/artworks/classes-portraits-v1/manifest-v1.json
+
+{
+  "version": "class-portraits-v1",
+  "status": "concept",
+  "portraits": [
+    {
+      "id": "porte-faille",
+      "title": "Porte-Faille",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/porte-faille.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Porte-Faille",
+      "sha256": "9af659476a774736bb983ce45fb64ac8e83ef762f8ded818d610876ca048716a",
+      "sourceSha256": "d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8",
+      "crop": [
+        5,
+        64,
+        416,
+        805
+      ]
+    },
+    {
+      "id": "fendeur",
+      "title": "Fendeur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/fendeur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Fendeur",
+      "sha256": "bc01dcf34e47df5650bd278a06e9781fc373541d531465a5fc257d584c81a0d9",
+      "sourceSha256": "d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8",
+      "crop": [
+        422,
+        64,
+        833,
+        805
+      ]
+    },
+    {
+      "id": "eclateur",
+      "title": "Éclateur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/eclateur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Éclateur",
+      "sha256": "63f9d69c741db5d5884e3f70a9bf0121f842584041081b113e24d305e956fc0a",
+      "sourceSha256": "d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8",
+      "crop": [
+        839,
+        64,
+        1250,
+        805
+      ]
+    },
+    {
+      "id": "lieur",
+      "title": "Lieur",
+      "people": "kharun",
+      "src": "assets/classes/portraits-v1/lieur.webp",
+      "width": 411,
+      "height": 741,
+      "alt": "Illustration conceptuelle de la classe Lieur",
+      "sha256": "3dafe62763c4e2ec030a425cd7c540b93fcb58bd135237d0ada1c0faaa44b227",
+      "sourceSha256": "d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8",
+      "crop": [
+        1256,
+        64,
+        1667,
+        805
+      ]
+    },
+    {
+      "id": "enlaceur",
+      "title": "Enlaceur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/enlaceur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Enlaceur",
+      "sha256": "8c3dc1118c37fddd5172830f32d4c23ac407ea5ef75e440199a291df6831fef8",
+      "sourceSha256": "ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86",
+      "crop": [
+        5,
+        70,
+        382,
+        862
+      ]
+    },
+    {
+      "id": "mue-lame",
+      "title": "Mue-Lame",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/mue-lame.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Mue-Lame",
+      "sha256": "33d21c4df37711d08960fae4c121b9ca959bb8406f542df63dd1ab7fea626a33",
+      "sourceSha256": "ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86",
+      "crop": [
+        388,
+        70,
+        765,
+        862
+      ]
+    },
+    {
+      "id": "aiguilleur",
+      "title": "Aiguilleur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/aiguilleur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Aiguilleur",
+      "sha256": "0bdec8f9e7da49dc612c26bf1f34fed63c1fe555c18cf49162838fbcc80776d9",
+      "sourceSha256": "ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86",
+      "crop": [
+        771,
+        70,
+        1148,
+        862
+      ]
+    },
+    {
+      "id": "eveilleur",
+      "title": "Éveilleur",
+      "people": "vaelith",
+      "src": "assets/classes/portraits-v1/eveilleur.webp",
+      "width": 377,
+      "height": 792,
+      "alt": "Illustration conceptuelle de la classe Éveilleur",
+      "sha256": "98f19e8b576c801986ca8f158032fd1d3d339c794068b4933eb1bb46604f8fec",
+      "sourceSha256": "ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86",
+      "crop": [
+        1154,
+        70,
+        1531,
+        862
+      ]
+    },
+    {
+      "id": "brise-courant",
+      "title": "Brise-Courant",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/brise-courant.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Brise-Courant",
+      "sha256": "ab6ca2d86e1804147d1a5e1c9b4a48686ba3083e88d31af89cd7944e99cc1152",
+      "sourceSha256": "d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278",
+      "crop": [
+        6,
+        74,
+        382,
+        884
+      ]
+    },
+    {
+      "id": "sillonneur",
+      "title": "Sillonneur",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/sillonneur.webp",
+      "width": 377,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Sillonneur",
+      "sha256": "6215a73a429561f5420b492a9e0ccab0626c99a25a25d5d01efca50cb178ea3d",
+      "sourceSha256": "d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278",
+      "crop": [
+        388,
+        74,
+        765,
+        884
+      ]
+    },
+    {
+      "id": "lance-rive",
+      "title": "Lance-Rive",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/lance-rive.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Lance-Rive",
+      "sha256": "f48d8c884073e39f91454247b01b3519500937f77b8618aa8464138572a9d8b9",
+      "sourceSha256": "d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278",
+      "crop": [
+        771,
+        74,
+        1147,
+        884
+      ]
+    },
+    {
+      "id": "passeur",
+      "title": "Passeur",
+      "people": "orynth",
+      "src": "assets/classes/portraits-v1/passeur.webp",
+      "width": 376,
+      "height": 810,
+      "alt": "Illustration conceptuelle de la classe Passeur",
+      "sha256": "dbd63ba7558ade3f4c31ff64fd15341890da07d94263a5ae94e26fcd2ae2cc87",
+      "sourceSha256": "d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278",
+      "crop": [
+        1153,
+        74,
+        1529,
+        884
+      ]
+    },
+    {
+      "id": "rempart",
+      "title": "Rempart",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/rempart.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Rempart",
+      "sha256": "100beebee59a7a2b75bd570b6f5283700fab1717ef1162a5e081851dbd0d2dd7",
+      "sourceSha256": "022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7",
+      "crop": [
+        5,
+        81,
+        416,
+        813
+      ]
+    },
+    {
+      "id": "brise-fer",
+      "title": "Brise-Fer",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/brise-fer.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Brise-Fer",
+      "sha256": "19175ec232949708f323fdf2e07e9a4780183b66eed99568ac0300315d78c273",
+      "sourceSha256": "022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7",
+      "crop": [
+        422,
+        81,
+        833,
+        813
+      ]
+    },
+    {
+      "id": "artilleur-runique",
+      "title": "Artilleur runique",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/artilleur-runique.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Artilleur runique",
+      "sha256": "1758ceabffb4658707691192461931133b9f0d4692f526667f449491e4d8ba80",
+      "sourceSha256": "022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7",
+      "crop": [
+        839,
+        81,
+        1250,
+        813
+      ]
+    },
+    {
+      "id": "accordeur",
+      "title": "Accordeur",
+      "people": "nains",
+      "src": "assets/classes/portraits-v1/accordeur.webp",
+      "width": 411,
+      "height": 732,
+      "alt": "Illustration conceptuelle de la classe Accordeur",
+      "sha256": "be62521848f0476f190d23881116ca16cdb4acdd895487dbddab0864fbded6fa",
+      "sourceSha256": "022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7",
+      "crop": [
+        1256,
+        81,
+        1667,
+        813
+      ]
+    },
+    {
+      "id": "gardien-des-racines",
+      "title": "Gardien des Racines",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/gardien-des-racines.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Gardien des Racines",
+      "sha256": "c9567ba7ea4f89b75367d86d955a6c57ff204058c3c02b2b289e826a213edc32",
+      "sourceSha256": "48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8",
+      "crop": [
+        5,
+        72,
+        382,
+        874
+      ]
+    },
+    {
+      "id": "danse-lame",
+      "title": "Danse-lame",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/danse-lame.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Danse-lame",
+      "sha256": "01562625b9f4c3fa328d1da640befa401e095d4a9a9a15ba4e3df9dfbab47cb3",
+      "sourceSha256": "48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8",
+      "crop": [
+        388,
+        72,
+        765,
+        874
+      ]
+    },
+    {
+      "id": "traqueur-sylvestre",
+      "title": "Traqueur sylvestre",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/traqueur-sylvestre.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Traqueur sylvestre",
+      "sha256": "f5164456b1199e07068f433fdf9d6bba6a5d2595a474dd44789020a2825e4892",
+      "sourceSha256": "48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8",
+      "crop": [
+        771,
+        72,
+        1148,
+        874
+      ]
+    },
+    {
+      "id": "tisseur-de-vie",
+      "title": "Tisseur de Vie",
+      "people": "elfes",
+      "src": "assets/classes/portraits-v1/tisseur-de-vie.webp",
+      "width": 377,
+      "height": 802,
+      "alt": "Illustration conceptuelle de la classe Tisseur de Vie",
+      "sha256": "6783e2bff30bf527487266bfeb12818b8a56d623f574f061ec1e2931ead58fa5",
+      "sourceSha256": "48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8",
+      "crop": [
+        1154,
+        72,
+        1531,
+        874
+      ]
+    },
+    {
+      "id": "sentinelle",
+      "title": "Sentinelle",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/sentinelle.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Sentinelle",
+      "sha256": "b1be971fd2ebb1eaaa5dcba235021b7833f520c7fa54ffd8751eff9cb821e638",
+      "sourceSha256": "a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264",
+      "crop": [
+        5,
+        74,
+        382,
+        885
+      ]
+    },
+    {
+      "id": "duelliste",
+      "title": "Duelliste",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/duelliste.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Duelliste",
+      "sha256": "2db4ac8f3a0f80936248f389cb70a01e359ae56909fc46351186bad6b175e6ca",
+      "sourceSha256": "a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264",
+      "crop": [
+        388,
+        74,
+        765,
+        885
+      ]
+    },
+    {
+      "id": "arcaniste",
+      "title": "Arcaniste",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/arcaniste.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Arcaniste",
+      "sha256": "f62e47539bc37fc2b68931a195da277779ee63d87dc4669d825d6e8e92a32f22",
+      "sourceSha256": "a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264",
+      "crop": [
+        771,
+        74,
+        1148,
+        885
+      ]
+    },
+    {
+      "id": "thaumaturge",
+      "title": "Thaumaturge",
+      "people": "humains",
+      "src": "assets/classes/portraits-v1/thaumaturge.webp",
+      "width": 377,
+      "height": 811,
+      "alt": "Illustration conceptuelle de la classe Thaumaturge",
+      "sha256": "a2aa3c6972dde04d5873fcb505ab896b69908071db063bd487a6796767b1b0f0",
+      "sourceSha256": "a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264",
+      "crop": [
+        1154,
+        74,
+        1531,
+        885
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "people": "kharun",
+      "sha256": "d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8",
+      "original": "kharun.png",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "people": "vaelith",
+      "sha256": "ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86",
+      "original": "vaelith.png",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "people": "orynth",
+      "sha256": "d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278",
+      "original": "orynth.png",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "people": "nains",
+      "sha256": "022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7",
+      "original": "nains.png",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "people": "elfes",
+      "sha256": "48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8",
+      "original": "elfes.png",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "people": "humains",
+      "sha256": "a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264",
+      "original": "humains.png",
+      "size": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
+
+
+## elfes
+Source: artworks/classes-portraits-v1/sources/elfes.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 48149a7948f973c08653f766d8b4d3faecbb29e37fc45ced9136e3790bf341d8
+Page: documents/949e6179b85a6dae730c87b9.html
+Source publiée: images/949e6179b85a6dae730c87b9.webp
+
+[Illustration : consulter la source publiée.]
+
+## humains
+Source: artworks/classes-portraits-v1/sources/humains.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: a4dd23985ad71c84e3c4d3d066d485b02f452b0a867bab6d3af6ccd90ddd8264
+Page: documents/4e869ffcaab8786aaa088fb6.html
+Source publiée: images/4e869ffcaab8786aaa088fb6.webp
+
+[Illustration : consulter la source publiée.]
+
+## kharun
+Source: artworks/classes-portraits-v1/sources/kharun.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d769a4d6cda21fcfa524c1c7e66f657103f865425779d7599a5721de0215e5b8
+Page: documents/7fbdeb54aa6ff8314850a953.html
+Source publiée: images/7fbdeb54aa6ff8314850a953.webp
+
+[Illustration : consulter la source publiée.]
+
+## nains
+Source: artworks/classes-portraits-v1/sources/nains.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 022b291020180ed539ee54472d2d2edc719965fddab101d348dd40bd1b31e8a7
+Page: documents/ceb5e38316a7395c8e5e4a17.html
+Source publiée: images/ceb5e38316a7395c8e5e4a17.webp
+
+[Illustration : consulter la source publiée.]
+
+## orynth
+Source: artworks/classes-portraits-v1/sources/orynth.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: d10af85f7842b4a79dfd05e83c649ed9737a7ebbc4478351b0dcb7a304461278
+Page: documents/5f9c053094027fc5500bae51.html
+Source publiée: images/5f9c053094027fc5500bae51.webp
+
+[Illustration : consulter la source publiée.]
+
+## vaelith
+Source: artworks/classes-portraits-v1/sources/vaelith.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: ff433253b55972b31a402e8d148616778a4fe9202321221dc4c7c9796962da86
+Page: documents/2aed5c0a51c3cf30e5a5efcc.html
+Source publiée: images/2aed5c0a51c3cf30e5a5efcc.webp
+
+[Illustration : consulter la source publiée.]
+
+## Illustrations de compétences — V1
+Source: artworks/competences-nouveaux-peuples-v1/README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 68b4545b3b1b742d029dfcd0c7b4682db0c1dfeca28416f9116f2b715efce219
+Page: documents/a5821db1f4e3e01e196e92e8.html
+Source publiée: raw/artworks/competences-nouveaux-peuples-v1/README.md
+
+# Illustrations de compétences — V1
+
+Planche de 12 concepts, une compétence par nouvelle classe. Validée par Clément le 23 octobre 2026 : « parfait tun peux commit tout ca ».
+
+Les images conservent le statut concept. Elles ne fixent pas l’anatomie des peuples, ne modifient aucune compétence et n’impliquent aucun changement Unity.
+
+Original conservé avec 12 découpes carrées WebP et manifeste d’association. Les 108 autres compétences du nouveau trio restent sans illustration spécifique.
+
+
+## manifest v1
+Source: artworks/competences-nouveaux-peuples-v1/manifest-v1.json
+Statut déclaré: concept
+Version: new-peoples-abilities-v1
+SHA-256: 8ef405d43149eec5b581dfda3099685d264bafd750b00ac4ea5d6666cc959980
+Page: documents/99e326e587ca95122599d5ee.html
+Source publiée: raw/artworks/competences-nouveaux-peuples-v1/manifest-v1.json
+
+{
+  "version": "new-peoples-abilities-v1",
+  "status": "concept",
+  "icons": [
+    {
+      "id": "porte-faille--armature-ouverte",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Armature Ouverte",
+      "src": "assets/abilities/new-peoples-v1/porte-faille--armature-ouverte.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "fbfa13a36f66eff8fa1b32acc7aa251cc0cde1bc974fc212e9a20d846754a461",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        69,
+        447,
+        344
+      ]
+    },
+    {
+      "id": "fendeur--effondrement",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Effondrement",
+      "src": "assets/abilities/new-peoples-v1/fendeur--effondrement.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "1bfb806677accf4c63a5dc6e441db9293e83b0a45b92e6d3fb3d1b2ce3a5288d",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        69,
+        774,
+        344
+      ]
+    },
+    {
+      "id": "eclateur--trait-de-fracture",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Trait de Fracture",
+      "src": "assets/abilities/new-peoples-v1/eclateur--trait-de-fracture.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "9d54459f65c30568d854ccf1f2206f7c3cac8a922e23911caf07de245adfeb26",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        69,
+        1096,
+        344
+      ]
+    },
+    {
+      "id": "lieur--attaches-de-secours",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Attaches de Secours",
+      "src": "assets/abilities/new-peoples-v1/lieur--attaches-de-secours.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "6cf6389316728905e727da7458bb42819f458dd7218a4220a1cab33886b3b623",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        69,
+        1420,
+        344
+      ]
+    },
+    {
+      "id": "enlaceur--enceinte-vivante",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Enceinte Vivante",
+      "src": "assets/abilities/new-peoples-v1/enlaceur--enceinte-vivante.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "a00f497fc16c49d072d9be1b7b63739f4a74d6ad1b2798c0f62fda193e2ec453",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        396,
+        447,
+        673
+      ]
+    },
+    {
+      "id": "mue-lame--lame-deployee",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Lame Déployée",
+      "src": "assets/abilities/new-peoples-v1/mue-lame--lame-deployee.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "7ca26dab67e03f102e8074315b49c85879c24b143c1ebe5a8186deb8ab349110",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        396,
+        774,
+        673
+      ]
+    },
+    {
+      "id": "aiguilleur--perce-intervalle",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Perce-Intervalle",
+      "src": "assets/abilities/new-peoples-v1/aiguilleur--perce-intervalle.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "a78b4c61c80b03af20db5fea300c83229a8cdf35c516d796fc2311e6ff972648",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        396,
+        1096,
+        673
+      ]
+    },
+    {
+      "id": "eveilleur--seconde-pousse",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Seconde Pousse",
+      "src": "assets/abilities/new-peoples-v1/eveilleur--seconde-pousse.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "20545e86ed2b9b6681dd160e5826285ea8fdbd4d6c64026cc7468ed5b95fd8bb",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        396,
+        1420,
+        673
+      ]
+    },
+    {
+      "id": "brise-courant--ressac-de-proue",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Ressac de Proue",
+      "src": "assets/abilities/new-peoples-v1/brise-courant--ressac-de-proue.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "06dcc74a3f32ddb6b4bfd4893050ba00a2a5d9e957f67aa2b6b1a5590627bb27",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        722,
+        447,
+        1001
+      ]
+    },
+    {
+      "id": "sillonneur--coupe-de-rive",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Coupe de Rive",
+      "src": "assets/abilities/new-peoples-v1/sillonneur--coupe-de-rive.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "280fa75bcda6d7062a2625d6035ea1a58da6da8effad7c629973cda5231732d9",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        722,
+        774,
+        1001
+      ]
+    },
+    {
+      "id": "lance-rive--jet-appuye",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Jet Appuyé",
+      "src": "assets/abilities/new-peoples-v1/lance-rive--jet-appuye.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "b8d7f228311c50ddd277627397adcdaf6656162f74a4cfa9bb6d18720a534661",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        722,
+        1096,
+        1001
+      ]
+    },
+    {
+      "id": "passeur--traversee-partagee",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Traversée Partagée",
+      "src": "assets/abilities/new-peoples-v1/passeur--traversee-partagee.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "33c47a64adef93c85bbb9a0aa88a1fdfa9ed64a93de436bf228eb084abd7aa4d",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        722,
+        1420,
+        1001
+      ]
+    }
+  ]
+}
+
+
+## source
+Source: artworks/competences-nouveaux-peuples-v1/source.png
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817
+Page: documents/99c9b3afbf1c04350ac38964.html
+Source publiée: images/99c9b3afbf1c04350ac38964.webp
+
+[Illustration : consulter la source publiée.]
+
+## accordeur
+Source: assets/concepts/equipements-nains/v01/accordeur.webp
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 94c60f6bdcda2cd549f20f5b8f7ea5cec8490a3fd13c8fc27e87af8a533f6bd4
+Page: documents/4d4d52e8a5559b5aef1e5c64.html
+Source publiée: images/4d4d52e8a5559b5aef1e5c64.webp
+
+[Illustration : consulter la source publiée.]
+
+## artilleur-runique
+Source: assets/concepts/equipements-nains/v01/artilleur-runique.webp
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 38a3a1484560401169a584a1a2a77d529451fbb57f062f16e897c8a704615f8d
+Page: documents/7d5ac79fe043fd206fededb1.html
+Source publiée: images/7d5ac79fe043fd206fededb1.webp
+
+[Illustration : consulter la source publiée.]
+
+## brise-fer
+Source: assets/concepts/equipements-nains/v01/brise-fer.webp
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: 72bce36c76d6aa07236712a84e6971581e642789494404b8b58fbb0d2af99187
+Page: documents/6d1afa497d969833d0c19e71.html
+Source publiée: images/6d1afa497d969833d0c19e71.webp
+
+[Illustration : consulter la source publiée.]
+
+## manifest
+Source: assets/concepts/equipements-nains/v01/manifest.json
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 4c55d877d1bd35c92b27283697f5bf6d1d91fa96bc609f96dfbf66efe1bdc1b2
+Page: documents/134c346c993a21068935cf07.html
+Source publiée: raw/assets/concepts/equipements-nains/v01/manifest.json
+
+{
+  "rempart": {
+    "title": "Rempart",
+    "src": "assets/classes/equipment-v01/rempart.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "1175d295e82a58f1a2a9791d0203763c6e8042ec2bf604635b48e3c94d950fa0",
+    "web_sha256": "b84b827885b0697b2b6658279003b8869906554fb76ecde82df127954deca8c6"
+  },
+  "brise-fer": {
+    "title": "Brise-Fer",
+    "src": "assets/classes/equipment-v01/brise-fer.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "7c1a43ad89ad80d7bda22635df58c622fb58ecc7c0b40076f86a5417028642e7",
+    "web_sha256": "72bce36c76d6aa07236712a84e6971581e642789494404b8b58fbb0d2af99187"
+  },
+  "artilleur-runique": {
+    "title": "Artilleur runique",
+    "src": "assets/classes/equipment-v01/artilleur-runique.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "81c24879e68836129cddc22393615f798c6bd237a0bd5a92518d048c0446e6a1",
+    "web_sha256": "38a3a1484560401169a584a1a2a77d529451fbb57f062f16e897c8a704615f8d"
+  },
+  "accordeur": {
+    "title": "Accordeur",
+    "src": "assets/classes/equipment-v01/accordeur.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "53e8ce9b701fadf319c0d0940a7ef3c91cad2639c938ebe1089239a4291f10e8",
+    "web_sha256": "94c60f6bdcda2cd549f20f5b8f7ea5cec8490a3fd13c8fc27e87af8a533f6bd4"
+  }
+}
+
+
+## rempart
+Source: assets/concepts/equipements-nains/v01/rempart.webp
+Statut déclaré: CONCEPT_NON_CERTIFIE
+Version: None
+SHA-256: b84b827885b0697b2b6658279003b8869906554fb76ecde82df127954deca8c6
+Page: documents/d9eefbfe1cea17fc19fc395f.html
+Source publiée: images/d9eefbfe1cea17fc19fc395f.webp
+
+[Illustration : consulter la source publiée.]

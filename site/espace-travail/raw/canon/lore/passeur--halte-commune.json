@@ -1,0 +1,57 @@
+{
+  "id": "passeur--halte-commune",
+  "category": "competences",
+  "title": "Halte Commune",
+  "summary": "Soin de zone · Passeur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Passeur\nRôle : Heal\nN° : 4\nCompétence : Halte Commune\nType : Soin zone\nType clair : Soin de zone\nBase / impact : 160\nCoefficient : 0.53\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 18\nPortée (m) : 0\nLancement : 1 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 8 m autour du Passeur ; rester proche est nécessaire. Le lanceur est éligible au plafond de 5.\nPuissance brute réf. : 690\nPuissance PvP réf. : 621\nPuissance totale brute : 690\nPuissance totale PvP : 621\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0614",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "passeur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0614",
+  "public_projection": {
+    "id": "passeur--halte-commune",
+    "category": "competences",
+    "title": "Halte Commune",
+    "summary": "Soin de zone · Passeur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Passeur\nRôle : Heal\nN° : 4\nCompétence : Halte Commune\nType : Soin zone\nType clair : Soin de zone\nBase / impact : 160\nCoefficient : 0.53\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 18\nPortée (m) : 0\nLancement : 1 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 8 m autour du Passeur ; rester proche est nécessaire. Le lanceur est éligible au plafond de 5.\nPuissance brute réf. : 690\nPuissance PvP réf. : 621\nPuissance totale brute : 690\nPuissance totale PvP : 621\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-passeur--halte-commune.json",
+    "record_sha256": "5361e6ca058f20aecd8b0aae9d35f0b4464a6f71c330fde58153d0c88595179c"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

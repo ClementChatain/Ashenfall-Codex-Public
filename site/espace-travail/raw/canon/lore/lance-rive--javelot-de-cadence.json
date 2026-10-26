@@ -1,0 +1,57 @@
+{
+  "id": "lance-rive--javelot-de-cadence",
+  "category": "competences",
+  "title": "Javelot de Cadence",
+  "summary": "Dégâts directs / préparation · Lance-Rive",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 2\nCompétence : Javelot de Cadence\nType : Dégâts\nType clair : Dégâts directs / préparation\nBase / impact : 140\nCoefficient : 0.36\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 12\nPortée (m) : 22\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : +15 Rythme sur touche ; prépare le prochain Jet Appuyé en mouvement pendant 4 s. Un seul effet, consommé au début de la préparation.\nPuissance brute réf. : 500\nPuissance PvP réf. : 500\nPuissance totale brute : 500\nPuissance totale PvP : 500\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0582",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lance-rive"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0582",
+  "public_projection": {
+    "id": "lance-rive--javelot-de-cadence",
+    "category": "competences",
+    "title": "Javelot de Cadence",
+    "summary": "Dégâts directs / préparation · Lance-Rive",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 2\nCompétence : Javelot de Cadence\nType : Dégâts\nType clair : Dégâts directs / préparation\nBase / impact : 140\nCoefficient : 0.36\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 12\nPortée (m) : 22\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : +15 Rythme sur touche ; prépare le prochain Jet Appuyé en mouvement pendant 4 s. Un seul effet, consommé au début de la préparation.\nPuissance brute réf. : 500\nPuissance PvP réf. : 500\nPuissance totale brute : 500\nPuissance totale PvP : 500\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive--javelot-de-cadence.json",
+    "record_sha256": "8ace3fed5b859af034c531f257b0cc9eda87a9b061cffa33ced0702900960c4a"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

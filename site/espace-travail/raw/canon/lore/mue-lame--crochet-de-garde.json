@@ -1,0 +1,57 @@
+{
+  "id": "mue-lame--crochet-de-garde",
+  "category": "competences",
+  "title": "Crochet de Garde",
+  "summary": "Dégâts directs / ralentissement · Mue-Lame",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Mue-Lame\nRôle : DPS mêlée\nN° : 5\nCompétence : Crochet de Garde\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Ralentissement 30 % pendant 3 s. Aucun désarmement ou réduction de parade supplémentaire.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0545",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "mue-lame"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0545",
+  "public_projection": {
+    "id": "mue-lame--crochet-de-garde",
+    "category": "competences",
+    "title": "Crochet de Garde",
+    "summary": "Dégâts directs / ralentissement · Mue-Lame",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Mue-Lame\nRôle : DPS mêlée\nN° : 5\nCompétence : Crochet de Garde\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Ralentissement 30 % pendant 3 s. Aucun désarmement ou réduction de parade supplémentaire.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-mue-lame--crochet-de-garde.json",
+    "record_sha256": "0f8f8ec857aed32dc48195678b9b2cbd443564df6150bdbfe1967a82266c3a26"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

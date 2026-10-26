@@ -1,0 +1,73 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Contre-Heurt — Rempart · Ashenfall</title><style>
+:root{color-scheme:dark;--bg:#10151a;--panel:#18212a;--line:#34414d;--ink:#edf0ef;--dim:#b4c0c7;--gold:#d6b579}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+a{color:var(--gold);text-underline-offset:4px}header,main,footer{max-width:1120px;margin:auto;padding:28px}
+header{padding-top:48px;border-bottom:1px solid var(--line)}header p{max-width:800px}h1{font:600 clamp(30px,5vw,46px)/1.2 Georgia,serif;margin:12px 0 24px}h2{font-size:25px}
+.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;text-transform:uppercase}.muted{color:var(--dim)}
+nav{display:flex;gap:18px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card,details,.notice{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin:16px 0}.card{margin:0}.card h2{margin:0 0 10px;font-size:21px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 ui-monospace,monospace;background:var(--panel);padding:24px;border-radius:10px}
+.meta{font-size:13px;color:var(--dim);overflow-wrap:anywhere}img{display:block;max-width:100%;max-height:80vh;margin:24px auto;object-fit:contain}
+input{font:inherit;width:100%;padding:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px}li{margin:12px 0}small{display:block}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.reading{max-width:850px;margin:auto;overflow-wrap:anywhere}.reading h2{color:var(--gold);margin-top:2em}.reading h3{font-size:20px}.reading p{margin:1em 0}.reading code{background:#25303a;padding:2px 5px;border-radius:4px;font-size:.9em}.reading pre{overflow-x:auto;white-space:pre-wrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);min-width:110px;vertical-align:top}th{background:#23303a}.section summary{font:600 23px Georgia,serif;padding:8px}.section summary small{font:14px system-ui;color:var(--dim);margin-top:7px}.document-list{padding-left:22px}.section[open]{border-color:#8a7856}.badge{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:3px 9px;white-space:nowrap}.card a{text-decoration:none}.jump-links a{font-size:14px}.reading details pre{font-size:13px}.reading img{max-height:60vh}.section-image-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}.section-image-list img{height:180px;width:100%;object-fit:contain}.section-image-list li{margin:0;padding:12px;background:#10181e;border-radius:8px}
+@media(max-width:600px){header,main,footer{padding:20px}pre{padding:16px;font-size:14px}}
+</style></head><body><header><div class="eyebrow">Ashenfall · espace de travail</div><h1>Contre-Heurt — Rempart</h1><nav><a href="../index.html">Accueil</a><a href="../ai/index.html">Lecture IA</a><a href="../manifest.json">Version et sources</a><a href="https://codex.ashenfall.linkin-tools.fr/">Codex joueurs existant</a></nav></header><main><p class="meta">canon/lore/rempart-contre-heurt.json · Statut déclaré : VALIDE · Version : 0.2</p><p><a href="../raw/canon/lore/rempart-contre-heurt.json">Ouvrir la source complète</a></p><article class="reading"><p>Dégâts · Rempart · Riposte sous 3s après blocage</p><p>VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE</p><p>Peuple : Nain Classe : Rempart Rôle : Tank N° : 7 Compétence : Contre-Heurt Type : Dégâts Base / impact : 260 Coefficient : 0.85 Coût : 25 CD (s) : 8 Portée (m) : 3 PvP x : 1.0 Contrôle / mécanique : Riposte sous 3s après blocage Puissance brute réf. : 1110 Puissance PvP réf. : 1110</p><p>Lecture des valeurs V0.1 Référence : niveau 30, équipement standardisé, PO = PS = 1000. Dégâts/soins bruts : base + coefficient × PO/PS. DoT et HoT : valeurs par tick. Multi-coups : valeurs par impact. Zones : valeurs par cible, plafond PvE de 5 par défaut. Les puissances de référence ne sont pas un DPS ni une simulation. Coût : ressource de la classe ; certains coûts sont des charges de Fracture. CD en secondes ; CD 0 reste soumis au GCD de référence de 1,25 s. Portée en mètres ; 0 signifie personnel ou posture. Multiplicateur PvP indicatif. Les contrôles suivent les rendements décroissants de la fiche « Règles d’équilibrage V0.1 ». Toutes les valeurs nécessitent simulation et tests en jeu.</p><p>Guide actualisé après remplacement V0.2, sans modification des effets de cette compétence Objectif : Transformer un blocage en réponse offensive. Quand l’utiliser : Dans la fenêtre qui suit un blocage réussi. Synergies : Le blocage prépare la riposte. Choisissez Contre-Heurt pour la pression rapprochée ou Heurt du Bastion pour éloigner la menace. Limites et contres : La fenêtre dure trois secondes. Une attaque ordinaire ne remplace pas le blocage requis.</p><details><summary>Données complètes et métadonnées</summary><pre>{
+  &quot;id&quot;: &quot;rempart-contre-heurt&quot;,
+  &quot;lore_id&quot;: &quot;ASH-LORE-0108&quot;,
+  &quot;title&quot;: &quot;Contre-Heurt — Rempart&quot;,
+  &quot;category&quot;: &quot;competences&quot;,
+  &quot;version&quot;: &quot;0.2&quot;,
+  &quot;status&quot;: &quot;VALIDE&quot;,
+  &quot;visibility&quot;: &quot;PUBLIC&quot;,
+  &quot;summary&quot;: &quot;Dégâts · Rempart · Riposte sous 3s après blocage&quot;,
+  &quot;body&quot;: &quot;VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPeuple : Nain\nClasse : Rempart\nRôle : Tank\nN° : 7\nCompétence : Contre-Heurt\nType : Dégâts\nBase / impact : 260\nCoefficient : 0.85\nCoût : 25\nCD (s) : 8\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Riposte sous 3s après blocage\nPuissance brute réf. : 1110\nPuissance PvP réf. : 1110\n\nLecture des valeurs V0.1\nRéférence : niveau 30, équipement standardisé, PO = PS = 1000. Dégâts/soins bruts : base + coefficient × PO/PS. DoT et HoT : valeurs par tick. Multi-coups : valeurs par impact. Zones : valeurs par cible, plafond PvE de 5 par défaut. Les puissances de référence ne sont pas un DPS ni une simulation.\nCoût : ressource de la classe ; certains coûts sont des charges de Fracture. CD en secondes ; CD 0 reste soumis au GCD de référence de 1,25 s. Portée en mètres ; 0 signifie personnel ou posture. Multiplicateur PvP indicatif.\nLes contrôles suivent les rendements décroissants de la fiche « Règles d’équilibrage V0.1 ». Toutes les valeurs nécessitent simulation et tests en jeu.\n\nGuide actualisé après remplacement V0.2, sans modification des effets de cette compétence\nObjectif : Transformer un blocage en réponse offensive.\nQuand l’utiliser : Dans la fenêtre qui suit un blocage réussi.\nSynergies : Le blocage prépare la riposte. Choisissez Contre-Heurt pour la pression rapprochée ou Heurt du Bastion pour éloigner la menace.\nLimites et contres : La fenêtre dure trois secondes. Une attaque ordinaire ne remplace pas le blocage requis.&quot;,
+  &quot;facts&quot;: [],
+  &quot;viewpoints&quot;: [],
+  &quot;hypotheses&quot;: [
+    &quot;Valeurs d’équilibrage à tester en jeu.&quot;
+  ],
+  &quot;questions&quot;: [
+    &quot;Réglage final après prototype : distances face à Garde, rebords et cône.&quot;
+  ],
+  &quot;links&quot;: [
+    &quot;rempart&quot;,
+    &quot;sentinelle&quot;,
+    &quot;gardien-des-racines&quot;
+  ],
+  &quot;period&quot;: null,
+  &quot;sources&quot;: [
+    &quot;sources/decisions/bumps-tanks-v02-2026-10-23.json&quot;
+  ],
+  &quot;dependencies&quot;: [],
+  &quot;impacts&quot;: [
+    &quot;Codex uniquement ; aucune modification Unity.&quot;
+  ],
+  &quot;modified&quot;: &quot;2026-10-23&quot;,
+  &quot;revision_notes&quot;: [
+    &quot;Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.&quot;,
+    &quot;Identifiant public historique conservé pour préserver les routes.&quot;
+  ],
+  &quot;production_id&quot;: &quot;ASH-UNITY-0101&quot;,
+  &quot;public_projection&quot;: {
+    &quot;id&quot;: &quot;rempart-contre-heurt&quot;,
+    &quot;category&quot;: &quot;competences&quot;,
+    &quot;title&quot;: &quot;Contre-Heurt — Rempart&quot;,
+    &quot;summary&quot;: &quot;Dégâts · Rempart · Riposte sous 3s après blocage&quot;,
+    &quot;body&quot;: &quot;VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPeuple : Nain\nClasse : Rempart\nRôle : Tank\nN° : 7\nCompétence : Contre-Heurt\nType : Dégâts\nBase / impact : 260\nCoefficient : 0.85\nCoût : 25\nCD (s) : 8\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Riposte sous 3s après blocage\nPuissance brute réf. : 1110\nPuissance PvP réf. : 1110\n\nLecture des valeurs V0.1\nRéférence : niveau 30, équipement standardisé, PO = PS = 1000. Dégâts/soins bruts : base + coefficient × PO/PS. DoT et HoT : valeurs par tick. Multi-coups : valeurs par impact. Zones : valeurs par cible, plafond PvE de 5 par défaut. Les puissances de référence ne sont pas un DPS ni une simulation.\nCoût : ressource de la classe ; certains coûts sont des charges de Fracture. CD en secondes ; CD 0 reste soumis au GCD de référence de 1,25 s. Portée en mètres ; 0 signifie personnel ou posture. Multiplicateur PvP indicatif.\nLes contrôles suivent les rendements décroissants de la fiche « Règles d’équilibrage V0.1 ». Toutes les valeurs nécessitent simulation et tests en jeu.\n\nGuide actualisé après remplacement V0.2, sans modification des effets de cette compétence\nObjectif : Transformer un blocage en réponse offensive.\nQuand l’utiliser : Dans la fenêtre qui suit un blocage réussi.\nSynergies : Le blocage prépare la riposte. Choisissez Contre-Heurt pour la pression rapprochée ou Heurt du Bastion pour éloigner la menace.\nLimites et contres : La fenêtre dure trois secondes. Une attaque ordinaire ne remplace pas le blocage requis.&quot;
+  },
+  &quot;blocking_contradictions&quot;: false,
+  &quot;validation&quot;: {
+    &quot;creator&quot;: &quot;ClementChatain&quot;,
+    &quot;version&quot;: &quot;0.2&quot;,
+    &quot;date&quot;: &quot;2026-10-23&quot;,
+    &quot;reference&quot;: &quot;decisions/ASH-DECISION-BUMP-108.json&quot;,
+    &quot;record_sha256&quot;: &quot;972712425b404148ee762d86038847442ac52bec6fd3ce6dbcfc880ce7986f7b&quot;
+  },
+  &quot;history&quot;: [
+    {
+      &quot;date&quot;: &quot;2026-10-23&quot;,
+      &quot;action&quot;: &quot;V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.&quot;,
+      &quot;source&quot;: &quot;sources/decisions/bumps-tanks-v02-2026-10-23.json&quot;
+    }
+  ]
+}</pre></details></article></main><footer>Source : 2b78ceff3aaca5261accc6896067523676aed25e. Un document consultable reste soumis à son statut et à sa validation.</footer></body></html>

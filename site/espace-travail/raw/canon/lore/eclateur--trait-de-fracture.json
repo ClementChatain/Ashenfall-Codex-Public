@@ -1,0 +1,57 @@
+{
+  "id": "eclateur--trait-de-fracture",
+  "category": "competences",
+  "title": "Trait de Fracture",
+  "summary": "Dégâts directs · Éclateur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 3\nCompétence : Trait de Fracture\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 300\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 16\nPortée (m) : 28\nLancement : 1 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Sans balise : plein dégât sur une cible. Avec balise disponible et second ennemi à 4 m : 80 % principal + 40 % second, consommation de la balise ; sinon plein dégât et balise consommée.\nPuissance brute réf. : 1450\nPuissance PvP réf. : 1160\nPuissance totale brute : 1450\nPuissance totale PvP : 1160\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0563",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eclateur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0563",
+  "public_projection": {
+    "id": "eclateur--trait-de-fracture",
+    "category": "competences",
+    "title": "Trait de Fracture",
+    "summary": "Dégâts directs · Éclateur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 3\nCompétence : Trait de Fracture\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 300\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 16\nPortée (m) : 28\nLancement : 1 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Sans balise : plein dégât sur une cible. Avec balise disponible et second ennemi à 4 m : 80 % principal + 40 % second, consommation de la balise ; sinon plein dégât et balise consommée.\nPuissance brute réf. : 1450\nPuissance PvP réf. : 1160\nPuissance totale brute : 1450\nPuissance totale PvP : 1160\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eclateur--trait-de-fracture.json",
+    "record_sha256": "3c793e11feb3777a4998fcee461cb40fcd9020df8a8cd7f4c6210601ffdd347a"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

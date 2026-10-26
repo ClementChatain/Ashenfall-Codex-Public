@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "PROPOSITION",
+  "visibility": "INTERNE",
+  "calibration": null,
+  "scenarios": [
+    {"id": "pve-sustained-single", "purpose": "pression et ressources sur la durée", "duration_s": 180, "metrics": ["dps", "effective_hps", "resource_starved_ms", "survived"], "engine_v1": "subset: stationary single actor only"},
+    {"id": "pve-burst", "purpose": "fenêtre courte et récupération", "duration_s": 15, "metrics": ["damage", "resource_spent", "damage_taken"], "engine_v1": "subset: single actor, no adversarial reactions"},
+    {"id": "pve-multiple-targets", "purpose": "répartition 3/5/8 cibles et plafonds de zone", "duration_s": 60, "metrics": ["damage_by_target", "target_cap", "threat"], "engine_v1": "unsupported"},
+    {"id": "pve-protect-ally", "purpose": "transfert, survie du tank et du gardé, soin externe constant", "duration_s": 60, "metrics": ["ally_damage_prevented", "tank_survival", "healer_cost"], "engine_v1": "unsupported"},
+    {"id": "pve-movement-control", "purpose": "placement, interruptions, immunités et temps de déplacement", "duration_s": 60, "metrics": ["uptime", "interrupts", "useful_control_seconds"], "engine_v1": "unsupported"},
+    {"id": "pvp-small-group", "purpose": "compositions miroir, contre-jeu et contrôles dégressifs", "duration_s": 60, "metrics": ["survival", "objective_success", "time_without_counterplay"], "engine_v1": "unsupported"}
+  ],
+  "note": "Durées proposées de protocole, pas règles du jeu. HP, équipement, pression ennemie et coefficients restent à calibrer. Aucun scénario de production exécutable n'est rempli par défaut."
+}

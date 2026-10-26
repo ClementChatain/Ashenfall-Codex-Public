@@ -1,0 +1,44 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Lire le projet avant d’agir · Ashenfall</title><style>
+:root{color-scheme:dark;--bg:#10151a;--panel:#18212a;--line:#34414d;--ink:#edf0ef;--dim:#b4c0c7;--gold:#d6b579}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+a{color:var(--gold);text-underline-offset:4px}header,main,footer{max-width:1120px;margin:auto;padding:28px}
+header{padding-top:48px;border-bottom:1px solid var(--line)}header p{max-width:800px}h1{font:600 clamp(30px,5vw,46px)/1.2 Georgia,serif;margin:12px 0 24px}h2{font-size:25px}
+.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;text-transform:uppercase}.muted{color:var(--dim)}
+nav{display:flex;gap:18px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card,details,.notice{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin:16px 0}.card{margin:0}.card h2{margin:0 0 10px;font-size:21px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 ui-monospace,monospace;background:var(--panel);padding:24px;border-radius:10px}
+.meta{font-size:13px;color:var(--dim);overflow-wrap:anywhere}img{display:block;max-width:100%;max-height:80vh;margin:24px auto;object-fit:contain}
+input{font:inherit;width:100%;padding:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px}li{margin:12px 0}small{display:block}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.reading{max-width:850px;margin:auto;overflow-wrap:anywhere}.reading h2{color:var(--gold);margin-top:2em}.reading h3{font-size:20px}.reading p{margin:1em 0}.reading code{background:#25303a;padding:2px 5px;border-radius:4px;font-size:.9em}.reading pre{overflow-x:auto;white-space:pre-wrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);min-width:110px;vertical-align:top}th{background:#23303a}.section summary{font:600 23px Georgia,serif;padding:8px}.section summary small{font:14px system-ui;color:var(--dim);margin-top:7px}.document-list{padding-left:22px}.section[open]{border-color:#8a7856}.badge{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:3px 9px;white-space:nowrap}.card a{text-decoration:none}.jump-links a{font-size:14px}.reading details pre{font-size:13px}.reading img{max-height:60vh}.section-image-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}.section-image-list img{height:180px;width:100%;object-fit:contain}.section-image-list li{margin:0;padding:12px;background:#10181e;border-radius:8px}
+@media(max-width:600px){header,main,footer{padding:20px}pre{padding:16px;font-size:14px}}
+</style></head><body><header><div class="eyebrow">Ashenfall · espace de travail</div><h1>Lire le projet avant d’agir</h1><nav><a href="../index.html">Accueil</a><a href="../ai/index.html">Lecture IA</a><a href="../manifest.json">Version et sources</a><a href="https://codex.ashenfall.linkin-tools.fr/">Codex joueurs existant</a></nav></header><main><p>Entrée commune pour les IA. Cette page et toutes les fiches sont lisibles sans JavaScript et sans accès au dépôt privé.</p><pre># Contrat de lecture commun aux IA
+
+Version 1 — 26 octobre 2026. Destination : ChatGPT 01, 02 et 03, Claude Code et toute autre IA intervenant sur Ashenfall.
+
+## Au début d&#x27;une mission
+
+1. Ouvrir le point d&#x27;entrée `ai/index.html` du portail déployé et son `manifest.json`. Relever la révision source et la date de construction.
+2. Lire l&#x27;état du projet et le journal des évolutions, puis les documents du périmètre. Le paquet d&#x27;une rubrique dans `ai/` facilite la lecture sans charger tout le projet.
+3. Distinguer décision validée, proposition, archive et implémentation. La publication d&#x27;un document de travail n&#x27;en change pas le statut. Comparer les dates, versions et preuves de décision, sans choisir arbitrairement le texte le plus récent.
+4. Si la mission concerne le jeu local, comparer sa révision, son état de travail et sa version Unity avec le relevé du portail. Une divergence se signale ; le site ne prouve pas l&#x27;état du disque.
+5. En cas d&#x27;accès impossible ou de contradiction bloquante, annoncer précisément ce qui manque. Utiliser l&#x27;export texte ou le dépôt authentifié si disponible ; ne pas prétendre avoir lu le site.
+
+## Après une évolution
+
+- Le responsable du travail actualise les sources, l&#x27;état courant et le journal ; il prépare les éléments de relais sans les faire retranscrire par Clément.
+- Chaque entrée indique date, changement, source/version, statut, impacts et éventuelle validation.
+- La publication met à disposition les mêmes sources et la même révision pour toutes les IA. Aucun agent n&#x27;est autorisé à prétendre avoir rafraîchi les autres sessions.
+- Les tests pertinents et validations utilisateur existantes restent applicables. Pas de commit de clôture Unity sans validation de Clément.
+
+## Responsabilités
+
+| Espace | Travail | Référence attendue |
+|---|---|---|
+| 01 | Cadrage et suivi du jeu | État technique, missions, tests et builds identifiés |
+| Claude Code | Implémentation et comptes rendus | Code et documents du projet Unity réel |
+| 02 | Conception et propositions | Décisions validées par Clément, sources et versions |
+| 03 / Archiviste | Conservation et portail | Fiches, statuts, liens et version réellement publiée |
+| IA créatives | Livrables selon brief | Référence retenue, version et destination |
+
+Le MMORPG persistant reste l&#x27;objectif ; séparer données, règles et présentation sans introduire de réseau prématurément. Une contrainte technique ne justifie pas une nouvelle règle de lore.
+</pre><h2>Paquets par rubrique</h2><ul><li><a href="section-00.txt">Archives de conception — texte complet</a></li><li><a href="section-01.txt">Conception et règles — texte complet</a></li><li><a href="section-02.txt">Décisions — texte complet</a></li><li><a href="section-03.txt">Développement Unity — texte complet</a></li><li><a href="section-04.txt">Fiches de référence — texte complet</a></li><li><a href="section-05.txt">Fonctionnement — texte complet</a></li><li><a href="section-06.txt">Illustrations — texte complet</a></li><li><a href="section-07.txt">Pilotage — texte complet</a></li><li><a href="section-08.txt">Propositions — texte complet</a></li><li><a href="section-09.txt">Équilibrage expérimental — texte complet</a></li></ul><p><a href="../llms-full.txt">Tout le texte</a> · <a href="../manifest.json">Manifeste versionné</a></p></main><footer>Source : 2b78ceff3aaca5261accc6896067523676aed25e. Un document consultable reste soumis à son statut et à sa validation.</footer></body></html>

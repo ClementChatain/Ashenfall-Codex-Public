@@ -1,0 +1,57 @@
+{
+  "id": "aiguilleur--aiguille-droite",
+  "category": "competences",
+  "title": "Aiguille Droite",
+  "summary": "Dégâts directs · Aiguilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 1\nCompétence : Aiguille Droite\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 160\nCoefficient : 0.64\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 28\nLancement : 0,65 s\nPvP x : 1\nContrôle / mécanique : Projectile visible, préparation mobile à 70 % de vitesse ; +10 Précision sur touche. Interruptible.\nPuissance brute réf. : 800\nPuissance PvP réf. : 800\nPuissance totale brute : 800\nPuissance totale PvP : 800\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0571",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "aiguilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0571",
+  "public_projection": {
+    "id": "aiguilleur--aiguille-droite",
+    "category": "competences",
+    "title": "Aiguille Droite",
+    "summary": "Dégâts directs · Aiguilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 1\nCompétence : Aiguille Droite\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 160\nCoefficient : 0.64\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 28\nLancement : 0,65 s\nPvP x : 1\nContrôle / mécanique : Projectile visible, préparation mobile à 70 % de vitesse ; +10 Précision sur touche. Interruptible.\nPuissance brute réf. : 800\nPuissance PvP réf. : 800\nPuissance totale brute : 800\nPuissance totale PvP : 800\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-aiguilleur--aiguille-droite.json",
+    "record_sha256": "2978c35eb780cdd05ec528998cad58f5be3494a0bb294bc106c638154da770f0"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

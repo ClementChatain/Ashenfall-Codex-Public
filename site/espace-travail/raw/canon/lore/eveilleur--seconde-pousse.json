@@ -1,0 +1,57 @@
+{
+  "id": "eveilleur--seconde-pousse",
+  "category": "competences",
+  "title": "Seconde Pousse",
+  "summary": "Soin direct d’urgence · Éveilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 5\nCompétence : Seconde Pousse\nType : Soin\nType clair : Soin direct d’urgence\nBase / impact : 420\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 45\nCD (s) : 35\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Utilisable uniquement sur cible ayant Reprise pour cet Éveilleur ; consomme Reprise. Aucun surplus au-delà de la puissance annoncée et aucun reset.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1413\nPuissance totale brute : 1570\nPuissance totale PvP : 1413\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0605",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eveilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0605",
+  "public_projection": {
+    "id": "eveilleur--seconde-pousse",
+    "category": "competences",
+    "title": "Seconde Pousse",
+    "summary": "Soin direct d’urgence · Éveilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 5\nCompétence : Seconde Pousse\nType : Soin\nType clair : Soin direct d’urgence\nBase / impact : 420\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 45\nCD (s) : 35\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Utilisable uniquement sur cible ayant Reprise pour cet Éveilleur ; consomme Reprise. Aucun surplus au-delà de la puissance annoncée et aucun reset.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1413\nPuissance totale brute : 1570\nPuissance totale PvP : 1413\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur--seconde-pousse.json",
+    "record_sha256": "8fbb9affa4ac4468e9bfb845b3a980fed84c455735b96929926f0c7058706e2b"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

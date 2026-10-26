@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur",
+  "record_version": "0.2",
+  "validated_record_sha256": "f9b3dc6a97f0ef17cf77198a774602221f7e89aa4afad81f4f66174ee0bd40fb",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}

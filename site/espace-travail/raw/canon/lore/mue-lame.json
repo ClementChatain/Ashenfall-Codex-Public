@@ -1,0 +1,63 @@
+{
+  "id": "mue-lame",
+  "category": "classes",
+  "title": "Mue-Lame",
+  "summary": "Vaelith · DPS mêlée · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant dont les postures changent avec les ouvertures du duel.\n\nIl utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.\n\nSon identité serait celle d’un prédateur adaptable, qui doit changer sa façon de combattre selon la situation. Le Danse-lame elfe recherche la fluidité et la maîtrise ; le Mue-Lame recherche l’ajustement permanent. Il devient dangereux lorsqu’il lit correctement le combat, mais perd de son efficacité s’il répète toujours la même approche.\n\nImpression recherchée : On comprend sa garde au moment où il en change.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nSouplesse 0–100 ; départ 0. Taille Souple : +10 sur touche ; Revers d’Appui : +15 sur touche. Pas de ressource obtenue par changement de posture.\n\nDeux postures : Ouverte (aucun bonus, permet le finisseur offensif) et Repliée (−10 % dégâts directs reçus, −10 % dégâts infligés). Un bouton dédié de mécanique de classe, séparé des dix compétences, change la posture : GCD normal, verrou 4 s, sans gain de ressource. État affiché ; un seul effet actif. Commence en Ouverte.\n\nBoucle : Construire en posture choisie → passer en Ouverte pour engager → revenir en Repliée lorsque la pression monte.\n\nContre-jeu : Forcer la défensive avant son finisseur ; ses changements consomment un GCD et il ne dispose pas d’une invulnérabilité de mobilité.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille Souple — Dégâts directs\nFiche : mue-lame--taille-souple\n2. Revers d’Appui — Dégâts directs\nFiche : mue-lame--revers-d-appui\n3. Lame Déployée — Dégâts directs\nFiche : mue-lame--lame-deployee\n4. Pas de Mue — Mobilité\nFiche : mue-lame--pas-de-mue\n5. Crochet de Garde — Dégâts directs / ralentissement\nFiche : mue-lame--crochet-de-garde\n6. Suture Tranchante — Dégâts sur la durée\nFiche : mue-lame--suture-tranchante\n7. Repli Mesuré — Protection personnelle\nFiche : mue-lame--repli-mesure\n8. Croissant Changeant — Dégâts de zone\nFiche : mue-lame--croissant-changeant\n9. Lecture du Mouvement — Amélioration personnelle\nFiche : mue-lame--lecture-du-mouvement\n10. Dernière Mue — Exécution\nFiche : mue-lame--derniere-mue\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0306",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "vaelith"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0306",
+  "public_projection": {
+    "id": "mue-lame",
+    "category": "classes",
+    "title": "Mue-Lame",
+    "summary": "Vaelith · DPS mêlée · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant dont les postures changent avec les ouvertures du duel.\n\nIl utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.\n\nSon identité serait celle d’un prédateur adaptable, qui doit changer sa façon de combattre selon la situation. Le Danse-lame elfe recherche la fluidité et la maîtrise ; le Mue-Lame recherche l’ajustement permanent. Il devient dangereux lorsqu’il lit correctement le combat, mais perd de son efficacité s’il répète toujours la même approche.\n\nImpression recherchée : On comprend sa garde au moment où il en change.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nSouplesse 0–100 ; départ 0. Taille Souple : +10 sur touche ; Revers d’Appui : +15 sur touche. Pas de ressource obtenue par changement de posture.\n\nDeux postures : Ouverte (aucun bonus, permet le finisseur offensif) et Repliée (−10 % dégâts directs reçus, −10 % dégâts infligés). Un bouton dédié de mécanique de classe, séparé des dix compétences, change la posture : GCD normal, verrou 4 s, sans gain de ressource. État affiché ; un seul effet actif. Commence en Ouverte.\n\nBoucle : Construire en posture choisie → passer en Ouverte pour engager → revenir en Repliée lorsque la pression monte.\n\nContre-jeu : Forcer la défensive avant son finisseur ; ses changements consomment un GCD et il ne dispose pas d’une invulnérabilité de mobilité.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille Souple — Dégâts directs\nFiche : mue-lame--taille-souple\n2. Revers d’Appui — Dégâts directs\nFiche : mue-lame--revers-d-appui\n3. Lame Déployée — Dégâts directs\nFiche : mue-lame--lame-deployee\n4. Pas de Mue — Mobilité\nFiche : mue-lame--pas-de-mue\n5. Crochet de Garde — Dégâts directs / ralentissement\nFiche : mue-lame--crochet-de-garde\n6. Suture Tranchante — Dégâts sur la durée\nFiche : mue-lame--suture-tranchante\n7. Repli Mesuré — Protection personnelle\nFiche : mue-lame--repli-mesure\n8. Croissant Changeant — Dégâts de zone\nFiche : mue-lame--croissant-changeant\n9. Lecture du Mouvement — Amélioration personnelle\nFiche : mue-lame--lecture-du-mouvement\n10. Dernière Mue — Exécution\nFiche : mue-lame--derniere-mue\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-mue-lame.json",
+    "record_sha256": "f45def0b00c246e90225e6ccd72fcc6d5482bd187ec52576974d7995a0466bb5"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

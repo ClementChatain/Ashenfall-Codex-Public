@@ -1,0 +1,20 @@
+{
+  "id": "ASH-UNITY-0201",
+  "lore_id": "ASH-LORE-0201",
+  "status": "PROPOSITION",
+  "scope": "Présentation web uniquement",
+  "zones": [],
+  "npcs": [],
+  "quests": [],
+  "dialogues": [],
+  "assets": [],
+  "constraints": [
+    "Aucune classe, apparence ou mécanique déduite de cette présentation."
+  ],
+  "acceptance": [
+    "Fiche accessible depuis la catégorie Peuples et recherche."
+  ],
+  "non_decisions": [
+    "Jouabilité, apparence, culture et classes."
+  ]
+}

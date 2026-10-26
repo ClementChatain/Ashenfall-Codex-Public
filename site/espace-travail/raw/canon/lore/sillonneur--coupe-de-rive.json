@@ -1,0 +1,57 @@
+{
+  "id": "sillonneur--coupe-de-rive",
+  "category": "competences",
+  "title": "Coupe de Rive",
+  "summary": "Dégâts directs · Sillonneur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 3\nCompétence : Coupe de Rive\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 290\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 14\nPortée (m) : 3\nLancement : 0,60 s\nPvP x : 0.8\nContrôle / mécanique : +10 % si Passage disponible, consommé après résolution, même sur attaque évitée. Sans Passage, dégâts de base.\nPuissance brute réf. : 1440\nPuissance PvP réf. : 1152\nPuissance totale brute : 1440\nPuissance totale PvP : 1152\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0553",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "sillonneur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0553",
+  "public_projection": {
+    "id": "sillonneur--coupe-de-rive",
+    "category": "competences",
+    "title": "Coupe de Rive",
+    "summary": "Dégâts directs · Sillonneur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 3\nCompétence : Coupe de Rive\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 290\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 14\nPortée (m) : 3\nLancement : 0,60 s\nPvP x : 0.8\nContrôle / mécanique : +10 % si Passage disponible, consommé après résolution, même sur attaque évitée. Sans Passage, dégâts de base.\nPuissance brute réf. : 1440\nPuissance PvP réf. : 1152\nPuissance totale brute : 1440\nPuissance totale PvP : 1152\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-sillonneur--coupe-de-rive.json",
+    "record_sha256": "daf1a73728509dc0236b43902490abb9fef5dd274f4e5fe0cf1db2e79bcf78b2"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

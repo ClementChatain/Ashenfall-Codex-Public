@@ -1,0 +1,57 @@
+{
+  "id": "eveilleur--reveil-collectif",
+  "category": "competences",
+  "title": "Réveil Collectif",
+  "summary": "Soin de groupe majeur · Éveilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 9\nCompétence : Réveil Collectif\nType : Soin zone\nType clair : Soin de groupe majeur\nBase / impact : 430\nCoefficient : 1.2\nNombre d’impacts : 1\nCoût : 65\nCD (s) : 75\nPortée (m) : 15\nLancement : 1,50 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m. Ne nécessite pas Reprise et ne renforce pas les autres soins après son effet.\nPuissance brute réf. : 1630\nPuissance PvP réf. : 1467\nPuissance totale brute : 1630\nPuissance totale PvP : 1467\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0609",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eveilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0609",
+  "public_projection": {
+    "id": "eveilleur--reveil-collectif",
+    "category": "competences",
+    "title": "Réveil Collectif",
+    "summary": "Soin de groupe majeur · Éveilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 9\nCompétence : Réveil Collectif\nType : Soin zone\nType clair : Soin de groupe majeur\nBase / impact : 430\nCoefficient : 1.2\nNombre d’impacts : 1\nCoût : 65\nCD (s) : 75\nPortée (m) : 15\nLancement : 1,50 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m. Ne nécessite pas Reprise et ne renforce pas les autres soins après son effet.\nPuissance brute réf. : 1630\nPuissance PvP réf. : 1467\nPuissance totale brute : 1630\nPuissance totale PvP : 1467\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur--reveil-collectif.json",
+    "record_sha256": "47f7bdd29683ffc9aa9d909576155e71d3238449ac4cca4d849f1638a0f90cde"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

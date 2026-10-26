@@ -1,0 +1,55 @@
+{
+  "id": "ASH-LORE-0001",
+  "title": "Fondation I — Un monde en mutation",
+  "category": "lore",
+  "version": "1.0",
+  "status": "VALIDE",
+  "visibility": "INTERNE",
+  "summary": "Ashenfall est un monde ancien, magnifique et profondément vivant.",
+  "body": "Ashenfall est un monde ancien, magnifique et profondément vivant. Ses civilisations ont grandi, prospéré et développé leurs cultures sans qu'une guerre originelle entre le Bien et le Mal définisse leur existence. Depuis quelque temps, des phénomènes inexpliqués transforment progressivement certains territoires, modifient le comportement d'espèces vivantes et perturbent des mécanismes anciens.",
+  "transcription_scope": "EXTRAIT_ATTESTE — trois phrases retrouvées ; archive complète de la conversation indisponible.",
+  "facts": [
+    "Ashenfall est un monde ancien, magnifique et profondément vivant.",
+    "Ses civilisations ont grandi, prospéré et développé leurs cultures sans qu'une guerre originelle entre le Bien et le Mal définisse leur existence.",
+    "Des phénomènes inexpliqués transforment progressivement certains territoires, modifient le comportement d'espèces vivantes et perturbent des mécanismes anciens."
+  ],
+  "viewpoints": [],
+  "hypotheses": [],
+  "questions": [
+    "Quelle est l’origine des transformations ?",
+    "Quel est leur mécanisme ?",
+    "Quel est leur sens ?"
+  ],
+  "links": [],
+  "period": null,
+  "sources": [
+    "sources/decisions/fondation-i-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Confronter les anciens brouillons à cette fondation sans les requalifier en canon."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Archivage de l’extrait attesté sans réécriture des anciens contenus.",
+    "Visibilité INTERNE ; aucune publication autorisée par la présente réparation."
+  ],
+  "production_id": "ASH-UNITY-0001",
+  "public_projection": null,
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "1.0",
+    "date": "2026-10-23T06:43:17Z",
+    "reference": "decisions/ASH-DECISION-0001.json",
+    "scope": "Extrait attesté de la Fondation I approuvée dans la conversation, enregistré en version d’archivage 1.0.",
+    "record_sha256": "dd51fc81caf10e04ca9bf2b9ae5081310f038be16b15d983c8e6cbf8faa5012a"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "decision": "ASH-DECISION-0001",
+      "action": "Archivage privé de l’extrait attesté validé, sans publication."
+    }
+  ]
+}

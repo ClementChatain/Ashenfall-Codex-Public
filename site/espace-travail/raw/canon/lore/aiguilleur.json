@@ -1,0 +1,63 @@
+{
+  "id": "aiguilleur",
+  "category": "classes",
+  "title": "Aiguilleur",
+  "summary": "Vaelith · DPS distance · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn tireur qui privilégie les angles étroits et les ouvertures fugitives.\n\nSon arme est un lance-aiguilles à branches articulées, porté près de l’avant-bras. Quelques longues aiguilles sont visibles le long de son équipement ; sa silhouette reste fine et immédiatement identifiable.\n\nSon identité serait celle d’un tireur de précision mobile, attentif aux fenêtres de tir. Le Traqueur sylvestre elfe poursuit et observe ; l’Aiguilleur ajuste constamment sa position pour atteindre une faille momentanée. Il serait redoutable contre une cible exposée, plus exigeant dans une mêlée confuse.\n\nImpression recherchée : Une présence discrète, puis une précision impossible à ignorer.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nPrécision 0–100 ; départ 0. Aiguille Droite : +10 sur touche. Repère d’Angle : +10 sur touche.\n\nUn Repère d’Angle marque personnellement une cible pendant 6 s. Si le tireur se déplace ensuite de 3 m depuis sa position d’application, Perce-Intervalle gagne +10 %, une fois. Le test porte sur le déplacement net, pas sur des tours sur place ; la cible et le tireur voient le repère. Aucun bonus de dos imposé.\n\nBoucle : Marquer → changer réellement d’angle → exposer sa fenêtre de tir → exploiter → se replacer.\n\nContre-jeu : Le forcer à quitter son angle, casser la ligne de vue ou avancer pour supprimer sa fenêtre de tir préparé ; pas de tir à travers les obstacles.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Aiguille Droite — Dégâts directs\nFiche : aiguilleur--aiguille-droite\n2. Repère d’Angle — Dégâts directs / préparation\nFiche : aiguilleur--repere-d-angle\n3. Perce-Intervalle — Dégâts directs\nFiche : aiguilleur--perce-intervalle\n4. Décalage — Mobilité\nFiche : aiguilleur--decalage\n5. Aiguille d’Entrave — Dégâts directs / ralentissement\nFiche : aiguilleur--aiguille-d-entrave\n6. Fil Incisif — Dégâts sur la durée\nFiche : aiguilleur--fil-incisif\n7. Garde de Profil — Protection personnelle\nFiche : aiguilleur--garde-de-profil\n8. Éventail d’Aiguilles — Dégâts de zone\nFiche : aiguilleur--eventail-d-aiguilles\n9. Aiguille de Silence — Dégâts directs / interruption\nFiche : aiguilleur--aiguille-de-silence\n10. Point Final — Exécution\nFiche : aiguilleur--point-final\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0307",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "vaelith"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0307",
+  "public_projection": {
+    "id": "aiguilleur",
+    "category": "classes",
+    "title": "Aiguilleur",
+    "summary": "Vaelith · DPS distance · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn tireur qui privilégie les angles étroits et les ouvertures fugitives.\n\nSon arme est un lance-aiguilles à branches articulées, porté près de l’avant-bras. Quelques longues aiguilles sont visibles le long de son équipement ; sa silhouette reste fine et immédiatement identifiable.\n\nSon identité serait celle d’un tireur de précision mobile, attentif aux fenêtres de tir. Le Traqueur sylvestre elfe poursuit et observe ; l’Aiguilleur ajuste constamment sa position pour atteindre une faille momentanée. Il serait redoutable contre une cible exposée, plus exigeant dans une mêlée confuse.\n\nImpression recherchée : Une présence discrète, puis une précision impossible à ignorer.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nPrécision 0–100 ; départ 0. Aiguille Droite : +10 sur touche. Repère d’Angle : +10 sur touche.\n\nUn Repère d’Angle marque personnellement une cible pendant 6 s. Si le tireur se déplace ensuite de 3 m depuis sa position d’application, Perce-Intervalle gagne +10 %, une fois. Le test porte sur le déplacement net, pas sur des tours sur place ; la cible et le tireur voient le repère. Aucun bonus de dos imposé.\n\nBoucle : Marquer → changer réellement d’angle → exposer sa fenêtre de tir → exploiter → se replacer.\n\nContre-jeu : Le forcer à quitter son angle, casser la ligne de vue ou avancer pour supprimer sa fenêtre de tir préparé ; pas de tir à travers les obstacles.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Aiguille Droite — Dégâts directs\nFiche : aiguilleur--aiguille-droite\n2. Repère d’Angle — Dégâts directs / préparation\nFiche : aiguilleur--repere-d-angle\n3. Perce-Intervalle — Dégâts directs\nFiche : aiguilleur--perce-intervalle\n4. Décalage — Mobilité\nFiche : aiguilleur--decalage\n5. Aiguille d’Entrave — Dégâts directs / ralentissement\nFiche : aiguilleur--aiguille-d-entrave\n6. Fil Incisif — Dégâts sur la durée\nFiche : aiguilleur--fil-incisif\n7. Garde de Profil — Protection personnelle\nFiche : aiguilleur--garde-de-profil\n8. Éventail d’Aiguilles — Dégâts de zone\nFiche : aiguilleur--eventail-d-aiguilles\n9. Aiguille de Silence — Dégâts directs / interruption\nFiche : aiguilleur--aiguille-de-silence\n10. Point Final — Exécution\nFiche : aiguilleur--point-final\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-aiguilleur.json",
+    "record_sha256": "d61b5cfa412cec07640636773f73e10e05f44b92e38533d0ead7fafaa413d03e"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

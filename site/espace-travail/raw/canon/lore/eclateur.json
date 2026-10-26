@@ -1,0 +1,63 @@
+{
+  "id": "eclateur",
+  "category": "classes",
+  "title": "Éclateur",
+  "summary": "Kharûn · DPS distance · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn tireur qui projette des fragments minéraux par des dispositifs de tension et de résonance.\n\nIl porte des cadres de lancement ouverts, des anneaux de maintien et quelques fragments suspendus entre leurs supports. L’ensemble paraît brut et dangereux, avec une mécanique visible.\n\nSon identité serait celle d’un artilleur à trajectoires préparées, capable d’exploiter les angles et les regroupements. L’Artilleur runique nain évoque une batterie de forge ; l’Éclateur ressemble davantage à une carrière mise sous tension. Son efficacité dépendrait beaucoup de son placement et de sa capacité à anticiper les déplacements.\n\nImpression recherchée : Une roche qui éclate avec une précision inquiétante.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nTension de Tir 0–100 ; départ 0. Éclat Lancé : +10 sur touche. Mise sous Tension : +15, uniquement en combat ; recharge 14 s. Pas de gain par cible de zone.\n\nUne Balise de Faille personnelle dure 6 s. Elle ne révèle pas les ennemis : le prochain Trait de Fracture peut ricocher depuis sa cible sur un second ennemi proche, à 40 % des dégâts. Le ricochet partage le budget total du tir ; la cible principale ne reçoit que 80 % dans ce cas.\n\nBoucle : Tirer pour charger → placer une balise visible → anticiper les regroupements → choisir tir principal plein ou ricochet partagé.\n\nContre-jeu : Disperser les cibles, sortir de ligne de vue, interrompre les tirs préparés et engager au corps à corps ; une balise ne frappe jamais seule.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Éclat Lancé — Dégâts directs\nFiche : eclateur--eclat-lance\n2. Mise sous Tension — Préparation\nFiche : eclateur--mise-sous-tension\n3. Trait de Fracture — Dégâts directs\nFiche : eclateur--trait-de-fracture\n4. Recul de Carrière — Mobilité\nFiche : eclateur--recul-de-carriere\n5. Balise de Faille — Préparation de zone\nFiche : eclateur--balise-de-faille\n6. Poussière Incisive — Dégâts sur la durée\nFiche : eclateur--poussiere-incisive\n7. Pare-Éclats — Protection personnelle\nFiche : eclateur--pare-eclats\n8. Éboulis Projeté — Dégâts de zone\nFiche : eclateur--eboulis-projete\n9. Éclat d’Arrêt — Dégâts directs / interruption\nFiche : eclateur--eclat-d-arret\n10. Noyau Brisé — Exécution\nFiche : eclateur--noyau-brise\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0303",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "kharun"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0303",
+  "public_projection": {
+    "id": "eclateur",
+    "category": "classes",
+    "title": "Éclateur",
+    "summary": "Kharûn · DPS distance · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn tireur qui projette des fragments minéraux par des dispositifs de tension et de résonance.\n\nIl porte des cadres de lancement ouverts, des anneaux de maintien et quelques fragments suspendus entre leurs supports. L’ensemble paraît brut et dangereux, avec une mécanique visible.\n\nSon identité serait celle d’un artilleur à trajectoires préparées, capable d’exploiter les angles et les regroupements. L’Artilleur runique nain évoque une batterie de forge ; l’Éclateur ressemble davantage à une carrière mise sous tension. Son efficacité dépendrait beaucoup de son placement et de sa capacité à anticiper les déplacements.\n\nImpression recherchée : Une roche qui éclate avec une précision inquiétante.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nTension de Tir 0–100 ; départ 0. Éclat Lancé : +10 sur touche. Mise sous Tension : +15, uniquement en combat ; recharge 14 s. Pas de gain par cible de zone.\n\nUne Balise de Faille personnelle dure 6 s. Elle ne révèle pas les ennemis : le prochain Trait de Fracture peut ricocher depuis sa cible sur un second ennemi proche, à 40 % des dégâts. Le ricochet partage le budget total du tir ; la cible principale ne reçoit que 80 % dans ce cas.\n\nBoucle : Tirer pour charger → placer une balise visible → anticiper les regroupements → choisir tir principal plein ou ricochet partagé.\n\nContre-jeu : Disperser les cibles, sortir de ligne de vue, interrompre les tirs préparés et engager au corps à corps ; une balise ne frappe jamais seule.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Éclat Lancé — Dégâts directs\nFiche : eclateur--eclat-lance\n2. Mise sous Tension — Préparation\nFiche : eclateur--mise-sous-tension\n3. Trait de Fracture — Dégâts directs\nFiche : eclateur--trait-de-fracture\n4. Recul de Carrière — Mobilité\nFiche : eclateur--recul-de-carriere\n5. Balise de Faille — Préparation de zone\nFiche : eclateur--balise-de-faille\n6. Poussière Incisive — Dégâts sur la durée\nFiche : eclateur--poussiere-incisive\n7. Pare-Éclats — Protection personnelle\nFiche : eclateur--pare-eclats\n8. Éboulis Projeté — Dégâts de zone\nFiche : eclateur--eboulis-projete\n9. Éclat d’Arrêt — Dégâts directs / interruption\nFiche : eclateur--eclat-d-arret\n10. Noyau Brisé — Exécution\nFiche : eclateur--noyau-brise\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eclateur.json",
+    "record_sha256": "b87ab9685701d637d3c2f690296b4f47b41b743c48eb7457e4df5e6b6c386bb7"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "passeur--halte-commune",
+  "record_version": "0.1",
+  "validated_record_sha256": "5361e6ca058f20aecd8b0aae9d35f0b4464a6f71c330fde58153d0c88595179c",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}

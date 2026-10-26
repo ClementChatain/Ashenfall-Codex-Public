@@ -1,0 +1,57 @@
+{
+  "id": "eveilleur--elan-commun",
+  "category": "competences",
+  "title": "Élan Commun",
+  "summary": "Soin de zone · Éveilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 4\nCompétence : Élan Commun\nType : Soin zone\nType clair : Soin de zone\nBase / impact : 150\nCoefficient : 0.53\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 18\nPortée (m) : 15\nLancement : 1 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m autour de la cible ; ne déclenche aucun Bourgeon.\nPuissance brute réf. : 680\nPuissance PvP réf. : 612\nPuissance totale brute : 680\nPuissance totale PvP : 612\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0604",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eveilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0604",
+  "public_projection": {
+    "id": "eveilleur--elan-commun",
+    "category": "competences",
+    "title": "Élan Commun",
+    "summary": "Soin de zone · Éveilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 4\nCompétence : Élan Commun\nType : Soin zone\nType clair : Soin de zone\nBase / impact : 150\nCoefficient : 0.53\nNombre d’impacts : 1\nCoût : 30\nCD (s) : 18\nPortée (m) : 15\nLancement : 1 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m autour de la cible ; ne déclenche aucun Bourgeon.\nPuissance brute réf. : 680\nPuissance PvP réf. : 612\nPuissance totale brute : 680\nPuissance totale PvP : 612\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur--elan-commun.json",
+    "record_sha256": "5a7784f833aa9f562c9b3f76ce713a1f2bd6052b554684453cd8c495d67b2696"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

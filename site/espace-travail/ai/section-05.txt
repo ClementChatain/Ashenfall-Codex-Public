@@ -1,0 +1,170 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## Instructions de travail — Ashenfall Knowledge
+Source: AGENTS.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: a288c916139e789b37a7107761ac09a35dd0adaced63b54a663bd33c7cdf4665
+Page: documents/a54ff182c7e8acf56acfd6e4.html
+Source publiée: raw/AGENTS.md
+
+# Instructions de travail — Ashenfall Knowledge
+
+Respecter `governance/ARCHIVISTE_V2.md` et les instructions utilisateur. Les mécaniques et valeurs proposées ne deviennent pas validées par une simulation ou une génération de document. Préserver les modifications en cours et les frontières privé/public.
+
+## Demandes d’équilibrage des classes
+
+Lorsque Clément demande d’équilibrer une classe, plusieurs classes, un arbre, un template ou une synergie :
+
+1. Lire `docs/EQUILIBRAGE.md` puis `balance/scenario-contracts-v1.json`. Utiliser cette méthode plutôt que réinventer les formules et les objectifs à chaque session.
+2. Lancer `python3 scripts/balance.py readiness`. Vérifier la source et l’actualité du catalogue pour **toutes les 24 classes** lorsqu’une comparaison globale est demandée. Aucun coefficient manquant ne vaut zéro.
+3. Distinguer données de référence, hypothèses explicites et décisions validées. Les valeurs proposées dans une conversation ou un fichier restent PROPOSITION jusqu’à validation de leur version par Clément.
+4. Comparer des builds légaux à budget, niveau, équipement et contexte identiques, au sein d’un même rôle puis par composition de groupe. Ne jamais classer Tank, Heal, DPS mêlée et DPS distance sur le seul DPS.
+5. Exécuter uniquement les scénarios et effets réellement pris en charge. Le banc Python V1 n’est pas un moteur de combat MMORPG complet et ne résout pas automatiquement Garde, les zones, la mobilité, les contrôles, le PvP ou les arbres. Ne pas appeler « classe équilibrée » un profil de test synthétique.
+6. Toute proposition doit inclure avant/après, sources et versions, formules de cumul, scénarios, compromis de rôle, sensibilité, limites et changements exacts. Conserver les entrées/rapports permettant de reproduire les résultats.
+7. Exécuter `PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -q` après modification du moteur. Conserver la vérification d’export existante. Les fixtures `test_only` ne sont jamais des données de production.
+8. Ne pas appliquer automatiquement des coefficients à Unity ou au site. Une demande de calcul autorise le travail et les propositions internes ; une modification des valeurs de jeu ou leur publication suit l’autorisation correspondante de Clément et la gouvernance existante.
+
+Point d’entrée : `docs/EQUILIBRAGE.md`. Catalogue initial : `balance/catalog-v1.json`. Exécution : bibliothèque standard Python, aucune dépendance supplémentaire.
+
+## Référence Rempart V1
+
+Pour le Rempart Bastion/Fracture/Vigie, lire `docs/REMPART_REFERENCE_V1.md`. Les données sont dans `balance/rempart-reference-v1.json` ; le moteur spécialisé est `scripts/simulate_rempart.mjs`. Exécuter ses tests Node et les tests Python. Réutiliser les données du profil avant de proposer des chiffres concurrents. Préserver les valeurs publiques historiques et les correspondances explicites entre noms. Les 23 autres classes restent à compléter ; le moteur Python général et le moteur Rempart ont des périmètres distincts, documentés.
+
+## Portail de travail et lecture commune des IA
+
+Décision de Clément du 26 octobre 2026 : conserver le dépôt privé et centraliser le contenu du projet dans un portail web lisible par les IA. Lire `portal/decision-portail-2026-10-26.md`, `portal/lecture-ia.md`, `portal/etat-projet.md` et `portal/evolutions.md` avant une mission transversale. Conserver les statuts : une proposition consultable ne devient pas canonique. Cette exception de consultation documentaire ne modifie pas les contrôles de publication officielle V2.
+
+Le portail est en préparation tant qu'aucune URL et preuve de déploiement ne sont consignées. Ne jamais prétendre l'avoir consulté ou avoir synchronisé d'autres IA sans lecture effective. Utiliser le dépôt authentifié si le portail est indisponible. Après une évolution significative, actualiser les sources et le relais ; le site change seulement après reconstruction et publication de la révision concernée. Ne pas exporter la racine du dépôt ou des conversations brutes.
+
+
+
+
+## Ashenfall-Knowledge
+Source: README.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 078aa03527e57b7b09022fc3543bea60180794f381aab6148cc5bf1006ae5303
+Page: documents/b335630551682c19a781afeb.html
+Source publiée: raw/README.md
+
+# Ashenfall-Knowledge
+Base de connaissances et lore officiel du MMORPG Ashenfall
+
+## Équilibrage des classes
+
+La procédure réutilisable pour toute demande d’équilibrage est dans [docs/EQUILIBRAGE.md](docs/EQUILIBRAGE.md), référencée par [AGENTS.md](AGENTS.md). Le dossier `balance/` inventorie les 24 classes et les données manquantes ; `scripts/balance.py` fournit un banc déterministe expérimental et des formules vérifiables, sans dépendance supplémentaire. Les coefficients proposés ne sont ni validés ni publiés automatiquement.
+
+## Portail central du projet — préparation
+
+Le point d'entrée est [portal/README.md](portal/README.md). Il décrit le portail de travail, les exports lisibles par les IA, la décision du 26 octobre 2026 et les limites de couverture. L'état courant est dans [portal/etat-projet.md](portal/etat-projet.md) ; les évolutions transversales dans [portal/evolutions.md](portal/evolutions.md). Ce dépôt reste privé. Aucune URL de portail déployé n'est encore attestée par cette préparation.
+
+
+
+## $archiviste — Contrat opérationnel V2.0 (proposition)
+Source: governance/ARCHIVISTE_V2.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 168ac6d88e37aeda94f4ff522cf4f625af89d3c1daa450157a0a30b584e5bda4
+Page: documents/d6f1cce1d46dba5f2671073b.html
+Source publiée: raw/governance/ARCHIVISTE_V2.md
+
+# $archiviste — Contrat opérationnel V2.0 (proposition)
+
+## Mission
+Garder la cohérence et la traçabilité du canon Ashenfall, transformer les décisions approuvées en fiches narratives et fiches de développement, puis synchroniser exclusivement les informations autorisées vers le Codex public.
+
+## Autorité et limites
+- Le créateur valide seul le canon. L'agent n'invente jamais de faits manquants, ne décide jamais de la vérité d'auteur et ne modifie pas les décisions sans approbation.
+- Une demande de travail n'est PAS une validation narrative. L'agent doit pouvoir citer la décision explicite et sa version.
+- Le dépôt Knowledge est la source interne; le Codex Public est une projection filtrée, jamais la source d'autorité.
+- Ne jamais publier de secrets d'auteur, spoilers ou hypothèses non validées. En cas de doute, ne pas publier et signaler le blocage.
+- Préserver les textes historiques; toute révision produit un diff et une note d'impact. Pas de suppression silencieuse.
+
+## États du contenu
+PROPOSITION → EN_ETUDE → VALIDE → PUBLIE. A_REVISER peut être appliqué à un contenu existant. PUBLIE exige VALIDE préalable et preuve de publication vérifiée; le statut public ne remplace pas le statut de validation.
+
+## Visibilité distincte du statut
+PUBLIC / INTERNE / SECRET_AUTEUR. Par défaut, INTERNE. PUBLIC n'autorise pas à lui seul la publication : VALIDE est aussi requis. Un contenu SECRET_AUTEUR ne peut pas être exporté même si VALIDE.
+
+## Modèle minimal d'une fiche
+- id stable (ASH-LORE-XXXX), titre, catégorie, version, statut, visibilité
+- résumé de référence et corps narratif; date et référence de validation explicite
+- faits établis, points de vue internes au monde, hypothèses, questions ouvertes
+- liens vers entités (peuples, lieux, personnages, événements, classes, quêtes)
+- chronologie / période (si connue), sources internes, dépendances et impacts
+- dernière modification, historique des décisions, notes de révision
+- fiche production liée : zones, PNJ, quêtes, dialogues, environnements, assets, contraintes, dépendances, critères d'acceptation, non-décisions
+
+## Procédure à chaque contenu validé
+1. Ingestion du texte exact et de la décision de validation.
+2. Vérification du schéma et des références; signaler les ambiguïtés sans les combler.
+3. Contrôle des contradictions avec le canon, les trois introductions, la convergence et les éléments Unity déjà implémentés; classer BLOQUANT / AVERTISSEMENT / QUESTION.
+4. Préparer fiche canon + fiche production + journal de décision + diff.
+5. Préparer une PR de Knowledge, sans fusion automatique de décisions contestées.
+6. Exporter vers le Codex public uniquement les fiches VALIDE + PUBLIC, en retirant secrets, annotations internes et spoilers; prévisualiser le diff.
+7. Après intégration et déploiement, vérifier l'URL et le contenu public. Ne déclarer PUBLIE qu'après vérification; sinon conserver VALIDE et signaler l'échec.
+8. Rendre un rapport : identifiants, fichiers, commit/PR, URL, tests, contradictions, impacts Unity, questions ouvertes, statut réel de publication.
+
+## Règles de cohérence et sécurité
+- Séparer vérité d'auteur, croyances des habitants et informations connues du joueur.
+- Ne pas transformer une croyance culturelle en fait cosmologique.
+- Les trois peuples commencent séparément et convergent vers un monde partagé persistant, sans chapitres.
+- La fondation « monde en mutation » est validée; son mécanisme et sa cause ne sont PAS définis.
+- Les croyances naines, elfes et humaines proposées restent NON VALIDÉES.
+- Les classes et lieux préexistants sont des contraintes à confronter au nouveau canon, non des vérités historiques automatiques.
+- Aucun changement automatique au code Unity, aux mécaniques ou aux quêtes; produire une note d'impact, soumise au processus du projet jeu.
+- Ne jamais fusionner ni déployer sur la seule base d'une génération IA; tests automatiques et vérification manuelle selon le périmètre.
+
+## Définition de terminé
+Le travail est terminé lorsque les documents sont traçables, la validation est prouvée, les secrets restent internes, les contradictions bloquantes sont résolues ou signalées, la fiche de production est livrée, et la publication éventuelle est effectivement vérifiée. Une PR ouverte n'est pas un déploiement.
+
+## Déploiement de cette V2
+Ce contrat est une proposition de gouvernance. Avant de le rendre exécutoire, comparer avec les instructions et automatisations réelles de l'agent $archiviste, intégrer sans écraser les capacités existantes, tester sur un dossier non sensible, puis obtenir l'approbation de la PR.
+
+
+## Publication V2 — procédure d'installation et limites
+Source: governance/PUBLICATION_V2.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: cf8612a5516a1f726c27d84aa5e04725e4afe636f608fd5979d566e71be8155b
+Page: documents/b0521297e026d70f3542a63b.html
+Source publiée: raw/governance/PUBLICATION_V2.md
+
+# Publication V2 — procédure d'installation et limites
+
+Cette réparation est préparée en PR ; elle ne fusionne ni ne déploie rien. La PR Knowledge consolide le contrat de la PR #5, les preuves de la PR #6 et les corrections. Les rapports de validation antérieurs restent historiques.
+
+## Autorité et données
+
+- `canon/lore/*.json` : fiches internes. Seule une fiche VALIDE/PUBLIC, sans contradiction bloquante ni marqueur de test, peut être sélectionnée.
+- `decisions/*.json` : décision du créateur liée à l'identifiant, la version, la date et l'empreinte du contenu validé. Les références aux preuves doivent exister dans `sources/decisions/`.
+- `publication/v2-approved.json` : approbation de publication distincte, liée aux empreintes exactes de la fiche et de sa projection publique. Ce fichier est initialement vide ; aucun export n'est autorisé.
+- `public_projection` est une liste blanche de cinq champs : id, category, title, summary, body. Aucune copie implicite du corps privé, des notes, des sources ou des assets. L'approbation de cette projection requiert une revue sémantique par le créateur : aucun programme ne sait reconnaître tous les spoilers.
+- Les empreintes garantissent l'intégrité après décision ; elles ne sont pas une signature cryptographique du créateur. La provenance et l'authenticité sont contrôlées lors de la revue des PR par Clément. Les administrateurs capables de changer code et approbations conservent leur autorité GitHub.
+
+## Synchronisation
+
+1. Fusionner les correctifs uniquement après approbation. Installer la PR publique et la PR Knowledge. Rien n'est activé sur main par la préparation seule.
+2. Pour une version publique validée, créer une projection explicitement revue et son approbation exacte. Ne pas réutiliser `provisional_entries` de l'ancien exporteur.
+3. Le workflow Knowledge `sync-v2.yml` est uniquement manuel et uniquement sur main. L'entrée approved_commit doit correspondre exactement au commit exécuté. Il réutilise l'environnement codex-publication et le secret CODEX_PUBLIC_REPO_TOKEN déjà prévu par le précédent pipeline. Leur présence/permissions n'ont pas été consultées ou modifiées.
+4. Le workflow produit le bundle, contrôle la version publique existante, applique uniquement les fiches sélectionnées, préserve les artworks et usageGuide historiques non modifiés, puis ouvre une PR publique en brouillon. Il ne fusionne et ne déploie rien. Il requiert un jeton autorisé à pousser une branche et créer une PR dans le dépôt public ; un jeton absent ou insuffisant bloque la synchronisation.
+5. Le workflow public de déploiement perd son déclenchement automatique sur push. Il exige un déclenchement manuel et l'identifiant exact du commit public approuvé. Le contrôle couvre les octets HTML et tous les fichiers/assets de site/ via leurs empreintes Git, les fiches et leurs justificatifs V2. Le packaging existant reste inchangé.
+6. Une PR de préparation accepte la base historique inchangée, sans la déclarer canonique. Le contrôle de déploiement strict `--for-deployment` exige en revanche un justificatif VALIDE/PUBLIC pour TOUTE fiche servie. La base historique ne donne donc jamais une nouvelle autorisation de publier des brouillons. Tant que les 142 fiches historiques n'ont pas fait l'objet d'une migration explicitement approuvée (validation ou retrait décidé), un nouveau déploiement V2 sera bloqué. Rien n'est retiré du site déjà en ligne par ces PR.
+7. Après déploiement autorisé, vérifier le run, l'URL et la version effectivement publique avant de consigner PUBLIE. Les scripts ne changent jamais automatiquement le statut canonique.
+
+## Fondation I
+
+ASH-LORE-0001 est enregistrée en VALIDE/INTERNE. Une recherche élargie a retrouvé le message d'accord du 23 octobre 2026 à 06:43:17Z et trois phrases de la consignation du 06:43:31Z. Les limites de récupération sont explicites dans la source : il s'agit d'un extrait attesté, pas d'une prétendue transcription intégrale. Aucun identifiant durable de conversation n'a été inventé. La version 1.0 désigne cet archivage, pas une version historique supposée.
+
+La fiche production ASH-UNITY-0001 est une proposition de contraintes et non une implémentation. Aucune cause, aucun mécanisme, PNJ, lieu, quête ou nouvelle vérité d'auteur n'est inventé. Les textes narratifs historiques ne sont pas modifiés.
+
+## Contrôles
+
+Knowledge : `python3 -m unittest discover -s tests -v` puis `python3 scripts/export_v2.py --output /tmp/codex-v2.json`.
+Public : `python3 -m unittest discover -s tests -v` puis `python3 scripts/verify_public_v2.py` pour une PR et `python3 scripts/verify_public_v2.py --for-deployment` pour le déploiement strict.
+
+Les tests locaux vérifient export, refus, versionnage, projection, application, restauration en cas d'échec, préservation des champs historiques, échappement et contrôles de déploiement. Les workflows ne sont pas déclenchés à la place de Clément. Leur intégration réelle et les accès croisés ne sont pas présentés comme testés en production.

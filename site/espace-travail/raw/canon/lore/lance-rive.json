@@ -1,0 +1,63 @@
+{
+  "id": "lance-rive",
+  "category": "classes",
+  "title": "Lance-Rive",
+  "summary": "Orynth · DPS distance · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn combattant à distance qui accompagne l’avancée du groupe.\n\nIl porte plusieurs javelots fins dans un harnais ouvert et utilise un propulseur court. L’armement lui donne une identité immédiatement différente des arcs, des dispositifs runiques et des armes arcaniques.\n\nSon identité serait celle d’un tirailleur à moyenne portée, qui alterne déplacements, engagements brefs et repositionnements. Il pourrait suivre un combat mobile avec beaucoup d’aisance, au prix d’une portée et d’un confort inférieurs à ceux d’un tireur installé loin de la mêlée.\n\nImpression recherchée : Il est toujours assez proche pour peser, toujours en mouvement pour survivre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nRythme 0–100 ; départ 0. Jet de Rive : +10 sur touche ; Javelot de Cadence : +15 sur touche. Le rappel de javelot n’accorde aucune ressource supplémentaire.\n\nCadence : Javelot de Cadence prépare 4 s le prochain Jet Appuyé, qui peut être préparé en marchant à 70 % de vitesse. Aucun bonus de dégâts ; le confort mobile est payé par une portée plus courte que les autres tireurs.\n\nBoucle : Construire → préparer Cadence → accompagner le groupe → engager à moyenne portée → réserver son recul.\n\nContre-jeu : Profiter de sa portée de 22–24 m, le ralentir puis l’engager ; ses javelots restent évitables et sa préparation reste interruptible.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Jet de Rive — Dégâts directs\nFiche : lance-rive--jet-de-rive\n2. Javelot de Cadence — Dégâts directs / préparation\nFiche : lance-rive--javelot-de-cadence\n3. Jet Appuyé — Dégâts directs\nFiche : lance-rive--jet-appuye\n4. Retrait de Rive — Mobilité\nFiche : lance-rive--retrait-de-rive\n5. Javelot d’Amarre — Dégâts directs / ralentissement\nFiche : lance-rive--javelot-d-amarre\n6. Pointe Persistante — Dégâts sur la durée\nFiche : lance-rive--pointe-persistante\n7. Abri de Voyage — Protection personnelle\nFiche : lance-rive--abri-de-voyage\n8. Gerbe de Rive — Dégâts de zone\nFiche : lance-rive--gerbe-de-rive\n9. Trait de Coupure — Dégâts directs / interruption\nFiche : lance-rive--trait-de-coupure\n10. Dernier Javelot — Exécution\nFiche : lance-rive--dernier-javelot\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0311",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "orynth"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0311",
+  "public_projection": {
+    "id": "lance-rive",
+    "category": "classes",
+    "title": "Lance-Rive",
+    "summary": "Orynth · DPS distance · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : DPS distance\n\nIDENTITÉ & STYLE DE JEU\nUn combattant à distance qui accompagne l’avancée du groupe.\n\nIl porte plusieurs javelots fins dans un harnais ouvert et utilise un propulseur court. L’armement lui donne une identité immédiatement différente des arcs, des dispositifs runiques et des armes arcaniques.\n\nSon identité serait celle d’un tirailleur à moyenne portée, qui alterne déplacements, engagements brefs et repositionnements. Il pourrait suivre un combat mobile avec beaucoup d’aisance, au prix d’une portée et d’un confort inférieurs à ceux d’un tireur installé loin de la mêlée.\n\nImpression recherchée : Il est toujours assez proche pour peser, toujours en mouvement pour survivre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nRythme 0–100 ; départ 0. Jet de Rive : +10 sur touche ; Javelot de Cadence : +15 sur touche. Le rappel de javelot n’accorde aucune ressource supplémentaire.\n\nCadence : Javelot de Cadence prépare 4 s le prochain Jet Appuyé, qui peut être préparé en marchant à 70 % de vitesse. Aucun bonus de dégâts ; le confort mobile est payé par une portée plus courte que les autres tireurs.\n\nBoucle : Construire → préparer Cadence → accompagner le groupe → engager à moyenne portée → réserver son recul.\n\nContre-jeu : Profiter de sa portée de 22–24 m, le ralentir puis l’engager ; ses javelots restent évitables et sa préparation reste interruptible.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Jet de Rive — Dégâts directs\nFiche : lance-rive--jet-de-rive\n2. Javelot de Cadence — Dégâts directs / préparation\nFiche : lance-rive--javelot-de-cadence\n3. Jet Appuyé — Dégâts directs\nFiche : lance-rive--jet-appuye\n4. Retrait de Rive — Mobilité\nFiche : lance-rive--retrait-de-rive\n5. Javelot d’Amarre — Dégâts directs / ralentissement\nFiche : lance-rive--javelot-d-amarre\n6. Pointe Persistante — Dégâts sur la durée\nFiche : lance-rive--pointe-persistante\n7. Abri de Voyage — Protection personnelle\nFiche : lance-rive--abri-de-voyage\n8. Gerbe de Rive — Dégâts de zone\nFiche : lance-rive--gerbe-de-rive\n9. Trait de Coupure — Dégâts directs / interruption\nFiche : lance-rive--trait-de-coupure\n10. Dernier Javelot — Exécution\nFiche : lance-rive--dernier-javelot\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive.json",
+    "record_sha256": "ddd20f63603a0c73a46a344eebdfaaa6492fe519a021ce533c84ccd2145c42f3"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Mue-Lame · Ashenfall</title><style>
+:root{color-scheme:dark;--bg:#10151a;--panel:#18212a;--line:#34414d;--ink:#edf0ef;--dim:#b4c0c7;--gold:#d6b579}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+a{color:var(--gold);text-underline-offset:4px}header,main,footer{max-width:1120px;margin:auto;padding:28px}
+header{padding-top:48px;border-bottom:1px solid var(--line)}header p{max-width:800px}h1{font:600 clamp(30px,5vw,46px)/1.2 Georgia,serif;margin:12px 0 24px}h2{font-size:25px}
+.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;text-transform:uppercase}.muted{color:var(--dim)}
+nav{display:flex;gap:18px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card,details,.notice{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin:16px 0}.card{margin:0}.card h2{margin:0 0 10px;font-size:21px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 ui-monospace,monospace;background:var(--panel);padding:24px;border-radius:10px}
+.meta{font-size:13px;color:var(--dim);overflow-wrap:anywhere}img{display:block;max-width:100%;max-height:80vh;margin:24px auto;object-fit:contain}
+input{font:inherit;width:100%;padding:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px}li{margin:12px 0}small{display:block}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.reading{max-width:850px;margin:auto;overflow-wrap:anywhere}.reading h2{color:var(--gold);margin-top:2em}.reading h3{font-size:20px}.reading p{margin:1em 0}.reading code{background:#25303a;padding:2px 5px;border-radius:4px;font-size:.9em}.reading pre{overflow-x:auto;white-space:pre-wrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);min-width:110px;vertical-align:top}th{background:#23303a}.section summary{font:600 23px Georgia,serif;padding:8px}.section summary small{font:14px system-ui;color:var(--dim);margin-top:7px}.document-list{padding-left:22px}.section[open]{border-color:#8a7856}.badge{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:3px 9px;white-space:nowrap}.card a{text-decoration:none}.jump-links a{font-size:14px}.reading details pre{font-size:13px}.reading img{max-height:60vh}.section-image-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}.section-image-list img{height:180px;width:100%;object-fit:contain}.section-image-list li{margin:0;padding:12px;background:#10181e;border-radius:8px}
+@media(max-width:600px){header,main,footer{padding:20px}pre{padding:16px;font-size:14px}}
+</style></head><body><header><div class="eyebrow">Ashenfall · espace de travail</div><h1>Mue-Lame</h1><nav><a href="../index.html">Accueil</a><a href="../ai/index.html">Lecture IA</a><a href="../manifest.json">Version et sources</a><a href="https://codex.ashenfall.linkin-tools.fr/">Codex joueurs existant</a></nav></header><main><p class="meta">canon/lore/mue-lame.json · Statut déclaré : VALIDE · Version : 0.2</p><p><a href="../raw/canon/lore/mue-lame.json">Ouvrir la source complète</a></p><article class="reading"><p>Vaelith · DPS mêlée · 10 compétences V0.1</p><p>VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1</p><p>Peuple : Vaelith Rôle : DPS mêlée</p><p>IDENTITÉ &amp; STYLE DE JEU Un combattant dont les postures changent avec les ouvertures du duel.</p><p>Il utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.</p><p>Son identité serait celle d’un prédateur adaptable, qui doit changer sa façon de combattre selon la situation. Le Danse-lame elfe recherche la fluidité et la maîtrise ; le Mue-Lame recherche l’ajustement permanent. Il devient dangereux lorsqu’il lit correctement le combat, mais perd de son efficacité s’il répète toujours la même approche.</p><p>Impression recherchée : On comprend sa garde au moment où il en change.</p><p>Les dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.</p><p>RESSOURCE &amp; BOUCLE DE COMBAT Souplesse 0–100 ; départ 0. Taille Souple : +10 sur touche ; Revers d’Appui : +15 sur touche. Pas de ressource obtenue par changement de posture.</p><p>Deux postures : Ouverte (aucun bonus, permet le finisseur offensif) et Repliée (−10 % dégâts directs reçus, −10 % dégâts infligés). Un bouton dédié de mécanique de classe, séparé des dix compétences, change la posture : GCD normal, verrou 4 s, sans gain de ressource. État affiché ; un seul effet actif. Commence en Ouverte.</p><p>Boucle : Construire en posture choisie → passer en Ouverte pour engager → revenir en Repliée lorsque la pression monte.</p><p>Contre-jeu : Forcer la défensive avant son finisseur ; ses changements consomment un GCD et il ne dispose pas d’une invulnérabilité de mobilité.</p><p>ARSENAL V0.1 — 10 COMPÉTENCES</p><ul><li>Taille Souple — Dégâts directs</li></ul><p>Fiche : mue-lame--taille-souple</p><ul><li>Revers d’Appui — Dégâts directs</li></ul><p>Fiche : mue-lame--revers-d-appui</p><ul><li>Lame Déployée — Dégâts directs</li></ul><p>Fiche : mue-lame--lame-deployee</p><ul><li>Pas de Mue — Mobilité</li></ul><p>Fiche : mue-lame--pas-de-mue</p><ul><li>Crochet de Garde — Dégâts directs / ralentissement</li></ul><p>Fiche : mue-lame--crochet-de-garde</p><ul><li>Suture Tranchante — Dégâts sur la durée</li></ul><p>Fiche : mue-lame--suture-tranchante</p><ul><li>Repli Mesuré — Protection personnelle</li></ul><p>Fiche : mue-lame--repli-mesure</p><ul><li>Croissant Changeant — Dégâts de zone</li></ul><p>Fiche : mue-lame--croissant-changeant</p><ul><li>Lecture du Mouvement — Amélioration personnelle</li></ul><p>Fiche : mue-lame--lecture-du-mouvement</p><ul><li>Dernière Mue — Exécution</li></ul><p>Fiche : mue-lame--derniere-mue</p><p>Règles communes Fiche : nouvelles-regles-combat-v01 Valeurs et mécaniques de prototype, à tester en jeu.</p><details><summary>Données complètes et métadonnées</summary><pre>{
+  &quot;id&quot;: &quot;mue-lame&quot;,
+  &quot;category&quot;: &quot;classes&quot;,
+  &quot;title&quot;: &quot;Mue-Lame&quot;,
+  &quot;summary&quot;: &quot;Vaelith · DPS mêlée · 10 compétences V0.1&quot;,
+  &quot;body&quot;: &quot;VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS mêlée\n\nIDENTITÉ &amp; STYLE DE JEU\nUn combattant dont les postures changent avec les ouvertures du duel.\n\nIl utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.\n\nSon identité serait celle d’un prédateur adaptable, qui doit changer sa façon de combattre selon la situation. Le Danse-lame elfe recherche la fluidité et la maîtrise ; le Mue-Lame recherche l’ajustement permanent. Il devient dangereux lorsqu’il lit correctement le combat, mais perd de son efficacité s’il répète toujours la même approche.\n\nImpression recherchée : On comprend sa garde au moment où il en change.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE &amp; BOUCLE DE COMBAT\nSouplesse 0–100 ; départ 0. Taille Souple : +10 sur touche ; Revers d’Appui : +15 sur touche. Pas de ressource obtenue par changement de posture.\n\nDeux postures : Ouverte (aucun bonus, permet le finisseur offensif) et Repliée (−10 % dégâts directs reçus, −10 % dégâts infligés). Un bouton dédié de mécanique de classe, séparé des dix compétences, change la posture : GCD normal, verrou 4 s, sans gain de ressource. État affiché ; un seul effet actif. Commence en Ouverte.\n\nBoucle : Construire en posture choisie → passer en Ouverte pour engager → revenir en Repliée lorsque la pression monte.\n\nContre-jeu : Forcer la défensive avant son finisseur ; ses changements consomment un GCD et il ne dispose pas d’une invulnérabilité de mobilité.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille Souple — Dégâts directs\nFiche : mue-lame--taille-souple\n2. Revers d’Appui — Dégâts directs\nFiche : mue-lame--revers-d-appui\n3. Lame Déployée — Dégâts directs\nFiche : mue-lame--lame-deployee\n4. Pas de Mue — Mobilité\nFiche : mue-lame--pas-de-mue\n5. Crochet de Garde — Dégâts directs / ralentissement\nFiche : mue-lame--crochet-de-garde\n6. Suture Tranchante — Dégâts sur la durée\nFiche : mue-lame--suture-tranchante\n7. Repli Mesuré — Protection personnelle\nFiche : mue-lame--repli-mesure\n8. Croissant Changeant — Dégâts de zone\nFiche : mue-lame--croissant-changeant\n9. Lecture du Mouvement — Amélioration personnelle\nFiche : mue-lame--lecture-du-mouvement\n10. Dernière Mue — Exécution\nFiche : mue-lame--derniere-mue\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n&quot;,
+  &quot;lore_id&quot;: &quot;ASH-LORE-0306&quot;,
+  &quot;version&quot;: &quot;0.2&quot;,
+  &quot;status&quot;: &quot;VALIDE&quot;,
+  &quot;visibility&quot;: &quot;PUBLIC&quot;,
+  &quot;facts&quot;: [],
+  &quot;viewpoints&quot;: [],
+  &quot;hypotheses&quot;: [
+    &quot;Valeurs de prototype : tests de combat requis.&quot;
+  ],
+  &quot;questions&quot;: [
+    &quot;Réglage après simulation et playtests.&quot;
+  ],
+  &quot;links&quot;: [
+    &quot;vaelith&quot;
+  ],
+  &quot;period&quot;: null,
+  &quot;sources&quot;: [
+    &quot;sources/decisions/classes-new-peoples-v01-2026-10-23.json&quot;,
+    &quot;sources/decisions/abilities-new-peoples-v01-2026-10-23.json&quot;
+  ],
+  &quot;dependencies&quot;: [],
+  &quot;impacts&quot;: [
+    &quot;Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques.&quot;
+  ],
+  &quot;modified&quot;: &quot;2026-10-23&quot;,
+  &quot;revision_notes&quot;: [
+    &quot;Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié.&quot;
+  ],
+  &quot;production_id&quot;: &quot;ASH-UNITY-0306&quot;,
+  &quot;public_projection&quot;: {
+    &quot;id&quot;: &quot;mue-lame&quot;,
+    &quot;category&quot;: &quot;classes&quot;,
+    &quot;title&quot;: &quot;Mue-Lame&quot;,
+    &quot;summary&quot;: &quot;Vaelith · DPS mêlée · 10 compétences V0.1&quot;,
+    &quot;body&quot;: &quot;VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : DPS mêlée\n\nIDENTITÉ &amp; STYLE DE JEU\nUn combattant dont les postures changent avec les ouvertures du duel.\n\nIl utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.\n\nSon identité serait celle d’un prédateur adaptable, qui doit changer sa façon de combattre selon la situation. Le Danse-lame elfe recherche la fluidité et la maîtrise ; le Mue-Lame recherche l’ajustement permanent. Il devient dangereux lorsqu’il lit correctement le combat, mais perd de son efficacité s’il répète toujours la même approche.\n\nImpression recherchée : On comprend sa garde au moment où il en change.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE &amp; BOUCLE DE COMBAT\nSouplesse 0–100 ; départ 0. Taille Souple : +10 sur touche ; Revers d’Appui : +15 sur touche. Pas de ressource obtenue par changement de posture.\n\nDeux postures : Ouverte (aucun bonus, permet le finisseur offensif) et Repliée (−10 % dégâts directs reçus, −10 % dégâts infligés). Un bouton dédié de mécanique de classe, séparé des dix compétences, change la posture : GCD normal, verrou 4 s, sans gain de ressource. État affiché ; un seul effet actif. Commence en Ouverte.\n\nBoucle : Construire en posture choisie → passer en Ouverte pour engager → revenir en Repliée lorsque la pression monte.\n\nContre-jeu : Forcer la défensive avant son finisseur ; ses changements consomment un GCD et il ne dispose pas d’une invulnérabilité de mobilité.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille Souple — Dégâts directs\nFiche : mue-lame--taille-souple\n2. Revers d’Appui — Dégâts directs\nFiche : mue-lame--revers-d-appui\n3. Lame Déployée — Dégâts directs\nFiche : mue-lame--lame-deployee\n4. Pas de Mue — Mobilité\nFiche : mue-lame--pas-de-mue\n5. Crochet de Garde — Dégâts directs / ralentissement\nFiche : mue-lame--crochet-de-garde\n6. Suture Tranchante — Dégâts sur la durée\nFiche : mue-lame--suture-tranchante\n7. Repli Mesuré — Protection personnelle\nFiche : mue-lame--repli-mesure\n8. Croissant Changeant — Dégâts de zone\nFiche : mue-lame--croissant-changeant\n9. Lecture du Mouvement — Amélioration personnelle\nFiche : mue-lame--lecture-du-mouvement\n10. Dernière Mue — Exécution\nFiche : mue-lame--derniere-mue\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n&quot;
+  },
+  &quot;blocking_contradictions&quot;: false,
+  &quot;validation&quot;: {
+    &quot;creator&quot;: &quot;ClementChatain&quot;,
+    &quot;version&quot;: &quot;0.2&quot;,
+    &quot;date&quot;: &quot;2026-10-23&quot;,
+    &quot;reference&quot;: &quot;decisions/ABILITIES-V01-mue-lame.json&quot;,
+    &quot;record_sha256&quot;: &quot;f45def0b00c246e90225e6ccd72fcc6d5482bd187ec52576974d7995a0466bb5&quot;
+  },
+  &quot;history&quot;: [
+    {
+      &quot;date&quot;: &quot;2026-10-23&quot;,
+      &quot;action&quot;: &quot;Identité V0.1 validée pour présentation publique ; compétences reportées.&quot;,
+      &quot;source&quot;: &quot;sources/decisions/classes-new-peoples-v01-2026-10-23.json&quot;
+    },
+    {
+      &quot;date&quot;: &quot;2026-10-23&quot;,
+      &quot;action&quot;: &quot;Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.&quot;,
+      &quot;source&quot;: &quot;sources/decisions/abilities-new-peoples-v01-2026-10-23.json&quot;
+    }
+  ]
+}</pre></details></article></main><footer>Source : 2b78ceff3aaca5261accc6896067523676aed25e. Un document consultable reste soumis à son statut et à sa validation.</footer></body></html>

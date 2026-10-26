@@ -1,0 +1,57 @@
+{
+  "id": "brise-courant--contrepoids",
+  "category": "competences",
+  "title": "Contrepoids",
+  "summary": "Ancrage · Brise-Courant",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 9\nCompétence : Contrepoids\nType : Défense\nType clair : Ancrage\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 30\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : Réduit la distance des projections de 70 % pendant 5 s. Ni vitesse supplémentaire ni immunité aux immobilisations.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0529",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "brise-courant"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0529",
+  "public_projection": {
+    "id": "brise-courant--contrepoids",
+    "category": "competences",
+    "title": "Contrepoids",
+    "summary": "Ancrage · Brise-Courant",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 9\nCompétence : Contrepoids\nType : Défense\nType clair : Ancrage\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 30\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : Réduit la distance des projections de 70 % pendant 5 s. Ni vitesse supplémentaire ni immunité aux immobilisations.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-brise-courant--contrepoids.json",
+    "record_sha256": "c93e1c4547fb319f6c0b6b35f4a89398ed8f901f4a17b52a905f8ea6af6f9865"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

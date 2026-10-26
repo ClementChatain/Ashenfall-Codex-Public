@@ -1,0 +1,57 @@
+{
+  "id": "aiguilleur--aiguille-de-silence",
+  "category": "competences",
+  "title": "Aiguille de Silence",
+  "summary": "Dégâts directs / interruption · Aiguilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 9\nCompétence : Aiguille de Silence\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 80\nCoefficient : 0.27\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 22\nPortée (m) : 22\nLancement : 0,30 s\nPvP x : 1\nContrôle / mécanique : Interrompt une action interruptible et verrouille sa famille 1 s. Ce nom ne désigne pas un silence général.\nPuissance brute réf. : 350\nPuissance PvP réf. : 350\nPuissance totale brute : 350\nPuissance totale PvP : 350\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0579",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "aiguilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0579",
+  "public_projection": {
+    "id": "aiguilleur--aiguille-de-silence",
+    "category": "competences",
+    "title": "Aiguille de Silence",
+    "summary": "Dégâts directs / interruption · Aiguilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 9\nCompétence : Aiguille de Silence\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 80\nCoefficient : 0.27\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 22\nPortée (m) : 22\nLancement : 0,30 s\nPvP x : 1\nContrôle / mécanique : Interrompt une action interruptible et verrouille sa famille 1 s. Ce nom ne désigne pas un silence général.\nPuissance brute réf. : 350\nPuissance PvP réf. : 350\nPuissance totale brute : 350\nPuissance totale PvP : 350\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-aiguilleur--aiguille-de-silence.json",
+    "record_sha256": "100ea64e9db0a46446f6b0823ccb49c4f3700091fdacd089cbd921ed213f34b6"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "lance-rive--pointe-persistante",
+  "category": "competences",
+  "title": "Pointe Persistante",
+  "summary": "Dégâts sur la durée · Lance-Rive",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 6\nCompétence : Pointe Persistante\nType : DoT\nType clair : Dégâts sur la durée\nBase / impact : 80\nCoefficient : 0.24\nNombre d’impacts : 3\nCoût : 15\nCD (s) : 14\nPortée (m) : 22\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; pas de cumul par lanceur, dissipable.\nPuissance brute réf. : 320\nPuissance PvP réf. : 288\nPuissance totale brute : 960\nPuissance totale PvP : 864\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0586",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lance-rive"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0586",
+  "public_projection": {
+    "id": "lance-rive--pointe-persistante",
+    "category": "competences",
+    "title": "Pointe Persistante",
+    "summary": "Dégâts sur la durée · Lance-Rive",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 6\nCompétence : Pointe Persistante\nType : DoT\nType clair : Dégâts sur la durée\nBase / impact : 80\nCoefficient : 0.24\nNombre d’impacts : 3\nCoût : 15\nCD (s) : 14\nPortée (m) : 22\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; pas de cumul par lanceur, dissipable.\nPuissance brute réf. : 320\nPuissance PvP réf. : 288\nPuissance totale brute : 960\nPuissance totale PvP : 864\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive--pointe-persistante.json",
+    "record_sha256": "68da0919ab5722b9c0219cca4e3386472bdafa42e531305a5e1c2a6885b6a385"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

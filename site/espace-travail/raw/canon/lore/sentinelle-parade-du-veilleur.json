@@ -1,0 +1,60 @@
+{
+  "id": "sentinelle-parade-du-veilleur",
+  "lore_id": "ASH-LORE-0109",
+  "title": "Parade du Veilleur — Sentinelle",
+  "category": "competences",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Défense · Sentinelle · Parade active 0.5s; +15 Résolution réussie",
+  "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPeuple : Humain\nClasse : Sentinelle\nRôle : Tank\nN° : 3\nCompétence : Parade du Veilleur\nType : Défense\nBase / impact : 0\nCoefficient : 0.0\nCoût : 0\nCD (s) : 9\nPortée (m) : 0\nPvP x : 1.0\nContrôle / mécanique : Parade active 0.5s; +15 Résolution réussie\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\n\nLecture des valeurs V0.1\nRéférence : niveau 30, équipement standardisé, PO = PS = 1000. Dégâts/soins bruts : base + coefficient × PO/PS. DoT et HoT : valeurs par tick. Multi-coups : valeurs par impact. Zones : valeurs par cible, plafond PvE de 5 par défaut. Les puissances de référence ne sont pas un DPS ni une simulation.\nCoût : ressource de la classe ; certains coûts sont des charges de Fracture. CD en secondes ; CD 0 reste soumis au GCD de référence de 1,25 s. Portée en mètres ; 0 signifie personnel ou posture. Multiplicateur PvP indicatif.\nLes contrôles suivent les rendements décroissants de la fiche « Règles d’équilibrage V0.1 ». Toutes les valeurs nécessitent simulation et tests en jeu.\n\nGuide actualisé après remplacement V0.2, sans modification des effets de cette compétence\nObjectif : Répondre à une attaque par une parade active.\nQuand l’utiliser : Au moment où une attaque peut être parée dans la fenêtre prévue.\nSynergies : Une parade réussie génère de la Résolution ; Balayage du Veilleur peut dépenser cette ressource pour dégager les assaillants.\nLimites et contres : La fenêtre dure une demi-seconde ; le gain de ressource n’est pas automatique.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "sentinelle-parade-du-veilleur",
+    "category": "competences",
+    "title": "Parade du Veilleur — Sentinelle",
+    "summary": "Défense · Sentinelle · Parade active 0.5s; +15 Résolution réussie",
+    "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPeuple : Humain\nClasse : Sentinelle\nRôle : Tank\nN° : 3\nCompétence : Parade du Veilleur\nType : Défense\nBase / impact : 0\nCoefficient : 0.0\nCoût : 0\nCD (s) : 9\nPortée (m) : 0\nPvP x : 1.0\nContrôle / mécanique : Parade active 0.5s; +15 Résolution réussie\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\n\nLecture des valeurs V0.1\nRéférence : niveau 30, équipement standardisé, PO = PS = 1000. Dégâts/soins bruts : base + coefficient × PO/PS. DoT et HoT : valeurs par tick. Multi-coups : valeurs par impact. Zones : valeurs par cible, plafond PvE de 5 par défaut. Les puissances de référence ne sont pas un DPS ni une simulation.\nCoût : ressource de la classe ; certains coûts sont des charges de Fracture. CD en secondes ; CD 0 reste soumis au GCD de référence de 1,25 s. Portée en mètres ; 0 signifie personnel ou posture. Multiplicateur PvP indicatif.\nLes contrôles suivent les rendements décroissants de la fiche « Règles d’équilibrage V0.1 ». Toutes les valeurs nécessitent simulation et tests en jeu.\n\nGuide actualisé après remplacement V0.2, sans modification des effets de cette compétence\nObjectif : Répondre à une attaque par une parade active.\nQuand l’utiliser : Au moment où une attaque peut être parée dans la fenêtre prévue.\nSynergies : Une parade réussie génère de la Résolution ; Balayage du Veilleur peut dépenser cette ressource pour dégager les assaillants.\nLimites et contres : La fenêtre dure une demi-seconde ; le gain de ressource n’est pas automatique."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-109.json",
+    "record_sha256": "19e05aa0f1c7568cc4fe5d3c43b606bba41491686da358c6e0da5ecaaf72fca6"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

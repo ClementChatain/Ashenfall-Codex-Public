@@ -1,0 +1,73 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Sentinelle · Ashenfall</title><style>
+:root{color-scheme:dark;--bg:#10151a;--panel:#18212a;--line:#34414d;--ink:#edf0ef;--dim:#b4c0c7;--gold:#d6b579}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+a{color:var(--gold);text-underline-offset:4px}header,main,footer{max-width:1120px;margin:auto;padding:28px}
+header{padding-top:48px;border-bottom:1px solid var(--line)}header p{max-width:800px}h1{font:600 clamp(30px,5vw,46px)/1.2 Georgia,serif;margin:12px 0 24px}h2{font-size:25px}
+.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;text-transform:uppercase}.muted{color:var(--dim)}
+nav{display:flex;gap:18px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card,details,.notice{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin:16px 0}.card{margin:0}.card h2{margin:0 0 10px;font-size:21px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 ui-monospace,monospace;background:var(--panel);padding:24px;border-radius:10px}
+.meta{font-size:13px;color:var(--dim);overflow-wrap:anywhere}img{display:block;max-width:100%;max-height:80vh;margin:24px auto;object-fit:contain}
+input{font:inherit;width:100%;padding:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px}li{margin:12px 0}small{display:block}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.reading{max-width:850px;margin:auto;overflow-wrap:anywhere}.reading h2{color:var(--gold);margin-top:2em}.reading h3{font-size:20px}.reading p{margin:1em 0}.reading code{background:#25303a;padding:2px 5px;border-radius:4px;font-size:.9em}.reading pre{overflow-x:auto;white-space:pre-wrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);min-width:110px;vertical-align:top}th{background:#23303a}.section summary{font:600 23px Georgia,serif;padding:8px}.section summary small{font:14px system-ui;color:var(--dim);margin-top:7px}.document-list{padding-left:22px}.section[open]{border-color:#8a7856}.badge{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:3px 9px;white-space:nowrap}.card a{text-decoration:none}.jump-links a{font-size:14px}.reading details pre{font-size:13px}.reading img{max-height:60vh}.section-image-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}.section-image-list img{height:180px;width:100%;object-fit:contain}.section-image-list li{margin:0;padding:12px;background:#10181e;border-radius:8px}
+@media(max-width:600px){header,main,footer{padding:20px}pre{padding:16px;font-size:14px}}
+</style></head><body><header><div class="eyebrow">Ashenfall · espace de travail</div><h1>Sentinelle</h1><nav><a href="../index.html">Accueil</a><a href="../ai/index.html">Lecture IA</a><a href="../manifest.json">Version et sources</a><a href="https://codex.ashenfall.linkin-tools.fr/">Codex joueurs existant</a></nav></header><main><p class="meta">canon/lore/sentinelle.json · Statut déclaré : VALIDE · Version : 0.2</p><p><a href="../raw/canon/lore/sentinelle.json">Ouvrir la source complète</a></p><article class="reading"><p>Humain · Tank · 10 compétences de référence V0.2</p><p>VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER</p><p>Peuple : Humain Rôle : Tank</p><p>Arsenal de référence — 10 compétences</p><ul><li>Garde</li></ul><p>Protection — Transfert 50%; instantané Coût 0 ; CD 0 s ; portée 9 m. Fiche : sentinelle-garde</p><ul><li>Défi de la Sentinelle</li></ul><p>Provocation — Taunt PvE 3s; PvP -15% hors Tank 4s Coût 0 ; CD 12 s ; portée 15 m. Fiche : sentinelle-defi-de-la-sentinelle</p><ul><li>Parade du Veilleur</li></ul><p>Défense — Parade active 0.5s; +15 Résolution réussie Coût 0 ; CD 9 s ; portée 0 m. Fiche : sentinelle-parade-du-veilleur</p><ul><li>Interception Héroïque</li></ul><p>Mobilité — Bond allié 12m Coût 15 ; CD 18 s ; portée 12 m. Fiche : sentinelle-interception-heroique</p><ul><li>Balayage du Veilleur</li></ul><p>Contrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90° Coût 25 Résolution ; CD 30 s ; portée 3 m. Fiche : sentinelle-contre-de-justice</p><ul><li>Position du Veilleur</li></ul><p>Défense — -25% dégâts 5s Coût 30 ; CD 24 s ; portée 0 m. Fiche : sentinelle-position-du-veilleur</p><ul><li>Cercle de Vigilance</li></ul><p>Protection — -18% dégâts alliés 5s Coût 35 ; CD 28 s ; portée 8 m. Fiche : sentinelle-cercle-de-vigilance</p><ul><li>Lame d&#x27;Arrêt</li></ul><p>Dégâts — Interruption 1s Coût 15 ; CD 18 s ; portée 3 m. Fiche : sentinelle-lame-d-arret</p><ul><li>Serment de Fer</li></ul><p>Défense — -45% dégâts 4s Coût 65 ; CD 90 s ; portée 0 m. Fiche : sentinelle-serment-de-fer</p><ul><li>Dernière Ligne</li></ul><p>Protection — Bouclier urgence 5s Coût 50 ; CD 70 s ; portée 10 m. Fiche : sentinelle-derniere-ligne</p><p>Périmètre de la reprise Les compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.</p><p>Révision V0.2 — bump Trois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice. Les autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu.</p><details><summary>Données complètes et métadonnées</summary><pre>{
+  &quot;id&quot;: &quot;sentinelle&quot;,
+  &quot;lore_id&quot;: &quot;ASH-LORE-0103&quot;,
+  &quot;title&quot;: &quot;Sentinelle&quot;,
+  &quot;category&quot;: &quot;classes&quot;,
+  &quot;version&quot;: &quot;0.2&quot;,
+  &quot;status&quot;: &quot;VALIDE&quot;,
+  &quot;visibility&quot;: &quot;PUBLIC&quot;,
+  &quot;summary&quot;: &quot;Humain · Tank · 10 compétences de référence V0.2&quot;,
+  &quot;body&quot;: &quot;VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : sentinelle-garde\n\n2. Défi de la Sentinelle\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : sentinelle-defi-de-la-sentinelle\n\n3. Parade du Veilleur\nDéfense — Parade active 0.5s; +15 Résolution réussie\nCoût 0 ; CD 9 s ; portée 0 m.\nFiche : sentinelle-parade-du-veilleur\n\n4. Interception Héroïque\nMobilité — Bond allié 12m\nCoût 15 ; CD 18 s ; portée 12 m.\nFiche : sentinelle-interception-heroique\n\n5. Balayage du Veilleur\nContrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nCoût 25 Résolution ; CD 30 s ; portée 3 m.\nFiche : sentinelle-contre-de-justice\n\n6. Position du Veilleur\nDéfense — -25% dégâts 5s\nCoût 30 ; CD 24 s ; portée 0 m.\nFiche : sentinelle-position-du-veilleur\n\n7. Cercle de Vigilance\nProtection — -18% dégâts alliés 5s\nCoût 35 ; CD 28 s ; portée 8 m.\nFiche : sentinelle-cercle-de-vigilance\n\n8. Lame d&#x27;Arrêt\nDégâts — Interruption 1s\nCoût 15 ; CD 18 s ; portée 3 m.\nFiche : sentinelle-lame-d-arret\n\n9. Serment de Fer\nDéfense — -45% dégâts 4s\nCoût 65 ; CD 90 s ; portée 0 m.\nFiche : sentinelle-serment-de-fer\n\n10. Dernière Ligne\nProtection — Bouclier urgence 5s\nCoût 50 ; CD 70 s ; portée 10 m.\nFiche : sentinelle-derniere-ligne\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nTrois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu.&quot;,
+  &quot;facts&quot;: [],
+  &quot;viewpoints&quot;: [],
+  &quot;hypotheses&quot;: [
+    &quot;Valeurs d’équilibrage à tester en jeu.&quot;
+  ],
+  &quot;questions&quot;: [
+    &quot;Réglage final après prototype : distances face à Garde, rebords et cône.&quot;
+  ],
+  &quot;links&quot;: [
+    &quot;rempart&quot;,
+    &quot;sentinelle&quot;,
+    &quot;gardien-des-racines&quot;
+  ],
+  &quot;period&quot;: null,
+  &quot;sources&quot;: [
+    &quot;sources/decisions/bumps-tanks-v02-2026-10-23.json&quot;
+  ],
+  &quot;dependencies&quot;: [],
+  &quot;impacts&quot;: [
+    &quot;Codex uniquement ; aucune modification Unity.&quot;
+  ],
+  &quot;modified&quot;: &quot;2026-10-23&quot;,
+  &quot;revision_notes&quot;: [
+    &quot;Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.&quot;,
+    &quot;Identifiant public historique conservé pour préserver les routes.&quot;
+  ],
+  &quot;production_id&quot;: &quot;ASH-UNITY-0101&quot;,
+  &quot;public_projection&quot;: {
+    &quot;id&quot;: &quot;sentinelle&quot;,
+    &quot;category&quot;: &quot;classes&quot;,
+    &quot;title&quot;: &quot;Sentinelle&quot;,
+    &quot;summary&quot;: &quot;Humain · Tank · 10 compétences de référence V0.2&quot;,
+    &quot;body&quot;: &quot;VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : sentinelle-garde\n\n2. Défi de la Sentinelle\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : sentinelle-defi-de-la-sentinelle\n\n3. Parade du Veilleur\nDéfense — Parade active 0.5s; +15 Résolution réussie\nCoût 0 ; CD 9 s ; portée 0 m.\nFiche : sentinelle-parade-du-veilleur\n\n4. Interception Héroïque\nMobilité — Bond allié 12m\nCoût 15 ; CD 18 s ; portée 12 m.\nFiche : sentinelle-interception-heroique\n\n5. Balayage du Veilleur\nContrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nCoût 25 Résolution ; CD 30 s ; portée 3 m.\nFiche : sentinelle-contre-de-justice\n\n6. Position du Veilleur\nDéfense — -25% dégâts 5s\nCoût 30 ; CD 24 s ; portée 0 m.\nFiche : sentinelle-position-du-veilleur\n\n7. Cercle de Vigilance\nProtection — -18% dégâts alliés 5s\nCoût 35 ; CD 28 s ; portée 8 m.\nFiche : sentinelle-cercle-de-vigilance\n\n8. Lame d&#x27;Arrêt\nDégâts — Interruption 1s\nCoût 15 ; CD 18 s ; portée 3 m.\nFiche : sentinelle-lame-d-arret\n\n9. Serment de Fer\nDéfense — -45% dégâts 4s\nCoût 65 ; CD 90 s ; portée 0 m.\nFiche : sentinelle-serment-de-fer\n\n10. Dernière Ligne\nProtection — Bouclier urgence 5s\nCoût 50 ; CD 70 s ; portée 10 m.\nFiche : sentinelle-derniere-ligne\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nTrois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu.&quot;
+  },
+  &quot;blocking_contradictions&quot;: false,
+  &quot;validation&quot;: {
+    &quot;creator&quot;: &quot;ClementChatain&quot;,
+    &quot;version&quot;: &quot;0.2&quot;,
+    &quot;date&quot;: &quot;2026-10-23&quot;,
+    &quot;reference&quot;: &quot;decisions/ASH-DECISION-BUMP-103.json&quot;,
+    &quot;record_sha256&quot;: &quot;74c41a2e419f0bad2400804bf38a2b46eedd7548f1417710be42bc806262a9ce&quot;
+  },
+  &quot;history&quot;: [
+    {
+      &quot;date&quot;: &quot;2026-10-23&quot;,
+      &quot;action&quot;: &quot;V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.&quot;,
+      &quot;source&quot;: &quot;sources/decisions/bumps-tanks-v02-2026-10-23.json&quot;
+    }
+  ]
+}</pre></details></article></main><footer>Source : 2b78ceff3aaca5261accc6896067523676aed25e. Un document consultable reste soumis à son statut et à sa validation.</footer></body></html>

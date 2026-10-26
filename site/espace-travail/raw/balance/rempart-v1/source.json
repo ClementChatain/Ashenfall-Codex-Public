@@ -1,0 +1,13 @@
+{
+  "status": "EN_ETUDE",
+  "scope": "internal executable snapshot of explicit public Rempart V1 gameplay reference",
+  "files": {
+    "presets.mjs": "41eeeb2edfee2de71a263dbc01dd6e93ff57a9091dc5a85a9cdeac1ee678fc8d",
+    "reference.mjs": "3917c0a14326ce47e250dba0b2f948c190a314b30ffed75ee07577d8eb915415",
+    "definitions.mjs": "38538ce252ff3ee95f661fde3deb151e77004e5e4a1eabde3a117f814c417b24",
+    "engine.mjs": "d27130179b73dfdc5484b4a69c4d65cdb81c0a3e93b63e46f3b5b83c2e0aad63",
+    "reference-data.mjs": "a20ce7e77969dc3279d5387ca563e1b38aaf092768bc1fa43bed2d519fd100b5"
+  },
+  "publicRepository": "ClementChatain/Ashenfall-Codex-Public",
+  "publicReferenceCommit": "160a950caca22e559785c004d502b6d7c50a4c14"
+}

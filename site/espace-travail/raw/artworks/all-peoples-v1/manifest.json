@@ -1,0 +1,148 @@
+{
+  "version": "all-peoples-v1",
+  "status": "concept",
+  "authorization": "Le créateur demande le traitement de tous les autres peuples et classes, avec publication directe sans nouvelle validation intermédiaire.",
+  "scope": "Présentation et concepts artistiques seulement ; aucun nouveau lore, pouvoir, niveau requis ou statistique.",
+  "sources": [
+    {
+      "id": "accordeur",
+      "file": "sources/accordeur.png",
+      "sha256": "ea5a7b82a0c8ad6329c94784e35012d867e73b8bf0ec705e2711d12cbeb42ed2"
+    },
+    {
+      "id": "aiguilleur",
+      "file": "sources/aiguilleur.png",
+      "sha256": "0fc6aa414911ba297a83a17e19f94497afa164134263714cf797a5c691a82ab1"
+    },
+    {
+      "id": "arcaniste",
+      "file": "sources/arcaniste.png",
+      "sha256": "0254117187abc67a785136ae816980043913db2b506e800f4939bb93b56efeed"
+    },
+    {
+      "id": "artilleur-runique",
+      "file": "sources/artilleur-runique.png",
+      "sha256": "3630e1810e7b207ca160cfe3763abf3634834027f58551f2a1419f6ee136cb3f"
+    },
+    {
+      "id": "brise-courant",
+      "file": "sources/brise-courant.png",
+      "sha256": "10cb0e6f4c36c78b1b314708134593faa2b9a04895d04f9a02742181855d5950"
+    },
+    {
+      "id": "brise-fer",
+      "file": "sources/brise-fer.png",
+      "sha256": "e73f1db1da0e9964fbff6f4f756da3324d9eda39383c48149df82853bf068f14"
+    },
+    {
+      "id": "danse-lame",
+      "file": "sources/danse-lame.png",
+      "sha256": "d82a11b453ead1292d9d994ede7b8389f823008f015c895cf074114cc1903324"
+    },
+    {
+      "id": "duelliste",
+      "file": "sources/duelliste.png",
+      "sha256": "55c4e88c25e835eea094552bb026ca0af711392be9643eb86a76bd89295dae8a"
+    },
+    {
+      "id": "eclateur",
+      "file": "sources/eclateur.png",
+      "sha256": "2201082f51907cde3aabdc5f220d72045e216f9357489027915e375552dbbcbe"
+    },
+    {
+      "id": "enlaceur",
+      "file": "sources/enlaceur.png",
+      "sha256": "b90abf6c96fcd9b64ccaef3cc05d86291e4e751ef12e96135ddecfa00cef9fbe"
+    },
+    {
+      "id": "eveilleur",
+      "file": "sources/eveilleur.png",
+      "sha256": "71edd1d025d6dcac7f9014f32b6163cc71502131e83c1b263b1c48c4602ab9d1"
+    },
+    {
+      "id": "fendeur",
+      "file": "sources/fendeur.png",
+      "sha256": "e3bf0f01d9604b24227db4f1d527a164dacffeb2487a93dea4f70edbe0287892"
+    },
+    {
+      "id": "gardien-des-racines",
+      "file": "sources/gardien-des-racines.png",
+      "sha256": "7c8bfdd44a0857c9bc7b1a42608c4fb0d59729c63a813acedd421ab36ace92c4"
+    },
+    {
+      "id": "lance-rive",
+      "file": "sources/lance-rive.png",
+      "sha256": "b2db6ddc10d31f08b5f4df88467210bcda1d9684bc8840e9847df2a36321b7bf"
+    },
+    {
+      "id": "landscape-elfes",
+      "file": "sources/landscape-elfes.png",
+      "sha256": "645c44df76a53fb5b7a7593611a62c8852bc07e11957d465c50a62bc2c6ec7ad"
+    },
+    {
+      "id": "landscape-humains",
+      "file": "sources/landscape-humains.png",
+      "sha256": "fbadee58d10af840cbebcab1b245a687ceaf76fb19efb2d0368dfb34c8ff10a6"
+    },
+    {
+      "id": "landscape-kharun",
+      "file": "sources/landscape-kharun.png",
+      "sha256": "108df9e8d69e7b37f1716f1cb235748829d7f0dd4541f8a0c0aa47e78986130a"
+    },
+    {
+      "id": "landscape-orynth",
+      "file": "sources/landscape-orynth.png",
+      "sha256": "fc3b24ebf29468e23723f046a8e8652588800d708bcf60668c90242fd1302262"
+    },
+    {
+      "id": "landscape-vaelith",
+      "file": "sources/landscape-vaelith.png",
+      "sha256": "24e1b7105b7ce33a260462bd4a8e862706462f7ad2a3983f90c65e9004a7862a"
+    },
+    {
+      "id": "lieur",
+      "file": "sources/lieur.png",
+      "sha256": "c8fddfab14b8700bfc2c7754e9cb0f6a8b72dcab41c92a7a0057fcb8090a3a83"
+    },
+    {
+      "id": "mue-lame",
+      "file": "sources/mue-lame.png",
+      "sha256": "a47ce4d4cf67f301d0b095463d0b52e7cfb364cf201447c7cef4de70ec73d450"
+    },
+    {
+      "id": "passeur",
+      "file": "sources/passeur.png",
+      "sha256": "cec6a1f6a6ab359a4a107fbe5ce0191d84065f475c99b5b8b17834f494e2ed3b"
+    },
+    {
+      "id": "porte-faille",
+      "file": "sources/porte-faille.png",
+      "sha256": "d54ccc477b76de7b9c56cbe60c23f92f320a7de512b637708a675fae24976095"
+    },
+    {
+      "id": "sentinelle",
+      "file": "sources/sentinelle.png",
+      "sha256": "cded3e4f068c63142bd8abb766decba307ab9b08d51e1df5eecdbb9ec3de54f8"
+    },
+    {
+      "id": "sillonneur",
+      "file": "sources/sillonneur.png",
+      "sha256": "27883a66a8d0e2c8af8c2777b859b8df88c310c3af1b8637b832c19b26076b02"
+    },
+    {
+      "id": "thaumaturge",
+      "file": "sources/thaumaturge.png",
+      "sha256": "d137a2c8630546e7e5cd68f71600d012838e253b2be6fbf77afb2e6d9eef698e"
+    },
+    {
+      "id": "tisseur-de-vie",
+      "file": "sources/tisseur-de-vie.png",
+      "sha256": "95caad01de6e6466b19cf2cac86da8e70334d4c9eb88b093b3647b7f3d4c421e"
+    },
+    {
+      "id": "traqueur-sylvestre",
+      "file": "sources/traqueur-sylvestre.png",
+      "sha256": "a5be07a51c100d3d08a8ba1305ec2666bffbd5af90c8311e09026b173fc06893"
+    }
+  ]
+}

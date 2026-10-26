@@ -1,0 +1,63 @@
+{
+  "id": "fendeur",
+  "category": "classes",
+  "title": "Fendeur",
+  "summary": "Kharûn · DPS mêlée · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant méthodique qui cherche le point de rupture d’un adversaire.\n\nIl manie une longue arme de percussion à tête fendue, entre masse de guerre et outil d’écartement. Ses gestes sont lourds, précis, avec des changements d’appui très marqués.\n\nLà où le Brise-Fer nain impose une pression martiale régulière, le Fendeur prépare une ouverture puis engage toute sa puissance dans un moment décisif. Il récompense la lecture de l’adversaire et l’engagement au bon instant. Une attaque mal préparée le laisse exposé.\n\nImpression recherchée : Chaque coup semble annoncer celui qui fera tout céder.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nPression 0–100 ; départ 0. Frappe de Taille : +10 ; Repérage du Joint : +15 s’il touche. Les charges de Joint sont distinctes et non échangeables contre de la Pression.\n\nJoint : marque personnelle sur une seule cible, 0–3 charges, durée rafraîchie à 8 s par Frappe de Taille et Repérage du Joint. Changer de cible efface l’ancien Joint. Chaque charge ajoute 5 % aux seuls Effondrement et Ultime Fissure, puis ces coups consomment les charges. Aucun affaiblissement d’armure partagé.\n\nBoucle : Construire le Joint → préparer son placement → engager un coup lourd → reconstruire ; réserve défensive ou offensive à arbitrer.\n\nContre-jeu : Changer d’angle, interrompre le coup lourd et sortir de portée ; les changements de cible lui coûtent sa préparation.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Frappe de Taille — Dégâts directs\nFiche : fendeur--frappe-de-taille\n2. Repérage du Joint — Dégâts directs / préparation\nFiche : fendeur--reperage-du-joint\n3. Effondrement — Dégâts directs\nFiche : fendeur--effondrement\n4. Pas de Coin — Mobilité\nFiche : fendeur--pas-de-coin\n5. Entrave de Taille — Dégâts directs / ralentissement\nFiche : fendeur--entrave-de-taille\n6. Fissure Persistante — Dégâts sur la durée\nFiche : fendeur--fissure-persistante\n7. Fermer les Appuis — Protection personnelle\nFiche : fendeur--fermer-les-appuis\n8. Taille d’Éboulis — Dégâts de zone\nFiche : fendeur--taille-d-eboulis\n9. Mesure de Rupture — Amélioration personnelle\nFiche : fendeur--mesure-de-rupture\n10. Ultime Fissure — Exécution\nFiche : fendeur--ultime-fissure\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0302",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "kharun"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0302",
+  "public_projection": {
+    "id": "fendeur",
+    "category": "classes",
+    "title": "Fendeur",
+    "summary": "Kharûn · DPS mêlée · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant méthodique qui cherche le point de rupture d’un adversaire.\n\nIl manie une longue arme de percussion à tête fendue, entre masse de guerre et outil d’écartement. Ses gestes sont lourds, précis, avec des changements d’appui très marqués.\n\nLà où le Brise-Fer nain impose une pression martiale régulière, le Fendeur prépare une ouverture puis engage toute sa puissance dans un moment décisif. Il récompense la lecture de l’adversaire et l’engagement au bon instant. Une attaque mal préparée le laisse exposé.\n\nImpression recherchée : Chaque coup semble annoncer celui qui fera tout céder.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nPression 0–100 ; départ 0. Frappe de Taille : +10 ; Repérage du Joint : +15 s’il touche. Les charges de Joint sont distinctes et non échangeables contre de la Pression.\n\nJoint : marque personnelle sur une seule cible, 0–3 charges, durée rafraîchie à 8 s par Frappe de Taille et Repérage du Joint. Changer de cible efface l’ancien Joint. Chaque charge ajoute 5 % aux seuls Effondrement et Ultime Fissure, puis ces coups consomment les charges. Aucun affaiblissement d’armure partagé.\n\nBoucle : Construire le Joint → préparer son placement → engager un coup lourd → reconstruire ; réserve défensive ou offensive à arbitrer.\n\nContre-jeu : Changer d’angle, interrompre le coup lourd et sortir de portée ; les changements de cible lui coûtent sa préparation.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Frappe de Taille — Dégâts directs\nFiche : fendeur--frappe-de-taille\n2. Repérage du Joint — Dégâts directs / préparation\nFiche : fendeur--reperage-du-joint\n3. Effondrement — Dégâts directs\nFiche : fendeur--effondrement\n4. Pas de Coin — Mobilité\nFiche : fendeur--pas-de-coin\n5. Entrave de Taille — Dégâts directs / ralentissement\nFiche : fendeur--entrave-de-taille\n6. Fissure Persistante — Dégâts sur la durée\nFiche : fendeur--fissure-persistante\n7. Fermer les Appuis — Protection personnelle\nFiche : fendeur--fermer-les-appuis\n8. Taille d’Éboulis — Dégâts de zone\nFiche : fendeur--taille-d-eboulis\n9. Mesure de Rupture — Amélioration personnelle\nFiche : fendeur--mesure-de-rupture\n10. Ultime Fissure — Exécution\nFiche : fendeur--ultime-fissure\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-fendeur.json",
+    "record_sha256": "5ec12fa032cd90fd11893b4b8093abaa20581cfe86cba8c1368c4335466a2c73"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

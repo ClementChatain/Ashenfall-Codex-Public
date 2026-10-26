@@ -1,0 +1,18 @@
+{
+  "status": "concept",
+  "date": "2026-10-26",
+  "scope": "Révision visuelle autorisée ; aucune modification de lore ou statistiques.",
+  "sources": [
+    {
+      "file": "sources/board.png",
+      "sha256": "5ad0c61d128730efbe97d76876f7d159c09d9e6f90b65344127c4ce96d6d3d17"
+    },
+    {
+      "file": "sources/reference-v1.webp",
+      "sha256": "d5ff6bab94a6caa4befd97ff61ca363f7da86efb7c01a251946fdef07bef759c"
+    }
+  ],
+  "row_split_pixels": 492,
+  "details": "Base VI",
+  "original_preserved": "artworks/all-peoples-v1/sources/brise-fer.png"
+}

@@ -1,0 +1,910 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## Bumps des tanks — V0.2
+Source: archives/conception/2026-10-23-bumps-tanks-v02.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 21af1aba9fe9b34531080eef03d7dde4ea924a85dcdcf1cb8713f018298eed98
+Page: documents/95eca79236ea45c8f41cca0f.html
+Source publiée: raw/archives/conception/2026-10-23-bumps-tanks-v02.md
+
+# Bumps des tanks — V0.2
+
+Accord de Clément : « yep feu ! », dans la conversation courante, le 23 octobre 2026, après présentation des trois compétences et illustrations. Publication autorisée par la demande initiale conditionnelle puis cet accord.
+
+## Diff
+
+- Rempart : Cercle de Fer devient Heurt du Bastion ; perte du ralentissement de zone, gain d’une projection monocible de 8 m.
+- Sentinelle : Contre de Justice devient Balayage du Veilleur ; perte de la riposte offensive, gain d’un cône repoussant trois ennemis de 5 m.
+- Gardien : Rejet de Ronce passe de 3 à 6 m ; dégâts de référence de 460 à 300, coût 20 et recharge 24 s inchangés.
+- Dégâts des trois bumps : 100 + 0,20 × PO ; PvP x1,0.
+- Règles communes de projection et contre-jeu ajoutées aux règles d’équilibrage.
+
+## Impact
+
+Dix compétences par tank ; identifiants et liens existants conservés. Les anciennes métadonnées de guides restent historiques : les champs Objectif / Quand l’utiliser / Synergies / Limites et contres du corps V0.2 sont désormais prioritaires à l’affichage. Les images des trois fiches sont remplacées par les versions expressément approuvées ; les originaux restent dans l’historique Git. La transcription naine V0.1 est explicitement marquée comme archive.
+
+Aucun enrichissement narratif ni changement du jeu Unity. Les classes historiques ne deviennent pas des vérités cosmologiques validées. Valeurs de gameplay provisoires, à tester.
+
+## Vérifications
+
+15 tests publics passent ; syntaxe JavaScript valide. Validation export V2 et vérification du déploiement consignées dans la livraison publique.
+
+
+## Correction d'auteur — Les Premiers sont vivants dans les trois peuples
+Source: archives/conception/2026-10-23-correction-premiers-unite-vivante-trame.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 3063b0bb217cdbf2038c2cafa2a47c39f7907d54ad73faadda74ce673303a0cb
+Page: documents/e56b43d24f4d2a40f573277a.html
+Source publiée: raw/archives/conception/2026-10-23-correction-premiers-unite-vivante-trame.md
+
+# Correction d'auteur — Les Premiers sont vivants dans les trois peuples
+
+Date : 2026-10-23
+Statut : EN_ETUDE / INTERNE / NON CANONISE
+
+## Correction explicite de l'auteur (prioritaire sur les formulations antérieures)
+Ne plus présenter « Les Premiers » comme un peuple disparu. Les Premiers désignent le peuple originel **réuni** ; Nains, Elfes et Humains en sont les expressions vivantes différenciées. Leur existence continue à travers les trois peuples. Ce qui a été fragmenté peut être leur unité, certaines connaissances et leur compréhension de la Trame.
+
+## Nouvelle piste de l'auteur — hypothèse, PAS décision validée
+Lorsque les trois peuples se réunissent et combinent leurs connaissances de la Trame, ils pourraient redevenir capables de grandes choses, notamment dans les domaines de la mutation, de l'adaptabilité ou d'autres possibilités encore inconnues. L'auteur suggère aussi qu'une force particulière, à découvrir plus tard, pourrait naître de leur coopération. **Il s'agit explicitement d'une piste ouverte** : ne pas établir qu'une réunion provoque automatiquement une mutation, une amplification magique, une fusion biologique ou un pouvoir surnaturel.
+
+## Garde-fous
+- Préserver l'identité et la dignité propres de chaque peuple ; ne pas les qualifier de versions « incomplètes ».
+- Ne pas figer « Nains = matière, Elfes = vivant, Humains = synthèse » comme aptitudes exclusives ni comme vérité canonique.
+- La Trame reste décrite comme équilibre diffus du monde, pas une énergie quantifiable ou une solution magique universelle.
+- Distinguer coopération technique/culturelle, complémentarité des connaissances, éventuelle interaction avec la Trame et transformations biologiques : aucune causalité arrêtée.
+- Aucun retour obligatoire à un peuple homogène, aucune prophétie ou élu.
+- Réexaminer les archives V0.1–V0.3 : conserver les anciens textes comme historique mais annoter toute formule « peuple disparu » ou « civilisation disparue » comme représentation trompeuse de l'intention de l'auteur.
+- Aucune publication ni promotion au canon sans validation explicite.
+
+## Questions à approfondir
+1. Que signifie exactement « être réunis » : collaboration de quelques individus, réseaux inter-cités, alliance durable, redécouverte de savoirs ?
+2. Qu'est-ce que les Premiers connaissaient réellement de la Trame ?
+3. La puissance retrouvée serait-elle scientifique, artisanale, sociale, biologique ou autre ?
+4. Comment rendre les conséquences profondes sans faire de la Trame un deus ex machina ?
+5. Comment le monde réagit-il à cette coopération progressive sans intrigue apocalyptique ni chapitres ?
+
+Source : correction directe de l'auteur lors de la session de conception du 23 octobre 2026. Archive de travail, non verbatim.
+
+
+## Ashenfall — Émergences intérieures et affinité du changement (V0.9)
+Source: archives/conception/2026-10-23-emergences-interieures-affinite-changement-v09.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6192356d303379a46ebb04dc84814f90604c916d331148fd5b3d61b898701c6e
+Page: documents/5f4caf6c1c7809d6ba2da988.html
+Source publiée: raw/archives/conception/2026-10-23-emergences-interieures-affinite-changement-v09.md
+
+# Ashenfall — Émergences intérieures et affinité du changement (V0.9)
+
+**Statut : EN_ETUDE** · **Visibilité : INTERNE** · **23 octobre 2026** · **Aucun canon nouveau approuvé**
+
+## Corrections explicites de l'auteur — priorité sur V0.8 et V0.7
+1. **Abandonner les Confins comme territoire inconnu et la géographie en six foyers isolés.** L'idée que personne n'aurait découvert ces régions en des millénaires est rejetée.
+2. **Les trois nouveaux peuples apparaissent récemment au milieu des environnements déjà habités par les anciens peuples** : forêts, montagnes, berges et cours d'eau. Ils n'ont pas de civilisation ancienne cachée.
+3. Les nouveaux peuples **ne connaissent pas initialement les autres peuples récents**. Les premiers contacts avec les habitants déjà présents peuvent en revanche se produire localement, peu après les mutations. Cela corrige toute formulation antérieure exigeant que les six peuples restent inconnus les uns des autres pendant toute leur introduction.
+4. **Kharûn, Vaelith et Orynth partagent une affinité profonde et naturelle pour le changement**. Cela oriente leurs perceptions et décisions, facilite leur compréhension mutuelle quand ils se rencontrent et favorise leur rapprochement. Ce n'est ni une conscience collective, ni une soumission, ni une obligation morale de faire les mêmes choix.
+5. Les anciennes civilisations, liées à leurs traditions et à leurs équilibres établis, peuvent être plus lentes à s'entendre entre elles ; aucune faction n'est automatiquement bonne ou mauvaise.
+6. Conserver les transformations/mutations récentes de la Trame comme origine des trois peuples, sans affirmer un mécanisme précis ni révéler de cause cachée.
+
+## Proposition de localisation initiale — non validée
+- Kharûn : foyers de mutations au sein de massifs et cavités connus des Nains, notamment près de jardins profonds, carrières ou sources.
+- Vaelith : foyers dans les forêts anciennes fréquentées par les Elfes ; réinterpréter leurs anciens thèmes de vent, mouvement, signaux et orientation sans leur attribuer une histoire maritime millénaire.
+- Orynth : foyers sur des berges et zones humides connues des Humains, près de cultures, canaux ou rivières.
+Ces appariements ne sont pas des frontières exclusives ; d'autres foyers locaux sont possibles. Ne pas transformer les peuples récents en simples « mutations des Nains/Elfes/Humains » sans décision explicite sur les espèces d'origine.
+
+## Dramaturgie
+L'événement perturbateur ne se produit pas dans une contrée inconnue : il survient **chez soi**. Les premiers témoins reconnaissent les lieux mais pas les êtres qui y apparaissent. Les réactions varient : curiosité, protection, étude, crainte, exploitation, coexistence, violence. Les nouveaux peuples découvrent leurs propres capacités et identités. Les rencontres entre eux, plus tardives, sont marquées par une compréhension étonnamment rapide de leur rapport au changement, sans langue commune automatique ni télépathie.
+
+## Fracture des Confins : proposition abandonnée sous sa forme géographique
+Le nom et la catastrophe des Confins ne doivent pas être repris comme élément structurant validé. Chercher un autre événement fédérateur, potentiellement une série de ruptures locales et de décisions incompatibles, plutôt qu'un unique ouvrage central dans une région mystérieuse.
+
+## Questions ouvertes
+- Quelle vie préexistante mute, sur combien de générations, et comment acquiert-elle langage et culture ?
+- Comment expliquer l'affinité commune pour le changement sans déterminisme ni conscience collective ?
+- Comment les trois nouveaux peuples se rencontrent-ils naturellement alors qu'ils émergent dans des environnements différents ?
+- Quelle chronologie rend crédibles les introductions jouables, les tensions locales et la formation ultérieure de camps PvP ?
+
+**Archiviste : archive de conception, non publication. Fondation I inchangée. SECRET_AUTEUR demeure hors de tout export public.**
+
+
+## ASHENFALL — Fondation narrative du commencement V1.0
+Source: archives/conception/2026-10-23-fondation-commencement-decisions-v10.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 4ab59f80c075721629c1d2e1c028f1d749cbf5e4fc9f4ac0a68ef65f90ab0196
+Page: documents/861972a721ef112ffc457875.html
+Source publiée: raw/archives/conception/2026-10-23-fondation-commencement-decisions-v10.md
+
+# ASHENFALL — Fondation narrative du commencement V1.0
+
+Date : 2026-10-23
+Statut documentaire : **MIXTE — décisions d'auteur validées + hypothèses EN_ETUDE**
+Visibilité : **INTERNE**. Ne pas publier comme canon.
+Ce document constitue une **référence de rédaction** ; ne pas confondre validation des principes et validation des propositions de détail.
+
+## A. Décisions explicitement validées par l'auteur le 23 octobre 2026
+
+**VALIDE — Six peuples jouables.** Nains, Elfes et Humains sont descendants d'un même peuple ancestral, les Premiers ; les Premiers perdurent dans leurs descendants. Trois autres peuples proviennent de la Trame ou de ses « doucis » ; leurs noms, mécanismes d'origine et identités spécifiques ne sont pas validés.
+
+**VALIDE — Ignorance mutuelle.** Au commencement, Nains, Elfes et Humains ne savent pas que les deux autres peuples existent réellement. Pas de relations diplomatiques ou de commerce contemporain reconnu entre eux avant les premiers contacts. De vagues mythes ou traces anciennes sont compatibles, sans être une preuve reconnue.
+
+**VALIDE — Réunification progressive.** Les trois peuples se rencontrent, apprennent à coopérer et bâtissent peu à peu une histoire commune, sans perdre leurs identités. Monde MMORPG persistant sans chapitres obligatoires.
+
+**À TRAVAILLER — Factions PvP.** Les deux côtés doivent être épiques et désirables, mais leur organisation, leurs alliances, leur statut politique et leur calendrier de formation ne sont pas décidés.
+
+**À TRAVAILLER — Naissance des peuples de la Trame.** La notion de « doucis de la Trame » conserve l'expression de l'auteur et nécessite une définition ; aucune hypothèse biologique, cosmologique ou historique n'est canonisée.
+
+**SECRET D'AUTEUR — Intervention sur la Trame.** L'idée qu'une personne ou entité soit un jour révélée à l'origine d'une modification de la Trame est une possibilité narrative à très long terme, non un fait canonique. **Ne jamais projeter dans le Codex public, ni évoquer dans un teaser.**
+
+**À TRAVAILLER — Géographie et chronologie.** Aucune carte définitive, durée d'isolement, date de migration ou lieu du premier contact n'est approuvé.
+
+## B. Prémisse de rédaction — formulation de travail
+
+« Six peuples vivent dans un même monde sans en partager la même connaissance. Leurs histoires, leurs frontières et leurs certitudes vont progressivement entrer en collision. Leurs rencontres ne seront pas seulement des découvertes géographiques : elles changeront l'histoire du monde. »
+
+Ce texte est un **pitch EN_ETUDE**, non une narration canonique.
+
+## C. Trois horizons temporels — structure de travail
+
+### I. Temps des héritages
+- Les Premiers : mosaïque de communautés, pas nécessairement empire unique.
+- Migrations, transformations sur de longues durées, divergence culturelle et biologique des trois lignées.
+- Traces matérielles ambiguës (ouvrages, mots, techniques) héritées avant séparation.
+- Inconnues : chronologie absolue, démographie, corridors de dispersion, mémoire historique, extinction des échanges.
+
+### II. Temps des civilisations séparées
+- Chaque peuple développe institutions, arts, économie, conflits, villes et traditions propres.
+- Les sociétés ne vivent pas « en attente » d'autres peuples.
+- La Trame reste diffuse et limitée ; pas d'apocalypse ni de conflit cosmique Bien/Mal.
+- Inconnues : biographies des dirigeants, atlas politique, cycles économiques, langues, conflits récents.
+
+### III. Temps des premiers signes
+- Changements environnementaux subtils observés indépendamment.
+- Expéditions, réouverture possible de voies et indices matériels conduisant à des premiers contacts.
+- La cause des changements demeure inconnue.
+- Inconnues : séquence exacte des événements, géographie de convergence, rôle des six peuples.
+
+## D. Matrice de contradictions et contraintes de résolution
+
+| Question | Incompatibilité à éviter | Contrainte de résolution |
+|---|---|---|
+| Isolement millénaire | Explorateurs qui auraient dû rencontrer les voisins | Barrières physiques, démographiques, climatiques et politiques combinées, sans voile magique universel |
+| PvP six peuples | Deux alliances établies alors que les héritiers ne se connaissent pas | Coalitions historiques évolutives, formation à situer après les rencontres |
+| Peuples de la Trame | Trame = création instantanée omnipotente | Définition des « doucis », coût/limites, preuves et hypothèses concurrentes |
+| Premiers | Origine commune révélée au premier contact | Révélation tardive fondée sur indices multiples |
+| Monde persistant | Première rencontre globale rejouée pour chaque nouveau joueur | Distinguer événement historique serveur et parcours d'introduction individuel |
+| Archives antérieures | Commerce récent Nain-Elfe-Humain | Retirer ou dater les échanges avant séparation ; signaler les anciennes hypothèses contredites |
+| Origine des trois nouveaux peuples | Supposer qu'ils sont liés entre eux et hostiles aux autres | Construire histoires autonomes, relations et motivations politiques |
+
+## E. Architecture de rédaction à produire ensuite
+
+1. **Atlas de l'isolement** : continents, bassins, chaînes de montagnes, zones difficiles, routes anciennes, ressources et barrières ; justification logistique et historique de l'ignorance mutuelle.
+2. **Chronologie raisonnée** : époques relatives, dates proposées et niveaux de certitude, événements politiques et migrations des six peuples.
+3. **Six portraits de civilisation** : physiologie plausible, habitat, nourriture, commerce, gouvernance, conflits, croyances, arts, classes et silhouettes ; noms Kharûn, Vaelith, Orynth uniquement provisoires.
+4. **Situation au lancement** : qui sait quoi, qui contrôle quel territoire, quels problèmes locaux motivent les premières quêtes, état réel des relations entre les six peuples.
+5. **Prologues jouables** : une introduction par peuple, tensions immédiates, PNJ crédibles, gameplay sans exposition encyclopédique, convergence sans chapitre forcé.
+6. **Diplomatie et PvP** : premiers incidents, alliances possibles, zones contestées, raisons concrètes de combattre, règles d'accessibilité pour nouveaux joueurs.
+7. **Révélation graduelle** : indices de l'origine commune des Premiers, contradictions des sources, découverte par le joueur bien après les premiers contacts.
+8. **Registre de secrets** : garder les hypothèses d'auteur strictement privées, indépendantes des textes projetables.
+
+## F. Questions prioritaires à arbitrer
+- Les trois peuples de la Trame se connaissent-ils déjà au lancement ?
+- Deux alliances PvP verrouillées ou coalition progressive avec mécanismes hybrides ?
+- Quel mécanisme de « doucis » respecte la Trame sobre ?
+- Quel dispositif géographique explique la longue ignorance des trois héritiers ?
+- Quel événement concret rend les premiers contacts possibles à l'époque jouée ?
+
+## G. Règle Archiviste
+Ce document **ne valide pas** les noms des peuples de la Trame, les classes, les frontières, les dates, les mécanismes des Doucis ni les motivations d'une entité future. Ne pas publier le document ou sa section SECRET D'AUTEUR. Les trois premières décisions sont explicitement **VALIDE / INTERNE** ; les autres restent **EN_ETUDE / INTERNE** ou **SECRET_AUTEUR**.
+
+
+## ASHENFALL — Le premier sang, la rivière détournée (V1.0)
+Source: archives/conception/2026-10-23-premier-sang-orynth-humains-v10.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 15a1bd4194a3703aa02b00f4755658a318bc016fe36a639dc771d40f25d4fb9f
+Page: documents/6150dd5e1f9307b5fcbe9cc7.html
+Source publiée: raw/archives/conception/2026-10-23-premier-sang-orynth-humains-v10.md
+
+# ASHENFALL — Le premier sang, la rivière détournée (V1.0)
+
+**EN_ETUDE · INTERNE · 2026-10-23 · NON CANON**
+
+## Corrections explicites de l'auteur
+- Refus du schéma artificiel « chaque peuple récent a son ancien peuple ennemi et son petit conflit miroir ».
+- Un foyer de conflit initial privilégié : **Humains / Orynth**, sans imposer des équivalents Nains/Kharûn ou Elfes/Vaelith.
+- Peu après leur apparition, les **Orynth détournent délibérément un cours d'eau pour accomplir un objectif encore indéfini**. Ne pas remplir ce blanc sans approbation de l'auteur.
+- Les Humains remarquent rapidement l'anomalie, remontent la rivière et trouvent son origine ; pas de territoires inconnus ou de mystère géographique artificiel.
+- Les Orynth, peuple récent pensant être seul comme espèce intelligente, **interprètent les Humains comme des bêtes prédatrices**, analogues aux lions et autres dangers rencontrés depuis leur apparition. Ils ne reconnaissent pas une civilisation et réagissent instinctivement à une menace.
+- Les Humains voient des êtres non humains et peuvent réagir par crainte, défense ou hostilité. L'opposition doit rester nuancée, sans méchant prédéfini.
+- Les nouveaux peuples partagent une affinité naturelle pour le changement et se comprennent plus vite lorsqu'ils se rencontrent ; ils ne se connaissent pas au départ.
+
+## Scène proposée — à discuter
+La rivière baisse en aval : moulins, canaux, cultures perturbés. Une reconnaissance humaine remonte le cours connu, trouve des travaux de dérivation, puis rencontre des Orynth. Un geste est mal interprété ; la confrontation peut dégénérer. L'identité de celui qui frappe en premier reste à écrire, pas à masquer arbitrairement. Une rupture ultérieure de retenue pendant les affrontements pourrait provoquer une catastrophe de crue, **hypothèse non validée**.
+
+## Points à conserver ouverts
+1. **Pourquoi les Orynth détournent-ils l'eau ?** Objectif précis à définir ultérieurement par l'auteur.
+2. Comment ont-ils appris assez vite à détourner un cours d'eau ? La chronologie de leur émergence et leurs capacités pratiques doivent être crédibles.
+3. Quelles réactions humaines concrètes (éclaireurs, paysans, autorités), et quels déclencheurs de violence ?
+4. Quelle ampleur et quelles conséquences de la catastrophe, si elle est retenue ?
+5. Comment l'événement devient-il un conflit plus large sans forcer une guerre miroir pour les autres peuples ?
+
+## Décisions éditoriales
+Les « Confins » comme région inconnue sont abandonnés. Ne pas présenter les six peuples comme trois paires ennemies prédestinées. Ne pas publier cette archive sur le Codex public ; Fondation I reste VALIDE/INTERNE, secrets d'auteur exclus de toute projection.
+
+
+## Les Premiers — Dispersion et géographie V0.1
+Source: archives/conception/2026-10-23-premiers-dispersion-geographie-v01.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 95c22572f89e30cc43b15b4e16e4c2a55a98e116305af0be54f3f5da3024bb50
+Page: documents/1c11ecc0643d444688f12923.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-dispersion-geographie-v01.md
+
+# Les Premiers — Dispersion et géographie V0.1
+
+**Statut : EN_ETUDE** · **Visibilité : INTERNE** · **Canon : NON VALIDÉ** · Date : 2026-10-23
+
+## Source et continuité
+Synthèse de travail des échanges sur l'origine commune des trois peuples, et prolongement exploratoire. Voir `archives/conception/2026-10-23-premiers-trame-nains-tharvell.md` sur la branche d'archive / PR #8. Ce dossier n'est pas un compte rendu verbatim.
+
+## Orientations déjà formulées par l'auteur
+- Un peuple ancestral commun, nommé provisoirement **Les Premiers**.
+- Diversification progressive de ses descendants en **Nains, Elfes et Humains** selon leurs environnements et modes de vie.
+- Nains : stature compacte, puissance et robustesse, adaptation à la mine et aux galeries.
+- Elfes : silhouette élancée, oreilles développées, sens adaptés aux milieux naturels.
+- Humains : adaptation distinctive encore à concevoir, ne pas la figer.
+- Grande Dispersion pacifique et Héritage Fragmenté : orientations de travail, pas des faits canoniques.
+- Trame : équilibre diffus du monde ; ne pas affirmer qu'elle a causé l'évolution biologique ou les mutations récentes.
+- L'auteur signale qu'une cité naine dotée de façades extérieures monumentales visibles serait découverte par des explorateurs humains ; pas de dissimulation magique arbitraire.
+
+## Hypothèses nouvelles à discuter (non choisies)
+### Séparation lente, pas exode unique
+La dispersion pourrait résulter de nombreuses migrations étalées sur des générations, plutôt que d'un événement fondateur unique. Des communautés intermédiaires et des contacts résiduels sont possibles.
+
+### Géographie des contacts
+Les reliefs, les distances, les passages saisonniers, les réseaux d'accès contrôlés et l'autonomie alimentaire pourraient expliquer pourquoi l'intérieur des métropoles naines est moins connu que leur existence. Les Humains ne sont pas empêchés d'explorer ; ils peuvent connaître les Nains sans avoir cartographié toutes leurs villes.
+
+### Tharvëll
+Conserver la cité hybride falaise/profondeurs végétalisées, mais déplacer la monumentalité principale derrière des gorges, portes et espaces intérieurs. Ne pas déclarer la cité inconnue des Humains tant que le niveau des contacts inter-peuples n'est pas décidé.
+
+### Adaptation humaine
+Trois pistes non exclusives : endurance et thermorégulation ; plasticité culturelle et technique ; adaptation à une variété de climats et de paysages. Ne pas conclure que les Humains sont biologiquement « supérieurs » ou naturellement plus curieux que les autres.
+
+## Questions ouvertes
+1. Les trois peuples connaissent-ils leurs existences respectives, et à quel degré ?
+2. Que reste-t-il des Premiers dans les récits, langues, ruines et traits communs ?
+3. À quelle échelle temporelle la diversification biologique s'est-elle produite ?
+4. Quelles adaptations humaines sont véritablement distinctives ?
+5. Quels itinéraires anciens permettent de reconstituer la dispersion sans rendre l'exploration humaine invraisemblable ?
+6. Comment rendre la vie agricole profonde plausible (énergie, nutriments, rendements) sans « magie » fourre-tout ?
+
+## Règles
+Aucune de ces hypothèses n'est validée ou publiable. Les trois introductions jouables demeurent distinctes puis convergent vers un monde partagé. Aucun événement cosmique ou guerre originelle ne doit être imposé sans décision de l'auteur.
+
+
+## Les Premiers — Héritage dispersé V0.3
+Source: archives/conception/2026-10-23-premiers-heritage-disperse-v03.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 5fe8acee36955e2297cd890879f2b034c8fe6f57b49224c082848be3d4e45db2
+Page: documents/5419d5937def519868becb2d.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-heritage-disperse-v03.md
+
+# Les Premiers — Héritage dispersé V0.3
+
+**Statut : EN_ETUDE** · **Visibilité : INTERNE** · **Canon : NON VALIDÉ** · 2026-10-23
+
+## Choix explicite de l'auteur
+La civilisation des Premiers a laissé **principalement un héritage dispersé**, avec de nombreuses traces anciennes encore utilisées. Ce choix ne valide pas le canon ni un monument particulier.
+
+## Patrimoine proposé
+- Ouvrages quotidiens : ponts, chemins, terrasses agricoles, canaux, puits, fondations ; transformés, réparés, réattribués.
+- Savoir-faire : méthodes de taille, irrigation, gestion des milieux, circulation, transmission artisanale ; évolution propre à chaque peuple, pas de monopoles ethniques.
+- Marques et langage : toponymes, inscriptions usées, motifs aux sens divergents.
+- Coutumes vivantes : fêtes, gestes d'hospitalité, pratiques communautaires et chants ; filiations incertaines.
+- Attention : tous les vestiges du monde ne sont PAS hérités des Premiers ; civilisations naines, elfiques et humaines ont créé leur propre patrimoine.
+
+## Exemple de travail non canonique : la Route des Trois Versants
+Ancien passage montagnard encore utilisé. Trois traditions incompatibles en apparence : Nains attribuent des fondations à leurs anciens bâtisseurs ; Elfes évoquent une migration ancienne ; Humains racontent une alliance de villages ayant aménagé la voie. Possibilité qu'une même route ait été fondée, élargie, pavée et entretenue par plusieurs communautés successives. Ne pas déclarer une version vraie avant décision.
+
+## Règles d'enquête narrative
+- Les mémoires contradictoires ne prouvent pas nécessairement qu'un peuple ment.
+- Distinguer trace matérielle, datation, interprétation, croyance locale, vérité d'auteur et connaissance du joueur.
+- Privilégier des découvertes progressives et ordinaires plutôt qu'une révélation universelle ou un temple expliquant tout.
+- Éviter que chaque découverte ne révèle une conspiration unique.
+- Origine commune proposée des Nains, Elfes, Humains (« Premiers ») ; civilisation ancienne inégalement développée ; dispersion progressive ; aucune causalité démontrée avec la Trame ni les mutations récentes.
+
+## Questions ouvertes
+- Quels indices permettraient de démontrer une parenté ancestrale sans la rendre évidente ?
+- Quels acteurs protègent ou exploitent ces ouvrages encore en service ?
+- Les échanges entre peuples sont-ils réguliers, rares, ou différents selon les régions ?
+- Quel patrimoine propre aux trois peuples est parfois attribué à tort aux Premiers ?
+- Comment représenter les désaccords savants sans imposer une solution canonique ?
+
+Source : échange de conception avec l'auteur, 23 octobre 2026. Synthèse non verbatim. Conserver en étude ; pas de publication.
+
+
+## Les Premiers — Départ séparé et réunification progressive V0.5
+Source: archives/conception/2026-10-23-premiers-reunification-depart-v05.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 1361af65cc50d21d2bdff5369ea18e7c71daf67dd24df8e2da8ffddfd08f5812
+Page: documents/c93b15b4fe259a067f5067e3.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-reunification-depart-v05.md
+
+# Les Premiers — Départ séparé et réunification progressive V0.5
+
+Date : 2026-10-23 | Statut : EN_ETUDE | Visibilité : INTERNE | Canon : NON VALIDÉ
+
+## Orientations exprimées par l'auteur
+- Le démarrage envisagé est **trois peuples (Nains, Elfes, Humains) ignorant l'existence réelle des deux autres**. Les autres peuvent subsister comme légendes, sans contact contemporain reconnu.
+- Les introductions sont distinctes ; les peuples se découvrent progressivement et bâtissent une histoire commune.
+- La réunification progressive face à des ennemis et difficultés est un axe narratif apprécié ; elle doit produire anecdotes, rencontres, tensions et coopérations.
+- Après convergence, la narration partagée doit aussi faciliter le développement du MMORPG persistant.
+- Grand retournement de fond : les trois peuples descendent des Premiers, qui ne sont pas « disparus » mais vivent à travers eux.
+- Trame subtile, sans magie omnipotente ; synergie éventuelle des connaissances reste une hypothèse non validée.
+
+## Développement proposé, non validé
+1. Mondes séparés : Nains changements minéraux, Elfes modifications du vivant, Humains variations saisonnières ; aucune preuve connue des autres peuples.
+2. Premiers contacts : indices, rencontres incertaines, difficultés linguistiques et culturelles ; accords locaux fondés sur des besoins concrets.
+3. Coopérations et alliances progressives face à des menaces variées, sans guerre cosmique unique ni prophétie.
+4. Monde partagé persistant : institutions et routes inter-peuples, tensions et cultures propres conservées.
+5. Bien plus tard, enquête sur l'origine commune ; la rencontre n'est pas la révélation immédiate des Premiers.
+
+## Exemples d'anecdotes possibles
+Malentendus sur reliefs et architecture, jardins et usages de la terre, codes commerciaux, terminologie d'une technique ancestrale. Éviter stéréotypes simplistes.
+
+## Contraintes majeures de cohérence
+- Réviser les archives précédentes parlant de commerce contemporain entre peuples : impossible avant les premiers contacts ; seules traces antérieures, inconnues ou mal attribuées, peuvent subsister.
+- Géographie des séparations à justifier sans dissimulation magique ni dénigrement des explorateurs humains.
+- Concevoir la chronologie serveur : une première rencontre historique ne doit pas être rejouée comme événement mondial inédit pour chaque nouvel arrivant.
+- Trois introductions distinctes convergent vers les systèmes et régions partagés ; les régions initiales restent vivantes.
+- Aucun chapitre obligatoire, aucune apocalypse, aucun canon validé sans accord explicite.
+
+## Questions ouvertes
+- Quels obstacles géographiques et historiques ont rendu l'ignorance mutuelle durable ?
+- Quelle région rend les premiers contacts plausibles ?
+- Quelle menace locale motive une première coopération sans unifier automatiquement les peuples ?
+- Comment gérer les nouveaux joueurs selon l'état du monde persistant ?
+
+Source : conversation de conception 2026-10-23, synthèse non verbatim.
+
+
+## Les Premiers — Société, dispersion et héritage V0.2
+Source: archives/conception/2026-10-23-premiers-societe-dispersion-heritage-v02.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 8a6ea60be5fb68c06a06488bf696801757d0986d73f6f37ab187bf51be23bf2e
+Page: documents/31ab4fc0abd11503ee1553ed.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-societe-dispersion-heritage-v02.md
+
+# Les Premiers — Société, dispersion et héritage V0.2
+
+Statut : **EN_ETUDE** | Visibilité : **INTERNE** | Canon : **NON VALIDE** | 2026-10-23
+
+## Choix explicite de l'auteur
+Les Premiers étaient une civilisation ancienne **inégalement développée**, avec coexistence d'établissements modestes et de centres plus élaborés. Développer leur société, dispersion et héritage, sans validation canonique.
+
+## Propositions de conception (non validées)
+- Mosaïque de cités de vallées, communautés de frontière (montagnes, forêts, plateaux) et communautés mobiles des routes ; catégories souples, non castes.
+- Pas d'empire mondial unique imposé ; parenté ancestrale ≠ unité politique. Institutions locales possibles : assemblées, lignées, magistratures, accords intercommunautaires.
+- Grande Dispersion lente, multi-générationnelle, non causée obligatoirement par guerre/cataclysme ; phases qui se chevauchent : communautés, expansion des routes, enracinement, longues séparations, émergence progressive des trois peuples, civilisations distinctes.
+- Adaptation biologique et transmission des métiers ne sont pas identiques : Nains compacts et robustes dans les montagnes, Elfes élancés et adaptations sensorielles distinctes, Humains endurance/thermorégulation/flexibilité à approfondir. Ne pas en faire des caractéristiques absolues ou des hiérarchies raciales.
+- Héritage fragmenté possible dans les langues, techniques, récits, objets, vestiges, rites, institutions ; ne pas poser comme vérité déjà connue des peuples.
+- Contacts entre branches possibles pendant et après différenciation ; aucune obligation d'isolement total.
+- La Trame reste équilibre naturel diffus ; aucun lien causal établi avec différenciation ou changements récents.
+- Tharvëll : architecture hybride falaises/profondeurs conservée comme orientation, mais visibilité extérieure monumentale à résoudre de manière crédible pour les explorateurs humains, sans camouflage magique.
+
+## Pistes de legs matériels et immatériels à approfondir
+1. Ouvrages anciens à usages successifs, réemployés et interprétés différemment.
+2. Parentés linguistiques et termes déformés ; ne pas créer de langue canonique prématurément.
+3. Techniques hydrauliques, assemblages de pierre, pratiques horticoles, traditions de navigation ou d'orientation ayant évolué indépendamment.
+4. Mythes incompatibles mais pouvant préserver des traces communes.
+5. Vestiges non attribués et interprétations divergentes ; ne pas résoudre le mystère trop tôt.
+
+## Questions ouvertes
+- Comment les Premiers se nommaient-ils eux-mêmes ? « Les Premiers » peut être une désignation postérieure.
+- Quels rapports politiques et sociaux existaient entre centres et périphéries ?
+- Quels restes matériels survivent et où ?
+- Quelles interactions ont perduré entre futurs Nains, Elfes et Humains ?
+- Quel trait humain distinguer sans déterminisme ni supériorité ?
+- Quels savoirs communs sont vérifiables, lesquels sont légendaires ?
+- Quelle durée géologique/biologique plausible pour les adaptations ?
+
+## Gouvernance documentaire
+Conserver les versions et désaccords. Aucun élément nouveau de ce dossier ne doit être promu à VALIDE ou publié sans accord explicite de l'auteur. Document de travail, non vérité d'auteur définitive.
+
+
+## Archive de conception — Ashenfall — 23 octobre 2026
+Source: archives/conception/2026-10-23-premiers-trame-nains-tharvell.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: ec1e8fc29d2908ecd5847affb009be01fa4137c5a58bdd56625e7d01f7fb97d1
+Page: documents/3a4968865711b6cd0994892a.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-trame-nains-tharvell.md
+
+# Archive de conception — Ashenfall — 23 octobre 2026
+
+Statut global : **EN_ETUDE / INTERNE**. Cette archive est une transcription structurée des orientations discutées, **pas une validation du canon ni une autorisation de publication**. Conserver aussi les idées écartées et les interrogations. Source : conversation de conception Ashenfall (21–23 octobre 2026), synthèse non verbatim.
+
+## Fondations et origine
+- Fondation I : monde ancien, magnifique, vivant, en transformation récente, sans guerre primordiale Bien/Mal. Origine et portée des transformations inconnues. Fondation I précédemment validée en interne.
+- Fondation II : mémoires culturelles distinctes, anciennes vérités volontairement indéterminées. À étudier.
+- Proposition ancienne importante rappelée par l'auteur : **Les Premiers**, peuple ancestral commun aux Nains, Elfes et Humains ; séparation progressive, adaptations biologiques héréditaires selon les milieux. Grande Dispersion pacifique et Héritage Fragmenté sont des orientations de travail, non du canon validé.
+- Nains : petits, trapus, puissants, adaptés aux galeries et au travail de la montagne. Elfes : élancés, grandes oreilles, perception du milieu naturel affinée. Humains : adaptation à développer, ne pas inventer une réponse définitive.
+- Bien distinguer dispersion ancestrale, différenciation biologique, éloignement des civilisations et mutations récentes. Aucun lien causal démontré.
+
+## Trame et premiers signes
+- La Trame : force/équilibre naturel de toutes choses, pas « magie qui dysfonctionne », pas mécanisme magique fourre-tout. Chaque peuple l'interprète différemment. Son origine, ses lois et son rapport aux mutations récentes restent indéterminés.
+- Début de l'intrigue : signes infimes, souvent positifs ou curieux, non apocalyptiques.
+- Nains : nouvelles nuances minérales, voire pierre inédite malgré leur savoir géologique ; occasion de fête et de débats, certains y voient une anomalie.
+- Elfes : végétaux inhabituels, mutations discrètes d'animaux.
+- Humains : rythme saisonnier légèrement perturbé.
+- Plus tard, possible découverte de nouveaux peuples ou créatures ; ne pas prédéterminer ces développements. Monde persistant sans chapitres obligatoires.
+
+## Civilisation naine
+- Confédération de cités autonomes, gouvernements différents selon les cités (monarchies, conseils, magistratures), sans monarque suprême imposé.
+- Les grandes cités sont **réputées** pour une discipline majoritaire (culture, taille de pierre, érudition...) mais restent **polyvalentes**, avec tous les métiers. Prestige ne signifie ni monopole ni dépendance alimentaire totale.
+- Maisons (parenté, transmission), Œuvres (responsabilités et métiers trans-cités), Cités (institutions territoriales) : pistes de structuration.
+- Assemblée des Cités, engagements communs gravés, droits de passage, assistance, arbitrage : propositions non ratifiées ; règles de vote à approfondir.
+- Architecture monumentale sculptée dans la pierre avec végétation abondante et intégrée ; jardins, terrasses, eau, habitats ordinaires, ouvrages publics.
+- Agriculture souterraine mixte et évolutive : cultures dans toutes les cités, jardins exceptionnels dans certaines ; techniques empiriques exploitant la Trame à l'insu des Nains. **Pas de défaillances de la Trame** comme ressort scénaristique. Énergie, rendements, substrats, limites biologiques et durabilité encore à construire.
+- L'autosuffisance a favorisé un éloignement des autres peuples, sans imposer une rupture totale ni une guerre ancienne.
+
+## Tharvëll — grande cité horticole (nom provisoire)
+- Grande cité réputée pour ses jardins, mais avec sculpteurs, érudits, forgerons, commerçants et vie politique.
+- Forme choisie : **hybride falaises/profondeurs végétalisées**.
+- Cinq ensembles provisoires : Terrasses Hautes, Jardins Profonds, Halles Nourricières, Voûtes des Eaux, Portes de Surface.
+- Conseil des Terrasses comme gouvernement local possible, non confirmé.
+- Vie urbaine verticale, galeries, ponts, monte-charges, ventilation, canaux, logements variés, artisanat et jardinage.
+- Important **problème de cohérence soulevé par l'auteur** : de gigantesques façades visibles depuis les vallées seraient nécessairement découvertes par les Humains explorateurs. Correction proposée : accès discrets en gorges/cols, monumentalité révélée surtout à l'intérieur, comptoirs de périphérie, jardins extérieurs limités ; ne jamais rendre les Humains artificiellement aveugles, ni utiliser une barrière magique. À concilier avec origine commune des Premiers et mémoire fragmentée. L'auteur n'a pas encore tranché le niveau de connaissance mutuelle entre les peuples.
+- Début jouable possible : fête autour d'une pierre nouvelle, chercheurs, artisans et désaccords non violents. Pas de crise initiale ni d'infrastructure défaillante imposée.
+- Choix esthétique géométrique/organique encore non validé.
+
+## Garde-fous et questions ouvertes
+- Ne pas transformer des propositions en canon automatiquement.
+- Ne pas publier dans le Codex public sans validation explicite et contrôle Archiviste.
+- Distinguer vérité d'auteur, croyance d'un personnage, hypothèse de travail et connaissance du joueur.
+- Prochaines études : Les Premiers, chronologie de la dispersion, histoire des contacts inter-peuples, conditions géographiques de l'isolement nain, mécanismes des cultures profondes, institutions détaillées, topologie de Tharvëll.
+- Toujours relire cette archive et les fiches canoniques avant de développer un sujet lié ; noter les contradictions et préserver les anciennes variantes avec leurs statuts.
+
+
+## Les Premiers — Unité vivante, Trame sobre, intrigue V0.4
+Source: archives/conception/2026-10-23-premiers-unite-trame-intrigue-v04.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: edfc6f353acf50fca0fb335bcf8812bdaeb06e0a3422981caf972ddc4eecf1a5
+Page: documents/dcc529c452f3ad2d1aba40da.html
+Source publiée: raw/archives/conception/2026-10-23-premiers-unite-trame-intrigue-v04.md
+
+# Les Premiers — Unité vivante, Trame sobre, intrigue V0.4
+
+Date : 2026-10-23 | Statut : EN_ETUDE | Visibilité : INTERNE | Canon : NON VALIDÉ
+
+## Contraintes expressément réaffirmées par l'auteur
+- Le retournement narratif majeur : **Nain = Elfe = Humain à l'origine**. Ils descendent d'un même peuple ancestral, les Premiers, et ne sont pas trois créations indépendantes.
+- Les Premiers ne sont pas « disparus » : ils continuent à exister dans leurs descendants différenciés.
+- Conserver la **Trame**, mais **ne pas en faire une magie démesurée**.
+- L'auteur demande de poursuivre proactivement l'histoire sans lui soumettre une décision à chaque étape.
+- L'idée qu'une réunion des peuples et de leurs connaissances de la Trame permettrait des réalisations extraordinaires (mutation, adaptabilité, synergie) reste **une piste non validée**.
+
+## Développement narratif proposé (pas de canonisation)
+### Le mensonge que personne n'a inventé
+Les récits nains, elfiques et humains décrivent des origines propres à chaque identité, mais peuvent commencer après leur différenciation. Leurs histoires ne sont pas nécessairement fausses : elles commencent « trop tard ». Les récits ancestraux communs se sont fragmentés sans complot.
+
+### Société et évolution
+Les Premiers étaient une population ancestrale socialement et techniquement diverse ; dispersion progressive, milieux distincts, adaptation biologique lente et cultures changeant plus vite. Les trois peuples restent des descendants vivants, pas des versions incomplètes. Éviter tout déterminisme biologique simpliste.
+
+### Trame
+La Trame est une dimension diffuse des équilibres et interactions du monde ; ne pas la présenter comme mana, batterie énergétique, sort universel ou deus ex machina. Hypothèse de recherche : savoirs complémentaires permettant de mieux comprendre et exploiter des phénomènes naturels, avec contraintes matérielles et biologiques réelles. **Aucune causalité validée entre Trame, divergence des peuples et mutations récentes.**
+
+### Première intrigue proposée : l'ouvrage hydraulique
+Réparations d'un ancien ouvrage composite (contributions successives naines, humaines, influence de la végétation) : marques anciennes reconnaissables partiellement par un artisan nain, une érudite elfique et un historien humain. Ensemble, ils reconnaissent des fragments de savoir compatibles ; cela ne prouve pas leur parenté biologique. Point de départ local et plausible, sans prophétie ni élu.
+
+## Possibilités futures non décidées
+- Découvertes linguistiques, généalogiques, physiologiques, archéologiques convergentes, jamais preuve miraculeuse isolée.
+- Coopération des savoirs autour de la Trame, résultats modestes d'abord, découvertes majeures éventuelles ensuite.
+- Réactions variées des institutions, pas trois peuples monolithiques.
+- Respecter les introductions séparées des trois peuples qui convergent vers le monde persistant sans chapitres.
+
+## Vigilances
+Ne pas employer « civilisation disparue » pour qualifier les Premiers ; éviter l'idée d'une révélation unique qui résout toute l'histoire. Éviter toute fusion biologique imposée, pouvoirs de groupe automatiques, corruption cosmique ou apocalypse.
+
+Source : conversation de conception du 23 octobre 2026, synthèse non verbatim. Conserver historique et statuts.
+
+
+## Ashenfall — Six foyers isolés et origines récentes (V0.8)
+Source: archives/conception/2026-10-23-six-foyers-origines-recentes-v08.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 993868b030587196cd6869011f787853a7b5d207851ac09d38df66ab7ce8091c
+Page: documents/a4773a90b96f826d1f012464.html
+Source publiée: raw/archives/conception/2026-10-23-six-foyers-origines-recentes-v08.md
+
+# Ashenfall — Six foyers isolés et origines récentes (V0.8)
+
+**Statut : EN_ETUDE** · **Visibilité : INTERNE** · **Date : 2026-10-23** · **Non canonique**
+
+## Corrections explicites de l'auteur (prioritaires sur V0.7)
+- Les Nains, Elfes et Humains ignorent au départ l'existence réelle des autres peuples.
+- **Les Kharûn, Vaelith et Orynth ignorent eux aussi l'existence des autres peuples, y compris entre eux**, au commencement de leurs histoires jouables.
+- **Ces trois peuples sont récents** : ils sont issus de transformations/mutations récentes de la Trame, et non de civilisations anciennes ayant des millénaires d'histoire.
+- La Fracture des Confins est une bonne base **à approfondir**, pas un événement validé.
+- L'opposition future reste nuancée, émergente et non prédestinée ; ne pas assigner automatiquement les six peuples à deux alliances déjà conscientes.
+- Le terme « doucis » et la mécanique précise d'apparition restent à clarifier. Les secrets d'auteur des archives précédentes restent strictement privés et ne doivent pas être reproduits dans le Codex public.
+
+## Proposition de géographie (non à l'échelle)
+Six foyers géographiques initialement séparés par reliefs, forêts, bassins instables, bras de mer et zones inhabitées. Au nord/ouest, cités naines de profondeur ; au nord/centre, régions elfiques forestières ; au nord/est, territoires humains agricoles. Au sud/ouest, Hautes Strates des Kharûn ; au sud/centre, Bassins de Nacre des Orynth ; au sud/est, Arc des Vents des Vaelith. **Disposition purement conceptuelle** : aucune frontière ni distance fixée. Une zone de confins hydrologiques au centre pourrait devenir le lieu de premières rencontres. Il faudra justifier rigoureusement l'isolement initial, y compris entre les trois peuples récents, et éviter des contacts commerciaux antérieurs.
+
+## Origine récente : trois hypothèses à distinguer
+1. Mutations successives de populations animales préexistantes, avec émergence de cognition, culture et transmission sociale ; la durée nécessaire à l'établissement d'un peuple jouable doit être cohérente.
+2. Transformations de populations déjà intelligentes mais non identifiées, dont les formes et facultés changent sous l'effet de la Trame ; évite une civilisation entièrement construite en quelques années, sans présumer leur ancienneté comme Kharûn/Vaelith/Orynth.
+3. Émergence progressive sur plusieurs générations, dont l'accélération récente explique l'identité nouvelle ; chronologie à fixer.
+Aucune hypothèse n'est validée. Ne pas expliquer la Trame par une création instantanée sans coût ni mécanisme.
+
+## Identités culturelles en construction
+- **Kharûn** : Hautes Strates, protection, réserves d'eau, architecture de seuils. Le Droit des Réserves, la Ligue des Seuils, les personnages et les sièges de V0.7 deviennent **institutions, traditions ou événements possibles du futur**, pas un passé millénaire.
+- **Vaelith** : Arc des Vents, falaises, navigation, balises et secours. La Concorde des Balises et les Traversées de Brume sont des pistes à recontextualiser comme expériences récentes ou futures, pas de longues chroniques ancestrales.
+- **Orynth** : Bassins de Nacre, deltas, digues, solidarité amont/aval. Les Assemblées des Bassins et les Eaux sans Rives restent des propositions à réécrire selon une histoire courte.
+Les noms, morphologies, classes et institutions restent EN_ETUDE.
+
+## Fracture des Confins : scénario à approfondir
+Des changements hydrologiques atteignent plusieurs bassins isolés. Un ancien système de retenues et de passages pourrait céder ou être ouvert, déclenchant des crises locales. **Au départ aucun peuple ne sait qui d'autre existe** ; les premiers témoignages sont fragmentaires et interprétés comme des anomalies ou des intrusions. Les rencontres se font séparément et progressivement, avant toute notion de camps PvP. Il faut éviter d'affirmer d'emblée qu'un peuple a saboté l'ouvrage, qu'il connaît les autres ou qu'il suit une doctrine commune du « Devenir ».
+
+## Conséquences de conception
+- Six introductions distinctes et épiques, puis convergence non linéaire dans un MMORPG persistant sans chapitres.
+- Les joueurs peuvent progressivement découvrir les autres peuples ; la structure PvP future ne préjuge pas d'une haine biologique ou d'une connaissance préalable.
+- La Trame reste subtile et contrainte par la biologie, les ressources et le temps ; son origine et les causes des transformations récentes sont inconnues.
+- Fondation I VALIDE/INTERNE demeure inchangée ; cette V0.8 ne valide aucun nouveau canon.
+
+## Questions à résoudre lors de la prochaine passe
+Quelle durée sépare les premières mutations de l'époque jouable ? Comment les nouveaux peuples acquièrent-ils langage, mémoire et institutions sans histoire millénaire ? Pourquoi les six foyers sont-ils restés isolés ? Quel événement précis ouvre les premiers passages ?
+
+
+## Ashenfall — Six peuples et identité PvP V0.6
+Source: archives/conception/2026-10-23-six-peuples-pvp-trame-v06.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: e5d8dcb4131b35b98bae6c1fa90ccdae7b57d12e401015c2b696477d35f4f019
+Page: documents/d5354b30d4f1e327e67c8916.html
+Source publiée: raw/archives/conception/2026-10-23-six-peuples-pvp-trame-v06.md
+
+# Ashenfall — Six peuples et identité PvP V0.6
+
+Date : 2026-10-23 | EN_ETUDE | INTERNE | NON CANONIQUE
+
+## Intention explicite de l'auteur
+- Trois identités fortes déjà en cours de création : Nains, Elfes, Humains, avec classes et ambition épique.
+- Créer **trois autres factions / peuples issus de la Trame**, avec histoires, cultures et identités tout aussi fortes.
+- Ashenfall est un MMORPG PvP : les deux ensembles doivent proposer des adversaires épiques et être **également désirables à jouer**, pas un camp de héros contre des monstres.
+- Conserver le grand mystère : Nains = Elfes = Humains à l'origine (les Premiers, toujours vivants dans leurs descendants).
+- Trame sobre, pas de magie illimitée.
+- Les trois peuples d'origine ne connaissent initialement pas l'existence réelle les uns des autres ; introductions séparées, convergence progressive.
+
+## Hypothèses de conception proposées, non validées
+Deux ensembles narratifs possibles : descendants des Premiers et peuples issus de la Trame. **Ne pas décréter que cela impose deux alliances rigides de trois races**, ni un alignement moral, ni une symétrie de classes, ni un mécanisme biologique établi. L'expression « créés par la Trame » est une exigence créative à expliquer avec des règles et des limites ; ne pas imposer que la Trame ait façonné instantanément des êtres.
+
+Trois prototypes entièrement provisoires :
+1. « Kharûn » — morphologie aux traits minéraux, plateaux basaltiques, culture de fortification, identité résistance et guerre de position.
+2. « Vaelith » — adaptation aux vents et reliefs exposés, culture des courants et voies de navigation, identité mobilité et reconnaissance.
+3. « Orynth » — adaptation aux bassins humides, cycles biologiques, culture de l'eau, identité contrôle territorial et coordination.
+
+Ces noms, physiologies, habitats et styles ne sont **pas retenus par l'auteur**. Éviter les caricatures et la simple reproduction de Nains/Elfes/Humains sous une autre apparence. Chaque peuple doit avoir histoire, diversité interne, classes et silhouette reconnaissables.
+
+## Conflits PvP envisagés
+Rivalités territoriales, souveraineté, ressources, routes, incidents de frontières, guerres et alliances ; ennemis intelligibles et jouables, sans opposition simpliste Bien/Mal. Le monde reste persistant, sans chapitres obligatoires. Réunification progressive des trois héritiers des Premiers possible sans supprimer les conflits politiques.
+
+## Questions structurantes ouvertes
+- Les trois peuples de la Trame se connaissent-ils entre eux au lancement ? Se connaissent-ils des héritiers ?
+- Quelle est la signification concrète et limitée de « créés par la Trame » ?
+- Deux camps PvP verrouillés, coalitions dynamiques ou modèle hybride ?
+- Comment différencier réellement silhouettes, architectures, langues, classes et cultures des six peuples ?
+- Comment le premier contact et la révélation des Premiers coexistent-ils avec les besoins PvP d'un MMORPG accessible aux nouveaux joueurs ?
+- Quelles règles empêchent la Trame de devenir une source de pouvoir sans limites ?
+
+Source : échange direct avec l'auteur, 23 octobre 2026, synthèse non verbatim. Ne pas canoniser ni publier.
+
+
+## Ashenfall — Orientation antagoniste des trois peuples de la Trame
+Source: archives/conception/2026-10-23-trame-antagonistes-culte-devenir-v08.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 1d78e1bf806b5569cac63287dea0b907b61de1bcbb1f113f896f674875240d7c
+Page: documents/b583b21bd770be5e2c24147d.html
+Source publiée: raw/archives/conception/2026-10-23-trame-antagonistes-culte-devenir-v08.md
+
+# Ashenfall — Orientation antagoniste des trois peuples de la Trame
+
+Date : 2026-10-23
+Statut : **INTENTION D'AUTEUR VALIDÉE / INTERNE** pour la direction morale et la vénération du changement ; **EN_ETUDE** pour noms, religions, objectifs opérationnels, classes et détails.
+Visibilité : **INTERNE**. Les secrets d'auteur demeurent séparés et non publiables.
+
+## Décisions et corrections explicites de l'auteur
+
+1. Les trois peuples issus de la Trame **apparaissent plus ou moins ensemble**, sont **nouveaux** dans le monde et ont **un objectif commun simple et clair**.
+2. Ils doivent être **fondamentalement mauvais / antagonistes**. Il ne faut plus chercher à présenter les deux camps comme moralement équivalents.
+3. Nains, Elfes et Humains sont globalement pacifiques et aspirent à coexister, sans que cela signifie qu'ils sont parfaits ou sans conflits internes.
+4. Les trois nouveaux peuples **voient et adorent la Trame pour sa capacité à créer des choses nouvelles** ; ils aiment le changement.
+5. Référence d'inspiration : le Warp et le Chaos de Warhammer 40,000, **sans copier ses dieux, factions, esthétique, cosmologie ou mécaniques**. Créer une identité originale.
+6. La Trame était jusqu'ici décrite comme subtile et limitée. L'introduction d'une **adoration fanatique de sa puissance créatrice** n'implique pas automatiquement que les croyances des adorateurs soient vraies ni que la Trame devienne toute-puissante.
+7. L'éventuelle personne/entité à l'origine d'une modification de la Trame reste **SECRET_AUTEUR, hypothétique**, sans identité ni rôle validés. Ne pas la mentionner dans des textes publics.
+
+## Proposition de principe fédérateur (non encore approuvée)
+
+**Le Culte du Devenir** (nom de travail).
+Leur doctrine : « Ce qui demeure finit par pourrir. Ce qui change mérite de vivre. »
+**Objectif proposé** : libérer et multiplier les transformations de la Trame sur Ashenfall, y compris lorsque ces transformations détruisent des sociétés, des lieux et des vies. La destruction n'est pas une fin abstraite : elle libère l'espace pour une création nouvelle, selon leur croyance. Leur vision est moralement antagoniste parce qu'elle refuse aux autres peuples le droit de préserver leur propre existence et leur stabilité.
+
+Leur projet est volontairement agressif et incompatible avec la coexistence. On peut cependant écrire des personnages loyaux, affectueux ou courageux à l'intérieur de ces sociétés : la complexité individuelle n'efface pas la malveillance de leur objectif collectif.
+
+## Trois expressions complémentaires du changement (propositions révisables)
+
+### Kharûn — La Rupture
+Détruire les structures durables : murailles, forteresses, institutions et lieux de mémoire. La destruction ouvre la voie au nouveau. Guerre de siège, choc et brise-ligne. **Creed proposé :** « Rien ne doit rester debout pour toujours. »
+
+### Vaelith — La Métamorphose
+Altérer corps, identités, perceptions et coutumes. La stabilité personnelle est jugée stérile. Guerre de mobilité, perturbation, altérations et manipulation limitée. **Credo proposé :** « Celui qui demeure le même a déjà cessé de vivre. »
+
+### Orynth — La Prolifération
+Multiplier les formes de vie et les écosystèmes nouveaux, même au prix de la disparition des anciens. Guerre d'attrition, contrôle de terrain et prolifération biologique aux coûts et limites explicites. **Credo proposé :** « Que mille formes naissent de ce qui meurt. »
+
+**Attention :** les trois noms sont toujours provisoires. Le dossier V0.7 précédent décrivait des civilisations anciennes, plutôt défensives et écologiquement responsables ; cette nouvelle orientation le **supplante pour leur âge, leur objectif collectif et leur posture morale**, mais certains éléments visuels, géographiques ou sociaux peuvent être réemployés après refonte.
+
+## Tensions narratives à résoudre
+- Comment des peuples réellement nouveaux disposent-ils déjà d'une langue, d'une culture, de classes militaires, de structures sociales et d'une mémoire commune ? Distinguer apparition initiale, croissance démographique, apprentissage et temporalité jouable.
+- Quel phénomène concret de la Trame permet leur apparition presque simultanée ? Conserver des coûts, des contraintes et des preuves ambiguës.
+- Pourquoi trois formes distinctes et une doctrine partagée sans inventer prématurément un maître caché ?
+- Quelle limite objective empêche la transformation de tout le monde instantanément ?
+- Comment donner au camp antagoniste une expérience jouable séduisante, des tensions internes et des choix sans relativiser sa violence ?
+- Comment le conflit commence-t-il sans contredire l'ignorance mutuelle initiale des trois héritiers ?
+- Le terme « doucis de la Trame » reste à préciser avec l'auteur.
+
+## Recommandation pour le prologue
+Démarrer du côté des héritiers dans un monde vivant, paisible mais non idyllique. Montrer du côté des trois nouveaux peuples une naissance récente et un premier acte volontaire de transformation, aux conséquences tangibles. Ne pas révéler la véritable nature de la Trame ni l'éventuelle intervention d'une entité.
+
+## Registre
+- **Validé comme direction de l'auteur :** nouveaux peuples presque contemporains, mauvais/antagonistes, adoration de la Trame et du changement, camp opposé à des peuples cherchant coexistence.
+- **Proposé, non validé :** Culte du Devenir, doctrine précise, expansion par transformations, trois spécialisations Rupture/Métamorphose/Prolifération, slogans, pouvoirs, scènes.
+- **Secret :** origine intentionnelle éventuelle d'une modification de la Trame, non révélée et non confirmée.
+
+
+## ASHENFALL — LES TROIS PEUPLES DES DOUCIS DE LA TRAME
+Source: archives/conception/2026-10-23-trame-trois-peuples-bible-v07.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: f2d2e6d52878338a380e0d2bb6714d4d26f86295c5014452f1fc2268f5d0fd6b
+Page: documents/234c3422f5777efef19f4d85.html
+Source publiée: raw/archives/conception/2026-10-23-trame-trois-peuples-bible-v07.md
+
+# ASHENFALL — LES TROIS PEUPLES DES DOUCIS DE LA TRAME
+## Bible de conception V0.7 — dossier interne, non canonique
+
+**Statut : EN_ETUDE** · **Visibilité : INTERNE / SECRET_AUTEUR pour la dernière section** · **Date : 23 octobre 2026**
+**Auteur : proposition de conception pour examen par Clément ; aucun nom, mécanisme, conflit ou personnage nouveau n'est validé.**
+
+### Ce qui vient explicitement de l'auteur
+- Les trois peuples de départ sont Nains, Elfes et Humains : identités, classes et introductions épiques propres.
+- Leur origine est commune : les Premiers ne sont pas éteints ; ils vivent dans les trois lignées différenciées. Les trois peuples ne savent initialement pas que les autres existent.
+- Leur rencontre et leur réunification progressive ouvrent un monde partagé.
+- Trois **autres** peuples / factions jouables sont nécessaires pour le PvP ; chacun doit être aussi attirant, puissant et riche narrativement que les trois premiers.
+- Ces trois autres peuples **proviennent de la Trame, ou de « doucis de la Trame »** (terme exact de l'auteur, sens à éclaircir, ne pas le remplacer silencieusement par une certitude).
+- La Trame reste subtile, pas une magie illimitée.
+- **Très longtemps plus tard, éventuellement dans plusieurs années réelles**, une personne ou une entité pourrait être révélée à l'origine d'une modification de la Trame. Simple piste secrète, non décidée.
+- Aucun chapitre obligatoire : MMORPG persistant, PvP spectaculaire et histoire commune.
+
+---
+
+# 1. Hypothèse de travail : les « Doucis »
+**Le terme « doucis » reste celui de l'auteur ; « Doucis » comme nom de phénomène est une interprétation provisoire.**
+
+La Trame désigne les interdépendances profondes du monde. Un *doucissement* serait une modification locale, très lente ou très ancienne, de la manière dont certains équilibres naturels s'établissent : croissance des organismes, minéralisation, cycles de l'eau, régénération des milieux. Cela n'ajoute pas d'énergie gratuite, ne remplace pas la biologie et ne permet pas de fabriquer des êtres adultes instantanément.
+
+**Hypothèse centrale, à éprouver :** des foyers anciens de la Trame ont accompagné l'émergence de trois lignées conscientes indépendantes de la lignée des Premiers. Elles ont eu des ancêtres, une reproduction, une mortalité, des migrations et des millénaires d'histoire. Les foyers ont orienté des conditions écologiques et développementales ; ils n'ont pas écrit un destin ni un caractère moral.
+
+Cette explication n'est PAS une réponse définitive à « comment la Trame crée-t-elle un peuple ? ». Trois scénarios demeurent ouverts :
+A. Émergence biologique longue dans des écosystèmes singuliers.
+B. Transformation progressive de lignées vivantes préexistantes (sans lien avec les Premiers).
+C. Phénomène inconnu ayant ensuite conduit à une évolution biologique ordinaire.
+Aucune option n'est validée. « Doucis » peut également désigner une réalité très différente : à revoir avec l'auteur.
+
+**Limites non négociables de conception :** faim, blessure, reproduction, maladies, gravité, conservation de la matière, agriculture et logistique restent réelles ; la Trame n'est pas une réserve de mana, un bouton de mutation instantanée ou une justification universelle des miracles. Les changements récents du monde n'ont aucune cause confirmée.
+
+# 2. Peuple des Hautes Strates — KHARÛN (nom provisoire)
+**Promesse jouable :** tenir une porte contre une armée, porter les cicatrices d'un siège, bâtir ce que nul ne peut déplacer.
+
+## Silhouette et biologie
+Humanoïdes larges d'épaules mais plus hauts que les Nains, proportions anguleuses, peau à reliefs kératinisés rappelant la pierre feuilletée ; ces reliefs sont biologiques, **pas de roche vivante invulnérable**. Couleurs ardoise, argile rouge, ivoire calcaire, brun ferreux ; diversité individuelle. Cornes et pointes ne sont pas nécessaires. Un Kharûn peut être mince, vieux, savant ou marin : ne pas réduire le peuple à des guerriers massifs. Leur perception vibratoire pourrait être améliorée par des structures de l'oreille interne, sans sonar magique. Leur force a des coûts métaboliques et leur masse rend certaines manœuvres difficiles.
+
+## Territoire et écologie
+Les **Hautes Strates** : succession de plateaux basaltiques, gorges sèches, couches rocheuses exposées, sources chaudes rares et vallées d'altitude. Les villes se développent près des réserves d'eau et des carrières, jamais dans une montagne stérile qui nourrirait miraculeusement des centaines de milliers d'habitants. Agriculture de terrasses, légumineuses rustiques, élevage de plateau, greniers ventilés ; réseau de citernes et canaux couverts. Les ressources du sous-sol attirent les marchands et suscitent des disputes.
+
+## Histoire longue
+Les premières communautés apprennent à habiter les ruptures de terrain, puis construisent des escaliers, contreforts, citernes et places-fortes. Une ancienne période de famines conduit à une tradition du **Droit des Réserves** : nul gouvernant ne peut vendre les réserves d'hiver sans accord public. Plus tard, des cités autonomes s'affrontent pour des passages et signent des pactes de défense. Leurs annales conservent des défaites honteuses, des migrations et des réconciliations : ils ne sont pas une civilisation sans erreurs.
+
+## Politique et société
+La **Ligue des Seuils** (provisoire) coordonne les routes et la défense ; les cités restent libres. Certaines sont gouvernées par assemblées de quartiers, d'autres par magistratures militaires temporaires, d'autres par lignées marchandes. La légitimité d'un chef vient moins de son sang que de sa capacité à maintenir les citernes, arbitrer les accès et protéger les greniers. Les métiers honorés incluent géomètres, hydrauliciens, enseignants, cuisiniers des grandes halles, juristes et gardes de passage.
+
+## Croyances et arts
+Le **Serment de Charge** : « porter une charge, c'est répondre de ceux qu'elle abrite ». C'est une éthique civique, pas une religion universelle. Certains sanctuaires commémorent les grands effondrements ; d'autres écoles refusent toute sacralisation de la pierre. Musique fondée sur les percussions, les silences et les résonances des cours ; théâtre des sièges et récits d'évacuation. Leurs emblèmes pourraient évoquer une arche fendue maintenue debout par plusieurs appuis.
+
+## Armées et PvP
+Infanterie de rupture, ingénieurs de siège, défense mobile des goulets, contre-charges coordonnées. **Signature esthétique :** boucliers stratifiés, capes de poussière rouge, cuirasses articulées, bannières verticales. Gameplay potentiel : protection d'alliés, ancrage temporaire, interruption et contrôle d'espace ; aucune invulnérabilité. Faiblesses tactiques : exposition aux contournements, dépendance à la logistique, difficultés sur terrains mouvants. Ne pas figer des bonus raciaux pay-to-win.
+
+## Classes prototypes
+- **Porte-Seuil** — tank de première ligne, gardien des ouvertures, contrôle et protection.
+- **Fendeur de Ligne** — combattant de choc, bris de posture, fenêtre de finition.
+- **Cartographe de Guerre** — soutien tactique, balisage et gestion des trajectoires, pas magie omnisciente.
+- **Chantre des Voûtes** — soutien fondé sur cadence, signal et coordination ; effets à traduire en mécaniques équilibrées.
+Ces classes sont des intentions de fantasy de rôle, pas des compétences validées.
+
+## Personnages et intrigues
+**Sahra des Citernes** : magistrate convaincue que les routes doivent rester ouvertes, même à des étrangers inconnus. **Dorek le Mesureur** : ingénieur accusé d'avoir falsifié des relevés pour éviter une panique lors d'un affaissement. **Le Siège des Sept Réservoirs** : conflit ancien entre deux cités, raconté différemment selon les familles. Quête possible : sécuriser une citerne sans détruire une archive inscrite sur son parement.
+
+# 3. Peuple des Courants — VAELITH (nom provisoire)
+**Promesse jouable :** dominer les distances, gagner une bataille par la manœuvre, vivre dans un monde de vent, de navigation et de choix rapides.
+
+## Silhouette et biologie
+Humanoïdes à posture souple, cage thoracique développée, peau mate, nacrée ou cuivrée selon les populations, oreilles courtes non elfiques, iris aux motifs radiaux subtils. Sensibilité à la pression et à l'équilibre ; pas de lévitation innée. Les membranes décoratives de vêtements ne sont pas des ailes fonctionnelles. Leur endurance dépend de l'entraînement, de la nutrition et du climat. Certaines populations vivent en plaine : éviter un peuple réduit à une seule morphologie.
+
+## Territoire
+**L'Arc des Vents** : hautes falaises côtières, plateaux ouverts, détroits, archipels rocheux. Villes en terrasses protégées des rafales, quais abrités, tours de signalisation et ponts démontables. Leur technologie utilise voiles, moulins, treuils, systèmes de poulies et navigation ; la Trame ne remplace pas les contraintes mécaniques. Agriculture dans les vallons protégés, pêche, salines, vergers résistants au vent et commerce de cabotage.
+
+## Histoire
+Leur mémoire commence avec les **Traversées de Brume**, un ensemble de migrations maritimes dont les itinéraires ne concordent pas. Les villes portuaires ont d'abord rivalisé pour les phares, puis créé des conventions de sauvetage en mer. Une période d'accidents attribués à des cartes volontairement faussées a conduit au **Droit du Signal** : certains avertissements maritimes doivent être transmis même à l'ennemi. Cela nourrit un conflit moral fort entre pilotes, corsaires et militaires.
+
+## Politique
+La **Concorde des Balises** (provisoire) n'est pas un État unifié : conseil de ports, capitaines élus, compagnies de navigation, villages des falaises. Des cités privilégient la libre circulation ; d'autres taxent les passages. Les dissidents ne sont pas automatiquement des pirates. Rivalités de familles, contrats de pilotage, coopératives et écoles d'observation des tempêtes.
+
+## Arts, foi, langue
+Architecture aérienne mais ancrée, vitraux de verre dépoli, tissus à bandes asymétriques, cartes tissées et chants à plusieurs voix pour transmettre le rythme des manœuvres. Une croyance répandue compare les vies à des courants qui se croisent ; d'autres traditions jugent cette métaphore trompeuse. Leur culture n'est pas uniformément libertaire.
+
+## Guerre et PvP
+Éclaireurs, harcèlement, manœuvres coordonnées, contrôle de passages, opérations navales ou côtières. **Signature :** manteaux de navigation, casques bas, pavillons à découpes obliques, armes compactes, signaux lumineux ordinaires. Forts dans l'initiative et la mobilité, vulnérables à l'encerclement et à la perte de reconnaissance. Leur identité ne doit pas devenir un simple clone des archers elfes.
+
+## Classes prototypes
+- **Briseur d'Écume** — combattant mobile, percée courte et désengagement.
+- **Veilleur de Balise** — reconnaissance, détection et contre-embuscade.
+- **Duelliste des Courants** — précision et tempo, pression sur cible isolée.
+- **Maître des Signaux** — soutien collectif, informations et repositionnement.
+Aucun vol, téléportation gratuite ou contrôle absolu du vent.
+
+## Personnages et intrigues
+**Elyr des Cartes Muettes** : pilote refusant de publier une route dangereuse mais essentielle à sa ville. **Tovan le Porte-Fanal** : sauveteur qui a secouru un adversaire au mépris des ordres. **La Nuit des Feux Contraires** : des balises ont donné des indications incompatibles, provoquant une tragédie ; sabotage, erreur ou conditions inconnues ?
+
+# 4. Peuple des Bassins — ORYNTH (nom provisoire)
+**Promesse jouable :** maîtriser les territoires vivants, combattre en réseau, transformer un terrain hostile en avantage stratégique.
+
+## Silhouette et biologie
+Humanoïdes à peau marquée de fines structures pigmentaires rappelant les nervures de feuilles ou les dépôts des rivières, yeux adaptés aux reflets et à la faible lumière, mains à forte sensibilité tactile. **Ni hommes-plantes, ni Elfes repeints, ni créatures qui régénèrent instantanément.** Les variations de pigmentation sont individuelles et régionales. Leur tolérance à l'humidité n'empêche pas les infections, les blessures ni le froid.
+
+## Territoire et subsistance
+**Les Bassins de Nacre** : deltas, forêts inondables, lacs peu profonds, îlots fertiles et canaux naturels. Habitations sur pilotis et plateformes sur berges consolidées, grandes halles ventilées, routes de barques, cultures sur sols drainés, aquaculture, jardins sur digues. Gestion complexe des crues ; erreurs d'aménagement aux conséquences graves. Aucun pouvoir magique ne crée de nourriture.
+
+## Histoire
+Des communautés ont développé des règles de partage de l'eau, puis des ouvrages communs. Une grande crue ancienne, **les Eaux sans Rives**, a brisé plusieurs villes. Les reconstructions ont fait émerger des ligues de digues et un devoir d'assistance en aval. Plus tard, des conflits ont opposé cités d'amont et d'aval : la maîtrise de l'eau est politique, pas intrinsèquement pacifique.
+
+## Institutions et société
+Les **Assemblées des Bassins** (provisoire) sont convoquées selon les saisons. Chaque communauté délègue des représentants des métiers de l'eau, des terres et des voies. Des familles dominantes peuvent tenter de capturer ces assemblées ; les petites îles défendent leurs droits. Les archivistes tiennent des cartes de crues, les enfants apprennent les signaux de montée des eaux, les guérisseurs connaissent les maladies liées à l'eau.
+
+## Croyances et esthétique
+Le **Principe du Retour** : « ce qui quitte un lieu agit sur un autre ». Cette maxime guide certaines lois de pollution, de commerce et de responsabilité, sans être une vérité cosmique imposée. Sculpture en bois dur, céramiques vernissées, bijoux de coquille, bannières en bandes de tissu résistant à la pluie. Leur culture célèbre aussi la danse, la cuisine et les concours de navigation.
+
+## Armées et PvP
+Défense de passages, préparation de terrain, reconnaissance fluviale, pièges mécaniques, soutien mutuel et attrition mesurée. **Signature :** armures de lamelles vernies, lances courtes, boucliers ovales, tissus aux motifs de lignes d'eau. Forces : positionnement, protection des objectifs, combats prolongés ; faiblesses : mobilité réduite hors réseaux préparés, fragilité si les lignes de soutien sont coupées. Ne pas confondre leur connaissance du vivant avec une magie de soin illimitée.
+
+## Classes prototypes
+- **Gardien des Digues** — tank de contrôle territorial et protection d'objectif.
+- **Traque-Sillage** — éclaireur de terrain, pièges et pistage.
+- **Tisseur de Courants** — soutien de groupe par outils, préparation et coordination.
+- **Lancier des Marées** — combattant de mi-distance, pression et contre-attaque.
+Leurs mécaniques restent à équilibrer avec les classes existantes.
+
+## Personnages et intrigues
+**Mara des Deux Rives** : déléguée tentant d'empêcher une guerre de digues. **Oshen le Gardien des Cartes** : archiviste qui refuse d'effacer une erreur ancienne de son propre peuple. **Les Jardins Salés** : un système d'irrigation fonctionne mal ; maladie végétale, négligence, sabotage ou changement environnemental récent ?
+
+# 5. Relations entre les trois peuples de la Trame
+Ne pas supposer qu'ils forment depuis toujours un empire uni. Les Kharûn ont besoin de voies vers les littoraux ; les Vaelith cherchent des ressources et des ports sûrs ; les Orynth contrôlent des passages fluviaux et des terres agricoles. Des échanges peuvent exister entre eux avant le début du jeu **si la géographie le permet**. Ils ont aussi connu guerres, mariages diplomatiques, secours mutuels, accords commerciaux et périodes d'isolement.
+
+Proposition : **le Pacte des Trois Horizons** (nom provisoire) naît d'une menace commune récente et de conflits de frontière, non d'une parenté biologique démontrée. Il unit des institutions sans effacer les nations. Une partie des populations le soutient ; d'autres s'en méfient. Cette coalition peut servir de camp PvP lisible sans imposer que chaque individu approuve la guerre.
+
+## Leur regard sur les héritiers des Premiers
+Au départ, ils ne connaissent pas nécessairement l'existence des Nains, Elfes et Humains ; ne pas inventer de contact antérieur confirmé. La première rencontre doit rester historiquement importante. Les trois peuples de la Trame peuvent réagir différemment : curiosité commerciale, peur d'une expansion, demande de reconnaissance, prudence écologique. **Aucun peuple n'est intrinsèquement hostile ou malveillant.**
+
+# 6. Deux ensembles PvP sans simplisme moral
+**Coalition des Premiers (titre provisoire)** : Nains, Elfes, Humains qui apprennent à coopérer. Elle n'existe pas encore au lancement ; ses institutions se forment dans le monde persistant.
+**Pacte des Trois Horizons (titre provisoire)** : coalition Kharûn, Vaelith, Orynth ; sa date de formation et son unité réelle restent à fixer.
+
+En PvP, les camps peuvent lutter pour des vallées, ports, gisements, citadelles, routes et zones de ressources ; leurs combattants défendent des intérêts concrets. Chaque camp possède artisans, paysans, diplomates, opportunistes et opposants à la guerre. Les héros de l'un peuvent être les adversaires honorables de l'autre. Les civils ne doivent pas devenir des cibles décoratives.
+
+### Trois batailles exemplaires (non canoniques)
+1. **Le Col des Cent Marches** : Kharûn et Nains disputent une voie de montagne ; le siège révèle deux traditions d'ingénierie incompatibles mais complémentaires.
+2. **Les Feux du Détroit** : Vaelith et Humains cherchent à contrôler un port ; une tempête force une trêve pour sauver des navires des deux camps.
+3. **La Crue des Trois Rives** : Orynth et Elfes s'affrontent autour d'une forêt humide ; la décision de protéger une digue peut sauver les habitants mais détruire un habitat fragile.
+
+### Garde-fous gameplay
+- Six peuples = six fantasies culturelles, pas six ensembles de statistiques impossibles à équilibrer.
+- Rôles PvP (tank, dégâts, contrôle, soutien, guérison) doivent exister de chaque côté avec des expressions différentes.
+- Pas de bonus racial irrémédiablement dominant ; aucun pouvoir de Trame réservé à un camp sans contrepartie.
+- Prévoir recrutement, population déséquilibrée, guildes, sièges, conquêtes et accès des nouveaux joueurs.
+- Trois introductions Premiers séparées avant convergence ; introductions propres aux trois peuples adverses à concevoir, sans forcer six campagnes entièrement disjointes pendant des années.
+- Le monde persistant doit reconnaître l'état réel des rencontres historiques ; ne pas rejouer la « première rencontre mondiale » pour chaque personnage.
+
+# 7. Architecture d'intrigue longue
+**Temps proche :** signaux discrets de transformations locales, exploration, inquiétudes régionales, premières rencontres.
+**Temps intermédiaire :** alliances et coalitions, incidents diplomatiques, grandes batailles PvP, échanges techniques, rivalités internes.
+**Temps lointain :** découverte graduelle de l'origine commune Nain-Elfe-Humain ; meilleure compréhension des Doucis et des relations entre phénomènes de la Trame.
+**Temps très lointain (possibilité seulement) :** certaines preuves pourraient faire soupçonner qu'une altération de la Trame a été provoquée intentionnellement. Il n'est pas nécessaire que cette hypothèse soit vraie.
+
+# 8. SECRET_AUTEUR — À NE PAS PROJETER SUR UN SITE PUBLIC
+L'auteur envisage qu'**une personne ou une entité** puisse, après plusieurs années de développement réel, apparaître comme étant à l'origine d'une **modification de la Trame**. Aucun nom, visage, intention, époque, degré de responsabilité ou causalité n'est arrêté. Ce personnage pourrait être protecteur, expérimentateur, témoin, adversaire, erreur d'interprétation ou autre. Ne pas présumer qu'il a créé les trois peuples ni qu'il cause les mutations récentes. Ne pas écrire de prophétie, d'élu, de dieu caché ou de boss final comme fait acquis.
+
+### Questions à résoudre plus tard
+- « Doucis » signifie-t-il précisément une perturbation, une douceur, une bifurcation ou un autre concept inventé ?
+- Les trois peuples de la Trame sont-ils apparus ensemble ou indépendamment ?
+- Ont-ils déjà des contacts entre eux au début du jeu ?
+- Deux factions verrouillées ou alliances évolutives ?
+- Quels détails morphologiques distinguent ces trois peuples d'archétypes fantasy connus ?
+- Quel est le lien, s'il existe, entre Doucis anciens et mutations récentes ?
+- Comment articuler l'histoire publique, les secrets d'auteur et les découvertes des joueurs sans révélation prématurée ?
+
+## Registre de décision
+- **Confirmé comme intention d'auteur :** six peuples jouables ; trois héritiers des Premiers et trois peuples provenant de la Trame / ses « doucis » ; deux côtés PvP désirables ; secret potentiel d'une entité liée à une modification de la Trame ; pas de magie illimitée.
+- **Propositions non approuvées :** Kharûn, Vaelith, Orynth ; toute leur biologie, géographie, politique, religion, personnages, classes, coalition, batailles et le mécanisme des Doucis.
+- **Non publiable sans revue :** le présent dossier et spécialement la section SECRET_AUTEUR.
+
+
+## Index Archiviste — Premiers, Trame et six peuples
+Source: archives/conception/INDEX-PREMIERS-SIX-PEUPLES.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 121c9f781de5e4e19bbc22852e1d0b62b169a45eb7160c9a6834cff8435c44ff
+Page: documents/8dc9cabc72cc3f1edfd5eed3.html
+Source publiée: raw/archives/conception/INDEX-PREMIERS-SIX-PEUPLES.md
+
+# Index Archiviste — Premiers, Trame et six peuples
+
+**Index de récupération interne** · **EN_ETUDE** · **INTERNE** · **Ne constitue pas une validation canonique**.
+
+## Décisions explicites de l'auteur à respecter
+1. Les Nains, Elfes et Humains descendent du même peuple ancestral : **les Premiers**, qui n'ont pas disparu mais subsistent dans leurs descendants.
+2. Au départ, ces trois peuples ignorent l'existence réelle des autres ; chacun a une introduction propre. La rencontre puis la réunification progressives produisent une histoire commune dans un MMORPG persistant sans chapitres.
+3. Le monde est PvP. Trois autres peuples **jouables et désirables**, issus de la Trame ou de ses **« doucis »** (terme d'auteur, définition encore incertaine), doivent offrir une identité aussi forte que les trois premiers.
+4. La Trame n'est **pas** une magie toute-puissante. Ses mécanismes restent à concevoir avec limites matérielles, biologiques et historiques.
+5. L'hypothèse d'une entité/personne à l'origine d'une **modification** de la Trame, révélable après plusieurs années, est une **piste SECRET_AUTEUR**, jamais une révélation publique ni un fait établi.
+6. La parenté ancestrale commune n'est pas connue des personnages au démarrage ; ne pas la révéler prématurément.
+7. Ne pas inventer de relations commerciales contemporaines entre Nains/Elfes/Humains avant leur premier contact ; ne pas supposer que les trois peuples de la Trame forment nécessairement une alliance déjà unifiée.
+
+## Archives internes dans l'ordre de conception
+- [Archive initiale Premiers, Trame, Nains, Tharvëll](2026-10-23-premiers-trame-nains-tharvell.md)
+- [Dispersion et géographie V0.1](2026-10-23-premiers-dispersion-geographie-v01.md)
+- [Société, dispersion et héritage V0.2](2026-10-23-premiers-societe-dispersion-heritage-v02.md)
+- [Héritage dispersé V0.3](2026-10-23-premiers-heritage-disperse-v03.md)
+- [Correction : Premiers vivants et unité](2026-10-23-correction-premiers-unite-vivante-trame.md)
+- [Trame sobre et première intrigue V0.4](2026-10-23-premiers-unite-trame-intrigue-v04.md)
+- [Premières rencontres et réunification V0.5](2026-10-23-premiers-reunification-depart-v05.md)
+- [Six peuples et PvP V0.6](2026-10-23-six-peuples-pvp-trame-v06.md)
+- [Bible détaillée des peuples de la Trame V0.7](2026-10-23-trame-trois-peuples-bible-v07.md)
+
+## Noms provisoires des peuples issus de la Trame
+- **Kharûn** : Hautes Strates, ingénierie des réserves, cités autonomes, défense et siège.
+- **Vaelith** : Arc des Vents, ports et balises, navigation, manœuvre et reconnaissance.
+- **Orynth** : Bassins de Nacre, digues et deltas, responsabilité de l'eau, contrôle territorial.
+Tous les noms, silhouettes, classes, institutions, personnages et batailles sont des **propositions non approuvées**.
+
+## Séparation de publication
+- **Ashenfall-Knowledge** : source privée contenant études, contradictions, hypothèses et secrets.
+- **Ashenfall-Codex-Public** : uniquement des projections explicitement validées et autorisées via le garde V2. Aucune étude EN_ETUDE ou SECRET_AUTEUR ne doit être présentée comme canon ni être déployée sans validation.
+- La prévisualisation graphique sur branche du dépôt public (PR #3) n'est pas une publication autorisée et ne doit pas être fusionnée/déployée telle quelle.
+- La section **SECRET_AUTEUR** de V0.7 est interdite de projection publique, y compris sous forme d'allusion à une entité responsable.
+
+## Points de vigilance
+La première archive a employé des formulations telles que « Premiers disparus » ; cette expression est obsolète au regard de la correction explicite de l'auteur. Conserver la provenance historique sans reproduire l'erreur comme canon. La géographie de l'isolement mutuel reste à justifier.
+
+Source : conception du 23 octobre 2026 ; index de navigation, non approbation.

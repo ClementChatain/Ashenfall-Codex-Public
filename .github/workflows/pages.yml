@@ -62,6 +62,9 @@ jobs:
           test -s simulateur/classes/index.html
           mkdir -p pages-output/simulateur/classes
           cp simulateur/classes/index.html pages-output/simulateur/classes/index.html
+          # Approved generated project documentation; game sources never enter this directory.
+          test -s site/espace-travail/manifest.json
+          cp -R site/espace-travail pages-output/espace-travail
           touch pages-output/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -70,3 +73,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+

@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle-contre-de-justice",
+  "record_version": "0.2",
+  "validated_record_sha256": "da107d466787e15335fff89f79a5244fa6eb636741989e1f64ad7fff5403772b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

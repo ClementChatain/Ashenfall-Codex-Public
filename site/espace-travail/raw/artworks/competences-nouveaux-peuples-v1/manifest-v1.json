@@ -1,0 +1,222 @@
+{
+  "version": "new-peoples-abilities-v1",
+  "status": "concept",
+  "icons": [
+    {
+      "id": "porte-faille--armature-ouverte",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Armature Ouverte",
+      "src": "assets/abilities/new-peoples-v1/porte-faille--armature-ouverte.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "fbfa13a36f66eff8fa1b32acc7aa251cc0cde1bc974fc212e9a20d846754a461",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        69,
+        447,
+        344
+      ]
+    },
+    {
+      "id": "fendeur--effondrement",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Effondrement",
+      "src": "assets/abilities/new-peoples-v1/fendeur--effondrement.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "1bfb806677accf4c63a5dc6e441db9293e83b0a45b92e6d3fb3d1b2ce3a5288d",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        69,
+        774,
+        344
+      ]
+    },
+    {
+      "id": "eclateur--trait-de-fracture",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Trait de Fracture",
+      "src": "assets/abilities/new-peoples-v1/eclateur--trait-de-fracture.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "9d54459f65c30568d854ccf1f2206f7c3cac8a922e23911caf07de245adfeb26",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        69,
+        1096,
+        344
+      ]
+    },
+    {
+      "id": "lieur--attaches-de-secours",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Attaches de Secours",
+      "src": "assets/abilities/new-peoples-v1/lieur--attaches-de-secours.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "6cf6389316728905e727da7458bb42819f458dd7218a4220a1cab33886b3b623",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        69,
+        1420,
+        344
+      ]
+    },
+    {
+      "id": "enlaceur--enceinte-vivante",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Enceinte Vivante",
+      "src": "assets/abilities/new-peoples-v1/enlaceur--enceinte-vivante.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "a00f497fc16c49d072d9be1b7b63739f4a74d6ad1b2798c0f62fda193e2ec453",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        396,
+        447,
+        673
+      ]
+    },
+    {
+      "id": "mue-lame--lame-deployee",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Lame Déployée",
+      "src": "assets/abilities/new-peoples-v1/mue-lame--lame-deployee.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "7ca26dab67e03f102e8074315b49c85879c24b143c1ebe5a8186deb8ab349110",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        396,
+        774,
+        673
+      ]
+    },
+    {
+      "id": "aiguilleur--perce-intervalle",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Perce-Intervalle",
+      "src": "assets/abilities/new-peoples-v1/aiguilleur--perce-intervalle.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "a78b4c61c80b03af20db5fea300c83229a8cdf35c516d796fc2311e6ff972648",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        396,
+        1096,
+        673
+      ]
+    },
+    {
+      "id": "eveilleur--seconde-pousse",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Seconde Pousse",
+      "src": "assets/abilities/new-peoples-v1/eveilleur--seconde-pousse.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "20545e86ed2b9b6681dd160e5826285ea8fdbd4d6c64026cc7468ed5b95fd8bb",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        396,
+        1420,
+        673
+      ]
+    },
+    {
+      "id": "brise-courant--ressac-de-proue",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Ressac de Proue",
+      "src": "assets/abilities/new-peoples-v1/brise-courant--ressac-de-proue.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "06dcc74a3f32ddb6b4bfd4893050ba00a2a5d9e957f67aa2b6b1a5590627bb27",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        152,
+        722,
+        447,
+        1001
+      ]
+    },
+    {
+      "id": "sillonneur--coupe-de-rive",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Coupe de Rive",
+      "src": "assets/abilities/new-peoples-v1/sillonneur--coupe-de-rive.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "280fa75bcda6d7062a2625d6035ea1a58da6da8effad7c629973cda5231732d9",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        480,
+        722,
+        774,
+        1001
+      ]
+    },
+    {
+      "id": "lance-rive--jet-appuye",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Jet Appuyé",
+      "src": "assets/abilities/new-peoples-v1/lance-rive--jet-appuye.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "b8d7f228311c50ddd277627397adcdaf6656162f74a4cfa9bb6d18720a534661",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        806,
+        722,
+        1096,
+        1001
+      ]
+    },
+    {
+      "id": "passeur--traversee-partagee",
+      "version": "new-peoples-abilities-v1",
+      "status": "concept",
+      "revision": "v1",
+      "title": "Traversée Partagée",
+      "src": "assets/abilities/new-peoples-v1/passeur--traversee-partagee.webp",
+      "width": 256,
+      "height": 256,
+      "sha256": "33c47a64adef93c85bbb9a0aa88a1fdfa9ed64a93de436bf228eb084abd7aa4d",
+      "sourceSha256": "0f0d3582ae4d79eb77111f8a2f09272a9ccfc216da5e1d2e58d5216e5150d817",
+      "crop": [
+        1130,
+        722,
+        1420,
+        1001
+      ]
+    }
+  ]
+}

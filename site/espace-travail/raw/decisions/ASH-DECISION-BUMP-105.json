@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "rempart-cercle-de-fer",
+  "record_version": "0.2",
+  "validated_record_sha256": "f6a4cbfe032482e43aa75724512132d15f17afe5ed378a22b3adfa55130ab830",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}
