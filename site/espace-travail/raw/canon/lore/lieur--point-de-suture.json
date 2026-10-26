@@ -1,0 +1,57 @@
+{
+  "id": "lieur--point-de-suture",
+  "category": "competences",
+  "title": "Point de Suture",
+  "summary": "Soin direct · Lieur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 1\nCompétence : Point de Suture\nType : Soin\nType clair : Soin direct\nBase / impact : 230\nCoefficient : 0.82\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 25\nLancement : 1,25 s, immobile\nPvP x : 0.9\nContrôle / mécanique : +8 Cohésion si soin utile. Peut consommer une Attache de Secours. Aucun déclenchement par les soins copiés.\nPuissance brute réf. : 1050\nPuissance PvP réf. : 945\nPuissance totale brute : 1050\nPuissance totale PvP : 945\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0591",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lieur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0591",
+  "public_projection": {
+    "id": "lieur--point-de-suture",
+    "category": "competences",
+    "title": "Point de Suture",
+    "summary": "Soin direct · Lieur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 1\nCompétence : Point de Suture\nType : Soin\nType clair : Soin direct\nBase / impact : 230\nCoefficient : 0.82\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 25\nLancement : 1,25 s, immobile\nPvP x : 0.9\nContrôle / mécanique : +8 Cohésion si soin utile. Peut consommer une Attache de Secours. Aucun déclenchement par les soins copiés.\nPuissance brute réf. : 1050\nPuissance PvP réf. : 945\nPuissance totale brute : 1050\nPuissance totale PvP : 945\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lieur--point-de-suture.json",
+    "record_sha256": "3f4531c8f6c82355bbccd33a86775fabb08d0eb185987fd7a42c2ebf69ae010c"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

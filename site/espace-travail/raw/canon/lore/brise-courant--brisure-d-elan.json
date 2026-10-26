@@ -1,0 +1,57 @@
+{
+  "id": "brise-courant--brisure-d-elan",
+  "category": "competences",
+  "title": "Brisure d’Élan",
+  "summary": "Dégâts directs / interruption · Brise-Courant",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 7\nCompétence : Brisure d’Élan\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 110\nCoefficient : 0.29\nNombre d’impacts : 1\nCoût : 10\nCD (s) : 18\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Interruption d’une action interruptible, verrou de famille 1 s. N’interdit pas les déplacements ou attaques ordinaires.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0527",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "brise-courant"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0527",
+  "public_projection": {
+    "id": "brise-courant--brisure-d-elan",
+    "category": "competences",
+    "title": "Brisure d’Élan",
+    "summary": "Dégâts directs / interruption · Brise-Courant",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 7\nCompétence : Brisure d’Élan\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 110\nCoefficient : 0.29\nNombre d’impacts : 1\nCoût : 10\nCD (s) : 18\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Interruption d’une action interruptible, verrou de famille 1 s. N’interdit pas les déplacements ou attaques ordinaires.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-brise-courant--brisure-d-elan.json",
+    "record_sha256": "b095577aba21b3823a0579e1c9cbb3da9e19f0d3a7c6931432510a3df761131a"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

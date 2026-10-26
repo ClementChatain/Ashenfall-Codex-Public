@@ -1,0 +1,57 @@
+{
+  "id": "lance-rive--trait-de-coupure",
+  "category": "competences",
+  "title": "Trait de Coupure",
+  "summary": "Dégâts directs / interruption · Lance-Rive",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 9\nCompétence : Trait de Coupure\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 90\nCoefficient : 0.26\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 22\nPortée (m) : 20\nLancement : 0,35 s\nPvP x : 1\nContrôle / mécanique : Interruption d’une action interruptible, verrou de famille 1 s. Ligne de vue et projectile.\nPuissance brute réf. : 350\nPuissance PvP réf. : 350\nPuissance totale brute : 350\nPuissance totale PvP : 350\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0589",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lance-rive"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0589",
+  "public_projection": {
+    "id": "lance-rive--trait-de-coupure",
+    "category": "competences",
+    "title": "Trait de Coupure",
+    "summary": "Dégâts directs / interruption · Lance-Rive",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 9\nCompétence : Trait de Coupure\nType : Dégâts\nType clair : Dégâts directs / interruption\nBase / impact : 90\nCoefficient : 0.26\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 22\nPortée (m) : 20\nLancement : 0,35 s\nPvP x : 1\nContrôle / mécanique : Interruption d’une action interruptible, verrou de famille 1 s. Ligne de vue et projectile.\nPuissance brute réf. : 350\nPuissance PvP réf. : 350\nPuissance totale brute : 350\nPuissance totale PvP : 350\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive--trait-de-coupure.json",
+    "record_sha256": "07df66c958c8926ebe513b828d060b7de9894c684b2b69c055eda0ac96feac9d"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

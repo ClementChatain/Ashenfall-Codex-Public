@@ -1,0 +1,57 @@
+{
+  "id": "fendeur--entrave-de-taille",
+  "category": "competences",
+  "title": "Entrave de Taille",
+  "summary": "Dégâts directs / ralentissement · Fendeur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Fendeur\nRôle : DPS mêlée\nN° : 5\nCompétence : Entrave de Taille\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Ralentit de 35 % pendant 3 s ; ni étourdissement ni immobilisation.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0535",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "fendeur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0535",
+  "public_projection": {
+    "id": "fendeur--entrave-de-taille",
+    "category": "competences",
+    "title": "Entrave de Taille",
+    "summary": "Dégâts directs / ralentissement · Fendeur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Fendeur\nRôle : DPS mêlée\nN° : 5\nCompétence : Entrave de Taille\nType : Dégâts\nType clair : Dégâts directs / ralentissement\nBase / impact : 100\nCoefficient : 0.3\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Ralentit de 35 % pendant 3 s ; ni étourdissement ni immobilisation.\nPuissance brute réf. : 400\nPuissance PvP réf. : 400\nPuissance totale brute : 400\nPuissance totale PvP : 400\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-fendeur--entrave-de-taille.json",
+    "record_sha256": "2fcf48833e38ff24fab1e79201aa31be1a4b1d20a63b2cf2c60fd3655800b4ba"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

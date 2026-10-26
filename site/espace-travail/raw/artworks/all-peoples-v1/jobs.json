@@ -1,0 +1,198 @@
+[
+  {
+    "id": "brise-fer",
+    "race": "nains",
+    "title": "Brise-Fer",
+    "summary": "Nain · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Marteau ou hache lourde, armure robuste. DPS de contact méthodique : il fragilise une cible, prépare une\n ouverture, puis déclenche une rupture dévastatrice.",
+    "reference": "artworks/brise-fer-v2/sources/reference-v1.webp",
+    "row_split_pixels": 492,
+    "details_mode": "base",
+    "details_index": 5,
+    "skinLabels": [
+      "Forge volcanique",
+      "Champion cérémoniel",
+      "Montagne sauvage",
+      "Os et fer noir",
+      "Blanc et or",
+      "Cristal bleu"
+    ],
+    "asset_version": "brise-fer-v2"
+  },
+  {
+    "id": "artilleur-runique",
+    "race": "nains",
+    "title": "Artilleur runique",
+    "summary": "Nain · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Arbalète mécanique ou lanceur runique, projectiles spécialisés et petits dispositifs de terrain. DPS à distance axé\n sur précision, lignes de tir et gestion des mécanismes.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/artilleur-runique.webp"
+  },
+  {
+    "id": "accordeur",
+    "race": "nains",
+    "title": "Accordeur",
+    "summary": "Nain · Heal · 10 compétences de référence V0.1",
+    "identity": "Instruments de Résonance, diapasons et dispositifs de stabilisation. Soigneur qui combine soins directs,\n prévention et rétablissement progressif.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/accordeur.webp"
+  },
+  {
+    "id": "gardien-des-racines",
+    "race": "elfes",
+    "title": "Gardien des Racines",
+    "summary": "Elfe · Tank · 10 compétences de référence V0.2",
+    "identity": "Male elf tank, silver and green natural leaf-pattern heavy armor, large shield and one handed mace.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/gardien-des-racines.webp"
+  },
+  {
+    "id": "danse-lame",
+    "race": "elfes",
+    "title": "Danse-lame",
+    "summary": "Elfe · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Female elf dual curved swords, light articulated silver and green leaf armor.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/danse-lame.webp"
+  },
+  {
+    "id": "traqueur-sylvestre",
+    "race": "elfes",
+    "title": "Traqueur sylvestre",
+    "summary": "Elfe · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Male elf archer, longbow quiver, dark green and brown layered leather, mobile forest scout.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/traqueur-sylvestre.webp"
+  },
+  {
+    "id": "tisseur-de-vie",
+    "race": "elfes",
+    "title": "Tisseur de Vie",
+    "summary": "Elfe · Heal · 10 compétences de référence V0.1",
+    "identity": "Female elf healer, green and ivory robes, branching organic wooden staff, light floral motifs.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/tisseur-de-vie.webp"
+  },
+  {
+    "id": "sentinelle",
+    "race": "humains",
+    "title": "Sentinelle",
+    "summary": "Humain · Tank · 10 compétences de référence V0.2",
+    "identity": "Human male knight tank, one handed sword and large shield, steel plate and burgundy cloak.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sentinelle.webp"
+  },
+  {
+    "id": "duelliste",
+    "race": "humains",
+    "title": "Duelliste",
+    "summary": "Humain · DPS mêlée · 10 compétences de référence V0.1",
+    "identity": "Human female agile duelist, rapier and short parrying dagger, fitted dark crimson leather and light metal.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/duelliste.webp"
+  },
+  {
+    "id": "arcaniste",
+    "race": "humains",
+    "title": "Arcaniste",
+    "summary": "Humain · DPS distance · 10 compétences de référence V0.1",
+    "identity": "Human male arcane caster, dark purple layered robes, held spherical arcane focus and slender wand.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/arcaniste.webp"
+  },
+  {
+    "id": "thaumaturge",
+    "race": "humains",
+    "title": "Thaumaturge",
+    "summary": "Humain · Heal · 10 compétences de référence V0.1",
+    "identity": "Human female healer, ivory and burgundy robes, gold circular ritual focus.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/thaumaturge.webp"
+  },
+  {
+    "id": "porte-faille",
+    "race": "kharun",
+    "title": "Porte-Faille",
+    "summary": "Kharûn · Tank · 10 compétences V0.1",
+    "identity": "Son équipement associe une arme courte à une grande pièce défensive composée de plaques imbriquées. Sa silhouette est large, presque monumentale, mais les éléments de sa protection semblent pouvoir s’écarter et se réassembler.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/porte-faille.webp"
+  },
+  {
+    "id": "fendeur",
+    "race": "kharun",
+    "title": "Fendeur",
+    "summary": "Kharûn · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il manie une longue arme de percussion à tête fendue, entre masse de guerre et outil d’écartement. Ses gestes sont lourds, précis, avec des changements d’appui très marqués.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/fendeur.webp"
+  },
+  {
+    "id": "eclateur",
+    "race": "kharun",
+    "title": "Éclateur",
+    "summary": "Kharûn · DPS distance · 10 compétences V0.1",
+    "identity": "Il porte des cadres de lancement ouverts, des anneaux de maintien et quelques fragments suspendus entre leurs supports. L’ensemble paraît brut et dangereux, avec une mécanique visible.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eclateur.webp"
+  },
+  {
+    "id": "lieur",
+    "race": "kharun",
+    "title": "Lieur",
+    "summary": "Kharûn · Soigneur · 10 compétences V0.1",
+    "identity": "Son équipement comprend des attaches, des cercles articulés et des fils métalliques épais, portés sur les avant-bras et autour du torse. Sa silhouette reste sobre, avec des gestes d’assemblage et de maintien.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lieur.webp"
+  },
+  {
+    "id": "enlaceur",
+    "race": "vaelith",
+    "title": "Enlaceur",
+    "summary": "Vaelith · Tank · 10 compétences V0.1",
+    "identity": "Il porte une armure souple faite de bandes entrecroisées et manie une longue arme courbe à deux mains. Sa silhouette forme une enceinte ouverte autour de lui.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/enlaceur.webp"
+  },
+  {
+    "id": "mue-lame",
+    "race": "vaelith",
+    "title": "Mue-Lame",
+    "summary": "Vaelith · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il utilise une paire de lames inégales : une longue et étroite, l’autre courte et recourbée. Son équipement accompagne cette asymétrie, avec une épaule protégée et l’autre plus libre.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/mue-lame.webp"
+  },
+  {
+    "id": "aiguilleur",
+    "race": "vaelith",
+    "title": "Aiguilleur",
+    "summary": "Vaelith · DPS distance · 10 compétences V0.1",
+    "identity": "Son arme est un lance-aiguilles à branches articulées, porté près de l’avant-bras. Quelques longues aiguilles sont visibles le long de son équipement ; sa silhouette reste fine et immédiatement identifiable.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/aiguilleur.webp"
+  },
+  {
+    "id": "eveilleur",
+    "race": "vaelith",
+    "title": "Éveilleur",
+    "summary": "Vaelith · Soigneur · 10 compétences V0.1",
+    "identity": "Il porte des structures de bourgeons fermés, de petites coupelles et des pièces d’argent déployables. Ses gestes évoquent l’ouverture et l’impulsion.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/eveilleur.webp"
+  },
+  {
+    "id": "brise-courant",
+    "race": "orynth",
+    "title": "Brise-Courant",
+    "summary": "Orynth · Tank · 10 compétences V0.1",
+    "identity": "Il manie une longue arme d’hast et porte un large avant-bras défensif. Sa silhouette est inclinée vers l’avant, avec des protections qui donnent une impression de proue.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/brise-courant.webp"
+  },
+  {
+    "id": "sillonneur",
+    "race": "orynth",
+    "title": "Sillonneur",
+    "summary": "Orynth · DPS mêlée · 10 compétences V0.1",
+    "identity": "Il utilise une longue lame courbe à deux mains, portée basse, avec une armure compacte qui laisse les jambes libres. Sa gestuelle dessine de grands passages continus.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/sillonneur.webp"
+  },
+  {
+    "id": "lance-rive",
+    "race": "orynth",
+    "title": "Lance-Rive",
+    "summary": "Orynth · DPS distance · 10 compétences V0.1",
+    "identity": "Il porte plusieurs javelots fins dans un harnais ouvert et utilise un propulseur court. L’armement lui donne une identité immédiatement différente des arcs, des dispositifs runiques et des armes arcaniques.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/lance-rive.webp"
+  },
+  {
+    "id": "passeur",
+    "race": "orynth",
+    "title": "Passeur",
+    "summary": "Orynth · Soigneur · 10 compétences V0.1",
+    "identity": "Son équipement associe un bâton court, des anneaux ouverts et des pierres lisses enchâssées dans des supports métalliques. Sa silhouette évoque un guide de terrain, capable d’avancer au milieu des autres.",
+    "reference": "/workspace/Ashenfall-Codex-Public/site/assets/classes/portraits-v1/passeur.webp"
+  }
+]

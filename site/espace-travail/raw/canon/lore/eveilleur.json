@@ -1,0 +1,63 @@
+{
+  "id": "eveilleur",
+  "category": "classes",
+  "title": "Éveilleur",
+  "summary": "Vaelith · Soigneur · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur qui pousse le vivant à trouver une nouvelle réponse à la blessure.\n\nIl porte des structures de bourgeons fermés, de petites coupelles et des pièces d’argent déployables. Ses gestes évoquent l’ouverture et l’impulsion.\n\nSon identité serait celle d’un soigneur de relance, particulièrement intéressant lorsqu’un groupe doit reprendre l’initiative après une phase difficile. Le Tisseur de Vie elfe entretient et accompagne ; l’Éveilleur provoque un regain. Il demanderait de choisir ses moments avec soin et serait moins confortable dans une posture purement passive.\n\nImpression recherchée : Quelque chose que l’on croyait épuisé recommence à vivre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉveil 0–100 ; départ 0. Impulsion Vitale : +8 si soin utile ; Bourgeon Attentif : +6 une seule fois à l’application si cible blessée ; Épine Claire : +5 sur touche. Pas de gain par dégâts auto-infligés.\n\nReprise : quand un allié visible à 25 m subit dans une fenêtre glissante de 2 s des dégâts hostiles réels atteignant 10 % de ses PV max, il devient éligible 4 s à Seconde Pousse. Par allié, un tel déclenchement au maximum toutes les 12 s. Sont exclus dette, Garde et auto-dégâts. Une seule charge, aucune augmentation automatique de tous les soins.\n\nBoucle : Soigner normalement → repérer un pic hostile → décider d’utiliser la relance conditionnelle ou garder sa ressource pour le prochain danger.\n\nContre-jeu : Changer de cible après avoir forcé sa relance, interrompre les gros soins et dissiper ses préparations. Les bonus de relance sont personnels au lanceur.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Impulsion Vitale — Soin direct\nFiche : eveilleur--impulsion-vitale\n2. Bourgeon Attentif — Soin déclenché\nFiche : eveilleur--bourgeon-attentif\n3. Poussée Nouvelle — Soin direct\nFiche : eveilleur--poussee-nouvelle\n4. Élan Commun — Soin de zone\nFiche : eveilleur--elan-commun\n5. Seconde Pousse — Soin direct d’urgence\nFiche : eveilleur--seconde-pousse\n6. Écarter le Mal — Dissipation\nFiche : eveilleur--ecarter-le-mal\n7. Écorce de Relance — Protection\nFiche : eveilleur--ecorce-de-relance\n8. Épine Claire — Dégâts directs\nFiche : eveilleur--epine-claire\n9. Réveil Collectif — Soin de groupe majeur\nFiche : eveilleur--reveil-collectif\n10. Retour du Souffle Neuf — Résurrection\nFiche : eveilleur--retour-du-souffle-neuf\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0308",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "vaelith"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0308",
+  "public_projection": {
+    "id": "eveilleur",
+    "category": "classes",
+    "title": "Éveilleur",
+    "summary": "Vaelith · Soigneur · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Vaelith\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur qui pousse le vivant à trouver une nouvelle réponse à la blessure.\n\nIl porte des structures de bourgeons fermés, de petites coupelles et des pièces d’argent déployables. Ses gestes évoquent l’ouverture et l’impulsion.\n\nSon identité serait celle d’un soigneur de relance, particulièrement intéressant lorsqu’un groupe doit reprendre l’initiative après une phase difficile. Le Tisseur de Vie elfe entretient et accompagne ; l’Éveilleur provoque un regain. Il demanderait de choisir ses moments avec soin et serait moins confortable dans une posture purement passive.\n\nImpression recherchée : Quelque chose que l’on croyait épuisé recommence à vivre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉveil 0–100 ; départ 0. Impulsion Vitale : +8 si soin utile ; Bourgeon Attentif : +6 une seule fois à l’application si cible blessée ; Épine Claire : +5 sur touche. Pas de gain par dégâts auto-infligés.\n\nReprise : quand un allié visible à 25 m subit dans une fenêtre glissante de 2 s des dégâts hostiles réels atteignant 10 % de ses PV max, il devient éligible 4 s à Seconde Pousse. Par allié, un tel déclenchement au maximum toutes les 12 s. Sont exclus dette, Garde et auto-dégâts. Une seule charge, aucune augmentation automatique de tous les soins.\n\nBoucle : Soigner normalement → repérer un pic hostile → décider d’utiliser la relance conditionnelle ou garder sa ressource pour le prochain danger.\n\nContre-jeu : Changer de cible après avoir forcé sa relance, interrompre les gros soins et dissiper ses préparations. Les bonus de relance sont personnels au lanceur.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Impulsion Vitale — Soin direct\nFiche : eveilleur--impulsion-vitale\n2. Bourgeon Attentif — Soin déclenché\nFiche : eveilleur--bourgeon-attentif\n3. Poussée Nouvelle — Soin direct\nFiche : eveilleur--poussee-nouvelle\n4. Élan Commun — Soin de zone\nFiche : eveilleur--elan-commun\n5. Seconde Pousse — Soin direct d’urgence\nFiche : eveilleur--seconde-pousse\n6. Écarter le Mal — Dissipation\nFiche : eveilleur--ecarter-le-mal\n7. Écorce de Relance — Protection\nFiche : eveilleur--ecorce-de-relance\n8. Épine Claire — Dégâts directs\nFiche : eveilleur--epine-claire\n9. Réveil Collectif — Soin de groupe majeur\nFiche : eveilleur--reveil-collectif\n10. Retour du Souffle Neuf — Résurrection\nFiche : eveilleur--retour-du-souffle-neuf\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur.json",
+    "record_sha256": "f9b3dc6a97f0ef17cf77198a774602221f7e89aa4afad81f4f66174ee0bd40fb"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

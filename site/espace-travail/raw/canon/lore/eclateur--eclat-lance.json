@@ -1,0 +1,57 @@
+{
+  "id": "eclateur--eclat-lance",
+  "category": "competences",
+  "title": "Éclat Lancé",
+  "summary": "Dégâts directs · Éclateur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 1\nCompétence : Éclat Lancé\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 160\nCoefficient : 0.65\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 26\nLancement : 0,80 s\nPvP x : 1\nContrôle / mécanique : Projectile visible ; +10 Tension de Tir sur touche. Déplacement réduit à 50 % pendant la préparation ; interruptible.\nPuissance brute réf. : 810\nPuissance PvP réf. : 810\nPuissance totale brute : 810\nPuissance totale PvP : 810\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0561",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eclateur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0561",
+  "public_projection": {
+    "id": "eclateur--eclat-lance",
+    "category": "competences",
+    "title": "Éclat Lancé",
+    "summary": "Dégâts directs · Éclateur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 1\nCompétence : Éclat Lancé\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 160\nCoefficient : 0.65\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 26\nLancement : 0,80 s\nPvP x : 1\nContrôle / mécanique : Projectile visible ; +10 Tension de Tir sur touche. Déplacement réduit à 50 % pendant la préparation ; interruptible.\nPuissance brute réf. : 810\nPuissance PvP réf. : 810\nPuissance totale brute : 810\nPuissance totale PvP : 810\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eclateur--eclat-lance.json",
+    "record_sha256": "9a3bcfe36b0fa3d7293eacd93ed1310bfb7efe95f5ace62328b0e501307f08c8"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

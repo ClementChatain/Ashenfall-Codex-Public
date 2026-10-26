@@ -1,0 +1,55 @@
+{
+  "id": "orynth",
+  "category": "peuples",
+  "title": "Orynth",
+  "summary": "Peuple récent · Rivières et premières rencontres",
+  "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nLes Orynth font partie des trois peuples récemment apparus à la suite des transformations de la Trame. Ils émergent au bord des cours d’eau des territoires humains.\n\nLa rivière détournée\nPour sauver leurs jeunes déjà nés et en danger, les Orynth détournent volontairement une rivière. En aval, les Humains voient l’eau manquer à leurs terres et remontent jusqu’à la cause.\n\nLe premier sang\nLes Orynth, qui se croyaient seuls, ne reconnaissent pas les Humains comme un peuple. Ils voient des prédateurs armés. Les Humains découvrent des êtres profondément étrangers. La rencontre dégénère en affrontement.\n\nLa Rupture des Eaux\nLa retenue explose. Les conséquences touchent aussi les cavités des Nains et des Kharûn, ainsi que les forêts des Elfes et des Vaelith.\n\nPour poursuivre la découverte\nConsultez les Chroniques du monde et La Rupture des Eaux. Les détails biologiques, la culture et les classes ne sont pas renseignés dans cette présentation.",
+  "lore_id": "ASH-LORE-0203",
+  "version": "1.0",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [],
+  "questions": [
+    "Apparence, culture détaillée et classes non renseignées."
+  ],
+  "links": [
+    "chroniques-rupture"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/six-peuples-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Présentation exacte de l’aperçu validé ; mention provisoire conservée conformément au texte approuvé."
+  ],
+  "production_id": "ASH-UNITY-0203",
+  "public_projection": {
+    "id": "orynth",
+    "category": "peuples",
+    "title": "Orynth",
+    "summary": "Peuple récent · Rivières et premières rencontres",
+    "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nLes Orynth font partie des trois peuples récemment apparus à la suite des transformations de la Trame. Ils émergent au bord des cours d’eau des territoires humains.\n\nLa rivière détournée\nPour sauver leurs jeunes déjà nés et en danger, les Orynth détournent volontairement une rivière. En aval, les Humains voient l’eau manquer à leurs terres et remontent jusqu’à la cause.\n\nLe premier sang\nLes Orynth, qui se croyaient seuls, ne reconnaissent pas les Humains comme un peuple. Ils voient des prédateurs armés. Les Humains découvrent des êtres profondément étrangers. La rencontre dégénère en affrontement.\n\nLa Rupture des Eaux\nLa retenue explose. Les conséquences touchent aussi les cavités des Nains et des Kharûn, ainsi que les forêts des Elfes et des Vaelith.\n\nPour poursuivre la découverte\nConsultez les Chroniques du monde et La Rupture des Eaux. Les détails biologiques, la culture et les classes ne sont pas renseignés dans cette présentation."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "1.0",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-PEUPLES-203.json",
+    "record_sha256": "c41d230fa56fc8096009436c5eb40c189f66fe3d3e400ba4afb38782062487b6"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Présentation validée dans la conversation courante ; pas encore déployée.",
+      "source": "sources/decisions/six-peuples-2026-10-23.json"
+    }
+  ]
+}

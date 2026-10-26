@@ -1,0 +1,1454 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>rempart-reference-v1 · Ashenfall</title><style>
+:root{color-scheme:dark;--bg:#10151a;--panel:#18212a;--line:#34414d;--ink:#edf0ef;--dim:#b4c0c7;--gold:#d6b579}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+a{color:var(--gold);text-underline-offset:4px}header,main,footer{max-width:1120px;margin:auto;padding:28px}
+header{padding-top:48px;border-bottom:1px solid var(--line)}header p{max-width:800px}h1{font:600 clamp(30px,5vw,46px)/1.2 Georgia,serif;margin:12px 0 24px}h2{font-size:25px}
+.eyebrow{color:var(--gold);letter-spacing:.16em;font-size:12px;text-transform:uppercase}.muted{color:var(--dim)}
+nav{display:flex;gap:18px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card,details,.notice{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px;margin:16px 0}.card{margin:0}.card h2{margin:0 0 10px;font-size:21px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 ui-monospace,monospace;background:var(--panel);padding:24px;border-radius:10px}
+.meta{font-size:13px;color:var(--dim);overflow-wrap:anywhere}img{display:block;max-width:100%;max-height:80vh;margin:24px auto;object-fit:contain}
+input{font:inherit;width:100%;padding:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px}li{margin:12px 0}small{display:block}summary{cursor:pointer}footer{border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.reading{max-width:850px;margin:auto;overflow-wrap:anywhere}.reading h2{color:var(--gold);margin-top:2em}.reading h3{font-size:20px}.reading p{margin:1em 0}.reading code{background:#25303a;padding:2px 5px;border-radius:4px;font-size:.9em}.reading pre{overflow-x:auto;white-space:pre-wrap}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);min-width:110px;vertical-align:top}th{background:#23303a}.section summary{font:600 23px Georgia,serif;padding:8px}.section summary small{font:14px system-ui;color:var(--dim);margin-top:7px}.document-list{padding-left:22px}.section[open]{border-color:#8a7856}.badge{font-size:12px;border:1px solid var(--line);border-radius:20px;padding:3px 9px;white-space:nowrap}.card a{text-decoration:none}.jump-links a{font-size:14px}.reading details pre{font-size:13px}.reading img{max-height:60vh}.section-image-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}.section-image-list img{height:180px;width:100%;object-fit:contain}.section-image-list li{margin:0;padding:12px;background:#10181e;border-radius:8px}
+@media(max-width:600px){header,main,footer{padding:20px}pre{padding:16px;font-size:14px}}
+</style></head><body><header><div class="eyebrow">Ashenfall · espace de travail</div><h1>rempart-reference-v1</h1><nav><a href="../index.html">Accueil</a><a href="../ai/index.html">Lecture IA</a><a href="../manifest.json">Version et sources</a><a href="https://codex.ashenfall.linkin-tools.fr/">Codex joueurs existant</a></nav></header><main><p class="meta">balance/rempart-reference-v1.json · Statut déclaré : EN_ETUDE · Version : 1.0.0</p><p><a href="../raw/balance/rempart-reference-v1.json">Ouvrir la source complète</a></p><article class="reading"><details><summary>Données complètes et métadonnées</summary><pre>{
+  &quot;schemaVersion&quot;: 1,
+  &quot;id&quot;: &quot;rempart-reference-v1&quot;,
+  &quot;status&quot;: &quot;EN_ETUDE&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;scope&quot;: &quot;pve_reference&quot;,
+  &quot;label&quot;: &quot;Base de travail Rempart V1&quot;,
+  &quot;authorization&quot;: &quot;Demande de Clément : mettre en place toutes les stats du Rempart comme base d’équilibrage ; coefficients de référence ajustables, pas preuve d’équilibre.&quot;,
+  &quot;actor&quot;: {
+    &quot;hp&quot;: 10000,
+    &quot;power&quot;: 1000,
+    &quot;armor&quot;: 3000,
+    &quot;armorConstant&quot;: 7000,
+    &quot;magicResistance&quot;: 2500,
+    &quot;resistanceConstant&quot;: 10000,
+    &quot;endurance&quot;: 100,
+    &quot;enduranceRegen&quot;: 8,
+    &quot;stability&quot;: 100,
+    &quot;stabilityStart&quot;: 0,
+    &quot;stabilityDecayPerSecond&quot;: 2,
+    &quot;stabilityDecayDelay&quot;: 5,
+    &quot;blockChance&quot;: 0.2,
+    &quot;blockReduction&quot;: 0.3,
+    &quot;blockEnduranceCost&quot;: 8,
+    &quot;parryChance&quot;: 0.05,
+    &quot;criticalChance&quot;: 0.05,
+    &quot;criticalMultiplier&quot;: 1.5,
+    &quot;moveSpeed&quot;: 5,
+    &quot;threatMultiplier&quot;: 3,
+    &quot;attackRange&quot;: 3,
+    &quot;gcd&quot;: 1.5,
+    &quot;veilleRange&quot;: 8
+  },
+  &quot;rules&quot;: {
+    &quot;damageBonuses&quot;: &quot;additive_to_reference&quot;,
+    &quot;distinctReductions&quot;: &quot;multiplicative&quot;,
+    &quot;strongDefense&quot;: &quot;maximum_only&quot;,
+    &quot;sameNamedEffect&quot;: &quot;refresh_no_stack&quot;,
+    &quot;guardSplit&quot;: &quot;raw_before_recipient_mitigation&quot;,
+    &quot;guardTransfer&quot;: 0.5,
+    &quot;guardRange&quot;: 15,
+    &quot;stabilitySpend&quot;: &quot;none_in_v1&quot;,
+    &quot;stabilityPurpose&quot;: &quot;Elan de Granit threshold; no implicit consumption&quot;,
+    &quot;pvp&quot;: &quot;coefficients shown when historical; PvP balance not simulated&quot;
+  },
+  &quot;nodes&quot;: {
+    &quot;b-0&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;knockback_reduction&quot;,
+          &quot;values&quot;: [
+            0.1,
+            0.2
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;knockback_reduction&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;stability_on_knockback&quot;,
+            &quot;values&quot;: [
+              5
+            ],
+            &quot;unit&quot;: &quot;points&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;internalCooldown&quot;: 3
+          }
+        ]
+      }
+    },
+    &quot;b-1&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_reduction&quot;,
+          &quot;values&quot;: [
+            0.03,
+            0.06
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;tenir-la-ligne&quot;,
+          &quot;group&quot;: &quot;strong&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;tenir-la-ligne&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;stability_regen&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;points/s&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;tenir-la-ligne&quot;
+          }
+        ]
+      }
+    },
+    &quot;b-2&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;block_cost_reduction&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;block_cost_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;contre-frappe&quot;,
+            &quot;condition&quot;: &quot;after_block&quot;,
+            &quot;window&quot;: 3
+          }
+        ]
+      }
+    },
+    &quot;b-3&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;max_hp_bonus&quot;,
+          &quot;values&quot;: [
+            0.03,
+            0.06
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;max_hp_bonus&quot;,
+            &quot;values&quot;: [
+              0.04
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;hp_below_35&quot;
+          }
+        ]
+      }
+    },
+    &quot;b-4&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_reduction&quot;,
+          &quot;values&quot;: [
+            0.03,
+            0.06
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;mur-de-boucliers&quot;,
+          &quot;group&quot;: &quot;strong&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;mur-de-boucliers&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.08
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;incoming_aoe&quot;,
+            &quot;condition&quot;: &quot;mur-de-boucliers&quot;
+          }
+        ]
+      }
+    },
+    &quot;b-5&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;stability_on_resist&quot;,
+          &quot;values&quot;: [
+            2,
+            4
+          ],
+          &quot;unit&quot;: &quot;points&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;,
+          &quot;internalCooldown&quot;: 1
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;stability_on_resist&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;points&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;control_duration_reduction&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ]
+      }
+    },
+    &quot;b-6&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            1,
+            2
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;dernier-bastion&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              1
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;dernier-bastion&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;guarded_ally&quot;,
+            &quot;condition&quot;: &quot;dernier-bastion&quot;
+          }
+        ]
+      }
+    },
+    &quot;b-7&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_reduction&quot;,
+          &quot;values&quot;: [
+            0.03,
+            0.06
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.03
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;transferred_damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.15
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ]
+      }
+    },
+    &quot;f-0&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;balayage-de-fer&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.15
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;balayage-de-fer&quot;,
+            &quot;condition&quot;: &quot;pve&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;stability_per_target&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;points&quot;,
+            &quot;scope&quot;: &quot;balayage-de-fer&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;targetCap&quot;: 5
+          }
+        ]
+      }
+    },
+    &quot;f-1&quot;: {
+      &quot;kind&quot;: &quot;modifier&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;contre-frappe&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;contre-frappe&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;secondary_targets&quot;,
+            &quot;values&quot;: [
+              2
+            ],
+            &quot;unit&quot;: &quot;targets&quot;,
+            &quot;scope&quot;: &quot;contre-frappe&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;coefficient&quot;: 0.5,
+            &quot;group&quot;: &quot;riposte_aoe&quot;
+          }
+        ]
+      }
+    },
+    &quot;f-2&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;coup-de-fracture&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;coup-de-fracture&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;slow&quot;,
+            &quot;values&quot;: [
+              0.2
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;coup-de-fracture&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;duration&quot;: 2
+          }
+        ]
+      }
+    },
+    &quot;f-3&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.08,
+            0.16
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;marteau-implacable&quot;,
+          &quot;condition&quot;: &quot;target_slowed&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.08
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;marteau-implacable&quot;,
+            &quot;condition&quot;: &quot;target_slowed&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;slow&quot;,
+            &quot;values&quot;: [
+              0.15
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;marteau-implacable&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;duration&quot;: 2
+          }
+        ]
+      }
+    },
+    &quot;f-4&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            0.5,
+            1
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;brise-garde&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              1
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;brise-garde&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;enemy_damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;brise-garde&quot;
+          }
+        ]
+      }
+    },
+    &quot;f-5&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;onde-de-choc&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;radius_bonus&quot;,
+            &quot;values&quot;: [
+              0.2
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;onde-de-choc&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;stability_on_hit&quot;,
+            &quot;values&quot;: [
+              5
+            ],
+            &quot;unit&quot;: &quot;points&quot;,
+            &quot;scope&quot;: &quot;onde-de-choc&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ]
+      }
+    },
+    &quot;f-6&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.04,
+            0.08
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;aoe&quot;,
+          &quot;condition&quot;: &quot;fureur-inebranlable&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.04
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;aoe&quot;,
+            &quot;condition&quot;: &quot;fureur-inebranlable&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;parry_chance&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;fureur-inebranlable&quot;
+          }
+        ]
+      }
+    },
+    &quot;f-7&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.08,
+            0.16
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;briseur-de-ligne&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_bonus&quot;,
+            &quot;values&quot;: [
+              0.08
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;briseur-de-ligne&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;interrupt&quot;,
+            &quot;values&quot;: [
+              0.5
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;briseur-de-ligne&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-0&quot;: {
+      &quot;kind&quot;: &quot;modifier&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            0.5,
+            1
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;defi&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;cooldown_reduction&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;defi&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;interrupt&quot;,
+            &quot;values&quot;: [
+              0.5
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;defi&quot;,
+            &quot;condition&quot;: &quot;target_casting&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-1&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;transferred_damage_reduction&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;self&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;transferred_damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;move_speed_bonus&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;guarded_ally_within_12m&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-2&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_bonus&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;onde-de-rupture&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;radius_bonus&quot;,
+            &quot;values&quot;: [
+              0.2
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;onde-de-rupture&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.08
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;after_knockback&quot;,
+            &quot;duration&quot;: 3
+          }
+        ]
+      }
+    },
+    &quot;v-3&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;cooldown_reduction&quot;,
+          &quot;values&quot;: [
+            0.05,
+            0.1
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;charge-inebranlable&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;cooldown_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;charge-inebranlable&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.08
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;after_charge&quot;,
+            &quot;duration&quot;: 3
+          }
+        ]
+      }
+    },
+    &quot;v-4&quot;: {
+      &quot;kind&quot;: &quot;modifier&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            1,
+            2
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;ancrage&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              1
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;ancrage&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;knockback_reduction&quot;,
+            &quot;values&quot;: [
+              0.2
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;guarded_ally&quot;,
+            &quot;condition&quot;: &quot;ancrage&quot;,
+            &quot;group&quot;: &quot;garde_ancrage&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-5&quot;: {
+      &quot;kind&quot;: &quot;passive&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;damage_reduction&quot;,
+          &quot;values&quot;: [
+            0.02,
+            0.04
+          ],
+          &quot;unit&quot;: &quot;percent&quot;,
+          &quot;scope&quot;: &quot;guarded_ally&quot;,
+          &quot;condition&quot;: &quot;within_veille_range&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;veille_range&quot;,
+            &quot;values&quot;: [
+              4
+            ],
+            &quot;unit&quot;: &quot;meters&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;share_veille&quot;,
+            &quot;values&quot;: [
+              1
+            ],
+            &quot;unit&quot;: &quot;flag&quot;,
+            &quot;scope&quot;: &quot;self&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-6&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            1,
+            2
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;serment-du-rempart&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;duration&quot;,
+            &quot;values&quot;: [
+              1
+            ],
+            &quot;unit&quot;: &quot;seconds&quot;,
+            &quot;scope&quot;: &quot;serment-du-rempart&quot;,
+            &quot;condition&quot;: &quot;always&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.1
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;guarded_ally&quot;,
+            &quot;condition&quot;: &quot;serment_and_ally_hp_below_35&quot;
+          }
+        ]
+      }
+    },
+    &quot;v-7&quot;: {
+      &quot;kind&quot;: &quot;active&quot;,
+      &quot;ranks&quot;: [
+        {
+          &quot;stat&quot;: &quot;duration&quot;,
+          &quot;values&quot;: [
+            1,
+            2
+          ],
+          &quot;unit&quot;: &quot;seconds&quot;,
+          &quot;scope&quot;: &quot;sentinelle-eternelle&quot;,
+          &quot;condition&quot;: &quot;always&quot;
+        }
+      ],
+      &quot;choices&quot;: {
+        &quot;a&quot;: [
+          {
+            &quot;stat&quot;: &quot;damage_reduction&quot;,
+            &quot;values&quot;: [
+              0.05
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;party&quot;,
+            &quot;condition&quot;: &quot;sentinelle-eternelle&quot;
+          }
+        ],
+        &quot;b&quot;: [
+          {
+            &quot;stat&quot;: &quot;heal_max_hp&quot;,
+            &quot;values&quot;: [
+              0.02
+            ],
+            &quot;unit&quot;: &quot;percent&quot;,
+            &quot;scope&quot;: &quot;party&quot;,
+            &quot;condition&quot;: &quot;always&quot;,
+            &quot;duration&quot;: 4
+          }
+        ]
+      }
+    }
+  },
+  &quot;synergies&quot;: {
+    &quot;riposte-de-fer&quot;: [
+      {
+        &quot;stat&quot;: &quot;secondary_targets&quot;,
+        &quot;values&quot;: [
+          2
+        ],
+        &quot;unit&quot;: &quot;targets&quot;,
+        &quot;scope&quot;: &quot;contre-frappe&quot;,
+        &quot;condition&quot;: &quot;after_block&quot;,
+        &quot;coefficient&quot;: 0.5,
+        &quot;group&quot;: &quot;riposte_aoe&quot;
+      }
+    ],
+    &quot;rempart-vivant&quot;: [
+      {
+        &quot;stat&quot;: &quot;damage_reduction&quot;,
+        &quot;values&quot;: [
+          0.08
+        ],
+        &quot;unit&quot;: &quot;percent&quot;,
+        &quot;scope&quot;: &quot;guarded_ally&quot;,
+        &quot;condition&quot;: &quot;tenir-la-ligne&quot;
+      }
+    ],
+    &quot;percee-protectrice&quot;: [
+      {
+        &quot;stat&quot;: &quot;damage_reduction&quot;,
+        &quot;values&quot;: [
+          0.08
+        ],
+        &quot;unit&quot;: &quot;percent&quot;,
+        &quot;scope&quot;: &quot;guarded_ally&quot;,
+        &quot;condition&quot;: &quot;after_knockback&quot;,
+        &quot;duration&quot;: 3
+      }
+    ],
+    &quot;elan-de-granit&quot;: [
+      {
+        &quot;stat&quot;: &quot;damage_bonus&quot;,
+        &quot;values&quot;: [
+          0.1
+        ],
+        &quot;unit&quot;: &quot;percent&quot;,
+        &quot;scope&quot;: &quot;balayage-de-fer&quot;,
+        &quot;condition&quot;: &quot;stability_at_least_20&quot;
+      }
+    ],
+    &quot;defi-fracassant&quot;: [
+      {
+        &quot;stat&quot;: &quot;next_attack_bonus&quot;,
+        &quot;values&quot;: [
+          0.15
+        ],
+        &quot;unit&quot;: &quot;percent&quot;,
+        &quot;scope&quot;: &quot;self&quot;,
+        &quot;condition&quot;: &quot;after_interrupt&quot;,
+        &quot;window&quot;: 4
+      }
+    ],
+    &quot;garde-inebranlable&quot;: [
+      {
+        &quot;stat&quot;: &quot;knockback_reduction&quot;,
+        &quot;values&quot;: [
+          0.2
+        ],
+        &quot;unit&quot;: &quot;percent&quot;,
+        &quot;scope&quot;: &quot;guarded_ally&quot;,
+        &quot;condition&quot;: &quot;ancrage&quot;,
+        &quot;group&quot;: &quot;garde_ancrage&quot;
+      }
+    ]
+  },
+  &quot;actions&quot;: {
+    &quot;garde&quot;: {
+      &quot;label&quot;: &quot;Garde&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 1.5,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 0,
+      &quot;range&quot;: 15,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;transfer&quot;: 0.5,
+      &quot;persistent&quot;: true
+    },
+    &quot;defi&quot;: {
+      &quot;label&quot;: &quot;Défi du Rempart&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 12,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 15,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 3,
+      &quot;pvpDuration&quot;: 4,
+      &quot;pvpOtherTargetDamageReduction&quot;: 0.15
+    },
+    &quot;coup-de-heurt&quot;: {
+      &quot;label&quot;: &quot;Coup de Heurt&quot;,
+      &quot;powerCoefficient&quot;: 0.55,
+      &quot;enduranceCost&quot;: 10,
+      &quot;cooldown&quot;: 10,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;interrupt&quot;: 1
+    },
+    &quot;interposition&quot;: {
+      &quot;label&quot;: &quot;Interposition&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 10,
+      &quot;cooldown&quot;: 15,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 12,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;immunity&quot;: 0
+    },
+    &quot;mur-echo&quot;: {
+      &quot;label&quot;: &quot;Mur d’Écho&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 20,
+      &quot;cooldown&quot;: 30,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 8,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 5,
+      &quot;damageReduction&quot;: 0.25,
+      &quot;defenseGroup&quot;: &quot;strong&quot;,
+      &quot;party&quot;: true
+    },
+    &quot;ancrage&quot;: {
+      &quot;label&quot;: &quot;Ancrage Profond&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 10,
+      &quot;cooldown&quot;: 25,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 6,
+      &quot;knockbackReduction&quot;: 0.7
+    },
+    &quot;contre-frappe&quot;: {
+      &quot;label&quot;: &quot;Contre-Heurt / Contre-Frappe&quot;,
+      &quot;powerCoefficient&quot;: 0.85,
+      &quot;enduranceCost&quot;: 8,
+      &quot;cooldown&quot;: 4,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;requiresBlockWindow&quot;: 3
+    },
+    &quot;heurt-bastion&quot;: {
+      &quot;label&quot;: &quot;Heurt du Bastion&quot;,
+      &quot;powerCoefficient&quot;: 0.4,
+      &quot;enduranceCost&quot;: 12,
+      &quot;cooldown&quot;: 15,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;knockback&quot;: 8
+    },
+    &quot;souffle&quot;: {
+      &quot;label&quot;: &quot;Souffle du Bastion&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 20,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 4,
+      &quot;enduranceRestored&quot;: 35
+    },
+    &quot;absolu&quot;: {
+      &quot;label&quot;: &quot;Rempart Absolu&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 90,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 4,
+      &quot;damageReduction&quot;: 0.45,
+      &quot;defenseGroup&quot;: &quot;strong&quot;
+    },
+    &quot;tenir-la-ligne&quot;: {
+      &quot;label&quot;: &quot;Tenir la Ligne&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 15,
+      &quot;cooldown&quot;: 20,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 6,
+      &quot;unlock&quot;: &quot;b-1&quot;,
+      &quot;damageReduction&quot;: 0.15,
+      &quot;defenseGroup&quot;: &quot;strong&quot;
+    },
+    &quot;mur-de-boucliers&quot;: {
+      &quot;label&quot;: &quot;Mur de Boucliers&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 20,
+      &quot;cooldown&quot;: 30,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 5,
+      &quot;unlock&quot;: &quot;b-4&quot;,
+      &quot;damageReduction&quot;: 0.2,
+      &quot;defenseGroup&quot;: &quot;strong&quot;
+    },
+    &quot;dernier-bastion&quot;: {
+      &quot;label&quot;: &quot;Dernier Bastion&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 90,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 4,
+      &quot;unlock&quot;: &quot;b-6&quot;,
+      &quot;damageReduction&quot;: 0.4,
+      &quot;defenseGroup&quot;: &quot;strong&quot;
+    },
+    &quot;balayage-de-fer&quot;: {
+      &quot;label&quot;: &quot;Balayage de Fer&quot;,
+      &quot;powerCoefficient&quot;: 0.6,
+      &quot;enduranceCost&quot;: 12,
+      &quot;cooldown&quot;: 6,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 5,
+      &quot;radius&quot;: 5,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;f-0&quot;
+    },
+    &quot;coup-de-fracture&quot;: {
+      &quot;label&quot;: &quot;Coup de Fracture&quot;,
+      &quot;powerCoefficient&quot;: 0.95,
+      &quot;enduranceCost&quot;: 12,
+      &quot;cooldown&quot;: 5,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;f-2&quot;
+    },
+    &quot;marteau-implacable&quot;: {
+      &quot;label&quot;: &quot;Marteau Implacable&quot;,
+      &quot;powerCoefficient&quot;: 0.85,
+      &quot;enduranceCost&quot;: 14,
+      &quot;cooldown&quot;: 8,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;f-3&quot;
+    },
+    &quot;brise-garde&quot;: {
+      &quot;label&quot;: &quot;Brise-Garde&quot;,
+      &quot;powerCoefficient&quot;: 0.45,
+      &quot;enduranceCost&quot;: 10,
+      &quot;cooldown&quot;: 12,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 5,
+      &quot;unlock&quot;: &quot;f-4&quot;,
+      &quot;targetArmorReduction&quot;: 0.1
+    },
+    &quot;onde-de-choc&quot;: {
+      &quot;label&quot;: &quot;Onde de Choc&quot;,
+      &quot;powerCoefficient&quot;: 0.7,
+      &quot;enduranceCost&quot;: 16,
+      &quot;cooldown&quot;: 10,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 5,
+      &quot;radius&quot;: 5,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;f-5&quot;
+    },
+    &quot;fureur-inebranlable&quot;: {
+      &quot;label&quot;: &quot;Fureur Inébranlable&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 15,
+      &quot;cooldown&quot;: 45,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 10,
+      &quot;unlock&quot;: &quot;f-6&quot;
+    },
+    &quot;briseur-de-ligne&quot;: {
+      &quot;label&quot;: &quot;Briseur de Ligne&quot;,
+      &quot;powerCoefficient&quot;: 1.3,
+      &quot;enduranceCost&quot;: 25,
+      &quot;cooldown&quot;: 30,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 5,
+      &quot;radius&quot;: 5,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;f-7&quot;
+    },
+    &quot;onde-de-rupture&quot;: {
+      &quot;label&quot;: &quot;Onde de Rupture&quot;,
+      &quot;powerCoefficient&quot;: 0.4,
+      &quot;enduranceCost&quot;: 12,
+      &quot;cooldown&quot;: 15,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 5,
+      &quot;radius&quot;: 5,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;v-2&quot;,
+      &quot;knockback&quot;: 4
+    },
+    &quot;charge-inebranlable&quot;: {
+      &quot;label&quot;: &quot;Charge Inébranlable&quot;,
+      &quot;powerCoefficient&quot;: 0.5,
+      &quot;enduranceCost&quot;: 10,
+      &quot;cooldown&quot;: 15,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 12,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0,
+      &quot;unlock&quot;: &quot;v-3&quot;,
+      &quot;interrupt&quot;: 1
+    },
+    &quot;serment-du-rempart&quot;: {
+      &quot;label&quot;: &quot;Serment du Rempart&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 15,
+      &quot;cooldown&quot;: 45,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 5,
+      &quot;unlock&quot;: &quot;v-6&quot;,
+      &quot;allyDamageReduction&quot;: 0.15
+    },
+    &quot;sentinelle-eternelle&quot;: {
+      &quot;label&quot;: &quot;Sentinelle Éternelle&quot;,
+      &quot;powerCoefficient&quot;: 0,
+      &quot;enduranceCost&quot;: 20,
+      &quot;cooldown&quot;: 90,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 10,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 6,
+      &quot;unlock&quot;: &quot;v-7&quot;,
+      &quot;damageReduction&quot;: 0.15,
+      &quot;party&quot;: true
+    },
+    &quot;attack&quot;: {
+      &quot;label&quot;: &quot;Attaque de base&quot;,
+      &quot;powerCoefficient&quot;: 0.35,
+      &quot;enduranceCost&quot;: 0,
+      &quot;cooldown&quot;: 1.5,
+      &quot;castTime&quot;: 0,
+      &quot;gcd&quot;: 1.5,
+      &quot;range&quot;: 3,
+      &quot;targets&quot;: 1,
+      &quot;radius&quot;: 0,
+      &quot;duration&quot;: 0
+    }
+  },
+  &quot;aliases&quot;: {
+    &quot;rempart-garde&quot;: &quot;garde&quot;,
+    &quot;rempart-defi-du-rempart&quot;: &quot;defi&quot;,
+    &quot;legacy:defi&quot;: &quot;defi&quot;,
+    &quot;rempart-coup-de-heurt&quot;: &quot;coup-de-heurt&quot;,
+    &quot;rempart-interposition&quot;: &quot;interposition&quot;,
+    &quot;rempart-mur-d-echo&quot;: &quot;mur-echo&quot;,
+    &quot;rempart-ancrage-profond&quot;: &quot;ancrage&quot;,
+    &quot;rempart-contre-heurt&quot;: &quot;contre-frappe&quot;,
+    &quot;rempart-cercle-de-fer&quot;: &quot;heurt-bastion&quot;,
+    &quot;rempart-souffle-du-bastion&quot;: &quot;souffle&quot;,
+    &quot;rempart-rempart-absolu&quot;: &quot;absolu&quot;,
+    &quot;legacy:attaque-de-base&quot;: &quot;attack&quot;,
+    &quot;legacy:frappe-du-rempart&quot;: &quot;attack&quot;
+  },
+  &quot;knownPublicValues&quot;: [
+    &quot;Garde:50%&quot;,
+    &quot;Défi:PvE3s/PvP15%4s&quot;,
+    &quot;Coup de Heurt:interrupt1s&quot;,
+    &quot;Interposition:12m/no immunity&quot;,
+    &quot;Mur Echo:25%5s&quot;,
+    &quot;Ancrage:70%6s&quot;,
+    &quot;Contre-Heurt:3s window&quot;,
+    &quot;Heurt Bastion:8m single&quot;,
+    &quot;Souffle:35 endurance/4s&quot;,
+    &quot;Rempart Absolu:45%4s/non cumul fort&quot;
+  ]
+}</pre></details></article></main><footer>Source : 2b78ceff3aaca5261accc6896067523676aed25e. Un document consultable reste soumis à son statut et à sa validation.</footer></body></html>

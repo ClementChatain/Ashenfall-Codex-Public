@@ -1,0 +1,57 @@
+{
+  "id": "passeur--traversee-partagee",
+  "category": "competences",
+  "title": "Traversée Partagée",
+  "summary": "Préparation / soin direct · Passeur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Passeur\nRôle : Heal\nN° : 3\nCompétence : Traversée Partagée\nType : Buff\nType clair : Préparation / soin direct\nBase / impact : 180\nCoefficient : 0.52\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 16\nPortée (m) : 22\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Soigne une cible ; prépare Relais pour le lanceur pendant 4 s. Aucun déplacement de l’allié, aucun bonus de vitesse.\nPuissance brute réf. : 700\nPuissance PvP réf. : 630\nPuissance totale brute : 700\nPuissance totale PvP : 630\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0613",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "passeur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0613",
+  "public_projection": {
+    "id": "passeur--traversee-partagee",
+    "category": "competences",
+    "title": "Traversée Partagée",
+    "summary": "Préparation / soin direct · Passeur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Passeur\nRôle : Heal\nN° : 3\nCompétence : Traversée Partagée\nType : Buff\nType clair : Préparation / soin direct\nBase / impact : 180\nCoefficient : 0.52\nNombre d’impacts : 1\nCoût : 20\nCD (s) : 16\nPortée (m) : 22\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Soigne une cible ; prépare Relais pour le lanceur pendant 4 s. Aucun déplacement de l’allié, aucun bonus de vitesse.\nPuissance brute réf. : 700\nPuissance PvP réf. : 630\nPuissance totale brute : 700\nPuissance totale PvP : 630\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-passeur--traversee-partagee.json",
+    "record_sha256": "66d7ad607f66050943d9d809618f5bb44d7ef4816334bcd27e3c80c6f834038c"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

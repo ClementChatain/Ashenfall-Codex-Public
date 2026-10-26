@@ -1,0 +1,57 @@
+{
+  "id": "porte-faille--tenir-les-fragments",
+  "category": "competences",
+  "title": "Tenir les Fragments",
+  "summary": "Défense majeure · Porte-Faille",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Porte-Faille\nRôle : Tank\nN° : 10\nCompétence : Tenir les Fragments\nType : Défense\nType clair : Défense majeure\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 60\nCD (s) : 90\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : −40 % de dégâts directs pendant 4 s ; 20 % du montant restant peut être différé selon la même dette. Remplace Armature Ouverte au lieu de s’y ajouter. Aucune remise à zéro de dette.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0510",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "porte-faille"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0510",
+  "public_projection": {
+    "id": "porte-faille--tenir-les-fragments",
+    "category": "competences",
+    "title": "Tenir les Fragments",
+    "summary": "Défense majeure · Porte-Faille",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Porte-Faille\nRôle : Tank\nN° : 10\nCompétence : Tenir les Fragments\nType : Défense\nType clair : Défense majeure\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 60\nCD (s) : 90\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : −40 % de dégâts directs pendant 4 s ; 20 % du montant restant peut être différé selon la même dette. Remplace Armature Ouverte au lieu de s’y ajouter. Aucune remise à zéro de dette.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-porte-faille--tenir-les-fragments.json",
+    "record_sha256": "ebe09dd0040f349be10ee804cbe6a83194ee0452701cd710d52fb91f1084248e"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

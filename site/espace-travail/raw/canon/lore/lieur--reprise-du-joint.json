@@ -1,0 +1,57 @@
+{
+  "id": "lieur--reprise-du-joint",
+  "category": "competences",
+  "title": "Reprise du Joint",
+  "summary": "Soin direct d’urgence · Lieur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 5\nCompétence : Reprise du Joint\nType : Soin\nType clair : Soin direct d’urgence\nBase / impact : 420\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 45\nCD (s) : 35\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Une cible ; ne déclenche pas Attaches de Secours. Fenêtre d’urgence, sans recharge réinitialisée sous un seuil de vie.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1413\nPuissance totale brute : 1570\nPuissance totale PvP : 1413\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0595",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lieur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0595",
+  "public_projection": {
+    "id": "lieur--reprise-du-joint",
+    "category": "competences",
+    "title": "Reprise du Joint",
+    "summary": "Soin direct d’urgence · Lieur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 5\nCompétence : Reprise du Joint\nType : Soin\nType clair : Soin direct d’urgence\nBase / impact : 420\nCoefficient : 1.15\nNombre d’impacts : 1\nCoût : 45\nCD (s) : 35\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : Une cible ; ne déclenche pas Attaches de Secours. Fenêtre d’urgence, sans recharge réinitialisée sous un seuil de vie.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1413\nPuissance totale brute : 1570\nPuissance totale PvP : 1413\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lieur--reprise-du-joint.json",
+    "record_sha256": "5d1df50fbfae8ffde7e1a199a6086ccab46a62c15363ccae91282c85d986e6d3"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

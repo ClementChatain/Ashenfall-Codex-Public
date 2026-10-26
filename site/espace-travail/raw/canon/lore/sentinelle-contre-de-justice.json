@@ -1,0 +1,60 @@
+{
+  "id": "sentinelle-contre-de-justice",
+  "lore_id": "ASH-LORE-0106",
+  "title": "Balayage du Veilleur — Sentinelle",
+  "category": "competences",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Contrôle · Sentinelle · Bump 5 m · V0.2",
+  "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nClasse : Sentinelle\nRôle : Tank\nN° : 5\nCompétence : Balayage du Veilleur\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 25 Résolution\nCD (s) : 30\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 5\nPréparation (s) : 0,45\nCibles : Cône frontal de 90°, profondeur 3 m ; 3 ennemis maximum, les plus proches\n\nDescription : La Sentinelle avance d’un pas ferme et balaie l’espace devant elle avec son bouclier, repoussant les ennemis qui encombrent sa ligne.\nObjectif : Dégager plusieurs assaillants d’un allié ou ouvrir un passage.\nQuand l’utiliser : Quand plusieurs ennemis convergent devant vous vers un allié vulnérable.\nSynergies : Interception Héroïque vous rapproche d’un allié ; orientez ensuite le cône vers les assaillants. Garde reste soumise à sa portée de 9 m.\nLimites et contres : Trois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "sentinelle-contre-de-justice",
+    "category": "competences",
+    "title": "Balayage du Veilleur — Sentinelle",
+    "summary": "Contrôle · Sentinelle · Bump 5 m · V0.2",
+    "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nClasse : Sentinelle\nRôle : Tank\nN° : 5\nCompétence : Balayage du Veilleur\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 25 Résolution\nCD (s) : 30\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 5\nPréparation (s) : 0,45\nCibles : Cône frontal de 90°, profondeur 3 m ; 3 ennemis maximum, les plus proches\n\nDescription : La Sentinelle avance d’un pas ferme et balaie l’espace devant elle avec son bouclier, repoussant les ennemis qui encombrent sa ligne.\nObjectif : Dégager plusieurs assaillants d’un allié ou ouvrir un passage.\nQuand l’utiliser : Quand plusieurs ennemis convergent devant vous vers un allié vulnérable.\nSynergies : Interception Héroïque vous rapproche d’un allié ; orientez ensuite le cône vers les assaillants. Garde reste soumise à sa portée de 9 m.\nLimites et contres : Trois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-106.json",
+    "record_sha256": "da107d466787e15335fff89f79a5244fa6eb636741989e1f64ad7fff5403772b"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "eveilleur--epine-claire",
+  "category": "competences",
+  "title": "Épine Claire",
+  "summary": "Dégâts directs · Éveilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 8\nCompétence : Épine Claire\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 140\nCoefficient : 0.51\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 9\nPortée (m) : 22\nLancement : 0,80 s\nPvP x : 1\nContrôle / mécanique : +5 Éveil sur touche ; aucun Bourgeon allié déclenché artificiellement.\nPuissance brute réf. : 650\nPuissance PvP réf. : 650\nPuissance totale brute : 650\nPuissance totale PvP : 650\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0608",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eveilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0608",
+  "public_projection": {
+    "id": "eveilleur--epine-claire",
+    "category": "competences",
+    "title": "Épine Claire",
+    "summary": "Dégâts directs · Éveilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 8\nCompétence : Épine Claire\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 140\nCoefficient : 0.51\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 9\nPortée (m) : 22\nLancement : 0,80 s\nPvP x : 1\nContrôle / mécanique : +5 Éveil sur touche ; aucun Bourgeon allié déclenché artificiellement.\nPuissance brute réf. : 650\nPuissance PvP réf. : 650\nPuissance totale brute : 650\nPuissance totale PvP : 650\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur--epine-claire.json",
+    "record_sha256": "9015e304bca0ce1d3c82cf43820a9aef4b97efb31d37fe4faa9c3a701db2c9c3"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

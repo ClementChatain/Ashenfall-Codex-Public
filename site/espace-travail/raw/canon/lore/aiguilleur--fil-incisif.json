@@ -1,0 +1,57 @@
+{
+  "id": "aiguilleur--fil-incisif",
+  "category": "competences",
+  "title": "Fil Incisif",
+  "summary": "Dégâts sur la durée · Aiguilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 6\nCompétence : Fil Incisif\nType : DoT\nType clair : Dégâts sur la durée\nBase / impact : 80\nCoefficient : 0.23\nNombre d’impacts : 3\nCoût : 15\nCD (s) : 14\nPortée (m) : 26\nLancement : 0,40 s\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; une cible ; pas de cumul par lanceur, dissipation possible.\nPuissance brute réf. : 310\nPuissance PvP réf. : 279\nPuissance totale brute : 930\nPuissance totale PvP : 837\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0576",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "aiguilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0576",
+  "public_projection": {
+    "id": "aiguilleur--fil-incisif",
+    "category": "competences",
+    "title": "Fil Incisif",
+    "summary": "Dégâts sur la durée · Aiguilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 6\nCompétence : Fil Incisif\nType : DoT\nType clair : Dégâts sur la durée\nBase / impact : 80\nCoefficient : 0.23\nNombre d’impacts : 3\nCoût : 15\nCD (s) : 14\nPortée (m) : 26\nLancement : 0,40 s\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; une cible ; pas de cumul par lanceur, dissipation possible.\nPuissance brute réf. : 310\nPuissance PvP réf. : 279\nPuissance totale brute : 930\nPuissance totale PvP : 837\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-aiguilleur--fil-incisif.json",
+    "record_sha256": "b641a6c543017f9af67dff0777cfec1aa527a369ef701e1a7a05d37b0dcb856b"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

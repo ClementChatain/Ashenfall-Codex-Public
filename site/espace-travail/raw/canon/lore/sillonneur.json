@@ -1,0 +1,63 @@
+{
+  "id": "sillonneur",
+  "category": "classes",
+  "title": "Sillonneur",
+  "summary": "Orynth · DPS mêlée · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant qui trouve sa puissance dans ses traversées du champ de bataille.\n\nIl utilise une longue lame courbe à deux mains, portée basse, avec une armure compacte qui laisse les jambes libres. Sa gestuelle dessine de grands passages continus.\n\nSon identité serait celle d’un DPS de trajectoire, qui cherche à entrer, traverser et retrouver une bonne position. Le Duelliste humain excelle dans la confrontation ciblée ; le Sillonneur exploite les mouvements de plusieurs combattants. Il serait moins à l’aise lorsqu’il reste coincé dans un espace étroit.\n\nImpression recherchée : Son passage laisse une ligne que les adversaires auraient préféré ne pas croiser.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉlan 0–100 ; départ 0. Taille de Sillage : +10 sur touche ; Traversée Offensive : +10 au total si au moins une cible touchée. Aucun gain par distance parcourue seule.\n\nPassage : après une Traversée Offensive ayant touché, une fenêtre de 4 s donne +10 % à la seule prochaine Coupe de Rive. Un seul Passage, consommé à la résolution ; ni cumul par ennemi ni bonus d’équipe.\n\nBoucle : Construire → traverser une ligne → choisir où s’arrêter → placer Coupe de Rive → préparer sa prochaine entrée.\n\nContre-jeu : Le contraindre dans les espaces étroits ; couper sa trajectoire et exploiter l’absence de mobilité pendant sa recharge.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille de Sillage — Dégâts directs\nFiche : sillonneur--taille-de-sillage\n2. Traversée Offensive — Dégâts / mobilité\nFiche : sillonneur--traversee-offensive\n3. Coupe de Rive — Dégâts directs\nFiche : sillonneur--coupe-de-rive\n4. Pas Latéral — Mobilité\nFiche : sillonneur--pas-lateral\n5. Accroche du Sillage — Dégâts directs / ralentissement\nFiche : sillonneur--accroche-du-sillage\n6. Entaille Continue — Dégâts sur la durée\nFiche : sillonneur--entaille-continue\n7. Profil Bas — Protection personnelle\nFiche : sillonneur--profil-bas\n8. Large Sillon — Dégâts de zone\nFiche : sillonneur--large-sillon\n9. Tenir la Ligne — Amélioration personnelle\nFiche : sillonneur--tenir-la-ligne\n10. Dernier Passage — Exécution\nFiche : sillonneur--dernier-passage\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0310",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "orynth"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0310",
+  "public_projection": {
+    "id": "sillonneur",
+    "category": "classes",
+    "title": "Sillonneur",
+    "summary": "Orynth · DPS mêlée · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : DPS mêlée\n\nIDENTITÉ & STYLE DE JEU\nUn combattant qui trouve sa puissance dans ses traversées du champ de bataille.\n\nIl utilise une longue lame courbe à deux mains, portée basse, avec une armure compacte qui laisse les jambes libres. Sa gestuelle dessine de grands passages continus.\n\nSon identité serait celle d’un DPS de trajectoire, qui cherche à entrer, traverser et retrouver une bonne position. Le Duelliste humain excelle dans la confrontation ciblée ; le Sillonneur exploite les mouvements de plusieurs combattants. Il serait moins à l’aise lorsqu’il reste coincé dans un espace étroit.\n\nImpression recherchée : Son passage laisse une ligne que les adversaires auraient préféré ne pas croiser.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nÉlan 0–100 ; départ 0. Taille de Sillage : +10 sur touche ; Traversée Offensive : +10 au total si au moins une cible touchée. Aucun gain par distance parcourue seule.\n\nPassage : après une Traversée Offensive ayant touché, une fenêtre de 4 s donne +10 % à la seule prochaine Coupe de Rive. Un seul Passage, consommé à la résolution ; ni cumul par ennemi ni bonus d’équipe.\n\nBoucle : Construire → traverser une ligne → choisir où s’arrêter → placer Coupe de Rive → préparer sa prochaine entrée.\n\nContre-jeu : Le contraindre dans les espaces étroits ; couper sa trajectoire et exploiter l’absence de mobilité pendant sa recharge.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Taille de Sillage — Dégâts directs\nFiche : sillonneur--taille-de-sillage\n2. Traversée Offensive — Dégâts / mobilité\nFiche : sillonneur--traversee-offensive\n3. Coupe de Rive — Dégâts directs\nFiche : sillonneur--coupe-de-rive\n4. Pas Latéral — Mobilité\nFiche : sillonneur--pas-lateral\n5. Accroche du Sillage — Dégâts directs / ralentissement\nFiche : sillonneur--accroche-du-sillage\n6. Entaille Continue — Dégâts sur la durée\nFiche : sillonneur--entaille-continue\n7. Profil Bas — Protection personnelle\nFiche : sillonneur--profil-bas\n8. Large Sillon — Dégâts de zone\nFiche : sillonneur--large-sillon\n9. Tenir la Ligne — Amélioration personnelle\nFiche : sillonneur--tenir-la-ligne\n10. Dernier Passage — Exécution\nFiche : sillonneur--dernier-passage\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-sillonneur.json",
+    "record_sha256": "87818eef8cde34d0103f4c2bd4844d78f4b39c38d5f8ac05a8d15dbf8f797f28"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

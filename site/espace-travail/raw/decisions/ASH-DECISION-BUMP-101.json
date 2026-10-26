@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "gardien-des-racines",
+  "record_version": "0.2",
+  "validated_record_sha256": "907786e1b69416ee51bae080216c7e41836345d52e2f46918646758be032ffa2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

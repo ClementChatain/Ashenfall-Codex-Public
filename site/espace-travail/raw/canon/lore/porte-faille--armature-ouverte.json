@@ -1,0 +1,57 @@
+{
+  "id": "porte-faille--armature-ouverte",
+  "category": "competences",
+  "title": "Armature Ouverte",
+  "summary": "Protection · Porte-Faille",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Porte-Faille\nRôle : Tank\nN° : 4\nCompétence : Armature Ouverte\nType : Protection\nType clair : Protection\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 18\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : Pendant 4 s : −20 % de dégâts directs entrants. Puis 20 % du montant restant est différé sur 4 ticks à +1/+2/+3/+4 s, avec le plafond de dette commun. Les ticks de dette ne sont ni réduits ni différés de nouveau.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0504",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "porte-faille"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0504",
+  "public_projection": {
+    "id": "porte-faille--armature-ouverte",
+    "category": "competences",
+    "title": "Armature Ouverte",
+    "summary": "Protection · Porte-Faille",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Porte-Faille\nRôle : Tank\nN° : 4\nCompétence : Armature Ouverte\nType : Protection\nType clair : Protection\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 18\nPortée (m) : 0\nLancement : Instantané, hors GCD\nPvP x : 1\nContrôle / mécanique : Pendant 4 s : −20 % de dégâts directs entrants. Puis 20 % du montant restant est différé sur 4 ticks à +1/+2/+3/+4 s, avec le plafond de dette commun. Les ticks de dette ne sont ni réduits ni différés de nouveau.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-porte-faille--armature-ouverte.json",
+    "record_sha256": "f6a628c75edb11d60c9e95c24b2f4590bbc4048357ab71e1fcd80ec3ee39ca7c"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

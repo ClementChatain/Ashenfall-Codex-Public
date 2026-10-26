@@ -1,0 +1,60 @@
+{
+  "id": "gardien-des-racines-rejet-de-ronce",
+  "lore_id": "ASH-LORE-0104",
+  "title": "Rejet de Ronce — Gardien des Racines",
+  "category": "competences",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Contrôle · Gardien des Racines · Bump 6 m · V0.2",
+  "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Elfe\nClasse : Gardien des Racines\nRôle : Tank\nN° : 7\nCompétence : Rejet de Ronce\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 20\nCD (s) : 24\nPortée (m) : 6\nPvP x : 1.0\nContrôle / mécanique : Repousse de 6 m à l’opposé du tank ; une cible\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 6\nPréparation (s) : 0,40\nCibles : Une cible ; ligne de vue requise\n\nDescription : Une racine jaillit devant l’adversaire et le frappe de plein fouet, le rejetant loin du territoire protégé par le Gardien.\nObjectif : Éloigner une menace avant qu’elle atteigne votre allié.\nQuand l’utiliser : Quand un adversaire approche à courte distance et que vous voulez préserver l’espace autour d’un allié.\nSynergies : Étreinte Sylvestre conserve son immobilisation distincte ; Rejet de Ronce n’ajoute aucun enracinement. Garde reste soumise à sa portée de 9 m.\nLimites et contres : Une seule cible à 6 m, avec ligne de vue. Projection portée de 3 à 6 m ; dégâts de référence réduits de 460 à 300. Coût et recharge inchangés.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "gardien-des-racines-rejet-de-ronce",
+    "category": "competences",
+    "title": "Rejet de Ronce — Gardien des Racines",
+    "summary": "Contrôle · Gardien des Racines · Bump 6 m · V0.2",
+    "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Elfe\nClasse : Gardien des Racines\nRôle : Tank\nN° : 7\nCompétence : Rejet de Ronce\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 20\nCD (s) : 24\nPortée (m) : 6\nPvP x : 1.0\nContrôle / mécanique : Repousse de 6 m à l’opposé du tank ; une cible\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 6\nPréparation (s) : 0,40\nCibles : Une cible ; ligne de vue requise\n\nDescription : Une racine jaillit devant l’adversaire et le frappe de plein fouet, le rejetant loin du territoire protégé par le Gardien.\nObjectif : Éloigner une menace avant qu’elle atteigne votre allié.\nQuand l’utiliser : Quand un adversaire approche à courte distance et que vous voulez préserver l’espace autour d’un allié.\nSynergies : Étreinte Sylvestre conserve son immobilisation distincte ; Rejet de Ronce n’ajoute aucun enracinement. Garde reste soumise à sa portée de 9 m.\nLimites et contres : Une seule cible à 6 m, avec ligne de vue. Projection portée de 3 à 6 m ; dégâts de référence réduits de 460 à 300. Coût et recharge inchangés.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-104.json",
+    "record_sha256": "014c3b22e35f1dcbbdb6302e2ad2dc1213941329adf4a00d940542ad01d516d8"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

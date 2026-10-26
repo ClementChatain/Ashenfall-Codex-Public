@@ -1,0 +1,20 @@
+{
+  "id": "ASH-UNITY-0548",
+  "lore_id": "ASH-LORE-0548",
+  "status": "PROPOSITION",
+  "scope": "Fiche de conception web ; implémentation Unity non autorisée par cette publication",
+  "zones": [],
+  "npcs": [],
+  "quests": [],
+  "dialogues": [],
+  "assets": [],
+  "constraints": [
+    "Appliquer les règles communes liées, sans déduire d’effet ou d’animation supplémentaire."
+  ],
+  "acceptance": [
+    "Type, coût, recharge, portée et description exacts visibles."
+  ],
+  "non_decisions": [
+    "Tests de combat, validation d’équilibrage et illustrations définitives."
+  ]
+}

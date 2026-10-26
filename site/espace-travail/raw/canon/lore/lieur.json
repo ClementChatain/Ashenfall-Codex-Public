@@ -1,0 +1,63 @@
+{
+  "id": "lieur",
+  "category": "classes",
+  "title": "Lieur",
+  "summary": "Kharûn · Soigneur · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur dont le principe est de maintenir ensemble ce qui risque de se disloquer.\n\nSon équipement comprend des attaches, des cercles articulés et des fils métalliques épais, portés sur les avant-bras et autour du torse. Sa silhouette reste sobre, avec des gestes d’assemblage et de maintien.\n\nIl serait spécialisé dans la stabilisation des alliés sous pression et la continuité du groupe. L’Accordeur nain retrouve les rythmes du vivant ; le Lieur empêche leur rupture. Il excellerait dans les combats éprouvants, mais demanderait une bonne anticipation lorsqu’un allié subit une urgence brutale.\n\nImpression recherchée : Tant qu’il tient les liens, personne ne cède.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nCohésion 0–100 ; départ 0. Point de Suture : +8 sur soin utile ; Fil Continu : +6 une seule fois à l’application si la cible a un déficit de PV ; Éclat de Maintien : +5 sur touche. Pas de gain sur bouclier posé ou sur sursoin.\n\nDeux alliés peuvent être reliés par Attaches de Secours, une paire par Lieur. Le prochain Point de Suture sur l’un copie vers l’autre 25 % du soin effectif initial, plafonné à 250 en PvE ou 225 en PvP avant les modificateurs propres au second receveur. Le facteur PvP du soin initial n’est pas appliqué une seconde fois. Une charge seulement, sans rebond secondaire ni ressource. Aucun transfert de dégâts.\n\nBoucle : Créer de la Cohésion par soins utiles → relier les alliés réellement menacés → stabiliser → conserver un budget pour dissiper ou sauver.\n\nContre-jeu : Séparer les alliés reliés au-delà de 10 m, forcer des changements de cible et interrompre ses soins préparés. Aucun lien ne partage Garde, contrôle ou résurrection.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Point de Suture — Soin direct\nFiche : lieur--point-de-suture\n2. Fil Continu — Soin sur la durée\nFiche : lieur--fil-continu\n3. Serrage Protecteur — Absorption\nFiche : lieur--serrage-protecteur\n4. Trame de Maintien — Soin de zone\nFiche : lieur--trame-de-maintien\n5. Reprise du Joint — Soin direct d’urgence\nFiche : lieur--reprise-du-joint\n6. Délier l’Altération — Dissipation\nFiche : lieur--delier-l-alteration\n7. Attaches de Secours — Lien / soin conditionnel\nFiche : lieur--attaches-de-secours\n8. Éclat de Maintien — Dégâts directs\nFiche : lieur--eclat-de-maintien\n9. Tenir Ensemble — Soin de groupe majeur\nFiche : lieur--tenir-ensemble\n10. Rappel des Liens — Résurrection\nFiche : lieur--rappel-des-liens\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0304",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "kharun"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0304",
+  "public_projection": {
+    "id": "lieur",
+    "category": "classes",
+    "title": "Lieur",
+    "summary": "Kharûn · Soigneur · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur dont le principe est de maintenir ensemble ce qui risque de se disloquer.\n\nSon équipement comprend des attaches, des cercles articulés et des fils métalliques épais, portés sur les avant-bras et autour du torse. Sa silhouette reste sobre, avec des gestes d’assemblage et de maintien.\n\nIl serait spécialisé dans la stabilisation des alliés sous pression et la continuité du groupe. L’Accordeur nain retrouve les rythmes du vivant ; le Lieur empêche leur rupture. Il excellerait dans les combats éprouvants, mais demanderait une bonne anticipation lorsqu’un allié subit une urgence brutale.\n\nImpression recherchée : Tant qu’il tient les liens, personne ne cède.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nCohésion 0–100 ; départ 0. Point de Suture : +8 sur soin utile ; Fil Continu : +6 une seule fois à l’application si la cible a un déficit de PV ; Éclat de Maintien : +5 sur touche. Pas de gain sur bouclier posé ou sur sursoin.\n\nDeux alliés peuvent être reliés par Attaches de Secours, une paire par Lieur. Le prochain Point de Suture sur l’un copie vers l’autre 25 % du soin effectif initial, plafonné à 250 en PvE ou 225 en PvP avant les modificateurs propres au second receveur. Le facteur PvP du soin initial n’est pas appliqué une seconde fois. Une charge seulement, sans rebond secondaire ni ressource. Aucun transfert de dégâts.\n\nBoucle : Créer de la Cohésion par soins utiles → relier les alliés réellement menacés → stabiliser → conserver un budget pour dissiper ou sauver.\n\nContre-jeu : Séparer les alliés reliés au-delà de 10 m, forcer des changements de cible et interrompre ses soins préparés. Aucun lien ne partage Garde, contrôle ou résurrection.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Point de Suture — Soin direct\nFiche : lieur--point-de-suture\n2. Fil Continu — Soin sur la durée\nFiche : lieur--fil-continu\n3. Serrage Protecteur — Absorption\nFiche : lieur--serrage-protecteur\n4. Trame de Maintien — Soin de zone\nFiche : lieur--trame-de-maintien\n5. Reprise du Joint — Soin direct d’urgence\nFiche : lieur--reprise-du-joint\n6. Délier l’Altération — Dissipation\nFiche : lieur--delier-l-alteration\n7. Attaches de Secours — Lien / soin conditionnel\nFiche : lieur--attaches-de-secours\n8. Éclat de Maintien — Dégâts directs\nFiche : lieur--eclat-de-maintien\n9. Tenir Ensemble — Soin de groupe majeur\nFiche : lieur--tenir-ensemble\n10. Rappel des Liens — Résurrection\nFiche : lieur--rappel-des-liens\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lieur.json",
+    "record_sha256": "4154840334c9bb373f3558962898d9ba837a22e1bc0c46f392199320a8e95ed9"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "eveilleur--ecorce-de-relance",
+  "category": "competences",
+  "title": "Écorce de Relance",
+  "summary": "Protection · Éveilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 7\nCompétence : Écorce de Relance\nType : Protection\nType clair : Protection\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 25\nCD (s) : 25\nPortée (m) : 25\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : −15 % de dégâts directs pendant 4 s sur un allié. Cette prévention peut empêcher le seuil de Reprise : choix assumé entre prévenir et relancer.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0607",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eveilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0607",
+  "public_projection": {
+    "id": "eveilleur--ecorce-de-relance",
+    "category": "competences",
+    "title": "Écorce de Relance",
+    "summary": "Protection · Éveilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Éveilleur\nRôle : Heal\nN° : 7\nCompétence : Écorce de Relance\nType : Protection\nType clair : Protection\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 25\nCD (s) : 25\nPortée (m) : 25\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : −15 % de dégâts directs pendant 4 s sur un allié. Cette prévention peut empêcher le seuil de Reprise : choix assumé entre prévenir et relancer.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eveilleur--ecorce-de-relance.json",
+    "record_sha256": "e1275f98802cb1fe6d23e6ecc22fb919eaabb7dd0cc2ad4b38260eddc83de6ba"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sillonneur--pas-lateral",
+  "category": "competences",
+  "title": "Pas Latéral",
+  "summary": "Mobilité · Sillonneur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 4\nCompétence : Pas Latéral\nType : Mobilité\nType clair : Mobilité\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 0\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Déplacement dirigé de 4 m ; aucune invulnérabilité ni purge ; immobilisation bloque le déplacement.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0554",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "sillonneur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0554",
+  "public_projection": {
+    "id": "sillonneur--pas-lateral",
+    "category": "competences",
+    "title": "Pas Latéral",
+    "summary": "Mobilité · Sillonneur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 4\nCompétence : Pas Latéral\nType : Mobilité\nType clair : Mobilité\nBase / impact : 0\nCoefficient : 0\nNombre d’impacts : 1\nCoût : 15\nCD (s) : 20\nPortée (m) : 0\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Déplacement dirigé de 4 m ; aucune invulnérabilité ni purge ; immobilisation bloque le déplacement.\nPuissance brute réf. : 0\nPuissance PvP réf. : 0\nPuissance totale brute : 0\nPuissance totale PvP : 0\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-sillonneur--pas-lateral.json",
+    "record_sha256": "995842c0f263ccac04049525c722cbffe204fcbf0bc1d7932fdfc73515689949"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

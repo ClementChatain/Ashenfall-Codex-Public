@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "gardien-des-racines-rejet-de-ronce",
+  "record_version": "0.2",
+  "validated_record_sha256": "014c3b22e35f1dcbbdb6302e2ad2dc1213941329adf4a00d940542ad01d516d8",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

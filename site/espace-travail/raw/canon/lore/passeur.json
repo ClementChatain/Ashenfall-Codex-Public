@@ -1,0 +1,63 @@
+{
+  "id": "passeur",
+  "category": "classes",
+  "title": "Passeur",
+  "summary": "Orynth · Soigneur · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur qui veille à ce que le groupe puisse continuer ensemble.\n\nSon équipement associe un bâton court, des anneaux ouverts et des pierres lisses enchâssées dans des supports métalliques. Sa silhouette évoque un guide de terrain, capable d’avancer au milieu des autres.\n\nSon identité serait celle d’un soigneur de proximité et d’accompagnement, dont l’efficacité dépend du mouvement et de la cohésion du groupe. Le Thaumaturge humain effectue des interventions techniques ; le Passeur maintient une continuité entre les alliés. Il serait excellent avec un groupe coordonné, plus en difficulté lorsque tout le monde se disperse.\n\nImpression recherchée : Avec lui, le groupe franchit ce qu’aucun de ses membres ne pourrait traverser seul.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nFlux 0–100 ; départ 0. Soin de Passage : +8 sur soin utile ; Souffle de Rive : +6 à l’application sur cible blessée ; Pierre Lancée : +5 sur touche. Aucun gain simplement en courant.\n\nRelais : Traversée Partagée donne pendant 4 s une charge permettant de préparer un Soin de Passage en marchant à 70 % de vitesse. Dégâts/soins inchangés, charge consommée au début de la préparation. Le Passeur gagne en continuité mobile avec une portée plus courte de 22 m.\n\nBoucle : Suivre les alliés → créer du Flux par soins utiles → préparer un Relais → soigner en déplacement → se regrouper pour les soins de proximité.\n\nContre-jeu : Disperser le groupe, ralentir le soigneur et jouer hors de ses 22 m. Aucun bonus automatique de déplacement ou de soin parce que plusieurs Passeurs sont présents.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Soin de Passage — Soin direct\nFiche : passeur--soin-de-passage\n2. Souffle de Rive — Soin sur la durée\nFiche : passeur--souffle-de-rive\n3. Traversée Partagée — Préparation / soin direct\nFiche : passeur--traversee-partagee\n4. Halte Commune — Soin de zone\nFiche : passeur--halte-commune\n5. Main Tendue — Soin direct d’urgence\nFiche : passeur--main-tendue\n6. Laver l’Entrave — Dissipation\nFiche : passeur--laver-l-entrave\n7. Abri de Rive — Absorption\nFiche : passeur--abri-de-rive\n8. Pierre Lancée — Dégâts directs\nFiche : passeur--pierre-lancee\n9. Franchir Ensemble — Soin de groupe majeur\nFiche : passeur--franchir-ensemble\n10. Retour à la Rive — Résurrection\nFiche : passeur--retour-a-la-rive\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0312",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "orynth"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0312",
+  "public_projection": {
+    "id": "passeur",
+    "category": "classes",
+    "title": "Passeur",
+    "summary": "Orynth · Soigneur · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : Heal\n\nIDENTITÉ & STYLE DE JEU\nUn soigneur qui veille à ce que le groupe puisse continuer ensemble.\n\nSon équipement associe un bâton court, des anneaux ouverts et des pierres lisses enchâssées dans des supports métalliques. Sa silhouette évoque un guide de terrain, capable d’avancer au milieu des autres.\n\nSon identité serait celle d’un soigneur de proximité et d’accompagnement, dont l’efficacité dépend du mouvement et de la cohésion du groupe. Le Thaumaturge humain effectue des interventions techniques ; le Passeur maintient une continuité entre les alliés. Il serait excellent avec un groupe coordonné, plus en difficulté lorsque tout le monde se disperse.\n\nImpression recherchée : Avec lui, le groupe franchit ce qu’aucun de ses membres ne pourrait traverser seul.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nFlux 0–100 ; départ 0. Soin de Passage : +8 sur soin utile ; Souffle de Rive : +6 à l’application sur cible blessée ; Pierre Lancée : +5 sur touche. Aucun gain simplement en courant.\n\nRelais : Traversée Partagée donne pendant 4 s une charge permettant de préparer un Soin de Passage en marchant à 70 % de vitesse. Dégâts/soins inchangés, charge consommée au début de la préparation. Le Passeur gagne en continuité mobile avec une portée plus courte de 22 m.\n\nBoucle : Suivre les alliés → créer du Flux par soins utiles → préparer un Relais → soigner en déplacement → se regrouper pour les soins de proximité.\n\nContre-jeu : Disperser le groupe, ralentir le soigneur et jouer hors de ses 22 m. Aucun bonus automatique de déplacement ou de soin parce que plusieurs Passeurs sont présents.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Soin de Passage — Soin direct\nFiche : passeur--soin-de-passage\n2. Souffle de Rive — Soin sur la durée\nFiche : passeur--souffle-de-rive\n3. Traversée Partagée — Préparation / soin direct\nFiche : passeur--traversee-partagee\n4. Halte Commune — Soin de zone\nFiche : passeur--halte-commune\n5. Main Tendue — Soin direct d’urgence\nFiche : passeur--main-tendue\n6. Laver l’Entrave — Dissipation\nFiche : passeur--laver-l-entrave\n7. Abri de Rive — Absorption\nFiche : passeur--abri-de-rive\n8. Pierre Lancée — Dégâts directs\nFiche : passeur--pierre-lancee\n9. Franchir Ensemble — Soin de groupe majeur\nFiche : passeur--franchir-ensemble\n10. Retour à la Rive — Résurrection\nFiche : passeur--retour-a-la-rive\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-passeur.json",
+    "record_sha256": "79327079e4ad9321085b834579b68749d815f3f05ab082a8233cf0a4a3b2ac68"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

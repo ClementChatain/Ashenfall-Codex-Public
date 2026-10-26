@@ -1,0 +1,15 @@
+{
+  "id": "ASH-DECISION-0001",
+  "record_id": "ASH-LORE-0001",
+  "record_version": "1.0",
+  "status": "VALIDE",
+  "validation_reference": "decisions/ASH-DECISION-0001.json",
+  "validation_date": "2026-10-23T06:43:17Z",
+  "record_sha256": "4f686026cc0b524b8b4b9b21a3dc84bbdb0b10c95aed87f57bc7ffaf1ae04385",
+  "validated_record_sha256": "dd51fc81caf10e04ca9bf2b9ae5081310f038be16b15d983c8e6cbf8faa5012a",
+  "creator": "ClementChatain",
+  "evidence_reference": "sources/decisions/fondation-i-2026-10-23.json",
+  "impact": "Enregistrement de l’extrait attesté ; aucun contenu narratif existant modifié, aucune implémentation Unity.",
+  "publication_authorized": false,
+  "full_transcript_available": false
+}

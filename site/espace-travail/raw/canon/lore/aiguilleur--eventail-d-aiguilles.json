@@ -1,0 +1,57 @@
+{
+  "id": "aiguilleur--eventail-d-aiguilles",
+  "category": "competences",
+  "title": "Éventail d’Aiguilles",
+  "summary": "Dégâts de zone · Aiguilleur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 8\nCompétence : Éventail d’Aiguilles\nType : Zone\nType clair : Dégâts de zone\nBase / impact : 120\nCoefficient : 0.4\nNombre d’impacts : 2\nCoût : 25\nCD (s) : 22\nPortée (m) : 18\nLancement : 0,90 s\nPvP x : 0.8\nContrôle / mécanique : Cône 45°, maximum 5 cibles ; 2 salves à 0 et 0,45 s après la préparation ; sans repère ou bonus d’angle.\nPuissance brute réf. : 520\nPuissance PvP réf. : 416\nPuissance totale brute : 1040\nPuissance totale PvP : 832\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0578",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "aiguilleur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0578",
+  "public_projection": {
+    "id": "aiguilleur--eventail-d-aiguilles",
+    "category": "competences",
+    "title": "Éventail d’Aiguilles",
+    "summary": "Dégâts de zone · Aiguilleur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Vaelith\nClasse : Aiguilleur\nRôle : DPS distance\nN° : 8\nCompétence : Éventail d’Aiguilles\nType : Zone\nType clair : Dégâts de zone\nBase / impact : 120\nCoefficient : 0.4\nNombre d’impacts : 2\nCoût : 25\nCD (s) : 22\nPortée (m) : 18\nLancement : 0,90 s\nPvP x : 0.8\nContrôle / mécanique : Cône 45°, maximum 5 cibles ; 2 salves à 0 et 0,45 s après la préparation ; sans repère ou bonus d’angle.\nPuissance brute réf. : 520\nPuissance PvP réf. : 416\nPuissance totale brute : 1040\nPuissance totale PvP : 832\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-aiguilleur--eventail-d-aiguilles.json",
+    "record_sha256": "9d98e73a73553e7397398b30bfb84d766a199c52d854c26f5e7d347e9fd7a91e"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

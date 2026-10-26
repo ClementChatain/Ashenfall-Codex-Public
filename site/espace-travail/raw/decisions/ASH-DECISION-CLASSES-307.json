@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "aiguilleur",
+  "record_version": "0.1",
+  "validated_record_sha256": "21cc61c427d130538d527b925e9bb6ab976fa1e6bd17970d29b9f232ea2ad486",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}

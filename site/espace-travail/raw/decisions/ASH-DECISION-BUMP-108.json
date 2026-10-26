@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "rempart-contre-heurt",
+  "record_version": "0.2",
+  "validated_record_sha256": "972712425b404148ee762d86038847442ac52bec6fd3ce6dbcfc880ce7986f7b",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

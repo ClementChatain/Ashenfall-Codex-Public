@@ -1,0 +1,57 @@
+{
+  "id": "eclateur--noyau-brise",
+  "category": "competences",
+  "title": "Noyau Brisé",
+  "summary": "Exécution · Éclateur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 10\nCompétence : Noyau Brisé\nType : Exécution\nType clair : Exécution\nBase / impact : 320\nCoefficient : 1.25\nNombre d’impacts : 1\nCoût : 35\nCD (s) : 26\nPortée (m) : 26\nLancement : 1 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Cible à moins de 30 % PV au départ et à la résolution ; aucun ricochet, aucun bonus de balise.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1256\nPuissance totale brute : 1570\nPuissance totale PvP : 1256\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0570",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eclateur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0570",
+  "public_projection": {
+    "id": "eclateur--noyau-brise",
+    "category": "competences",
+    "title": "Noyau Brisé",
+    "summary": "Exécution · Éclateur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 10\nCompétence : Noyau Brisé\nType : Exécution\nType clair : Exécution\nBase / impact : 320\nCoefficient : 1.25\nNombre d’impacts : 1\nCoût : 35\nCD (s) : 26\nPortée (m) : 26\nLancement : 1 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Cible à moins de 30 % PV au départ et à la résolution ; aucun ricochet, aucun bonus de balise.\nPuissance brute réf. : 1570\nPuissance PvP réf. : 1256\nPuissance totale brute : 1570\nPuissance totale PvP : 1256\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eclateur--noyau-brise.json",
+    "record_sha256": "746beaf3b4626a503a2bc6eeb7e10ad611b6171b5c7d24a803e04a7c93112310"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

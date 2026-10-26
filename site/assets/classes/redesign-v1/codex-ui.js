@@ -35,6 +35,7 @@
   const top = document.createElement('nav');
   top.className = 'world-nav'; top.setAttribute('aria-label', 'Explorer le Codex');
   top.innerHTML = [['home','Monde'],['peuples','Peuples'],['classes','Classes'],['competences','Compétences'],['bestiaire','Bestiaire'],['regions','Lieux'],['equipements','Objets'],['lore','Lore']].map(([id,label]) => '<a href="#/'+id+'" data-top-route="'+id+'">'+label+'</a>').join('');
+  top.insertAdjacentHTML('beforeend', '<a href="espace-travail/">Projet & développement</a>');
   document.querySelector('.app-toolbar').insertBefore(top, search);
   search.placeholder = 'Rechercher…';
 
@@ -109,7 +110,7 @@
     const entry = entryFor(route);
     const race = entry && (entry[1]==='peuples'?entry[0]:(classInfo[entry[0]]||[])[0]);
     const people = ['nains','elfes','humains','kharun','vaelith','orynth'].map(entryFor).filter(Boolean);
-    nav.innerHTML = '<div class="atlas-side-heading">PEUPLES</div><div class="atlas-peoples">'+people.map(p=>'<a href="#/'+p[0]+'" class="atlas-people '+(p[0]===race?'is-selected':'')+'"'+(p[0]===race?' aria-current="page"':'')+'><img src="assets/emblems/v1/peuples-'+p[0]+'.webp" alt="" width="42" height="42"><span>'+esc(p[2])+'</span></a>').join('')+'</div><div class="atlas-side-heading">'+esc(race ? (entryFor(race)||[])[2] || 'EXPLORER' : 'EXPLORER')+'</div><nav class="atlas-context-nav" aria-label="Navigation du peuple">'+(race?'<a href="#/'+race+'">Aperçu du peuple</a>':'<a href="#/home">Accueil du Codex</a>')+'<a href="#/classes"'+(entry&&entry[1]==='classes'?' aria-current="page"':'')+'>Classes</a><a href="#/competences">Compétences</a><a href="#/regions">Lieux majeurs</a><a href="#/equipements">Équipements</a><a href="#/bestiaire">Bestiaire</a><a href="#/chronologie">Chronologie</a></nav><details class="atlas-archives"><summary>Toutes les archives</summary>'+archiveNavigation+'</details><div class="atlas-side-signature"><span>ASHENFALL</span><small>Les archives d’un monde en devenir</small></div>';
+    nav.innerHTML = '<div class="atlas-side-heading">PEUPLES</div><div class="atlas-peoples">'+people.map(p=>'<a href="#/'+p[0]+'" class="atlas-people '+(p[0]===race?'is-selected':'')+'"'+(p[0]===race?' aria-current="page"':'')+'><img src="assets/emblems/v1/peuples-'+p[0]+'.webp" alt="" width="42" height="42"><span>'+esc(p[2])+'</span></a>').join('')+'</div><div class="atlas-side-heading">'+esc(race ? (entryFor(race)||[])[2] || 'EXPLORER' : 'EXPLORER')+'</div><nav class="atlas-context-nav" aria-label="Navigation du peuple">'+(race?'<a href="#/'+race+'">Aperçu du peuple</a>':'<a href="#/home">Accueil du Codex</a>')+'<a href="#/classes"'+(entry&&entry[1]==='classes'?' aria-current="page"':'')+'>Classes</a><a href="#/competences">Compétences</a><a href="#/regions">Lieux majeurs</a><a href="#/equipements">Équipements</a><a href="#/bestiaire">Bestiaire</a><a href="#/chronologie">Chronologie</a><a href="espace-travail/">Projet & développement</a><a href="espace-travail/ai/">Références IA</a></nav><details class="atlas-archives"><summary>Toutes les archives</summary>'+archiveNavigation+'</details><div class="atlas-side-signature"><span>ASHENFALL</span><small>Les archives d’un monde en devenir</small></div>';
     document.querySelectorAll('[data-top-route]').forEach(link=>{
       const active = link.dataset.topRoute === (entry ? (entry[1]==='classes'?'peuples':entry[1]) : route);
       if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
@@ -175,3 +176,4 @@
   window.addEventListener('hashchange', updateChrome);
   render();
 })();
+

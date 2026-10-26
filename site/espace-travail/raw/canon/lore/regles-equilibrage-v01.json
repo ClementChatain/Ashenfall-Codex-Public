@@ -1,0 +1,60 @@
+{
+  "id": "regles-equilibrage-v01",
+  "lore_id": "ASH-LORE-0107",
+  "title": "Règles d’équilibrage V0.2",
+  "category": "systemes",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Cadre commun des 120 compétences : unités, Garde, contrôles, résurrection et hypothèses. · Bumps des trois tanks",
+  "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPérimètre : 12 classes / 120 compétences / 3 peuples / 4 rôles\nRéférence : Niveau 30, équipement standardisé, PO = 1000, PS = 1000\nDégâts ou soins bruts : Base + Coefficient × PO (dégâts) ou PS (soins)\nDoT / HoT : Base et coefficient PAR TICK, sauf indication contraire\nMulti-coups : Base et coefficient PAR IMPACT, sauf indication contraire\nZone : Valeurs par cible; plafond PvE de 5 cibles par défaut\nCoût : Ressource propre à la classe; 0 = gratuit; certains coûts représentent des charges de Fracture\nPortée : Mètres; 0 = personnel ou posture\nCD : Secondes; 0 = attaque fondamentale, soumise au GCD\nGCD : 1,25 s de référence; compétences défensives réactives peuvent être hors GCD\nPvP : Multiplicateur indicatif de dégâts/soins directs; CC soumis aux rendements décroissants\nGarde : 50% des dégâts post-mitigation allié transférés; pas de boucle; pas de Stabilité automatique\nGarde et mort : Assignation persistante; suspendue si mort/hors portée; reprise automatique\nGarde et contrôle : Stun maintient transfert; bloque changement et défense active\nÉpuisement Rempart : À 0 Endurance, bouclier abaissé; reprise à 20 Endurance; Garde maintenue\nBlocage Rempart : Maintien -10 Endurance/s; régénération +15/s abaissé; blocage parfait + Stabilité\nBlocage parfait : Fenêtre test 0,25 s avant impact; réduction renforcée et riposte\nDiminishing returns PvP : Stun / immobilisation: 100% → 50% → 25% → immunité 18s; catégories séparées\nDurées PvP : Stun max 2s par application; immobilisation max 2s; ralentissement max 40% ordinaire\nRésurrection : Combat : 3s incantation, 180s CD, coût 50, 25% PV; limite partagée à définir\nDéfenses majeures : Ne se cumulent pas pleinement : plus forte réduction + 25% des autres réductions éligibles\nSoins : Overheal ne génère pas de ressource; boucliers similaires non empilables\nProposition de tests : Cible DPS soutenu ±5%; Tank 40-55% DPS; Heal solo 45-60% DPS\nStatut : Toutes les valeurs sont des hypothèses de prototype et nécessitent simulation + playtests\n\nBumps des tanks — V0.2 validée pour publication le 23 octobre 2026\nAprès une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\nRempart : Heurt du Bastion, une cible, portée 3 m, projection 8 m, coût 20 Stabilité, recharge 25 s, préparation 0,35 s.\nSentinelle : Balayage du Veilleur, cône 90° de 3 m, trois ennemis les plus proches, projection 5 m, coût 25 Résolution, recharge 30 s, préparation 0,45 s.\nGardien des Racines : Rejet de Ronce, une cible en ligne de vue à 6 m, projection 6 m, coût 20, recharge 24 s, préparation 0,40 s.\nDégâts communs : 100 + 0,20 × PO par cible, multiplicateur PvP 1,0 ; soit 300 bruts pour PO = 1000.\nTests prioritaires : distances face à la Garde de 9 m, rebords et efficacité du cône contre plusieurs joueurs. Les rendements décroissants des étourdissements et immobilisations restent distincts ; la règle des bumps ci-dessus ne les remplace pas.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "regles-equilibrage-v01",
+    "category": "systemes",
+    "title": "Règles d’équilibrage V0.2",
+    "summary": "Cadre commun des 120 compétences : unités, Garde, contrôles, résurrection et hypothèses. · Bumps des trois tanks",
+    "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nPérimètre : 12 classes / 120 compétences / 3 peuples / 4 rôles\nRéférence : Niveau 30, équipement standardisé, PO = 1000, PS = 1000\nDégâts ou soins bruts : Base + Coefficient × PO (dégâts) ou PS (soins)\nDoT / HoT : Base et coefficient PAR TICK, sauf indication contraire\nMulti-coups : Base et coefficient PAR IMPACT, sauf indication contraire\nZone : Valeurs par cible; plafond PvE de 5 cibles par défaut\nCoût : Ressource propre à la classe; 0 = gratuit; certains coûts représentent des charges de Fracture\nPortée : Mètres; 0 = personnel ou posture\nCD : Secondes; 0 = attaque fondamentale, soumise au GCD\nGCD : 1,25 s de référence; compétences défensives réactives peuvent être hors GCD\nPvP : Multiplicateur indicatif de dégâts/soins directs; CC soumis aux rendements décroissants\nGarde : 50% des dégâts post-mitigation allié transférés; pas de boucle; pas de Stabilité automatique\nGarde et mort : Assignation persistante; suspendue si mort/hors portée; reprise automatique\nGarde et contrôle : Stun maintient transfert; bloque changement et défense active\nÉpuisement Rempart : À 0 Endurance, bouclier abaissé; reprise à 20 Endurance; Garde maintenue\nBlocage Rempart : Maintien -10 Endurance/s; régénération +15/s abaissé; blocage parfait + Stabilité\nBlocage parfait : Fenêtre test 0,25 s avant impact; réduction renforcée et riposte\nDiminishing returns PvP : Stun / immobilisation: 100% → 50% → 25% → immunité 18s; catégories séparées\nDurées PvP : Stun max 2s par application; immobilisation max 2s; ralentissement max 40% ordinaire\nRésurrection : Combat : 3s incantation, 180s CD, coût 50, 25% PV; limite partagée à définir\nDéfenses majeures : Ne se cumulent pas pleinement : plus forte réduction + 25% des autres réductions éligibles\nSoins : Overheal ne génère pas de ressource; boucliers similaires non empilables\nProposition de tests : Cible DPS soutenu ±5%; Tank 40-55% DPS; Heal solo 45-60% DPS\nStatut : Toutes les valeurs sont des hypothèses de prototype et nécessitent simulation + playtests\n\nBumps des tanks — V0.2 validée pour publication le 23 octobre 2026\nAprès une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\nRempart : Heurt du Bastion, une cible, portée 3 m, projection 8 m, coût 20 Stabilité, recharge 25 s, préparation 0,35 s.\nSentinelle : Balayage du Veilleur, cône 90° de 3 m, trois ennemis les plus proches, projection 5 m, coût 25 Résolution, recharge 30 s, préparation 0,45 s.\nGardien des Racines : Rejet de Ronce, une cible en ligne de vue à 6 m, projection 6 m, coût 20, recharge 24 s, préparation 0,40 s.\nDégâts communs : 100 + 0,20 × PO par cible, multiplicateur PvP 1,0 ; soit 300 bruts pour PO = 1000.\nTests prioritaires : distances face à la Garde de 9 m, rebords et efficacité du cône contre plusieurs joueurs. Les rendements décroissants des étourdissements et immobilisations restent distincts ; la règle des bumps ci-dessus ne les remplace pas."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-107.json",
+    "record_sha256": "5284a476abdfaea053b50212870360765846ddc36d4605f5ecc8e362fa90c7ac"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

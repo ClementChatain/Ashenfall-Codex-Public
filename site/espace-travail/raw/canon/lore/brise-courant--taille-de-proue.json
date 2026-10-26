@@ -1,0 +1,57 @@
+{
+  "id": "brise-courant--taille-de-proue",
+  "category": "competences",
+  "title": "Taille de Proue",
+  "summary": "Dégâts directs · Brise-Courant",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 3\nCompétence : Taille de Proue\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 150\nCoefficient : 0.35\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Une cible ; +10 Impulsion sur touche.\nPuissance brute réf. : 500\nPuissance PvP réf. : 500\nPuissance totale brute : 500\nPuissance totale PvP : 500\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0523",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "brise-courant"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0523",
+  "public_projection": {
+    "id": "brise-courant--taille-de-proue",
+    "category": "competences",
+    "title": "Taille de Proue",
+    "summary": "Dégâts directs · Brise-Courant",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Brise-Courant\nRôle : Tank\nN° : 3\nCompétence : Taille de Proue\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 150\nCoefficient : 0.35\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 3\nLancement : Instantané\nPvP x : 1\nContrôle / mécanique : Une cible ; +10 Impulsion sur touche.\nPuissance brute réf. : 500\nPuissance PvP réf. : 500\nPuissance totale brute : 500\nPuissance totale PvP : 500\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-brise-courant--taille-de-proue.json",
+    "record_sha256": "72a954ea6ee5a6c5ca32b65d6e6e02b3fed9d155655a2a391a91c0dedf073b26"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

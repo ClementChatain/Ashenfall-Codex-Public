@@ -1,0 +1,34 @@
+{
+  "rempart": {
+    "title": "Rempart",
+    "src": "assets/classes/equipment-v01/rempart.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "1175d295e82a58f1a2a9791d0203763c6e8042ec2bf604635b48e3c94d950fa0",
+    "web_sha256": "b84b827885b0697b2b6658279003b8869906554fb76ecde82df127954deca8c6"
+  },
+  "brise-fer": {
+    "title": "Brise-Fer",
+    "src": "assets/classes/equipment-v01/brise-fer.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "7c1a43ad89ad80d7bda22635df58c622fb58ecc7c0b40076f86a5417028642e7",
+    "web_sha256": "72bce36c76d6aa07236712a84e6971581e642789494404b8b58fbb0d2af99187"
+  },
+  "artilleur-runique": {
+    "title": "Artilleur runique",
+    "src": "assets/classes/equipment-v01/artilleur-runique.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "81c24879e68836129cddc22393615f798c6bd237a0bd5a92518d048c0446e6a1",
+    "web_sha256": "38a3a1484560401169a584a1a2a77d529451fbb57f062f16e897c8a704615f8d"
+  },
+  "accordeur": {
+    "title": "Accordeur",
+    "src": "assets/classes/equipment-v01/accordeur.webp",
+    "width": 2172,
+    "height": 724,
+    "source_sha256": "53e8ce9b701fadf319c0d0940a7ef3c91cad2639c938ebe1089239a4291f10e8",
+    "web_sha256": "94c60f6bdcda2cd549f20f5b8f7ea5cec8490a3fd13c8fc27e87af8a533f6bd4"
+  }
+}

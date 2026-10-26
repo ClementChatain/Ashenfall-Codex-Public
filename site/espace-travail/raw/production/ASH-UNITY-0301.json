@@ -1,0 +1,22 @@
+{
+  "id": "ASH-UNITY-0301",
+  "lore_id": "ASH-LORE-0301",
+  "status": "PROPOSITION",
+  "scope": "Identité web uniquement",
+  "zones": [],
+  "npcs": [],
+  "quests": [],
+  "dialogues": [],
+  "assets": [],
+  "constraints": [
+    "Aucune implémentation automatique Unity.",
+    "Emblème du peuple utilisé comme repère, sans prétendre à un emblème de classe."
+  ],
+  "acceptance": [
+    "Rôle explicite et fiche accessible depuis le peuple.",
+    "Aucune compétence ajoutée."
+  ],
+  "non_decisions": [
+    "Compétences, ressources, valeurs, anatomie, culture et disponibilité en jeu."
+  ]
+}

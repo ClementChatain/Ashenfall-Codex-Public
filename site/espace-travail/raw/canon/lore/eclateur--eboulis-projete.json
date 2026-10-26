@@ -1,0 +1,57 @@
+{
+  "id": "eclateur--eboulis-projete",
+  "category": "competences",
+  "title": "Éboulis Projeté",
+  "summary": "Dégâts de zone · Éclateur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 8\nCompétence : Éboulis Projeté\nType : Zone\nType clair : Dégâts de zone\nBase / impact : 140\nCoefficient : 0.43\nNombre d’impacts : 2\nCoût : 30\nCD (s) : 22\nPortée (m) : 25\nLancement : 1,20 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Zone fixe annoncée, rayon 4 m ; 2 impacts espacés de 0,6 s, 5 cibles au plus. Aucun ralentissement.\nPuissance brute réf. : 570\nPuissance PvP réf. : 456\nPuissance totale brute : 1140\nPuissance totale PvP : 912\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0568",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "eclateur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0568",
+  "public_projection": {
+    "id": "eclateur--eboulis-projete",
+    "category": "competences",
+    "title": "Éboulis Projeté",
+    "summary": "Dégâts de zone · Éclateur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Éclateur\nRôle : DPS distance\nN° : 8\nCompétence : Éboulis Projeté\nType : Zone\nType clair : Dégâts de zone\nBase / impact : 140\nCoefficient : 0.43\nNombre d’impacts : 2\nCoût : 30\nCD (s) : 22\nPortée (m) : 25\nLancement : 1,20 s, immobile\nPvP x : 0.8\nContrôle / mécanique : Zone fixe annoncée, rayon 4 m ; 2 impacts espacés de 0,6 s, 5 cibles au plus. Aucun ralentissement.\nPuissance brute réf. : 570\nPuissance PvP réf. : 456\nPuissance totale brute : 1140\nPuissance totale PvP : 912\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-eclateur--eboulis-projete.json",
+    "record_sha256": "c1eededa179ff2f0d5c8872eeab26a39fbe944d0347807a69e10328a1bbd88b7"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

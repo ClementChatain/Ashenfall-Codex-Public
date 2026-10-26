@@ -1,0 +1,10 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "sentinelle",
+  "record_version": "0.2",
+  "validated_record_sha256": "74c41a2e419f0bad2400804bf38a2b46eedd7548f1417710be42bc806262a9ce",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/bumps-tanks-v02-2026-10-23.json",
+  "scope": "Révision BUMP V0.2 ; publication du contenu présenté, sans validation narrative des transcriptions historiques conservées."
+}

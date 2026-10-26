@@ -1,0 +1,63 @@
+{
+  "id": "brise-courant",
+  "category": "classes",
+  "title": "Brise-Courant",
+  "summary": "Orynth · Tank · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui se place dans le mouvement adverse pour en modifier la direction.\n\nIl manie une longue arme d’hast et porte un large avant-bras défensif. Sa silhouette est inclinée vers l’avant, avec des protections qui donnent une impression de proue.\n\nSon identité serait celle d’un tank d’interception et de redirection. La Sentinelle humaine surveille une ligne ; le Brise-Courant se déplace pour couper une trajectoire et créer un passage sûr. Il serait particulièrement utile dans les affrontements mobiles, mais demanderait une vigilance constante pour ne pas ouvrir lui-même sa défense.\n\nImpression recherchée : L’ennemi avance avec force, puis découvre qu’il ne va plus où il voulait.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nImpulsion 0–100 ; départ 20. Taille de Proue : +10 sur touche. Déviation : +10 une fois si une attaque ennemie est reçue pendant ses 0,5 premières secondes. Marcher ou tourner en boucle ne génère rien. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nLe tank protège en changeant de position et en interceptant les trajectoires. Ses déplacements ne déplacent jamais l’allié gardé. Les effets directionnels exigent une orientation réellement contrôlée.\n\nBoucle : Se placer entre allié et menace → dévier → rejoindre le bon allié → réorienter le front.\n\nContre-jeu : Attaquer par plusieurs directions, l’immobiliser avant l’interception ou se décaler hors du cône ; sa défense ne couvre pas toute l’équipe à distance.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : brise-courant--garde\n2. Défi de la Proue — Provocation\nFiche : brise-courant--defi-de-la-proue\n3. Taille de Proue — Dégâts directs\nFiche : brise-courant--taille-de-proue\n4. Déviation — Protection\nFiche : brise-courant--deviation\n5. Couper la Trajectoire — Mobilité\nFiche : brise-courant--couper-la-trajectoire\n6. Ressac de Proue — Contrôle — bump\nFiche : brise-courant--ressac-de-proue\n7. Brisure d’Élan — Dégâts directs / interruption\nFiche : brise-courant--brisure-d-elan\n8. Sillage Abrité — Protection\nFiche : brise-courant--sillage-abrite\n9. Contrepoids — Ancrage\nFiche : brise-courant--contrepoids\n10. Proue Inflexible — Défense majeure\nFiche : brise-courant--proue-inflexible\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0309",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "orynth"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0309",
+  "public_projection": {
+    "id": "brise-courant",
+    "category": "classes",
+    "title": "Brise-Courant",
+    "summary": "Orynth · Tank · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Orynth\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui se place dans le mouvement adverse pour en modifier la direction.\n\nIl manie une longue arme d’hast et porte un large avant-bras défensif. Sa silhouette est inclinée vers l’avant, avec des protections qui donnent une impression de proue.\n\nSon identité serait celle d’un tank d’interception et de redirection. La Sentinelle humaine surveille une ligne ; le Brise-Courant se déplace pour couper une trajectoire et créer un passage sûr. Il serait particulièrement utile dans les affrontements mobiles, mais demanderait une vigilance constante pour ne pas ouvrir lui-même sa défense.\n\nImpression recherchée : L’ennemi avance avec force, puis découvre qu’il ne va plus où il voulait.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nImpulsion 0–100 ; départ 20. Taille de Proue : +10 sur touche. Déviation : +10 une fois si une attaque ennemie est reçue pendant ses 0,5 premières secondes. Marcher ou tourner en boucle ne génère rien. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nLe tank protège en changeant de position et en interceptant les trajectoires. Ses déplacements ne déplacent jamais l’allié gardé. Les effets directionnels exigent une orientation réellement contrôlée.\n\nBoucle : Se placer entre allié et menace → dévier → rejoindre le bon allié → réorienter le front.\n\nContre-jeu : Attaquer par plusieurs directions, l’immobiliser avant l’interception ou se décaler hors du cône ; sa défense ne couvre pas toute l’équipe à distance.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : brise-courant--garde\n2. Défi de la Proue — Provocation\nFiche : brise-courant--defi-de-la-proue\n3. Taille de Proue — Dégâts directs\nFiche : brise-courant--taille-de-proue\n4. Déviation — Protection\nFiche : brise-courant--deviation\n5. Couper la Trajectoire — Mobilité\nFiche : brise-courant--couper-la-trajectoire\n6. Ressac de Proue — Contrôle — bump\nFiche : brise-courant--ressac-de-proue\n7. Brisure d’Élan — Dégâts directs / interruption\nFiche : brise-courant--brisure-d-elan\n8. Sillage Abrité — Protection\nFiche : brise-courant--sillage-abrite\n9. Contrepoids — Ancrage\nFiche : brise-courant--contrepoids\n10. Proue Inflexible — Défense majeure\nFiche : brise-courant--proue-inflexible\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-brise-courant.json",
+    "record_sha256": "ae31162182ae132b7c4369f7f4c64020883513a69c14d9a922b829e2750f6e5d"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

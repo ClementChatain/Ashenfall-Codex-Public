@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "eveilleur--impulsion-vitale",
+  "record_version": "0.1",
+  "validated_record_sha256": "87ad740c61c64e4d39d0c0ecd13a69bdb7310e96d3bef5e074ca829b7484bcf2",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}

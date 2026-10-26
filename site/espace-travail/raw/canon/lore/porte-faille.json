@@ -1,0 +1,63 @@
+{
+  "id": "porte-faille",
+  "category": "classes",
+  "title": "Porte-Faille",
+  "summary": "Kharûn · Tank · 10 compétences V0.1",
+  "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui accueille la violence dans son armure et la répartit à travers une structure fragmentée.\n\nSon équipement associe une arme courte à une grande pièce défensive composée de plaques imbriquées. Sa silhouette est large, presque monumentale, mais les éléments de sa protection semblent pouvoir s’écarter et se réassembler.\n\nSon identité serait celle d’un tank qui accepte les impacts pour mieux tenir sous pression. Le Rempart nain maîtrise son bouclier ; le Porte-Faille doit gérer les tensions accumulées dans sa défense. Très solide lorsqu’il accompagne le rythme du combat, plus fragile lorsqu’il laisse ces tensions devenir incontrôlables.\n\nImpression recherchée : Frapper une montagne et sentir qu’elle commence à vous répondre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nTension 0–100 ; départ 20. Frappe de Jointure : +10 si elle touche. Absorption structurée : +5 au maximum toutes les 2 s, uniquement sur un coup ennemi direct reçu pendant Armature Ouverte ; aucun gain via Garde, auto-dégâts ou dégâts différés. Hors combat : −10/s après 5 s. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nDeux protections structurées peuvent différer une part des dégâts. Plafond de dette commun : 10 % des PV max. À saturation, le surplus est immédiat ; jamais annulé. Le tank choisit quand encaisser, sans transformer la dette en ressource gratuite.\n\nBoucle : Frappe de Jointure → Armature Ouverte au bon moment → dépenser en répartition ou en contrôle → laisser la dette se résorber.\n\nContre-jeu : Maintenir une pression après la fenêtre défensive ; écarter le gardé au-delà de 9 m ; interrompre le placement. Les ticks de dette continuent pendant les contrôles et le KO.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : porte-faille--garde\n2. Défi de la Faille — Provocation\nFiche : porte-faille--defi-de-la-faille\n3. Frappe de Jointure — Dégâts directs\nFiche : porte-faille--frappe-de-jointure\n4. Armature Ouverte — Protection\nFiche : porte-faille--armature-ouverte\n5. Pas de Soutènement — Mobilité\nFiche : porte-faille--pas-de-soutenement\n6. Ouverture du Front — Contrôle — bump\nFiche : porte-faille--ouverture-du-front\n7. Coin de Rupture — Dégâts directs / interruption\nFiche : porte-faille--coin-de-rupture\n8. Répartition des Charges — Protection\nFiche : porte-faille--repartition-des-charges\n9. Scellement des Appuis — Ancrage\nFiche : porte-faille--scellement-des-appuis\n10. Tenir les Fragments — Défense majeure\nFiche : porte-faille--tenir-les-fragments\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n",
+  "lore_id": "ASH-LORE-0301",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "kharun"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/classes-new-peoples-v01-2026-10-23.json",
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0301",
+  "public_projection": {
+    "id": "porte-faille",
+    "category": "classes",
+    "title": "Porte-Faille",
+    "summary": "Kharûn · Tank · 10 compétences V0.1",
+    "body": "VERSION DE TRAVAIL — IDENTITÉ V0.1 ; ARSENAL DE CONCEPTION V0.1\n\nPeuple : Kharûn\nRôle : Tank\n\nIDENTITÉ & STYLE DE JEU\nUn protecteur qui accueille la violence dans son armure et la répartit à travers une structure fragmentée.\n\nSon équipement associe une arme courte à une grande pièce défensive composée de plaques imbriquées. Sa silhouette est large, presque monumentale, mais les éléments de sa protection semblent pouvoir s’écarter et se réassembler.\n\nSon identité serait celle d’un tank qui accepte les impacts pour mieux tenir sous pression. Le Rempart nain maîtrise son bouclier ; le Porte-Faille doit gérer les tensions accumulées dans sa défense. Très solide lorsqu’il accompagne le rythme du combat, plus fragile lorsqu’il laisse ces tensions devenir incontrôlables.\n\nImpression recherchée : Frapper une montagne et sentir qu’elle commence à vous répondre.\n\nLes dix compétences V0.1 sont désormais décrites ci-dessous. Cette identité ne fixe pas l’anatomie ni la culture du peuple.\n\nRESSOURCE & BOUCLE DE COMBAT\nTension 0–100 ; départ 20. Frappe de Jointure : +10 si elle touche. Absorption structurée : +5 au maximum toutes les 2 s, uniquement sur un coup ennemi direct reçu pendant Armature Ouverte ; aucun gain via Garde, auto-dégâts ou dégâts différés. Hors combat : −10/s après 5 s. Hors combat, retour progressif vers 20 : +5/s si inférieur, −10/s si supérieur après 5 s. Pas de gain instantané en quittant puis reprenant le combat.\n\nDeux protections structurées peuvent différer une part des dégâts. Plafond de dette commun : 10 % des PV max. À saturation, le surplus est immédiat ; jamais annulé. Le tank choisit quand encaisser, sans transformer la dette en ressource gratuite.\n\nBoucle : Frappe de Jointure → Armature Ouverte au bon moment → dépenser en répartition ou en contrôle → laisser la dette se résorber.\n\nContre-jeu : Maintenir une pression après la fenêtre défensive ; écarter le gardé au-delà de 9 m ; interrompre le placement. Les ticks de dette continuent pendant les contrôles et le KO.\n\nARSENAL V0.1 — 10 COMPÉTENCES\n1. Garde — Protection\nFiche : porte-faille--garde\n2. Défi de la Faille — Provocation\nFiche : porte-faille--defi-de-la-faille\n3. Frappe de Jointure — Dégâts directs\nFiche : porte-faille--frappe-de-jointure\n4. Armature Ouverte — Protection\nFiche : porte-faille--armature-ouverte\n5. Pas de Soutènement — Mobilité\nFiche : porte-faille--pas-de-soutenement\n6. Ouverture du Front — Contrôle — bump\nFiche : porte-faille--ouverture-du-front\n7. Coin de Rupture — Dégâts directs / interruption\nFiche : porte-faille--coin-de-rupture\n8. Répartition des Charges — Protection\nFiche : porte-faille--repartition-des-charges\n9. Scellement des Appuis — Ancrage\nFiche : porte-faille--scellement-des-appuis\n10. Tenir les Fragments — Défense majeure\nFiche : porte-faille--tenir-les-fragments\n\nRègles communes\nFiche : nouvelles-regles-combat-v01\nValeurs et mécaniques de prototype, à tester en jeu.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-porte-faille.json",
+    "record_sha256": "39f5dd846281487db0da62edf282800fa881c747d3099a187370c7d2976a3d38"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Identité V0.1 validée pour présentation publique ; compétences reportées.",
+      "source": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+    },
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "brise-courant",
+  "record_version": "0.1",
+  "validated_record_sha256": "9c6cd6e2f935c1399f30bed4faf81c42ea17c29075fc68b85616cf14b21b0e3e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/classes-new-peoples-v01-2026-10-23.json"
+}

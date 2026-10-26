@@ -1,0 +1,41 @@
+{
+  "id": "ASH-UNITY-0101",
+  "lore_ids": [
+    "gardien-des-racines",
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines-rejet-de-ronce",
+    "rempart-cercle-de-fer",
+    "sentinelle-contre-de-justice",
+    "regles-equilibrage-v01",
+    "rempart-contre-heurt",
+    "sentinelle-parade-du-veilleur"
+  ],
+  "lore_version": "0.2",
+  "status": "PROPOSITION",
+  "visibility": "INTERNE",
+  "implementation_status": "NON_PLANIFIE",
+  "zones": [],
+  "npcs": [],
+  "quests": [],
+  "dialogues": [],
+  "environments": [],
+  "assets": [
+    "Trois illustrations approuvées dans la conversation ; ressources web uniquement."
+  ],
+  "constraints": [
+    "Respecter strictement les trois compétences et règles V0.2 approuvées.",
+    "Aucun code, scène, prefab ou asset Unity modifié par cette livraison."
+  ],
+  "acceptance": [
+    "Vérifier distances par rapport à Garde 9 m.",
+    "Tester immunité 10 s multi-tanks et tentatives bloquées.",
+    "Tester cône 90°, trois ennemis les plus proches, blocage et esquive.",
+    "Tester obstacles, rebords autorisés et boss immunisés.",
+    "Vérifier ancrage : 8 m deviennent 2,4 m."
+  ],
+  "non_decisions": [
+    "Aucune date de développement Unity.",
+    "Équilibrage final inconnu avant simulation et tests."
+  ]
+}

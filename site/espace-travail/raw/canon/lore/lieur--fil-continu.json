@@ -1,0 +1,57 @@
+{
+  "id": "lieur--fil-continu",
+  "category": "competences",
+  "title": "Fil Continu",
+  "summary": "Soin sur la durée · Lieur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 2\nCompétence : Fil Continu\nType : HoT\nType clair : Soin sur la durée\nBase / impact : 100\nCoefficient : 0.28\nNombre d’impacts : 3\nCoût : 0\nCD (s) : 8\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; +6 Cohésion à l’application si cible blessée. Aucun gain par tick ; pas de cumul par lanceur.\nPuissance brute réf. : 380\nPuissance PvP réf. : 342\nPuissance totale brute : 1140\nPuissance totale PvP : 1026\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0592",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lieur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0592",
+  "public_projection": {
+    "id": "lieur--fil-continu",
+    "category": "competences",
+    "title": "Fil Continu",
+    "summary": "Soin sur la durée · Lieur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 2\nCompétence : Fil Continu\nType : HoT\nType clair : Soin sur la durée\nBase / impact : 100\nCoefficient : 0.28\nNombre d’impacts : 3\nCoût : 0\nCD (s) : 8\nPortée (m) : 25\nLancement : Instantané\nPvP x : 0.9\nContrôle / mécanique : 3 ticks à +2/+4/+6 s ; +6 Cohésion à l’application si cible blessée. Aucun gain par tick ; pas de cumul par lanceur.\nPuissance brute réf. : 380\nPuissance PvP réf. : 342\nPuissance totale brute : 1140\nPuissance totale PvP : 1026\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lieur--fil-continu.json",
+    "record_sha256": "393bc9de94bfd3897be93554ea63a6652ab613ab7a6868eb7eceb27d11cb553e"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

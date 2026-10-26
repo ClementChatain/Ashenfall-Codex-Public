@@ -1,0 +1,57 @@
+{
+  "id": "lieur--tenir-ensemble",
+  "category": "competences",
+  "title": "Tenir Ensemble",
+  "summary": "Soin de groupe majeur · Lieur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 9\nCompétence : Tenir Ensemble\nType : Soin zone\nType clair : Soin de groupe majeur\nBase / impact : 430\nCoefficient : 1.2\nNombre d’impacts : 1\nCoût : 65\nCD (s) : 75\nPortée (m) : 15\nLancement : 1,50 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m. Ne déclenche pas les Attaches et n’accorde aucune réduction de dégâts additionnelle.\nPuissance brute réf. : 1630\nPuissance PvP réf. : 1467\nPuissance totale brute : 1630\nPuissance totale PvP : 1467\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0599",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lieur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0599",
+  "public_projection": {
+    "id": "lieur--tenir-ensemble",
+    "category": "competences",
+    "title": "Tenir Ensemble",
+    "summary": "Soin de groupe majeur · Lieur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Kharûn\nClasse : Lieur\nRôle : Heal\nN° : 9\nCompétence : Tenir Ensemble\nType : Soin zone\nType clair : Soin de groupe majeur\nBase / impact : 430\nCoefficient : 1.2\nNombre d’impacts : 1\nCoût : 65\nCD (s) : 75\nPortée (m) : 15\nLancement : 1,50 s, immobile\nPvP x : 0.9\nContrôle / mécanique : Jusqu’à 5 alliés dans un rayon de 6 m. Ne déclenche pas les Attaches et n’accorde aucune réduction de dégâts additionnelle.\nPuissance brute réf. : 1630\nPuissance PvP réf. : 1467\nPuissance totale brute : 1630\nPuissance totale PvP : 1467\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lieur--tenir-ensemble.json",
+    "record_sha256": "71f12d2a3e28a7a5d70fce8230108561ee9f2d1d848908cabeca60fd81e24de4"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

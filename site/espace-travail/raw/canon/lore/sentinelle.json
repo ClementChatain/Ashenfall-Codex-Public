@@ -1,0 +1,60 @@
+{
+  "id": "sentinelle",
+  "lore_id": "ASH-LORE-0103",
+  "title": "Sentinelle",
+  "category": "classes",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Humain · Tank · 10 compétences de référence V0.2",
+  "body": "VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : sentinelle-garde\n\n2. Défi de la Sentinelle\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : sentinelle-defi-de-la-sentinelle\n\n3. Parade du Veilleur\nDéfense — Parade active 0.5s; +15 Résolution réussie\nCoût 0 ; CD 9 s ; portée 0 m.\nFiche : sentinelle-parade-du-veilleur\n\n4. Interception Héroïque\nMobilité — Bond allié 12m\nCoût 15 ; CD 18 s ; portée 12 m.\nFiche : sentinelle-interception-heroique\n\n5. Balayage du Veilleur\nContrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nCoût 25 Résolution ; CD 30 s ; portée 3 m.\nFiche : sentinelle-contre-de-justice\n\n6. Position du Veilleur\nDéfense — -25% dégâts 5s\nCoût 30 ; CD 24 s ; portée 0 m.\nFiche : sentinelle-position-du-veilleur\n\n7. Cercle de Vigilance\nProtection — -18% dégâts alliés 5s\nCoût 35 ; CD 28 s ; portée 8 m.\nFiche : sentinelle-cercle-de-vigilance\n\n8. Lame d'Arrêt\nDégâts — Interruption 1s\nCoût 15 ; CD 18 s ; portée 3 m.\nFiche : sentinelle-lame-d-arret\n\n9. Serment de Fer\nDéfense — -45% dégâts 4s\nCoût 65 ; CD 90 s ; portée 0 m.\nFiche : sentinelle-serment-de-fer\n\n10. Dernière Ligne\nProtection — Bouclier urgence 5s\nCoût 50 ; CD 70 s ; portée 10 m.\nFiche : sentinelle-derniere-ligne\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nTrois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "sentinelle",
+    "category": "classes",
+    "title": "Sentinelle",
+    "summary": "Humain · Tank · 10 compétences de référence V0.2",
+    "body": "VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Humain\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : sentinelle-garde\n\n2. Défi de la Sentinelle\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : sentinelle-defi-de-la-sentinelle\n\n3. Parade du Veilleur\nDéfense — Parade active 0.5s; +15 Résolution réussie\nCoût 0 ; CD 9 s ; portée 0 m.\nFiche : sentinelle-parade-du-veilleur\n\n4. Interception Héroïque\nMobilité — Bond allié 12m\nCoût 15 ; CD 18 s ; portée 12 m.\nFiche : sentinelle-interception-heroique\n\n5. Balayage du Veilleur\nContrôle — Repousse de 5 m à l’opposé du tank ; 3 ennemis maximum dans un cône frontal de 90°\nCoût 25 Résolution ; CD 30 s ; portée 3 m.\nFiche : sentinelle-contre-de-justice\n\n6. Position du Veilleur\nDéfense — -25% dégâts 5s\nCoût 30 ; CD 24 s ; portée 0 m.\nFiche : sentinelle-position-du-veilleur\n\n7. Cercle de Vigilance\nProtection — -18% dégâts alliés 5s\nCoût 35 ; CD 28 s ; portée 8 m.\nFiche : sentinelle-cercle-de-vigilance\n\n8. Lame d'Arrêt\nDégâts — Interruption 1s\nCoût 15 ; CD 18 s ; portée 3 m.\nFiche : sentinelle-lame-d-arret\n\n9. Serment de Fer\nDéfense — -45% dégâts 4s\nCoût 65 ; CD 90 s ; portée 0 m.\nFiche : sentinelle-serment-de-fer\n\n10. Dernière Ligne\nProtection — Bouclier urgence 5s\nCoût 50 ; CD 70 s ; portée 10 m.\nFiche : sentinelle-derniere-ligne\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nTrois ennemis maximum, projection plus courte et recharge de 30 s ; les ennemis sur les flancs ou derrière vous restent hors du cône. Remplace la riposte offensive Contre de Justice.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-103.json",
+    "record_sha256": "74c41a2e419f0bad2400804bf38a2b46eedd7548f1417710be42bc806262a9ce"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

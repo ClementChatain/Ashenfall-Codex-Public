@@ -1,0 +1,60 @@
+{
+  "id": "rempart-cercle-de-fer",
+  "lore_id": "ASH-LORE-0105",
+  "title": "Heurt du Bastion — Rempart",
+  "category": "competences",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Contrôle · Rempart · Bump 8 m · V0.2",
+  "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Nain\nClasse : Rempart\nRôle : Tank\nN° : 8\nCompétence : Heurt du Bastion\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 20 Stabilité\nCD (s) : 25\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Repousse de 8 m à l’opposé du tank ; une cible\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 8\nPréparation (s) : 0,35\nCibles : Une cible\n\nDescription : Le Rempart plante ses appuis et percute son adversaire avec son bouclier, le projetant violemment en arrière.\nObjectif : Expulser un assaillant du corps à corps de votre soigneur ou séparer deux adversaires.\nQuand l’utiliser : Quand un allié subit une forte pression au corps à corps, ou qu’un ennemi s’expose près d’un rebord autorisé.\nSynergies : Interposition permet de rejoindre l’allié menacé avant de repousser son assaillant ; Garde reste soumise à sa portée de 9 m.\nLimites et contres : Une seule cible ; la Stabilité dépensée concurrence les protections. Remplace le ralentissement de zone de Cercle de Fer dans la configuration de référence.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "rempart-cercle-de-fer",
+    "category": "competences",
+    "title": "Heurt du Bastion — Rempart",
+    "summary": "Contrôle · Rempart · Bump 8 m · V0.2",
+    "body": "VERSION DE TRAVAIL — PROTOTYPE V0.2 VALIDÉ POUR PUBLICATION ; ÉQUILIBRAGE À TESTER\n\nPeuple : Nain\nClasse : Rempart\nRôle : Tank\nN° : 8\nCompétence : Heurt du Bastion\nType : Contrôle\nBase / impact : 100\nCoefficient : 0.20\nCoût : 20 Stabilité\nCD (s) : 25\nPortée (m) : 3\nPvP x : 1.0\nContrôle / mécanique : Repousse de 8 m à l’opposé du tank ; une cible\nPuissance brute réf. : 300\nPuissance PvP réf. : 300\nProjection (m) : 8\nPréparation (s) : 0,35\nCibles : Une cible\n\nDescription : Le Rempart plante ses appuis et percute son adversaire avec son bouclier, le projetant violemment en arrière.\nObjectif : Expulser un assaillant du corps à corps de votre soigneur ou séparer deux adversaires.\nQuand l’utiliser : Quand un allié subit une forte pression au corps à corps, ou qu’un ennemi s’expose près d’un rebord autorisé.\nSynergies : Interposition permet de rejoindre l’allié menacé avant de repousser son assaillant ; Garde reste soumise à sa portée de 9 m.\nLimites et contres : Une seule cible ; la Stabilité dépensée concurrence les protections. Remplace le ralentissement de zone de Cercle de Fer dans la configuration de référence.\nRègles communes : Après une projection réussie : immunité aux repoussements de 10 s, commune à toutes les classes ; les tentatives bloquées ne la prolongent pas. La projection interrompt une action interruptible, sans étourdissement supplémentaire à l’arrivée. Préparation esquivable ; un blocage frontal réussi annule le déplacement. Les ancrages réduisent la distance de 70 % (8 m deviennent 2,4 m). Arrêt contre les obstacles sans dégâts de collision supplémentaires ; rebords exploitables uniquement là où la carte autorise les chutes. Boss immunisés : dégâts appliqués, sans déplacement ni interruption automatique. GCD : 1,25 s.\n\nRéférence : niveau 30, équipement standardisé, PO = 1000. Dégâts par cible : 100 + 0,20 × PO = 300 bruts.\nLes valeurs sont des hypothèses de prototype et nécessitent simulation et tests en jeu. Validation de conception V0.2 le 23 octobre 2026 ; aucune implémentation Unity comprise."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-105.json",
+    "record_sha256": "f6a4cbfe032482e43aa75724512132d15f17afe5ed378a22b3adfa55130ab830"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}

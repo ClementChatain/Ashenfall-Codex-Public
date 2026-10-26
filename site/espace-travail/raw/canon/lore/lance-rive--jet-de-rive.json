@@ -1,0 +1,57 @@
+{
+  "id": "lance-rive--jet-de-rive",
+  "category": "competences",
+  "title": "Jet de Rive",
+  "summary": "Dégâts directs · Lance-Rive",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 1\nCompétence : Jet de Rive\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 170\nCoefficient : 0.64\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 22\nLancement : 0,65 s\nPvP x : 1\nContrôle / mécanique : Préparation en mouvement à 70 % de vitesse ; projectile visible. +10 Rythme sur touche, interruptible.\nPuissance brute réf. : 810\nPuissance PvP réf. : 810\nPuissance totale brute : 810\nPuissance totale PvP : 810\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0581",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "lance-rive"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0581",
+  "public_projection": {
+    "id": "lance-rive--jet-de-rive",
+    "category": "competences",
+    "title": "Jet de Rive",
+    "summary": "Dégâts directs · Lance-Rive",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Lance-Rive\nRôle : DPS distance\nN° : 1\nCompétence : Jet de Rive\nType : Dégâts\nType clair : Dégâts directs\nBase / impact : 170\nCoefficient : 0.64\nNombre d’impacts : 1\nCoût : 0\nCD (s) : 0\nPortée (m) : 22\nLancement : 0,65 s\nPvP x : 1\nContrôle / mécanique : Préparation en mouvement à 70 % de vitesse ; projectile visible. +10 Rythme sur touche, interruptible.\nPuissance brute réf. : 810\nPuissance PvP réf. : 810\nPuissance totale brute : 810\nPuissance totale PvP : 810\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-lance-rive--jet-de-rive.json",
+    "record_sha256": "ca963e246da3bcd58c68de13a8f806fedcff2efa6b47a42f40892e70353a8515"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+# Ashenfall — portail de travail
+Révision source: 2b78ceff3aaca5261accc6896067523676aed25e
+Construction: 2026-10-26T17:53:35.529789+00:00
+Les statuts sont conservés, aucune validation implicite.
+
+## ASHENFALL — Fondation du bestiaire et pacifisme initial
+Source: docs/DECISION-BESTIAIRE-ARMEE-PACIFISME-2026-10-24.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6fe49520977f9a123d69d8619b4fe2b72066eedc7b49226b8fe9e0bbe3482e08
+Page: documents/284490f5e98844cd3cf5b41e.html
+Source publiée: raw/docs/DECISION-BESTIAIRE-ARMEE-PACIFISME-2026-10-24.md
+
+# ASHENFALL — Fondation du bestiaire et pacifisme initial
+
+**Décision de l'auteur : 24 octobre 2026**  
+**Statut Archiviste : VALIDE / INTERNE**  
+**Publication publique : non autorisée automatiquement**
+
+## Décision fondamentale
+
+**Au commencement d'Ashenfall, les peuples et leurs communautés vivent en paix entre eux.** Aucun conflit interpeuples, intertribal ou intercités n'est établi dans la période initiale. Aucune guerre ancienne, hostilité héréditaire, rivalité militaire ou conquête ne doit être inventée pour justifier l'existence des forces armées. La possibilité de conflits ultérieurs reste ouverte à une décision future de l'auteur, et ne doit pas être présumée.
+
+Le monde n'est pas sans danger : les animaux sauvages et créatures fantastiques naturelles constituent une menace ancienne et régulière pour les habitants, les jardins, les élevages, les routes, les convois, les canaux et les frontières habitées. **Les armées sont avant tout des forces de protection contre cette faune.** Elles peuvent inclure patrouilleurs, gardes, éclaireurs, escortes et spécialistes des créatures, sans fonction de conquête au départ.
+
+## Identité défensive par peuple
+
+- **Nains** : protection des galeries, portes, jardins souterrains, convois et routes de montagne contre la faune des profondeurs.
+- **Elfes** : patrouilles des forêts, observation des prédateurs, défense des communautés avec un souci de préserver l'équilibre écologique.
+- **Humains** : garnisons et milices pour protéger villages, récoltes, routes et voyageurs contre la faune dangereuse.
+- **Kharûn, Vaelith, Orynth** : formes de protection communautaire adaptées à leurs milieux et aux besoins de leurs populations ; pas de guerre initiale contre les anciens peuples ni entre eux.
+
+Une espèce dangereuse n'est pas intrinsèquement mauvaise. La chasse, la dissuasion, le déplacement et la protection des habitats peuvent coexister. Les créatures ont une écologie et une vie indépendantes de leur fonction de combat.
+
+## Bestiaire naturel V1 — espèces approuvées
+
+**Profondeurs naines** : Sanglier de Schiste (charge, territorial), Araignée des Failles (toiles et poison), Salamandre Aveugle (prédateur aquatique), Coléoptère de Basalte (insecte cuirassé, principalement détritivore/herbivore).
+
+**Forêts elfiques** : Loup des Hautes-Fougères (meute), Grand-Cerf des Brumes (herbivore territorial), Lynx des Ronces (embuscade), Mante-Écorce (prédateur camouflé).
+
+**Terres humaines** : Sanglier des Marches (charge, cultures), Ours des Hautes-Passes (puissance), Mâchoire des Gués (prédateur aquatique), Aigle des Falaises (prédateur aérien).
+
+Ces douze espèces sont **VALIDÉES comme base du bestiaire** et sont considérées comme naturelles au monde, sans corruption ni anomalie nécessaire. Les chiffres, raretés, niveaux, zones précises, loot et détails biologiques restent EN_ETUDE.
+
+## Gameplay V1
+
+Le jeu initial privilégie combat, farm, XP, niveaux, déblocage de sorts, équipement et sauvegarde, sans scénario obligatoire. Les espèces ci-dessus servent de fondation aux familles d'ennemis et aux comportements variés (charge, meute, poison, défense, embuscade, etc.). La narration plus structurée est prévue ultérieurement, notamment pendant l'alpha. La conception des espèces doit rester cohérente avec leur écologie et les futures quêtes.
+
+## Cohérence avec Fondation I et la chronologie
+
+Les peuples anciens connaissent une vie quotidienne globalement paisible, bien que confrontée aux dangers naturels. Les anomalies restent rares et progressives au début, sans expliquer rétrospectivement l'ensemble de la faune fantastique. Les premiers contacts et la future Rupture des Eaux sont des événements plus tardifs, distincts de cette phase pacifique. Aucune connaissance omnisciente ni hostilité anticipée ne doit être introduite dans les débuts jouables.
+
+## Archiviste — contrôle de publication
+
+Statut **VALIDE / INTERNE**. Cette validation n'autorise pas une publication automatique. Toute adaptation dans le Codex public doit suivre les protections de publication, et ne doit révéler aucun secret d'auteur.
+
+## Liaison Unity conceptuelle
+
+Systèmes ciblés : AI d'ennemis par archétype, aggro, comportements, butin, XP, progression. Pas de scène ni d'implémentation prétendue. Aucun PNJ de peuple intelligent ne doit être traité comme ennemi de départ au titre de cette décision.
+
+
+## Ashenfall — Décision d'auteur : la Rupture des Eaux
+Source: docs/DECISION-RUPTURE-DES-EAUX-2026-10-23.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 641e77ebc8d41f4a48ac006f95ecc741513f666b7fe5adfb374671e9fb39af82
+Page: documents/a3480a7eb4b71e92fcc8935f.html
+Source publiée: raw/docs/DECISION-RUPTURE-DES-EAUX-2026-10-23.md
+
+# Ashenfall — Décision d'auteur : la Rupture des Eaux
+
+**Date : 2026-10-23** · **Statut : VALIDE (trame de l'événement)** · **Visibilité : INTERNE**
+
+## Validé explicitement par l'auteur
+- La première confrontation entre les Humains et les Orynth naît du détournement volontaire d'un cours d'eau par les Orynth récemment apparus. Les Humains repèrent rapidement l'anomalie, remontent la rivière et découvrent son origine.
+- Les Orynth, qui se pensaient seuls et ne connaissent pas les Humains, les perçoivent d'abord comme des prédateurs menaçants ; la rencontre dégénère en combat. Les Humains découvrent une espèce inconnue et étrangère.
+- **La retenue explose** : la catastrophe inonde des cavités où se trouvent **les Nains et les Kharûn**, et crée des marécages dans des territoires où vivent **les Elfes et les Vaelith**.
+- Les peuples ne possèdent initialement que des perceptions locales de cette catastrophe, pas une connaissance complète des autres peuples ni de la cause.
+- Pas de trois conflits miroirs « un ancien peuple contre un nouveau » ; l'événement unique affecte plusieurs peuples de manière asymétrique.
+- Les trois peuples récents sont issus des transformations/mutations de la Trame, apparus dans les milieux des peuples anciens, et partagent une attirance naturelle pour le changement.
+
+## Non validé — pistes de conception pour la raison du détournement
+1. **Lit des Éveillés** : une nouvelle configuration de zones humides favoriserait l'apparition de nouveaux Orynth.
+2. **Veine Dormante** : restaurer une circulation souterraine perçue comme nécessaire, avec effets inattendus.
+3. **Berceaux de Nacre** : maintenir des conditions d'eau indispensables à la survie de jeunes Orynth.
+**Aucune de ces explications n'est canonique.** La cause précise du détournement reste EN_ETUDE.
+
+## Questions ouvertes
+- Géologie et hydrologie : mécanisme plausible reliant retenue, cavités naines/kharûn et marécages elfes/vaelith, avec distances et dénivelés réalistes.
+- Chronologie des mutations et de l'émergence des sociétés nouvelles.
+- Cause mécanique de l'explosion et responsabilités exactes : non fixées.
+- Nom « Rupture des Eaux » provisoire jusqu'à validation du titre.
+
+Ne pas publier sur le Codex public sans autorisation distincte et procédure Archiviste V2. SECRET_AUTEUR reste privé.
+
+
+## Cadre de calcul et de simulation d’Ashenfall — V1
+Source: docs/EQUILIBRAGE.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 3514a336e29737829a72a79daef2a2cb67c7b76c7eea4393e915a9166aa1020a
+Page: documents/e84f70a67767fcb489cf65f1.html
+Source publiée: raw/docs/EQUILIBRAGE.md
+
+# Cadre de calcul et de simulation d’Ashenfall — V1
+
+**Méthode de travail interne. Paramètres de protocole et règles de calcul ci-dessous : PROPOSITION, pas mécaniques de jeu validées.** Ce document constitue la référence à réutiliser lors des futures demandes d’équilibrage ; `AGENTS.md` les y dirige.
+
+Objectif : des classes avec une utilité et des compromis, plusieurs builds viables, aucun cumul incontrôlé. Un calcul reproductible ne démontre pas à lui seul l’équilibre d’un MMORPG.
+
+## 1. État initial et provenance
+
+`balance/catalog-v1.json` inventorie les 24 classes, leurs rôles, les 240 compétences de référence et les identifiants des 25 modèles d’arbres du Codex. Le commit public exact, le chemin et l’empreinte du fichier source sont enregistrés. Ce relevé de conception publique n’est pas une preuve de validation des mécaniques. Il n’exporte rien depuis Knowledge.
+
+Le catalogue conserve les textes chiffrés connus sans en déduire automatiquement une formule. Un « −25 % pendant 5 s » ne donne ni recharge, ni coût, ni interaction avec les autres protections. Au relevé initial, les profils d’acteur, rotations, coefficients de rangs/choix/synergies et modèles d’effets étaient `null` : 24 classes bloquées. La référence Rempart V1 décrite ci-dessous fournit désormais un premier périmètre expérimental ; les 23 autres classes restent incomplètes. Ne pas remplir ces champs avec des valeurs implicites. Un profil rempli reste à vérifier et à adapter au moteur, jamais automatiquement déclaré valide.
+
+La proposition Rempart chiffrée préparée dans la session précédente est conservée dans `balance/proposals/rempart-v1.md` et reste une proposition séparée. La création de ce cadre ne l’approuve pas.
+
+## 2. Unités et ordre des opérations proposés
+
+Temps en millisecondes, dégâts/soins/PV dans la même unité, chances sous forme de fractions (0,20 = 20 %), distances en mètres, coûts dans une ressource explicitement nommée. Distinguer +10 % relatif et +10 points de pourcentage. Le rang 2 représente le total au rang 2, pas l’ajout implicite du rang 1. Le choix A/B est séparé du rang.
+
+Pour une attaque prise en charge par le banc V1 :
+
+```
+base = valeur_fixe + bonus_fixe + puissance × coefficient
+bonus = 1 + somme(des bonus de la même catégorie explicitement retenus)
+critique_moyen = 1 + chance_critique × (multiplicateur_critique − 1)
+dégâts_attendus = base × bonus × critique_moyen × (1 − mitigation_cible)
+```
+
+Ce sont des dégâts moyens attendus, pas un tirage aléatoire ni une mesure de variance. Les bonus de catégories indépendantes, l’armure, la pénétration et les défenses élémentaires devront être modélisés explicitement avant utilisation ; ne pas les fusionner arbitrairement dans un pourcentage.
+
+Réductions défensives distinctes : `réduction_totale = 1 − produit(1 − réduction_i)`. Deux réductions de 50 % donnent 75 %, pas 100 %. Le helper `reduction()` sert à ce calcul ; le profil de simulation reçoit ensuite la réduction agrégée, qui doit être justifiée. Aucun plafond de mitigation ou d’armure n’est inventé. Une éventuelle limite de jeu doit être validée puis versionnée.
+
+Une recharge réduite de 10 % devient `recharge_base × 0,90`. Ne jamais supposer que recharge, GCD, durée d’incantation et durée d’effet sont la même chose. Pas de recharge négative, ressource négative, chance supérieure à 100 %, NaN ou infini.
+
+## 3. Mesures à conserver séparément
+
+- **DPS** : dommages / durée du scénario. Séparer monocible, zone, burst et durée. Le burst ne doit pas devenir un indicateur de DPS soutenu.
+- **Soin effectif** : minimum du soin et des PV manquants ; rapporter le sursoin séparément. Pas de crédit pour un soin sur une cible déjà pleine.
+- **Boucliers** : compter l’absorption réellement consommée ; isoler la part expirée/remplacée. Un bouclier lancé n’est pas automatiquement de la survie utile.
+- **Survie** : dégâts bruts, empêchés par mitigation, absorbés, subis, excédent létal, temps avant mort et survie à chaque burst. Toujours garder les mêmes attaques ennemies.
+- **Ressources** : dépenses, régénération, temps d’attente faute de ressources et réserve finale. Les dégâts soutenus ne peuvent pas ignorer les périodes à vide.
+- **Utilité** : interruptions réussies, contrôles utiles après immunités/dégressivité, dégâts évités à l’allié, disponibilité de protection et temps de déplacement. Aucun score arbitraire ne convertit automatiquement ces effets en DPS.
+
+Ne pas additionner « dégâts empêchés à l’allié » et les mêmes dégâts absorbés par le tank comme deux gains indépendants. Pour Garde, définir d’abord la séparation des dégâts originaux, la part transférée et l’ordre des mitigations. Le banc V1 ne modélise pas cette interaction.
+
+## 4. Comparaison et objectifs par rôle
+
+Comparer d’abord les six classes d’un même rôle, puis leur contribution dans des groupes comparables. Même niveau, équipement, qualité d’exécution, buffs externes, cible, distance et durée. Garder les variantes PvE et PvP séparées. Un personnage de test égalisé aide à isoler un mécanisme, mais ne représente pas automatiquement l’équipement réel des classes.
+
+| Rôle | Mesures principales | Compromis à surveiller |
+|---|---|---|
+| Tank | survie, pression sur le soigneur, protection des alliés, contrôle des ennemis | dégâts, mobilité, coût en ressources |
+| Heal | soin effectif, gestion des bursts, ressources, protection, couverture de groupe | dégâts, contraintes de placement et d’incantation |
+| DPS mêlée | dommages utiles soutenus/burst, temps au contact, interruptions | exposition au danger, accès à la cible |
+| DPS distance | dommages utiles soutenus/burst, temps de lancement, accès aux cibles | interruptions, déplacements et fragilité |
+
+Ne pas viser le même chiffre dans tous les scénarios. Un spécialiste peut dominer son contexte prévu tout en cédant ailleurs. Une classe qui surpasse ses pairs sur toutes les dimensions exige une revue de conception, pas seulement une correction de 2 %.
+
+**Seuils d’alerte initiaux proposés**, pas critères de validation automatique : ±5 % sur la mesure principale d’un test soutenu à contexte égal, ±10 % sur une fenêtre courte ; revue obligatoire d’une synergie dont le gain marginal dépasse de 50 % celui d’une alternative de même coût et de même objectif. Un écart supérieur peut être justifié par une faiblesse mesurée ailleurs. Pourcentage avec référence nulle : indéfini, rapporter l’écart absolu. Les alertes ne prouvent ni abus ni équilibre.
+
+Ne calculer une médiane de rôle qu’avec une couverture suffisante et explicitement annoncée ; avec des profils manquants, signaler que la comparaison globale est bloquée. Popularité d’un build ≠ puissance démontrée.
+
+## 5. Arbres, templates et synergies
+
+Pour le système actuel : 20 points, rangs entiers 0–2, trois voies, paliers et coûts exacts du modèle choisi. Rempart V8 et modèle générique restent séparés. Réutiliser le validateur public `engine.mjs` et ses définitions au commit relevé ; ne pas recopier une approximation des prérequis. La règle actuelle compte les autres points de toute la voie, y compris les paliers supérieurs : c’est un fait du prototype, pas une nouvelle validation de sa pertinence.
+
+Une synergie doit être comparée à une répartition légale avec le même budget total, pas à un build qui laisse gratuitement deux points inutilisés. Examiner également les coûts d’accès aux deux voies. Un talent au rang 2 se compare au rang 1 et aux allocations alternatives avec redistribution du point. Vérifier les effets redondants et les doubles déclenchements.
+
+Point de départ : builds spécialisés, hybrides par paire et templates connus. Une recherche exhaustive ou optimisée n’est autorisée que si tous les effets concernés sont modélisés et les builds filtrés par le validateur. Ne jamais présenter trois templates choisis à la main comme un optimum global.
+
+## 6. Scénarios et sensibilité
+
+Les six contrats sont dans `balance/scenario-contracts-v1.json` : soutenu monocible, burst, zones 3/5/8 cibles, protection d’allié, mobilité/contrôle et PvP de groupe. Les durées sont des propositions de protocole ; les PV, équipements, pressions et compositions restent à calibrer. L’absence de calibration interdit de prétendre que ces scénarios représentent la production.
+
+Pour chaque candidat : référence puis variante, mêmes entrées sauf la modification étudiée. Varier les coefficients proposés de ±10 %, la durée, le nombre de cibles et la disponibilité des ressources. Rapporter les cas où le classement s’inverse. Tester les limites de cumul, coûts nuls, boucles de récupération et empilements de contrôles.
+
+Quand une simulation aléatoire sera ajoutée : graines archivées et appariées entre variantes, réplications, dispersion et intervalle de confiance ; annoncer le nombre d’essais et utiliser un critère d’arrêt défini. Le banc V1 est déterministe en espérance et ne produit **aucun intervalle de confiance statistique**.
+
+## 7. Banc exécutable V1 : périmètre exact
+
+`scripts/balance.py` utilise seulement la bibliothèque standard Python. Il simule un acteur stationnaire contre une cible à PV infinis, une ressource, une rotation prioritaire, un GCD, coûts, recharges, incantations, dégâts directs moyens, soin sur soi, boucliers sur soi, pression entrante continue et bursts configurés.
+
+Les tableaux d’aptitudes ordonnent la priorité. Le banc ne choisit pas une rotation optimale et peut lancer un soin inutile : cet effet apparaît comme sursoin. Aucun effet implicite sur une autre cible, pas de DOT/HOT, armure détaillée, génération de menace, blocage/parade, mobilité, zone, Garde, contrôles ou PvP. Les types d’effets et champs non pris en charge sont refusés, pas ignorés. Pour les étendre, écrire d’abord la spécification et des tests de référence.
+
+À chaque pas : expiration des boucliers → résolution de l’incantation terminée → lancement éventuel d’une capacité → dégâts entrants → mort éventuelle → régénération. La recharge et le coût commencent au lancement. Un sort en cours peut se terminer après un GCD mais jamais après la mort. Une résolution exactement à la fin de scénario n’est pas comptée. Les événements sont arrondis au premier pas disponible ; vérifier la convergence avec un pas divisé par deux. Le temps de mort a la précision du pas, pas une précision continue.
+
+Les boucliers de sources différentes s’empilent dans ce banc et sont consommés dans l’ordre d’application ; relancer la même source remplace son reste sans l’additionner. Ce sont des conventions explicites de test, non des règles de jeu approuvées. La mitigation s’applique avant l’absorption. Le soin ne critique pas dans V1. Le DPS/HPS est normalisé sur la durée entière du scénario, temps après mort inclus, pour ne pas avantager une rotation qui tue rapidement son utilisateur.
+
+Chaque rapport reste **EXPERIMENTAL**, identifie la version, les empreintes SHA-256 du moteur et des entrées, la résolution temporelle et le marquage `test_only`. La présence d’un chiffre dans un rapport ne valide pas son origine.
+
+## 8. Commandes et reprise
+
+Depuis la racine Knowledge :
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -q
+python3 scripts/balance.py --output /tmp/balance-readiness.json readiness
+python3 scripts/balance.py --output /tmp/balance-synthetic.json simulate \
+  --profile balance/fixtures/actor-test.json \
+  --scenario balance/fixtures/scenario-test.json
+python3 scripts/export_v2.py --output /tmp/codex-v2.json
+```
+
+Les fixtures sont purement synthétiques, marquées `test_only` et ne correspondent à aucune classe. Elles démontrent le fonctionnement des calculs, pas l’équilibre du Rempart ou d’une autre classe. Les tests couvrent notamment dégâts analytiques, critiques moyens, ressources, sursoin, absorption utile, expiration, conservation des dégâts, mort, incantation et convergence temporelle.
+
+Pour ajouter des données réelles : conserver une source et une version par valeur, préciser les correspondances entre noms historiques et compétences actuelles, remplir un profil expérimental complet, vérifier ses effets pris en charge, puis comparer une référence et un candidat. Actualiser le catalogue par une revue du diff ; aucun accès réseau automatique ni modification du site n’est nécessaire au calcul.
+
+## 9. Rapport obligatoire d’une demande d’équilibrage
+
+1. Classes et rôles couverts, versions et données absentes.
+2. But de chaque spécialisation, budget exact et scénarios réellement exécutés.
+3. Table avant/après par métrique avec unités et limites ; pas de score universel inventé.
+4. Changements de coefficients proposés, taille de l’effet, contreparties et sensibilité.
+5. Risques de cumul, interactions non modélisées et essais de joueurs encore nécessaires.
+6. Entrées, rapports, empreintes et commandes de reproduction.
+7. Statut : comparaison bloquée, résultat expérimental ou proposition à valider. Aucun coefficient de gameplay n’est appliqué automatiquement à Unity ou au Codex.
+
+Prochaine étape : compléter et valider les données du Rempart, mettre en correspondance ses noms historiques, implémenter Garde et les effets réellement nécessaires à ses trois templates, puis étendre les scénarios aux classes de même rôle. La couverture multi-classe vient de la même méthode, pas de la réutilisation aveugle de coefficients entre classes.
+
+## 10. Référence Rempart installée
+
+[docs/REMPART_REFERENCE_V1.md](REMPART_REFERENCE_V1.md) décrit le profil complet, les correspondances, les règles de Garde et de cumul, le moteur spécialisé et les limites. Utiliser `node scripts/simulate_rempart.mjs --output /tmp/rempart.json` et `node --test tests/*.test.mjs` en plus du banc Python pour toute demande concernant ce modèle. Le diagnostic le signale REVIEW_REQUIRED, pas équilibré ou validé pour tout le MMO.
+
+
+## Ashenfall — Équipement de classe et Rempart V1.6
+Source: docs/EQUIPEMENT-CLASSES-REMPART-V1-6-2026-10-25.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 41fdb03c8ad9823d0d28f460fe83a2b12040cd735dda79a6d20b7c38b1e12631
+Page: documents/0e71de48dc15f6fa141176ff.html
+Source publiée: raw/docs/EQUIPEMENT-CLASSES-REMPART-V1-6-2026-10-25.md
+
+# Ashenfall — Équipement de classe et Rempart V1.6
+
+Date : 25 octobre 2026. Statut : décisions générales VALIDE / INTERNE ; détails Rempart EN_ETUDE. Ne pas publier automatiquement.
+
+## Décisions validées par l'auteur
+
+- Chaque classe possède son identité visuelle et ses propres ensembles d'armures, sans équipement de classe générique interchangeable.
+- Plusieurs sets propres à chaque classe peuvent privilégier la défense, l'offensive ou la spécialité sans modifier le rôle fondamental (Tank, DPS ou Heal).
+- Armes et armures sont obtenues par le loot, les marchands et les récompenses ; pas de fabrication d'armes ou armures par le joueur dans la V1.
+- Le loot aléatoire sur les monstres inclut argent, babioles à vendre, équipement et objets exceptionnels très rares, pour rendre le farming intéressant.
+- Artisanat limité à des améliorations (talismans), potions et activités de récolte/récupération ; ne pas imposer de métiers obligatoires.
+- Apparences/skins farmables, séparés des statistiques ; collection/vestiaire envisagé, en respectant la silhouette de classe.
+- Progression visuelle du personnage : équipement faible et sobre aux premiers niveaux, silhouette de plus en plus travaillée et épique à haut niveau ; un skin rare peut être discret.
+
+## Propositions Rempart : trois sets exclusifs (EN_ETUDE)
+
+1. Bastion : Tank défensif, robustesse/endurance/blocage, bonus au blocage manuel et à la Stabilité.
+2. Brise-Siège : Tank offensif, Force/robustesse/dégâts, pression offensive après un blocage.
+3. Veilleur : Tank protecteur, robustesse/endurance/protection, amélioration de la survie en situation de Garde, sans dépasser le transfert de 50 % validé.
+
+## Progression visuelle Rempart (EN_ETUDE)
+
+Recrue : cuir usé, protections simples, bouclier modeste. Gardien : mailles et renforts cohérents. Rempart accompli : plaques lourdes, motifs distinctifs, bouclier imposant. Rempart légendaire : matériaux rares, finitions élaborées et silhouette héroïque sans effets lumineux excessifs. Niveaux exacts non fixés.
+
+## Garde-fous
+
+- Le Rempart reste Tank quelle que soit l'orientation ; Garde 50 % et BUMP maintenus.
+- Ne pas promettre de statistiques, probabilités, recettes, niveaux ou implémentation Unity non validés.
+- Ne pas publier les propositions EN_ETUDE au Codex public sans validation.
+
+
+## ASHENFALL — Les Chroniques de Tharvëll
+Source: docs/LORE-THARVELL-CHRONIQUES-V1-3-2026-10-24.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 6d22000866f102bcc386926bdb668b6044c326363faf039a0a1af95c660cf8d0
+Page: documents/940cfaf1024be4333e67f4ec.html
+Source publiée: raw/docs/LORE-THARVELL-CHRONIQUES-V1-3-2026-10-24.md
+
+# ASHENFALL — Les Chroniques de Tharvëll
+
+**Version : V1.3 · Auteur : validation explicite du 24 octobre 2026 · Statut : VALIDE / INTERNE**
+
+## Position dans le canon
+
+Ce document complète Fondation I et la décision « Avant que le monde ne change ». Il développe la civilisation naine **avant les premières singularités**, longtemps avant la Rupture des Eaux. Il ne change ni la cause de la catastrophe, ni la chronologie parallèle des six perspectives. Aucun contenu de cette fiche n'est autorisé à être publié automatiquement : la validation du contenu n'équivaut pas à une validation de publication.
+
+## I. Tharvëll, la cité qui cultive la profondeur
+
+Tharvëll est une cité majeure d'une **confédération de cités naines autonomes**, sans souverain nain unique. Elle occupe des cavernes monumentales et des falaises, avec des quartiers en terrasses, des ateliers, des halles, des galeries et de vastes jardins souterrains. Là où d'autres cités exploitent la roche pour ses métaux, Tharvëll la travaille aussi pour cultiver. La croissance végétale en profondeur est rendue possible par une compréhension pratique de propriétés naturelles du sol, des minéraux, de l'eau et de la Trame, sans spectaculaire magie affichée. Pour les habitants, cette agriculture est un savoir quotidien, non un miracle.
+
+Lieux de conception : **Jardins Profonds** (terrasses nourricières), **Halles de Pierre** (marchés, artisans et vie sociale), **Canaux Intérieurs** (gestion hydraulique), **Maison des Strates** (savoirs minéraux et cartographie). Leurs appellations exactes restent révisables.
+
+## II. Une société civile vivante
+
+La réputation ne dépend pas seulement des armes. Les jardiniers et cultivateurs des profondeurs, les lecteurs de pierre, les maîtres des eaux et les gardiens des récits constituent des métiers centraux. Les familles transmettent leurs pratiques et leurs connaissances sur plusieurs générations. Des ingénieurs peuvent être reconnus pour avoir sauvé une récolte, des artisans pour une technique de taille, des botanistes pour une culture rare. **Les titres professionnels proposés ne sont pas figés.**
+
+## III. Institutions et politique
+
+Tharvëll n'est pas subordonnée à Dûr-Kaelen, cité prestigieuse mais non dominante. Une proposition de gouvernement est le **Conseil des Terrasses**, assemblée représentant quartiers, cultures, artisans et infrastructures. Les familles influentes, les exploitants de carrières et les responsables hydrauliques peuvent s'opposer dans des débats ordinaires sans que la cité soit en crise. **Forme précise du conseil : détail révisable.**
+
+## IV. Croyances et mémoire
+
+**Mythe proposé : La Première Fissure.** Un récit ancien dit qu'au commencement la pierre n'avait pas de nom ; une première fissure ouvrit des passages à l'eau, aux racines et aux chemins, et chaque pierre conserva la mémoire de ce qu'elle traversait. Certains le tiennent pour une métaphore, d'autres pour une histoire des origines. **Le récit n'est pas une révélation de la vérité du monde, ni une prophétie.** Les versions contradictoires et l'incertitude sont souhaitées.
+
+## V. La Fête des Échos
+
+Grande célébration sociale, familiale et culturelle : récits, repas, démonstrations d'artisanat, œuvres, instruments de pierre résonante, mémoire des générations. La fête est une occasion de rencontrer les habitants et d'aimer la cité. **Elle n'est pas automatiquement le jour de la catastrophe.**
+
+## VI. Expérience du joueur nain — ouverture lente
+
+Proposition d'ouverture : réveil dans un quartier habité, responsabilités quotidiennes, découverte des halles et jardins, rencontre d'artisans et d'ingénieurs, participation aux préparatifs de la Fête des Échos, exploration libre de la cité. Les activités expliquent le monde par la pratique. **Aucune catastrophe immédiate, aucune cinématique omnisciente, aucun chapitre mondial imposé.**
+
+Beaucoup plus tard, dans une galerie connue depuis des générations, une pierre manifeste deux propriétés réputées incompatibles. La découverte commence comme une curiosité professionnelle. Les Nains réagissent différemment : scepticisme, enthousiasme, prudence, intérêt économique. Noms et propriétés de la « pierre de veille » et de la « pierre chantante » demeurent des exemples EN_ETUDE, pas des matériaux canoniques.
+
+## VII. Première intrigue civile — les jardins ou la carrière
+
+Les jardins ont besoin d'espace pour nourrir une population croissante. Une galerie pourrait permettre leur extension mais traverserait une couche minérale précieuse pour les tailleurs. Cultivateurs, artisans et ingénieurs défendent des besoins légitimes ; le Conseil doit arbitrer. Le joueur découvre les métiers et les institutions à travers ce conflit non violent. **Intrigue précise EN_ETUDE**, validée comme direction narrative, à détailler avant une éventuelle publication en tant que fait historique canonique.
+
+## Règles de continuité
+
+- Les anciens peuples (Nains, Elfes, Humains) connaissent intimement leur environnement ; les premières anomalies sont petites, localisées et inexplicables.
+- Chaque joueur n'a accès qu'à sa perspective. Les événements du monde se déroulent en parallèle, avec des « jours 1 » distincts.
+- Les nouveaux peuples (Kharûn, Vaelith, Orynth) sont récents ; pas de récit de royaumes secrets antiques ni d'alignement moral prédestiné.
+- La Rupture des Eaux survient bien plus tard ; elle résulte du détournement par les Orynth pour sauver leurs jeunes déjà nés, de la rencontre avec les Humains et de l'explosion de la retenue, avec conséquences dans les cavités et les forêts.
+- Fondation I : Trame subtile, monde ancien vivant, origine des perturbations inconnue ; aucune vérité d'auteur secrète ne doit être divulguée.
+
+## Statuts détaillés
+
+**VALIDE / INTERNE** : orientation générale de Tharvëll, agriculture et jardins souterrains, société civile et métiers, autonomie politique, fête chaleureuse, mythes non omniscients, lenteur de l'introduction, débat civil avant les anomalies.
+
+**VALIDE comme direction, détails EN_ETUDE** : Conseil des Terrasses, noms des quartiers et métiers, texte exact de la Première Fissure, déroulé des quêtes et conflit jardins/carrière. Ils ont reçu l'approbation créative de l'auteur le 24 octobre 2026, mais restent révisables sans retcon du canon fondamental.
+
+**PUBLICATION : NON AUTORISÉE par ce document seul.** Archiviste V2 : pas de publication automatique d'un document privé. Toute projection publique doit être examinée séparément et explicitement autorisée.
+
+## Fiche de liaison Unity (conceptuelle)
+
+**Lieu** : Tharvëll, zone d'introduction naine (future, pas de scène Unity existante présumée). **Boucle** : exploration, interactions sociales, métiers, fête, enquête minérale progressive. **Contraintes** : aucun combat ou événement catastrophe imposé à l'ouverture ; introduction locale et rythme joueur ; pas de révélation omnisciente. **Statut implémentation** : conception uniquement.
+
+
+## Rempart — référence d’équilibrage V1
+Source: docs/REMPART_REFERENCE_V1.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 4fa1bf4a4371dd36a9bb8b721dd3609e6eca5db86c9aeeecbf69e05bc4ace3fa
+Page: documents/41b0700e74a303ce1bba18cd.html
+Source publiée: raw/docs/REMPART_REFERENCE_V1.md
+
+# Rempart — référence d’équilibrage V1
+
+**Statut : EN_ETUDE.** Clément a demandé dans la session du 25 octobre 2026 : « Mets en place toutes les stats pour le tank rempart ! ce sera notre base pour équilibrer tout le reste des classes ! ». Cette instruction autorise l’installation de cette base de conception et son affichage dans le Codex ; elle ne prouve pas l’équilibre en combat ni une implémentation Unity. Les paramètres manquants sont définis explicitement dans cette V1 ajustable.
+
+## Périmètre et sources
+
+- `balance/rempart-reference-v1.json` : profil normalisé, 24 talents, 48 choix, six synergies, 25 actions et correspondances historiques. Le snapshot exécutable `balance/rempart-v1/` conserve les mêmes données et le validateur public des builds, avec empreintes dans `source.json`.
+- 25 actions = 10 compétences publiques de référence + 14 actions de talents débloquées au rang 1 + attaque de base. Les passifs ne sont pas de nouveaux boutons de combat.
+- Les nombres historiquement publics sont conservés : Garde 50 %, Défi PvE 3 s / PvP 15 % sur 4 s, Coup de Heurt interruption 1 s, Interposition 12 m sans immunité, Mur d’Écho 25 % / 5 s, Ancrage 70 % / 6 s, riposte après blocage dans les 3 s, Heurt du Bastion 8 m monocible, Souffle +35 Endurance sur 4 s, Rempart Absolu 45 % / 4 s sans cumul fort.
+- Les coûts, recharges, coefficients de dégâts et paramètres du personnage absents des sources sont des réglages V1 choisis pour amorcer la calibration. Ils ne sont pas présentés comme des mesures antérieures. La proposition initiale est conservée dans `balance/proposals/rempart-v1.md`.
+
+## Personnage normalisé
+
+10 000 PV ; puissance 1 000 ; armure 3 000 et constante 7 000, soit 30 % physique ; résistance magique 2 500 et constante 10 000, soit 20 % magique. Endurance : 100, régénération 8/s. Stabilité : 100 maximum, départ 0, décroissance 2/s après 5 s sans gain. Pas de consommation implicite ; Élan de Granit utilise le seuil de 20.
+
+Blocage : 20 %, réduit le coup de 30 %, coûte 8 Endurance avant talents. Parade : 5 %. Critique : 5 %, multiplicateur 1,5. Déplacement : 5 m/s. GCD : 1,5 s. Mêlée : 3 m. Menace : ×3, conservée comme paramètre ; le moteur actuel ne calcule pas un classement de menace multi-PNJ. Aucun niveau final ni équipement réel n’est inventé : il s’agit d’un étalon de comparaison à équipement normalisé.
+
+Toutes les valeurs de coûts, recharges, durées, rayons, coefficients et effets de rangs/choix sont dans le JSON. Le module public `reference.mjs` calcule les PV, coûts de blocage, durées et recharges à partir des mêmes coefficients. Les tests privés et publics vérifient leur cohérence.
+
+## Correspondances et calculs
+
+Défi Renforcé améliore Défi du Rempart ; Contre-Frappe améliore Contre-Heurt et utilise sa fenêtre de blocage ; Ancrage améliore Ancrage Profond. Ils ne créent pas une seconde capacité cumulable. Onde de Rupture reste une action de talent distincte du Heurt du Bastion monocible ; aucune fusion ne change son effet public. Posture défensive et Esquive restent des rappels historiques du planificateur ; aucun bonus caché ou iframe n’est ajouté à partir d’un simple nom.
+
+Les rangs sont des totaux. Les choix sont additionnels dans leur catégorie. Exemples : Pieds de Pierre 2/A = 30 % de distance de repoussement en moins ; Balayage 2/A = 25 % de dégâts supplémentaires en PvE. Le premier n’est pas 30 % de réduction générale des dégâts.
+
+Les réductions provenant d’une même source se regroupent ; les sources distinctes se multiplient. Les défenses fortes (Tenir la Ligne, Mur de Boucliers, Mur d’Écho, Dernier Bastion et Rempart Absolu) prennent le maximum actif, jamais la somme. Serment et Sentinelle utilisent des effets séparés explicitement définis. Une même synergie ou amélioration de zone n’ajoute pas deux fois les mêmes cibles.
+
+Garde partage le dommage brut en deux parts avant la mitigation de chaque destinataire. La part transférée au Rempart reçoit ensuite les réductions spécialisées des dégâts transférés. Le transfert est une redistribution, pas une deuxième absorption : le moteur vérifie `brut = bloqué + mitigé + reçu tank + reçu allié + excédent létal`.
+
+## Moteur de benchmark et résultats
+
+```sh
+node scripts/simulate_rempart.mjs --output /tmp/rempart-v1.json
+node --test tests/*.test.mjs
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -q
+```
+
+Le moteur compare Citadelle, Broyeur et Garde du corps, tous à 20 points légaux, sur quatre rencontres : boss 180 s, cinq ennemis 60 s, protection d’allié 60 s et mobilité/interruption 60 s. Chaque rencontre fixe pression, soins externes, cast ennemi, repoussements et nombre de cibles. Le témoin sans point mesure l’investissement ; il n’est pas un concurrent à budget égal.
+
+La rotation est une politique commune : interruption si possible, charge pour revenir au contact, récupération d’Endurance si nécessaire, protections d’urgence selon les PV, puis capacités de la spécialisation et attaque de base. Les protections fortes sont espacées pour éviter une dépense inutile. Le bouclier et Garde sont considérés équipés et l’allié choisi au début du test. Le tank et l’allié sont placés sur un axe simple ; l’allié est à 7 m de l’ennemi. La pression sur cet allié est environnementale et ne disparaît pas via une provocation.
+
+Les dégâts critiques utilisent l’espérance ; les blocages/parades utilisent une trace pseudo-aléatoire à graine enregistrée, indépendante des choix offensifs. Les essais sont reproductibles, sans prétendre établir un intervalle de confiance. Le pas par défaut est 50 ms, testé à 25 ms pour la convergence. Les coûts de blocage sont réellement payés ; une Endurance insuffisante empêche le blocage et les compétences payantes. Les morts empêchent les soins de ressusciter et arrêtent la rotation du tank.
+
+Résultats et interprétation : [balance/reports/rempart-v1.md](../balance/reports/rempart-v1.md). Le JSON contient 12 comparaisons de référence et 27 essais de sensibilité (pression ±10 % et trois graines). Les rapports incluent les empreintes du moteur et des données.
+
+## Limites explicites et prochaine calibration
+
+- Un tank et un allié, pas une IA complète de groupe ni un raid. Les cibles sont regroupées : les bonus de rayon ne prouvent pas une couverture spatiale supérieure.
+- Les dégâts entrants des rencontres sont physiques. La résistance magique est spécifiée mais attend un scénario magique dédié. Les durées de contrôles hostiles et le contre-jeu PvP attendent un modèle dédié ; une condition non exercée n’est pas une preuve de puissance nulle.
+- La mobilité est un axe simple, sans collisions, hauteur, latence ni géométrie de cône. Aucun taux de victoire PvP n’est calculé.
+- Les choix et effets ont des coefficients complets, mais les quatre rencontres n’exercent pas toutes les conditions de tous les talents. Étendre les tests de rencontres avant de qualifier une branche entière d’équilibrée.
+- Les trois templates ne sont pas un optimum exhaustif. Les résultats actuels montrent des différences de survie/protection/dégâts ; ils restent à confronter à une rotation jouable et à des essais Unity.
+
+Le Rempart V8 devient un point de référence **calculable dans ce périmètre**. Les 23 autres classes et le modèle générique Rempart attendent leurs propres coefficients. Les futures comparaisons entre tanks devront utiliser les mêmes conditions et les effets effectivement modélisés, puis étendre les rencontres aux identités des classes.
+
+
+## ASHENFALL — Les Frontières de Tharvëll : bestiaire et monde vivant V1.2
+Source: docs/THARVELL-FRONTIERES-BESTIAIRE-V1-2-2026-10-24.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: fe6e60f57ed5ec6ae1d5f89c4b6af40a36ca367e443da1ff16a6a4d55c8af900
+Page: documents/3fd0fc5bc9278da9d96df54c.html
+Source publiée: raw/docs/THARVELL-FRONTIERES-BESTIAIRE-V1-2-2026-10-24.md
+
+# ASHENFALL — Les Frontières de Tharvëll : bestiaire et monde vivant V1.2
+
+**Date : 24 octobre 2026**  
+**Statut : EN_ETUDE (propositions nouvelles) / rappel de décisions VALIDE**  
+**Diffusion : INTERNE — aucune publication automatique**
+
+## Références validées
+
+- Débuts pacifiques entre les peuples et communautés. Les armées sont des forces de protection contre la faune sauvage, non de conquête.
+- Faune fantastique naturelle, antérieure aux anomalies.
+- Douze espèces fondatrices validées, dont quatre espèces des profondeurs naines.
+- Traditions défensives proposées précédemment et désormais approuvées par l'auteur : doctrine naine des **Trois Seuils** (observer, détourner, défendre), **Veilleurs des Lisières** elfes, **Compagnies des Marches** humaines.
+- Tempéraments animaux : paisible, craintif, territorial, défensif, prédateur, social. Les animaux n'attaquent pas tous automatiquement.
+- Progression de combat par espèces, comportements distincts et équipement ; V1 de jeu sans scénario obligatoire.
+
+## Proposition : premier territoire autour de Tharvëll
+
+La cité reste un foyer chaleureux, sûr et vivant. Les dangers croissent avec l'éloignement des protections, sans état de siège permanent.
+
+1. **Jardins Profonds** : cœur habité, terrasses, canaux, ateliers et services. Zone sûre ; petites espèces non agressives.
+2. **Terrasses Extérieures** : lisière agricole, coléoptères et incursions de Sangliers de Schiste. Zone de découverte du combat.
+3. **Canaux Sauvages** : cavernes aquatiques au-delà des conduites entretenues, Salamandres Aveugles, risques liés à l'eau.
+4. **Anciennes Excavations** (nom provisoire ; éviter « Khar-Dûm » pour préserver l'originalité) : galeries délaissées pour raisons géologiques/pratiques, Araignées des Failles, toiles et poison.
+5. **Voûtes Anciennes** : vastes cavernes naturelles, spécimens particulièrement grands ou âgés, expéditions difficiles.
+
+Les noms nouveaux, leur géographie précise et l'ordre de difficulté restent **EN_ETUDE**. Les zones ne sont pas des niveaux narratifs obligatoires ; elles servent de base à la progression libre.
+
+## Répartition gameplay indicative (EN_ETUDE)
+
+| Espèce | Habitat privilégié | Niveaux indicatifs |
+| --- | --- | --- |
+| Coléoptère de Basalte | Terrasses extérieures | 1–4 |
+| Sanglier de Schiste | Terrasses et galeries basses | 3–7 |
+| Salamandre Aveugle | Canaux sauvages | 5–9 |
+| Araignée des Failles | Excavations anciennes | 7–12 |
+| Spécimens naturels exceptionnels | Voûtes anciennes | 12–15 |
+
+Niveaux et valeurs non validés, à équilibrer dans Unity.
+
+## Spécimens exceptionnels (EN_ETUDE)
+
+- **Le Vieux Fendeur** : vieux Sanglier de Schiste territorial, connu des patrouilles ; charges puissantes, ouvertures après fatigue. Pas de corruption.
+- **La Tisseuse des Failles** : grande femelle Araignée des Failles protégeant sa ponte ; toiles, poison et contrôle de zone. Ne dirige pas magiquement les autres araignées.
+
+## Société et protection
+
+Les patrouilles vérifient les seuils, escortent les cultivateurs, surveillent les migrations, inspectent les canaux et secourent les blessés. La prévention est valorisée. Proverbe proposé : « Le meilleur bouclier est celui qu'on n'a pas eu besoin de lever. »
+
+Les rôles Tank/Garde/BUMP ont une justification défensive dans les pratiques communautaires. Le joueur de V1 peut combattre et farmer sans que chaque bête soit moralement présentée comme maléfique.
+
+## Notes de continuité
+
+- Les peuples restent pacifiques entre eux au début ; ne pas inventer de guerres, conflits tribaux, ennemis intelligents ou factions hostiles.
+- Les Premiers, la Trame et l'origine des anomalies restent sans révélation supplémentaire.
+- Les Kharûn ne doivent pas être confondus avec un nom de galerie naine : « Khar-Dûm » n'est pas retenu comme toponyme canon.
+- Les nouvelles zones et spécimens ne sont pas encore approuvés par l'auteur ; ne pas les publier comme faits canoniques.
+- Aucun changement Unity ni déploiement du Codex n'est inclus dans cette proposition.
+
+
+## ASH-ART-NAINS-EQUIPEMENTS-0001 — Équipements nains V0.1
+Source: docs/artworks/EQUIPEMENTS-NAINS-V01-2026-10-25.md
+Statut déclaré: NON_RENSEIGNE
+Version: None
+SHA-256: 0acd7498638b3719d130d8d2a0aae58babf8e791ee2fce05bb2ca9f94273e13b
+Page: documents/f2b672e4d90248237b61f7c1.html
+Source publiée: raw/docs/artworks/EQUIPEMENTS-NAINS-V01-2026-10-25.md
+
+# ASH-ART-NAINS-EQUIPEMENTS-0001 — Équipements nains V0.1
+
+Date : 2026-10-25. État de conception : EN_ETUDE. Base visuelle retenue ; aucune validation canonique de récit ou mécanique.
+
+## Sélection et autorisation
+Clément a demandé « pas mal pour notre base ! tu peux le mettre dans le codex grace à l'archiviste » après présentation des quatre planches à six paliers. Cette décision autorise l'intégration publique des artworks désignés comme concepts ; elle ne valide pas de statistiques, de niveaux requis, d'armes obligatoires ou de nouvelles vérités narratives. Référence : session créative équipements nains, 25 octobre 2026 ; aucun identifiant de conversation durable disponible.
+
+Version retenue : Rempart avec niveau 1 en tunique simple (dernière planche à six silhouettes), Brise-Fer, Artilleur runique, Accordeur. Écarter les anciennes planches Rempart trop équipées au départ.
+
+## Périmètre public
+Une section Évolution des équipements par fiche : rempart, brise-fer, artilleur-runique, accordeur. Six silhouettes sur chaque planche, affichage horizontal mobile, agrandissement et zoom. Mention concept V0.1, provisoire et non canonique. Aucun changement aux records narratifs, compétences, équilibrage, simulateurs ou fiches des autres peuples.
+
+## Production Unity liée — ASH-PROD-ART-NAINS-EQUIPEMENTS-0001
+Références artistiques uniquement. Modèles 3D, budgets de polygones, rigs, matériaux, découpage modulaire, niveaux de déblocage et statistiques : non définis. Aucun fichier Unity modifié. Les armes et instruments illustrés restent des pistes artistiques ; ne pas déduire une restriction d'équipement ni une recette de fabrication. Conserver la silhouette et le rôle de chaque classe.
+
+## Cohérence et impact
+Compatible avec la progression sobre puis épique du cadrage EQUIPEMENT-CLASSES-REMPART-V1-6-2026-10-25.md. Ne remplace pas les trois sets Rempart EN_ETUDE et ne les publie pas. Pas de fabrication d'armes ou armures par le joueur induite par la qualité artisanale illustrée. Aucun effet sur les introductions, la convergence ou le monde persistant.
+
+AVERTISSEMENTS : les planches sont des explorations ; des ornements, pièces et silhouettes devront encore être différenciés pour la production. Aucune cause ou nouvelle propriété de la Trame n'est établie par l'instrument de l'Accordeur.
+
+## Conservation
+Variantes WebP dans assets/concepts/equipements-nains/v01/. Sources PNG générées conservées dans la session ; leurs empreintes et celles des variantes sont enregistrées dans manifest.json. Les métadonnées de provenance restent privées. La projection publique ne contient que les quatre images, leurs libellés descriptifs et leur statut de concept.

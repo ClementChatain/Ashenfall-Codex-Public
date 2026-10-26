@@ -1,0 +1,55 @@
+{
+  "id": "vaelith",
+  "category": "peuples",
+  "title": "Vaelith",
+  "summary": "Peuple récent · Forêts en transformation",
+  "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nLes Vaelith font partie des trois peuples récemment apparus à la suite des transformations de la Trame. Ils émergent dans les régions forestières où vivent les Elfes.\n\nPremières rencontres\nÀ leur apparition, les nouveaux peuples ne se connaissent pas encore. Leur affinité naturelle pour le changement ne détermine pas leurs choix individuels.\n\nLa Rupture des Eaux\nLa catastrophe transforme des régions forestières habitées par les Elfes et les Vaelith en marécages. Aucun de ces peuples ne possède encore le récit complet des événements.\n\nPour poursuivre la découverte\nConsultez les Chroniques du monde et La Rupture des Eaux. L’apparence détaillée, la culture et les classes ne sont pas renseignées dans cette présentation.",
+  "lore_id": "ASH-LORE-0202",
+  "version": "1.0",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [],
+  "questions": [
+    "Apparence, culture détaillée et classes non renseignées."
+  ],
+  "links": [
+    "chroniques-rupture"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/six-peuples-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Présentation exacte de l’aperçu validé ; mention provisoire conservée conformément au texte approuvé."
+  ],
+  "production_id": "ASH-UNITY-0202",
+  "public_projection": {
+    "id": "vaelith",
+    "category": "peuples",
+    "title": "Vaelith",
+    "summary": "Peuple récent · Forêts en transformation",
+    "body": "VERSION DE TRAVAIL — PROVISOIRE, NON CANONIQUE\n\nLes Vaelith font partie des trois peuples récemment apparus à la suite des transformations de la Trame. Ils émergent dans les régions forestières où vivent les Elfes.\n\nPremières rencontres\nÀ leur apparition, les nouveaux peuples ne se connaissent pas encore. Leur affinité naturelle pour le changement ne détermine pas leurs choix individuels.\n\nLa Rupture des Eaux\nLa catastrophe transforme des régions forestières habitées par les Elfes et les Vaelith en marécages. Aucun de ces peuples ne possède encore le récit complet des événements.\n\nPour poursuivre la découverte\nConsultez les Chroniques du monde et La Rupture des Eaux. L’apparence détaillée, la culture et les classes ne sont pas renseignées dans cette présentation."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "1.0",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-PEUPLES-202.json",
+    "record_sha256": "7b5d12ab3e37bfba4720d23f766e199f79bf66d63e242043920d6c3fc288d668"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Présentation validée dans la conversation courante ; pas encore déployée.",
+      "source": "sources/decisions/six-peuples-2026-10-23.json"
+    }
+  ]
+}

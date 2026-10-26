@@ -1,0 +1,57 @@
+{
+  "id": "sillonneur--dernier-passage",
+  "category": "competences",
+  "title": "Dernier Passage",
+  "summary": "Exécution · Sillonneur",
+  "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 10\nCompétence : Dernier Passage\nType : Exécution\nType clair : Exécution\nBase / impact : 320\nCoefficient : 1.23\nNombre d’impacts : 1\nCoût : 35\nCD (s) : 25\nPortée (m) : 3\nLancement : 0,60 s\nPvP x : 0.8\nContrôle / mécanique : Cible à moins de 30 % PV au départ et à la résolution. Ne bénéficie pas de Passage ; aucune charge offerte au kill.\nPuissance brute réf. : 1550\nPuissance PvP réf. : 1240\nPuissance totale brute : 1550\nPuissance totale PvP : 1240\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n",
+  "lore_id": "ASH-LORE-0560",
+  "version": "0.1",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs de prototype : tests de combat requis."
+  ],
+  "questions": [
+    "Réglage après simulation et playtests."
+  ],
+  "links": [
+    "sillonneur"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement. Aucune implémentation Unity ni modification des 120 compétences historiques."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Compétences V0.1 approuvées dans la conversation courante. Équilibre non certifié."
+  ],
+  "production_id": "ASH-UNITY-0560",
+  "public_projection": {
+    "id": "sillonneur--dernier-passage",
+    "category": "competences",
+    "title": "Dernier Passage",
+    "summary": "Exécution · Sillonneur",
+    "body": "VERSION DE TRAVAIL — COMPÉTENCES V0.1 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Orynth\nClasse : Sillonneur\nRôle : DPS mêlée\nN° : 10\nCompétence : Dernier Passage\nType : Exécution\nType clair : Exécution\nBase / impact : 320\nCoefficient : 1.23\nNombre d’impacts : 1\nCoût : 35\nCD (s) : 25\nPortée (m) : 3\nLancement : 0,60 s\nPvP x : 0.8\nContrôle / mécanique : Cible à moins de 30 % PV au départ et à la résolution. Ne bénéficie pas de Passage ; aucune charge offerte au kill.\nPuissance brute réf. : 1550\nPuissance PvP réf. : 1240\nPuissance totale brute : 1550\nPuissance totale PvP : 1240\n\nLecture des valeurs\nBase et coefficient par impact/tick ; total = (base + coefficient × PO/PS) × nombre d’impacts. Référence PO = PS = 1000 ; totaux bruts par cible, avant mitigation et bonus conditionnels. GCD 1,25 s ; CD 0 reste soumis au GCD. Les valeurs PvP appliquent le multiplicateur indiqué aux dégâts/soins chiffrés, pas aux contrôles. Les mécaniques propres figurent sur la fiche de classe. Règles : nouvelles-regles-combat-v01. Les nouvelles règles restent des hypothèses de prototype ; les anciennes fiches sont conservées.\n"
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.1",
+    "date": "2026-10-23",
+    "reference": "decisions/ABILITIES-V01-sillonneur--dernier-passage.json",
+    "record_sha256": "55c8918c5f5edcea1439ae91c9afbb96accae36eb0495699de7e2cbacc9ac78a"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "Compétences V0.1 validées pour présentation publique ; illustrations à proposer séparément.",
+      "source": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+    }
+  ]
+}

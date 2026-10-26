@@ -1,0 +1,9 @@
+{
+  "status": "VALIDE",
+  "creator": "ClementChatain",
+  "record_id": "nouvelles-regles-combat-v01",
+  "record_version": "0.1",
+  "validated_record_sha256": "63c45d625391c44c8fe95bb162c9bfa44252430719320a11b1f5c8f2101a717e",
+  "validation_date": "2026-10-23",
+  "evidence_reference": "sources/decisions/abilities-new-peoples-v01-2026-10-23.json"
+}

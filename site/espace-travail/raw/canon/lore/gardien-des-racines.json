@@ -1,0 +1,60 @@
+{
+  "id": "gardien-des-racines",
+  "lore_id": "ASH-LORE-0101",
+  "title": "Gardien des Racines",
+  "category": "classes",
+  "version": "0.2",
+  "status": "VALIDE",
+  "visibility": "PUBLIC",
+  "summary": "Elfe · Tank · 10 compétences de référence V0.2",
+  "body": "VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Elfe\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : gardien-des-racines-garde\n\n2. Défi des Racines\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : gardien-des-racines-defi-des-racines\n\n3. Écorce Vivante\nDéfense — -25% dégâts 5s\nCoût 25 ; CD 18 s ; portée 0 m.\nFiche : gardien-des-racines-ecorce-vivante\n\n4. Pas des Racines\nMobilité — Esquive courte; ne purge pas Garde\nCoût 15 ; CD 12 s ; portée 8 m.\nFiche : gardien-des-racines-pas-des-racines\n\n5. Étreinte Sylvestre\nContrôle — Immobilisation 1.5s PvP\nCoût 20 ; CD 20 s ; portée 16 m.\nFiche : gardien-des-racines-etreinte-sylvestre\n\n6. Cercle des Anciens\nProtection — -18% dégâts alliés 5s\nCoût 40 ; CD 28 s ; portée 10 m.\nFiche : gardien-des-racines-cercle-des-anciens\n\n7. Rejet de Ronce\nContrôle — Repousse de 6 m à l’opposé du tank ; une cible\nCoût 20 ; CD 24 s ; portée 6 m.\nFiche : gardien-des-racines-rejet-de-ronce\n\n8. Sève Persistante\nSoin — Soin personnel sur 6s\nCoût 30 ; CD 25 s ; portée 0 m.\nFiche : gardien-des-racines-seve-persistante\n\n9. Ancrage des Profondeurs\nDéfense — -70% repoussements 6s\nCoût 25 ; CD 32 s ; portée 0 m.\nFiche : gardien-des-racines-ancrage-des-profondeurs\n\n10. Cœur de la Forêt\nDéfense — -40% dégâts 5s\nCoût 70 ; CD 90 s ; portée 0 m.\nFiche : gardien-des-racines-cur-de-la-foret\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nUne seule cible à 6 m, avec ligne de vue. Projection portée de 3 à 6 m ; dégâts de référence réduits de 460 à 300. Coût et recharge inchangés.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu.",
+  "facts": [],
+  "viewpoints": [],
+  "hypotheses": [
+    "Valeurs d’équilibrage à tester en jeu."
+  ],
+  "questions": [
+    "Réglage final après prototype : distances face à Garde, rebords et cône."
+  ],
+  "links": [
+    "rempart",
+    "sentinelle",
+    "gardien-des-racines"
+  ],
+  "period": null,
+  "sources": [
+    "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+  ],
+  "dependencies": [],
+  "impacts": [
+    "Codex uniquement ; aucune modification Unity."
+  ],
+  "modified": "2026-10-23",
+  "revision_notes": [
+    "Validation limitée à la conception V0.2 des bumps ; contenu historique inchangé hors périmètre.",
+    "Identifiant public historique conservé pour préserver les routes."
+  ],
+  "production_id": "ASH-UNITY-0101",
+  "public_projection": {
+    "id": "gardien-des-racines",
+    "category": "classes",
+    "title": "Gardien des Racines",
+    "summary": "Elfe · Tank · 10 compétences de référence V0.2",
+    "body": "VERSION DE TRAVAIL — ARSENAL V0.2 ; ÉQUILIBRAGE À TESTER\n\nPeuple : Elfe\nRôle : Tank\n\nArsenal de référence — 10 compétences\n1. Garde\nProtection — Transfert 50%; instantané\nCoût 0 ; CD 0 s ; portée 9 m.\nFiche : gardien-des-racines-garde\n\n2. Défi des Racines\nProvocation — Taunt PvE 3s; PvP -15% hors Tank 4s\nCoût 0 ; CD 12 s ; portée 15 m.\nFiche : gardien-des-racines-defi-des-racines\n\n3. Écorce Vivante\nDéfense — -25% dégâts 5s\nCoût 25 ; CD 18 s ; portée 0 m.\nFiche : gardien-des-racines-ecorce-vivante\n\n4. Pas des Racines\nMobilité — Esquive courte; ne purge pas Garde\nCoût 15 ; CD 12 s ; portée 8 m.\nFiche : gardien-des-racines-pas-des-racines\n\n5. Étreinte Sylvestre\nContrôle — Immobilisation 1.5s PvP\nCoût 20 ; CD 20 s ; portée 16 m.\nFiche : gardien-des-racines-etreinte-sylvestre\n\n6. Cercle des Anciens\nProtection — -18% dégâts alliés 5s\nCoût 40 ; CD 28 s ; portée 10 m.\nFiche : gardien-des-racines-cercle-des-anciens\n\n7. Rejet de Ronce\nContrôle — Repousse de 6 m à l’opposé du tank ; une cible\nCoût 20 ; CD 24 s ; portée 6 m.\nFiche : gardien-des-racines-rejet-de-ronce\n\n8. Sève Persistante\nSoin — Soin personnel sur 6s\nCoût 30 ; CD 25 s ; portée 0 m.\nFiche : gardien-des-racines-seve-persistante\n\n9. Ancrage des Profondeurs\nDéfense — -70% repoussements 6s\nCoût 25 ; CD 32 s ; portée 0 m.\nFiche : gardien-des-racines-ancrage-des-profondeurs\n\n10. Cœur de la Forêt\nDéfense — -40% dégâts 5s\nCoût 70 ; CD 90 s ; portée 0 m.\nFiche : gardien-des-racines-cur-de-la-foret\n\nPérimètre de la reprise\nLes compétences et valeurs proviennent du classeur V0.1. Les descriptions narratives, spécialisations et règles de ressource détaillées non présentes dans cette source ne sont pas recréées.\n\nRévision V0.2 — bump\nUne seule cible à 6 m, avec ligne de vue. Projection portée de 3 à 6 m ; dégâts de référence réduits de 460 à 300. Coût et recharge inchangés.\nLes autres compétences restent inchangées. Validation de conception le 23 octobre 2026 ; valeurs à tester en jeu."
+  },
+  "blocking_contradictions": false,
+  "validation": {
+    "creator": "ClementChatain",
+    "version": "0.2",
+    "date": "2026-10-23",
+    "reference": "decisions/ASH-DECISION-BUMP-101.json",
+    "record_sha256": "907786e1b69416ee51bae080216c7e41836345d52e2f46918646758be032ffa2"
+  },
+  "history": [
+    {
+      "date": "2026-10-23",
+      "action": "V0.2 validée pour publication dans la conversation courante. Aucun déploiement encore attesté.",
+      "source": "sources/decisions/bumps-tanks-v02-2026-10-23.json"
+    }
+  ]
+}
