@@ -1,0 +1,157 @@
+{
+  "status": "user_supplied_for_site",
+  "audioProcessing": "Original MP3 bytes preserved; no lossy transcoding",
+  "classification": "Provisional editorial atmosphere groups suggested from titles; no embedded genre tags or verified listening. Acoustic measurements are descriptive only and do not prove genre.",
+  "files": [
+    {
+      "id": "below-the-mountain",
+      "originalFilename": "Below_the_Mountain.mp3",
+      "file": "site/assets/audio/v1/below-the-mountain.mp3",
+      "sha256": "77da7694babfb46a347e6ddce3f9bdc3d1ca62424677df2ecfbc162cc9624256",
+      "bytes": 4329495,
+      "durationSeconds": 180.140333,
+      "acousticSample": {
+        "filename": "Below_the_Mountain.mp3",
+        "rms_db": -11.2,
+        "centroid_hz": 1070,
+        "dynamic_spread_db": 8.5,
+        "pulse_estimate_bpm": 161.5
+      }
+    },
+    {
+      "id": "beneath-the-iron-keep",
+      "originalFilename": "Beneath_the_Iron_Keep.mp3",
+      "file": "site/assets/audio/v1/beneath-the-iron-keep.mp3",
+      "sha256": "afdf3a1beb2a10fa7f1f899c23987ceb24f70d1aaca997d1337a5eb4ae8890f5",
+      "bytes": 4293133,
+      "durationSeconds": 178.62525,
+      "acousticSample": {
+        "filename": "Beneath_the_Iron_Keep.mp3",
+        "rms_db": -11.5,
+        "centroid_hz": 868,
+        "dynamic_spread_db": 7.6,
+        "pulse_estimate_bpm": 66.3
+      }
+    },
+    {
+      "id": "the-weight-of-ancient-stone",
+      "originalFilename": "The_Weight_of_Ancient_Stone.mp3",
+      "file": "site/assets/audio/v1/the-weight-of-ancient-stone.mp3",
+      "sha256": "c15c8ab3a5cca9be2d3bfe6955608f8be27e211c2aa6a299fb5b6a892dcb04e5",
+      "bytes": 4153326,
+      "durationSeconds": 172.799958,
+      "acousticSample": {
+        "filename": "The_Weight_of_Ancient_Stone.mp3",
+        "rms_db": -11.0,
+        "centroid_hz": 877,
+        "dynamic_spread_db": 5.0,
+        "pulse_estimate_bpm": 80.7
+      }
+    },
+    {
+      "id": "legacy-of-the-high-throne",
+      "originalFilename": "Legacy_of_the_High_Throne.mp3",
+      "file": "site/assets/audio/v1/legacy-of-the-high-throne.mp3",
+      "sha256": "dc9f66eb8a69739c06102e876c7707b6ddbb13ee96aee8ab86faab9af3dfcf96",
+      "bytes": 4234201,
+      "durationSeconds": 176.16975,
+      "acousticSample": {
+        "filename": "Legacy_of_the_High_Throne.mp3",
+        "rms_db": -11.8,
+        "centroid_hz": 1152,
+        "dynamic_spread_db": 10.6,
+        "pulse_estimate_bpm": 99.4
+      }
+    },
+    {
+      "id": "the-sovereigns-vigil",
+      "originalFilename": "The_Sovereign’s_Vigil.mp3",
+      "file": "site/assets/audio/v1/the-sovereigns-vigil.mp3",
+      "sha256": "2a42320031fbcbbab8e851334e227bee90223d247ba655d3a184c4464b6dc21e",
+      "bytes": 4044238,
+      "durationSeconds": 168.254625,
+      "acousticSample": {
+        "filename": "The_Sovereign’s_Vigil.mp3",
+        "rms_db": -12.0,
+        "centroid_hz": 1050,
+        "dynamic_spread_db": 8.3,
+        "pulse_estimate_bpm": 136.0
+      }
+    },
+    {
+      "id": "the-deep-halls-toast",
+      "originalFilename": "The_Deep_Hall_s_Toast.mp3",
+      "file": "site/assets/audio/v1/the-deep-halls-toast.mp3",
+      "sha256": "704d2a52425717427f800012df0fd5f0e88fea25a3d879a8aeb28ea0881fe00d",
+      "bytes": 3974021,
+      "durationSeconds": 165.328917,
+      "acousticSample": {
+        "filename": "The_Deep_Hall_s_Toast.mp3",
+        "rms_db": -11.2,
+        "centroid_hz": 833,
+        "dynamic_spread_db": 8.0,
+        "pulse_estimate_bpm": 76.0
+      }
+    },
+    {
+      "id": "l-acier-et-l-archet",
+      "originalFilename": "L_acier_et_l_archet.mp3",
+      "file": "site/assets/audio/v1/l-acier-et-l-archet.mp3",
+      "sha256": "fdc67cbb0e764cbee4809e50cf0fde10126122b230753e7981aedd595073e17b",
+      "bytes": 3853648,
+      "durationSeconds": 160.313417,
+      "acousticSample": {
+        "filename": "L_acier_et_l_archet.mp3",
+        "rms_db": -11.2,
+        "centroid_hz": 1606,
+        "dynamic_spread_db": 4.2,
+        "pulse_estimate_bpm": 83.4
+      }
+    },
+    {
+      "id": "jungle-de-fer",
+      "originalFilename": "Jungle_de_fer.mp3",
+      "file": "site/assets/audio/v1/jungle-de-fer.mp3",
+      "sha256": "60e720a567d1c0cac86eda41680d42dfdc6a91517ae1420a87edc5227f24d457",
+      "bytes": 3797850,
+      "durationSeconds": 157.9885,
+      "acousticSample": {
+        "filename": "Jungle_de_fer.mp3",
+        "rms_db": -11.3,
+        "centroid_hz": 1683,
+        "dynamic_spread_db": 5.8,
+        "pulse_estimate_bpm": 103.4
+      }
+    },
+    {
+      "id": "guerriers-de-la-dalle",
+      "originalFilename": "Guerriers_de_la_Dalle.mp3",
+      "file": "site/assets/audio/v1/guerriers-de-la-dalle.mp3",
+      "sha256": "7a830576343eb44594e786e24786f7770a6f18d8d2617281fb699293707f12f0",
+      "bytes": 4374007,
+      "durationSeconds": 181.995042,
+      "acousticSample": {
+        "filename": "Guerriers_de_la_Dalle.mp3",
+        "rms_db": -11.1,
+        "centroid_hz": 1472,
+        "dynamic_spread_db": 9.2,
+        "pulse_estimate_bpm": 103.4
+      }
+    },
+    {
+      "id": "face-a-la-tempete",
+      "originalFilename": "Face_à_la_tempête.mp3",
+      "file": "site/assets/audio/v1/face-a-la-tempete.mp3",
+      "sha256": "d709034f85152303990c5877671e1afa18beec456293b8b07c6d8a16b9cab70c",
+      "bytes": 3747068,
+      "durationSeconds": 155.872583,
+      "acousticSample": {
+        "filename": "Face_à_la_tempête.mp3",
+        "rms_db": -11.0,
+        "centroid_hz": 1488,
+        "dynamic_spread_db": 7.9,
+        "pulse_estimate_bpm": 103.4
+      }
+    }
+  ]
+}

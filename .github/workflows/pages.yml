@@ -55,6 +55,10 @@ jobs:
             mkdir -p pages-output/assets
             cp -R site/assets/classes pages-output/assets/classes
           fi
+          # User-supplied music and the persistent native player.
+          mkdir -p pages-output/assets
+          cp -R site/assets/audio pages-output/assets/audio
+          cp -R site/assets/music-player-v1 pages-output/assets/music-player-v1
           # Approved public simulator, kept separate from the validated lore records.
           test -s simulateur/rempart/index.html
           mkdir -p pages-output/simulateur/rempart
