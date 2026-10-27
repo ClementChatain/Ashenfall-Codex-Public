@@ -1,5 +1,5 @@
-import {library} from './library.mjs?v=music-v1';
-import {STORAGE_KEY,preferences,formatTime,nextId,previousId} from './core.mjs?v=music-v1';
+import {library} from './library.mjs?v=music-polish-v2';
+import {STORAGE_KEY,preferences,formatTime,nextId,previousId} from './core.mjs?v=music-polish-v2';
 const ICONS={play:'<path d="m9 5 11 7-11 7Z"/>',pause:'<path d="M8 5v14M16 5v14"/>',previous:'<path d="M6 5v14m13-14L8 12l11 7Z"/>',next:'<path d="M18 5v14M5 5l11 7-11 7Z"/>',list:'<path d="M9 6h12M9 12h12M9 18h12M3 6h1M3 12h1M3 18h1"/>',close:'<path d="m6 6 12 12M18 6 6 18"/>',down:'<path d="m6 9 6 6 6-6"/>',volume:'<path d="m11 5-6 4H2v6h3l6 4Zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>',muted:'<path d="m11 5-6 4H2v6h3l6 4Zm5 4 6 6m0-6-6 6"/>',shuffle:'<path d="M3 6h3c5 0 6 12 11 12h4m-4-4 4 4-4 4M3 18h3c2 0 3-2 5-6m3-4c1-2 2-2 4-2h3m-4-4 4 4-4 4"/>',repeat:'<path d="m17 2 4 4-4 4M3 11V8a2 2 0 0 1 2-2h16M7 22l-4-4 4-4m14-1v3a2 2 0 0 1-2 2H3"/>'};
 const icon=name=>'<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';
 const seal='<svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor"><circle cx="24" cy="24" r="20"/><path d="m24 2 4 7-4 4-4-4ZM24 46l-4-7 4-4 4 4ZM2 24l7-4 4 4-4 4ZM46 24l-7 4-4-4 4-4ZM17 14l15-3v20m-15-14v17m0-17 15-3"/><ellipse cx="13" cy="35" rx="4" ry="3"/><ellipse cx="28" cy="32" rx="4" ry="3"/></svg>';
@@ -14,7 +14,7 @@ $('.music-library-note').textContent=library.tracks.length+' morceaux · ambianc
 function status(text){$('[data-music-status]').textContent=text;}
 function save(){prefs={...prefs,trackId:current.id,volume:audio.volume,muted:audio.muted,position:Number.isFinite(audio.currentTime)&&audio.currentTime>0?audio.currentTime:resumeAt};try{localStorage.setItem(STORAGE_KEY,JSON.stringify(prefs));}catch{}}
 function paintState(){
- const playing=!audio.paused&&!audio.ended;root.dataset.playing=String(playing);
+ const playing=!audio.paused&&!audio.ended;root.dataset.playing=String(playing);volume.style.setProperty('--music-progress',(audio.volume*100)+'%');
  const button=$('[data-music="play"]');button.innerHTML=icon(playing?'pause':'play');button.setAttribute('aria-label',playing?'Mettre la musique en pause':'Lancer la musique');
  $('[data-music="shuffle"]').setAttribute('aria-pressed',String(prefs.shuffle));
  const repeatText={off:'Non',all:'Tout',one:'1 titre'}[prefs.repeat];$('[data-repeat-text]').textContent=repeatText;$('[data-music="repeat"]').setAttribute('aria-label','Répétition : '+repeatText);
@@ -26,7 +26,7 @@ function paintTrack(){
  $('[data-music-title]').textContent=current.title;$('[data-music-title]').title=current.title;
  $('[data-music-group]').textContent=library.groups.find(g=>g.id===current.group).label;
  $('[data-music-duration]').textContent=formatTime(current.duration);$('[data-music-elapsed]').textContent=formatTime(resumeAt);
- seek.max=String(current.duration);seek.value=String(resumeAt);seek.disabled=true;seek.setAttribute('aria-valuetext',formatTime(resumeAt)+' sur '+formatTime(current.duration));
+ seek.max=String(current.duration);seek.value=String(resumeAt);seek.style.setProperty('--music-progress',(resumeAt/current.duration*100)+'%');seek.disabled=true;seek.setAttribute('aria-valuetext',formatTime(resumeAt)+' sur '+formatTime(current.duration));
  if('mediaSession' in navigator&&'MediaMetadata' in window)navigator.mediaSession.metadata=new MediaMetadata({title:current.title,album:'Musiques du Codex Ashenfall'});
  paintState();
 }
@@ -79,7 +79,7 @@ root.addEventListener('keydown',event=>{if(event.key==='Escape'&&!panel.hidden){
 volume.addEventListener('input',()=>{audio.volume=Number(volume.value);if(audio.volume>0){lastVolume=audio.volume;audio.muted=false;}save();paintState();});
 seek.addEventListener('input',()=>{if(Number.isFinite(audio.duration)){audio.currentTime=Math.min(audio.duration,Math.max(0,Number(seek.value)));resumeAt=audio.currentTime;save();}});
 audio.addEventListener('loadedmetadata',()=>{if(Number.isFinite(audio.duration)){seek.max=String(audio.duration);seek.disabled=false;$('[data-music-duration]').textContent=formatTime(audio.duration);if(resumeAt>0){audio.currentTime=Math.min(resumeAt,Math.max(0,audio.duration-1));resumeAt=0;}}});
-audio.addEventListener('timeupdate',()=>{if(!seek.matches(':active'))seek.value=String(audio.currentTime);$('[data-music-elapsed]').textContent=formatTime(audio.currentTime);seek.setAttribute('aria-valuetext',formatTime(audio.currentTime)+' sur '+formatTime(audio.duration||current.duration));if(Date.now()-saveAt>5000){saveAt=Date.now();save();}});
+audio.addEventListener('timeupdate',()=>{seek.style.setProperty('--music-progress',(audio.duration?audio.currentTime/audio.duration*100:0)+'%');if(!seek.matches(':active'))seek.value=String(audio.currentTime);$('[data-music-elapsed]').textContent=formatTime(audio.currentTime);seek.setAttribute('aria-valuetext',formatTime(audio.currentTime)+' sur '+formatTime(audio.duration||current.duration));if(Date.now()-saveAt>5000){saveAt=Date.now();save();}});
 audio.addEventListener('play',()=>{wanted=true;paintState();});audio.addEventListener('playing',()=>status(''));audio.addEventListener('pause',()=>{save();paintState();});audio.addEventListener('ended',()=>{wanted=true;next(true);});
 audio.addEventListener('error',()=>{wanted=false;request++;status('Ce morceau ne peut pas être chargé. Réessayez ou choisissez un autre titre.');paintState();});
 window.addEventListener('pagehide',save);

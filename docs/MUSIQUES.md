@@ -57,3 +57,9 @@ Le contrôle navigateur exerce une lecture réelle, la navigation entre fiches, 
 ## Publication
 
 Le workflow Pages copie explicitement `assets/audio` et `assets/music-player-v1`, en conservant les chroniques, galeries, simulateurs et portail documentaire. Tous les nouveaux fichiers servis restent couverts par les empreintes de `publication/v2-release.json`. La fusion ne déploie pas : lancer `pages.yml` avec le SHA complet autorisé puis vérifier le domaine, les fichiers audio et les réponses Range. Les sources MP3 sont déjà optimisées à environ 192 kbit/s ; aucun transcodage supplémentaire n’est nécessaire pour ces dix pistes.
+
+## Finition du lecteur V2
+
+Le bouton lecture/pause dispose d’une géométrie fixe et non compressible : 56 × 56 px, ou 48 × 48 px sur les écrans peu hauts. La règle des petites commandes ne peut plus écraser sa largeur. Le cadre est plus fin, le médaillon est serti et la progression se colore en fonction de la position réelle. Sur mobile, les commandes occupent une ligne distincte du titre ; en paysage, une présentation compacte conserve l’accès aux pistes.
+
+Le test navigateur vérifie les proportions avec un titre long, aux formats ordinateur, tablette, 390/320 px et paysage 812 × 390 / 480 × 320. La bibliothèque MP3, le stockage et les règles de lecture restent identiques.
