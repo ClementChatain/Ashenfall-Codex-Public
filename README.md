@@ -4,6 +4,10 @@ Interface publique du Codex. Seuls les contenus explicitement approuvés sont ex
 
 Publication depuis main via GitHub Pages. Aucune source privée ni brouillon de lore.
 
+## Musiques du Codex
+
+Un lecteur dark fantasy compact accompagne les fiches, avec dix MP3 fournis par Clément, playlist filtrée par ambiances proposées, progression, volume, lecture aléatoire et répétition. La lecture reste active entre les fiches et commence uniquement au clic. Architecture, classement, commandes de test et serveur de prévisualisation compatible audio : [docs/MUSIQUES.md](docs/MUSIQUES.md).
+
 ## Présentation des six peuples et des 24 classes
 
 La présentation illustrée couvre désormais Nains, Elfes, Humains, Kharûn, Vaelith et Orynth, avec quatre classes par peuple. La page `#/peuples` donne accès aux six fiches illustrées ; chaque classe conserve ses compétences, ses textes de référence, ses archives et ses portraits d’origine. Deux galeries séparent progression de base et six skins alternatifs, avec vues de détail et visionneuse au clavier. Le Rempart conserve sa présentation et ses variantes de couleur existantes. Les autres tenues restent des concepts artistiques, sans nouvelle statistique, niveau requis ou validation canonique.
