@@ -87,14 +87,23 @@ def main():
             assert page.locator('audio').evaluate('a=>Number.isFinite(a.duration)&&a.duration>100')
         checks.append('all ten MP3s decode and start in the browser')
         page.locator('[data-music="play"]').click()
-        for width,height in [(1536,1100),(820,1180),(390,844),(320,700)]:
+        # A long title must never squeeze the central play/pause control.
+        page.locator('[data-track-id="the-weight-of-ancient-stone"]').click()
+        page.wait_for_function('document.querySelector("audio").currentTime>0')
+        page.locator('[data-music="play"]').click()
+        for width,height in [(1536,1100),(820,1180),(390,844),(320,700),(812,390),(480,320)]:
             page.set_viewport_size({'width':width,'height':height})
             page.wait_for_timeout(250)
             box = page.locator('.codex-music').bounding_box()
             assert box['x']>=0 and box['y']>=0 and box['x']+box['width']<=width+1 and box['y']+box['height']<=height+1, (width,box)
+            play = page.locator('.music-play').bounding_box()
+            assert abs(play['width']-play['height'])<.5, (width,play)
+            assert play['width']>=48, (width,play)
+            # The expanded playlist retains visible track space on short screens.
+            assert page.locator('.music-tracklist').bounding_box()['height']>=30, (width,height)
             assert not page.evaluate('document.documentElement.scrollWidth>innerWidth'), width
             page.screenshot(path=str(args.output/f'music-{width}.png'))
-        checks.append('desktop/tablet/mobile and 320px layout fit viewport')
+        checks.append('round play button with long titles; desktop/tablet/mobile/landscape layouts fit viewport')
         context.close()
         # Blocked storage must not disable the player.
         context = browser.new_context()

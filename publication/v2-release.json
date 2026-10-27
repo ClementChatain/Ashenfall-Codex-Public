@@ -708,7 +708,7 @@
     "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
-    "site/index.html": "e3303eeb924ef880f0bc5cd1425ed7de76122bdb",
+    "site/index.html": "c15de6fc8156ccea6ae6d1ec1c2891cb72148c1e",
     "site/espace-travail/llms-full.txt": "725e1126d4ca777ce3eab3a46c35066fbdfdee97",
     "site/espace-travail/llms.txt": "132ba490268824f504b28f8055635432d01b608e",
     "site/espace-travail/manifest.json": "df2ef7d7153b80cae91ccad75efa597c537e4878",
@@ -1967,8 +1967,8 @@
     "site/assets/audio/v1/the-weight-of-ancient-stone.mp3": "3e9e39b5a5a5e3ca7e11c4ad84a67073b476d412",
     "site/assets/music-player-v1/core.mjs": "67f4151dbe31b0e83e0078c17193f0bc1478ab2b",
     "site/assets/music-player-v1/library.mjs": "2c7327ff52d5daec782f10dea701722176058382",
-    "site/assets/music-player-v1/player.css": "f1c963742721afd281ae17da9070717ec17a691c",
-    "site/assets/music-player-v1/player.mjs": "6d4a3f5cd1c8c7ca2c8f51cc7f32a90cf89fd4d2"
+    "site/assets/music-player-v1/player.css": "1f04540d9e2ff4e449ea87c74c89d9fbb2c25f40",
+    "site/assets/music-player-v1/player.mjs": "8e0c2035506e632af8deceac6a667d262b9e76e9"
   },
   "receipts": [
     {
