@@ -40,6 +40,8 @@ jobs:
           test -s site/index.html
           mkdir -p pages-output
           cp site/index.html pages-output/index.html
+          # Public bestiary: only the five supplied web files, never Unity assets.
+          cp -R site/bestiaire pages-output/bestiaire
           if [ -d site/chroniques ]; then
             cp -R site/chroniques pages-output/chroniques
           fi

@@ -1,0 +1,26 @@
+:root { --fond:#14110f; --carte:#201b18; --texte:#e6dccd; --doux:#a89c8a; --accent:#c8873a; --ligne:#3a322c; }
+@media (prefers-color-scheme: light) { :root { --fond:#f1ebe0; --carte:#fffaf0; --texte:#2a221b; --doux:#6b5e4f; --accent:#9a5a14; --ligne:#d8ccb8; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--fond); color:var(--texte); font:16px/1.55 Georgia, "Times New Roman", serif; }
+header, main, footer { max-width:960px; margin:0 auto; padding:0 16px; }
+header { padding-top:40px; }
+h1 { margin:0; letter-spacing:.25em; color:var(--accent); font-size:2rem; }
+header p { margin:4px 0 24px; color:var(--doux); }
+.filtre { display:block; margin-bottom:16px; color:var(--doux); }
+select { margin-left:8px; padding:4px 8px; background:var(--carte); color:var(--texte); border:1px solid var(--ligne); }
+.carte { display:flex; gap:20px; background:var(--carte); border:1px solid var(--ligne); border-radius:8px; padding:16px; margin-bottom:16px; }
+.vignette { align-self:start; flex:0 0 260px; min-height:220px; display:grid; place-items:center; border:1px dashed var(--ligne); color:var(--doux); border-radius:6px; }
+.vignette img { width:100%; height:auto; display:block; border-radius:6px; }
+.corps { flex:1; min-width:0; }
+.corps h2 { margin:0 0 6px; }
+.tags { margin:0 0 10px; }
+.tag { display:inline-block; margin-right:6px; padding:1px 10px; border:1px solid var(--accent); border-radius:99px; font-size:.8rem; color:var(--accent); }
+.tag.integre { background:var(--accent); color:var(--fond); }
+dl { display:grid; grid-template-columns:max-content 1fr; gap:4px 14px; margin:12px 0; }
+dt { color:var(--doux); } dd { margin:0; }
+.source { font-size:.85rem; color:var(--doux); border-top:1px solid var(--ligne); padding-top:10px; }
+.source a { color:var(--accent); }
+footer { padding:16px; color:var(--doux); font-size:.85rem; }
+@media (max-width:640px) { .carte { flex-direction:column; } .vignette { flex-basis:auto; min-height:140px; } dl { grid-template-columns:1fr; } dt { margin-top:6px; } }
+
+header > a { color:var(--accent); display:inline-block; margin-bottom:16px; }
