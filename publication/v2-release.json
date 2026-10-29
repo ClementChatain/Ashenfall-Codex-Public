@@ -708,7 +708,7 @@
     "site/assets/emblems/v1/peuples-vaelith.webp": "9bd4f7d593438bd3f8a694ee27e5c92615b3efcc",
     "site/chroniques/index.html": "680de1eb7dc343e1f0be7b23cd649618c88b43b2",
     "site/chroniques/rupture-des-eaux.html": "fce623881857c91192f4ab723db6d0b95276703b",
-    "site/index.html": "c15de6fc8156ccea6ae6d1ec1c2891cb72148c1e",
+    "site/index.html": "0db1db5b736487545632f15c398c426cd4f2a362",
     "site/espace-travail/llms-full.txt": "725e1126d4ca777ce3eab3a46c35066fbdfdee97",
     "site/espace-travail/llms.txt": "132ba490268824f504b28f8055635432d01b608e",
     "site/espace-travail/manifest.json": "df2ef7d7153b80cae91ccad75efa597c537e4878",
@@ -1968,7 +1968,12 @@
     "site/assets/music-player-v1/core.mjs": "67f4151dbe31b0e83e0078c17193f0bc1478ab2b",
     "site/assets/music-player-v1/library.mjs": "2c7327ff52d5daec782f10dea701722176058382",
     "site/assets/music-player-v1/player.css": "1f04540d9e2ff4e449ea87c74c89d9fbb2c25f40",
-    "site/assets/music-player-v1/player.mjs": "8e0c2035506e632af8deceac6a667d262b9e76e9"
+    "site/assets/music-player-v1/player.mjs": "8e0c2035506e632af8deceac6a667d262b9e76e9",
+    "site/bestiaire/bestiaire-data.js": "b21c1a3e84c606bc73084ab0c420335a1fc1508e",
+    "site/bestiaire/bestiaire.js": "91b0db09774bee953652b431fc123232e9c66479",
+    "site/bestiaire/img/golem.png": "3de350abb90a19f43d5a9abdcc863237cdeb3048",
+    "site/bestiaire/index.html": "27ad431ccd211b11fc829bf4c252d0000f44b867",
+    "site/bestiaire/style.css": "e0cb67333048da6d421e0d0efff66fab409ff29c"
   },
   "receipts": [
     {
