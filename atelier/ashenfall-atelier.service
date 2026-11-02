@@ -1,0 +1,25 @@
+[Unit]
+Description=Ashenfall private lore workshop
+After=network.target
+
+[Service]
+Type=simple
+User=atelier
+Group=atelier
+WorkingDirectory=/opt/ashenfall-atelier
+Environment=ATELIER_DB=/var/lib/ashenfall-atelier/workshop.sqlite
+# Default: loopback only, reachable through SSH tunnel. No firewall changes.
+ExecStart=/usr/bin/python3 /opt/ashenfall-atelier/server.py serve --host 127.0.0.1 --port 8050
+Restart=on-failure
+RestartSec=3
+StateDirectory=ashenfall-atelier
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/ashenfall-atelier
+
+[Install]
+WantedBy=multi-user.target
