@@ -186,10 +186,10 @@ class Handler(BaseHTTPRequestHandler):
                     inline=len(parts)==5 and parts[4]=='preview' and r['mime'].startswith('image/')
                     return self.send(200,r['content'],r['mime'] if inline else 'application/octet-stream',{'Content-Disposition':'inline' if inline else "attachment; filename*=UTF-8''"+quote(r['name'])})
                 return self.send(404,{'error':'Route absente.'})
-        static={'/':'index.html','/app.mjs':'app.mjs','/style.css':'style.css'}
+        static={'/':'index.html','/app.mjs':'app.mjs','/style.css':'style.css','/theme.css':'theme.css','/crest.svg':'crest.svg','/grain.svg':'grain.svg','/ruins.svg':'ruins.svg'}
         if path in static:
             file=WEB/static[path]
-            return self.send(200,file.read_bytes(),{'index.html':'text/html; charset=utf-8','app.mjs':'text/javascript; charset=utf-8','style.css':'text/css; charset=utf-8'}[file.name])
+            return self.send(200,file.read_bytes(),{'index.html':'text/html; charset=utf-8','app.mjs':'text/javascript; charset=utf-8','style.css':'text/css; charset=utf-8','theme.css':'text/css; charset=utf-8','crest.svg':'image/svg+xml','grain.svg':'image/svg+xml','ruins.svg':'image/svg+xml'}[file.name])
         return self.send(404,{'error':'Page absente.'})
 
     def do_POST(self):

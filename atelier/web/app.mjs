@@ -133,6 +133,8 @@ async function load(initial = false) {
       (data.user.role === "reviewer"
         ? "Relecture et validation"
         : "Contributeur");
+    $("#top-user").textContent = data.user.name;
+    $("#top-user").dataset.initial = data.user.name.slice(0, 1).toUpperCase();
     sync("Enregistré · privé");
     render();
     renderInspector();
@@ -348,6 +350,11 @@ function renderInspector() {
     n = byId(selected);
   panel.hidden = !n;
   if (!n) return;
+  const editing =
+    panel.dataset.idea === n.id && panel.querySelector(".idea-editor")?.open;
+  const resources =
+    panel.dataset.idea === n.id && panel.querySelector(".idea-resources")?.open;
+  panel.dataset.idea = n.id;
   const excluded = descendants(n.id);
   const comments = state.comments.filter((c) => c.node_id === n.id);
   const approvals = state.approvals.filter((a) => a.node_id === n.id);
@@ -357,7 +364,11 @@ function renderInspector() {
     (active ? "✓ VERSION VALIDÉE" : "PROPOSITION · NON CANONIQUE") +
     '</span><button class="close" data-action="close" aria-label="Fermer la fiche">×</button></div><h2>' +
     esc(n.title) +
-    '</h2><p class="hint">La validation concerne cette version et cette idée uniquement. Les sous-idées restent indépendantes.</p><label>Titre<input id="node-title" value="' +
+    '</h2><div class="idea-reading"><p>' +
+    esc(n.body || "Une nouvelle piste à développer…") +
+    '</p></div><details class="idea-editor"' +
+    (editing ? " open" : "") +
+    '><summary>✎ Modifier et organiser l’idée</summary><p class="hint">Les sous-idées gardent leur propre validation.</p><label>Titre<input id="node-title" value="' +
     esc(n.title) +
     '" maxlength="180" required></label><div class="row"><label>Étape<select id="node-status">' +
     Object.entries(states)
@@ -415,7 +426,11 @@ function renderInspector() {
           "</button>",
       )
       .join("") +
-    '<h3>Images et pièces jointes</h3><p class="hint">20 Mo par fichier. Images affichées ; autres fichiers disponibles au téléchargement privé.</p><div>' +
+    '</details><details class="idea-resources"' +
+    (resources ? " open" : "") +
+    "><summary>◇ Images, fichiers et relations <span>" +
+    n.attachments.length +
+    ' PJ</span></summary><p class="hint">20 Mo par fichier. Téléchargement privé.</p><div>' +
     n.attachments
       .map((id) => {
         const f = file(id);
@@ -454,7 +469,7 @@ function renderInspector() {
           '" aria-label="Supprimer le lien">×</button></div>',
       )
       .join("") +
-    '<p class="hint">Utilisez l’outil Relier sur la toile pour tracer des relations entre vos idées.</p><h3>Vos échanges</h3>' +
+    '<p class="hint">Tracez les relations avec l’outil Relier sur la toile.</p></details><h3 class="review-heading">Ton avis</h3>' +
     comments
       .map(
         (c) =>
@@ -467,7 +482,7 @@ function renderInspector() {
           "</p></div>",
       )
       .join("") +
-    '<form id="comment-form"><label>Ton avis<textarea id="comment-body" rows="3" maxlength="10000" required placeholder="Une question, une suggestion…"></textarea></label><button type="submit">Ajouter mon commentaire</button></form><div class="actions">' +
+    '<form id="comment-form"><label class="comment-label">Ajouter un commentaire<textarea id="comment-body" rows="3" maxlength="10000" required placeholder="Une question, une suggestion…"></textarea></label><button type="submit">Ajouter mon commentaire</button></form><div class="actions">' +
     (state.user.role === "reviewer"
       ? '<button class="primary" data-action="approve">✓ Valider cette version</button>'
       : '<p class="hint">La validation appartient au compte de relecture.</p>') +
@@ -515,6 +530,7 @@ function newNode(parent = "") {
   changed();
   render();
   renderInspector();
+  $(".idea-editor").open = true;
   $("#node-title")?.select();
 }
 function exportLocal() {
@@ -668,6 +684,11 @@ document.addEventListener("input", (e) => {
   if (["title", "body", "tag", "status", "parent", "color"].includes(key)) {
     n[key] = e.target.value;
     hashes.delete(n.id);
+    const reading = $("#inspector .idea-reading p");
+    if (reading && key === "body")
+      reading.textContent = n.body || "Une nouvelle piste à développer…";
+    const heading = $("#inspector > h2");
+    if (heading && key === "title") heading.textContent = n.title;
     const badge = $("#inspector .status");
     if (badge) badge.textContent = "PROPOSITION · NON CANONIQUE";
     changed();

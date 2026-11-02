@@ -2,6 +2,14 @@
 
 Application séparée du site public, conçue pour Clément et son frère. Le code est public ; les comptes, brouillons, commentaires, validations, pièces jointes et sauvegardes restent exclusivement dans une base SQLite privée, **hors du dépôt**. Aucune donnée n’est envoyée au Codex ni à un service tiers.
 
+## Présentation visuelle V2
+
+Direction artistique rapprochée de la maquette : parchemins texturés aux bords irréguliers, épingles dorées, cadres fins, emblème et ruines stylisées. Les ornements SVG sont créés pour l’interface et servis localement ; aucune police, image ou bibliothèque distante n’est chargée. `web/style.css` porte la structure et `web/theme.css` son habillage.
+
+Une fiche s’ouvre en lecture : texte, commentaires et actions de relecture. « Modifier et organiser l’idée » déplie les champs et les sous-idées ; « Images, fichiers et relations » déplie les ressources. Une nouvelle idée ouvre directement son éditeur. Les aperçus illustratifs utilisent uniquement des exemples temporaires non canoniques, jamais injectés dans un vrai atelier.
+
+Pour mettre à jour une installation V1 : sauvegarder la base, remplacer le code serveur et le dossier `web/` complet, puis redémarrer `ashenfall-atelier`. Le serveur doit aussi être actualisé pour servir les nouveaux ornements et le thème. Aucune migration des données requise.
+
 ## Fonctionnement
 
 - Tableau avec étapes, déplacement de cartes, recherche, filtres « vrac », « à relire », « validées ».
