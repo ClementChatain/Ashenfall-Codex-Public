@@ -4,6 +4,10 @@ Interface publique du Codex. Seuls les contenus explicitement approuvés sont ex
 
 Publication depuis main via GitHub Pages. Aucune source privée ni brouillon de lore.
 
+## Atelier privé du lore
+
+Application collaborative dans [atelier/](atelier/README.md) : tableau, idées imbriquées, toile libre, fichiers privés, commentaires et validations de versions. Serveur Python/SQLite indépendant de GitHub Pages ; installation VPS, comptes et sauvegardes documentés. Les données privées ne sont jamais stockées dans le dépôt ni déployées par le workflow public.
+
 ## Musiques du Codex
 
 Un lecteur dark fantasy compact accompagne les fiches, avec dix MP3 fournis par Clément, playlist filtrée par ambiances proposées, progression, volume, lecture aléatoire et répétition. La lecture reste active entre les fiches et commence uniquement au clic. Architecture, classement, commandes de test et serveur de prévisualisation compatible audio : [docs/MUSIQUES.md](docs/MUSIQUES.md).

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Atelier du lore · Ashenfall</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/app.mjs"></script>
+  </head>
+  <body>
+    <section id="login" class="login" hidden>
+      <form id="login-form" class="login-card">
+        <div class="sigil">✧</div>
+        <p class="eyebrow">ASHENFALL · ESPACE PRIVÉ</p>
+        <h1>L’atelier du lore</h1>
+        <p>Des premières idées aux récits d’Ashenfall.</p>
+        <label
+          >Compte<input
+            name="name"
+            autocomplete="username"
+            required
+            maxlength="80" /></label
+        ><label
+          >Mot de passe<input
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required /></label
+        ><button class="primary" type="submit">Entrer dans l’atelier →</button>
+        <p id="login-error" role="alert"></p>
+        <small
+          >Accès sur invitation. Les brouillons ne sont pas publiés sur le
+          Codex.</small
+        >
+      </form>
+    </section>
+    <div id="app" hidden>
+      <aside class="sidebar">
+        <a
+          class="brand"
+          href="https://codex.ashenfall.linkin-tools.fr/"
+          target="_blank"
+          rel="noopener"
+          ><span>✧</span>ASHENFALL<small>CODEX · ATELIER</small></a
+        >
+        <p class="eyebrow">VOTRE ESPACE</p>
+        <nav aria-label="Organisation">
+          <button data-filter="all" class="active">✦ Toutes les idées</button
+          ><button data-filter="inbox">◇ Le vrac</button
+          ><button data-filter="review">◉ À relire</button
+          ><button data-filter="approved">✓ Versions validées</button>
+        </nav>
+        <div class="sidebar-bottom">
+          <span class="privacy">♧ Espace privé</span>
+          <p id="identity"></p>
+          <button id="export">Exporter le travail</button
+          ><label class="import"
+            >Importer un export<input
+              id="import"
+              type="file"
+              accept=".json,application/json"
+              hidden /></label
+          ><button id="logout">Se déconnecter</button>
+        </div>
+      </aside>
+      <main class="main">
+        <header class="top">
+          <button
+            id="mobile-menu"
+            class="mobile-menu"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+          <div>
+            <p class="eyebrow">LE LABORATOIRE DES RÉCITS</p>
+            <h1>Atelier du lore</h1>
+            <p class="subtitle">
+              Des idées libres. Un monde à construire ensemble.
+            </p>
+          </div>
+          <button id="new" class="primary">＋ Nouvelle idée</button>
+        </header>
+        <div class="toolbar">
+          <div class="views" role="group" aria-label="Vue de l’atelier">
+            <button data-view="board" class="active">▤ Tableau</button
+            ><button data-view="tree">⌘ Arborescence</button
+            ><button data-view="canvas">✧ Toile libre</button>
+          </div>
+          <input
+            id="search"
+            type="search"
+            placeholder="Chercher une idée…"
+            aria-label="Chercher une idée"
+          /><button id="sync" type="button" title="Réessayer l’enregistrement">
+            Connexion…
+          </button>
+        </div>
+        <div class="notice">
+          <span>♧ Brouillons privés · Aucune publication automatique</span
+          ><span id="count"></span>
+        </div>
+        <div id="message" role="alert" hidden></div>
+        <div id="conflict" hidden>
+          <strong>Une autre version est disponible.</strong> Ton travail reste
+          dans cet onglet.<button id="export-conflict">
+            Exporter ma version</button
+          ><button id="load-shared">Charger la version partagée…</button>
+        </div>
+        <section id="workspace" aria-label="Espace de travail"></section>
+        <footer class="workspace-footer">
+          <span>Idée → Développement → Relecture → Validation</span
+          ><span>Publication séparée via Archiviste</span>
+        </footer>
+      </main>
+      <aside
+        id="inspector"
+        class="inspector"
+        aria-label="Fiche de l’idée"
+        hidden
+      ></aside>
+    </div>
+    <div id="loading" class="loading">✧ Ouverture de l’atelier…</div>
+    <input type="file" id="attachment-input" multiple hidden />
+    <div id="announcer" class="sr-only" aria-live="polite"></div>
+  </body>
+</html>

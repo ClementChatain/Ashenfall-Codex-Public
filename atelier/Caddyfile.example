@@ -1,0 +1,10 @@
+# EXAMPLE ONLY. Choose a hostname you control and point its DNS at your VPS.
+# Do not replace an existing Caddy configuration wholesale.
+atelier.example.com {
+    reverse_proxy 127.0.0.1:8050
+    request_body {
+        max_size 21MB
+    }
+}
+# With HTTPS set the service ExecStart to:
+# /usr/bin/python3 /opt/ashenfall-atelier/server.py serve --host 127.0.0.1 --port 8050 --secure --origin https://atelier.example.com
