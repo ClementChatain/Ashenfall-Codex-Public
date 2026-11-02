@@ -203,25 +203,34 @@ class Handler(BaseHTTPRequestHandler):
         expected=self.server.origin or ('https://' if self.server.secure else 'http://')+self.headers.get('Host','')
         if origin!=expected:return self.send(403,{'error':'Origine refusée.'})
         with connect(self.server.database) as db:
+            def reply(status, data, **kwargs):
+                # Never acknowledge a mutation before SQLite commits. A following
+                # request (or another collaborator) must observe the confirmed write.
+                if status < 400:
+                    db.commit()
+                else:
+                    db.rollback()
+                return self.send(status, data, **kwargs)
+
             if path=='/api/login':
                 ip=self.client_address[0];now=time.time();attempts=[t for t in self.server.attempts.get(ip,[]) if now-t<300]
-                if len(attempts)>=10:return self.send(429,{'error':'Trop de tentatives. Réessaie dans cinq minutes.'})
+                if len(attempts)>=10:return reply(429,{'error':'Trop de tentatives. Réessaie dans cinq minutes.'})
                 attempts.append(now);self.server.attempts[ip]=attempts
                 data=json.loads(self.read_body(4096));name=data.get('name','');password=data.get('password','')
                 if not isinstance(name,str) or not isinstance(password,str):raise ValueError('Identifiants invalides.')
                 user=db.execute('SELECT * FROM users WHERE name=?',(name,)).fetchone()
                 valid=password_ok(password,user['password'] if user else ('0'*32+':'+'0'*64))
-                if not user or not valid:return self.send(401,{'error':'Identifiants incorrects.'})
+                if not user or not valid:return reply(401,{'error':'Identifiants incorrects.'})
                 token=secrets.token_urlsafe(32);csrf=secrets.token_urlsafe(24)
                 db.execute('DELETE FROM sessions WHERE expires<?',(now,))
                 db.execute('INSERT INTO sessions VALUES(?,?,?,?)',(hashlib.sha256(token.encode()).hexdigest(),user['id'],csrf,now+8*3600))
-                return self.send(200,{'ok':True},headers={'Set-Cookie':f'ashenfall_session={token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=28800'+('; Secure' if self.server.secure else '')})
+                return reply(200,{'ok':True},headers={'Set-Cookie':f'ashenfall_session={token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=28800'+('; Secure' if self.server.secure else '')})
             user=self.session(db)
-            if not user:return self.send(401,{'error':'Session expirée. Tes modifications restent dans cet onglet ; reconnecte-toi.'})
-            if not hmac.compare_digest(self.headers.get('X-CSRF-Token',''),user['csrf']):return self.send(403,{'error':'Protection de session : recharge l’atelier.'})
+            if not user:return reply(401,{'error':'Session expirée. Tes modifications restent dans cet onglet ; reconnecte-toi.'})
+            if not hmac.compare_digest(self.headers.get('X-CSRF-Token',''),user['csrf']):return reply(403,{'error':'Protection de session : recharge l’atelier.'})
             if path=='/api/logout':
                 db.execute('DELETE FROM sessions WHERE csrf=?',(user['csrf'],))
-                return self.send(200,{'ok':True},headers={'Set-Cookie':'ashenfall_session=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0'+('; Secure' if self.server.secure else '')})
+                return reply(200,{'ok':True},headers={'Set-Cookie':'ashenfall_session=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0'+('; Secure' if self.server.secure else '')})
             if path=='/api/files':
                 data=self.read_body(MAX_FILE)
                 if not data:raise ValueError('Fichier vide.')
@@ -234,31 +243,31 @@ class Handler(BaseHTTPRequestHandler):
                 elif data[:4]==b'RIFF' and data[8:12]==b'WEBP':mime='image/webp'
                 file_id=secrets.token_hex(16)
                 db.execute('INSERT INTO files VALUES(?,?,?,?,?,?)',(file_id,name,mime,data,user['id'],time.time()))
-                return self.send(201,{'id':file_id,'name':name,'mime':mime,'size':len(data)})
+                return reply(201,{'id':file_id,'name':name,'mime':mime,'size':len(data)})
             data=json.loads(self.read_body())
             if path=='/api/workspace':
                 db.execute('BEGIN IMMEDIATE')
                 row=db.execute('SELECT * FROM workspace WHERE id=1').fetchone()
-                if data.get('revision')!=row['revision']:return self.send(409,{'error':'L’atelier a été modifié ailleurs. Ton travail est conservé dans cet onglet : exporte-le avant de charger la version partagée.','revision':row['revision']})
+                if data.get('revision')!=row['revision']:return reply(409,{'error':'L’atelier a été modifié ailleurs. Ton travail est conservé dans cet onglet : exporte-le avant de charger la version partagée.','revision':row['revision']})
                 doc=validate_document(data['document'],db)
                 db.execute('INSERT INTO history(revision,document,user_id,created) VALUES(?,?,?,?)',(row['revision'],row['document'],user['id'],time.time()))
                 db.execute('UPDATE workspace SET revision=?,document=? WHERE id=1',(row['revision']+1,canonical(doc)))
-                return self.send(200,{'revision':row['revision']+1})
+                return reply(200,{'revision':row['revision']+1})
             if path=='/api/comments':
                 node_id=data['node'];body=data['body']
                 doc=json.loads(db.execute('SELECT document FROM workspace WHERE id=1').fetchone()[0])
                 if not any(n['id']==node_id for n in doc['nodes']) or not isinstance(body,str) or not 1<=len(body.strip())<=10000:raise ValueError('Commentaire ou idée invalide.')
                 db.execute('INSERT INTO comments VALUES(?,?,?,?,?)',(secrets.token_hex(16),node_id,user['id'],body.strip(),time.time()))
-                return self.send(201,{'ok':True})
+                return reply(201,{'ok':True})
             if path=='/api/validate':
-                if user['role']!='reviewer':return self.send(403,{'error':'Seul le compte de relecture peut valider.'})
+                if user['role']!='reviewer':return reply(403,{'error':'Seul le compte de relecture peut valider.'})
                 row=db.execute('SELECT * FROM workspace WHERE id=1').fetchone()
-                if data.get('revision')!=row['revision']:return self.send(409,{'error':'La version a changé. Relis-la avant de valider.'})
+                if data.get('revision')!=row['revision']:return reply(409,{'error':'La version a changé. Relis-la avant de valider.'})
                 node=next((n for n in json.loads(row['document'])['nodes'] if n['id']==data['node']),None)
                 if not node:raise ValueError('Idée absente.')
                 db.execute('INSERT INTO approvals VALUES(?,?,?,?,?,?)',(secrets.token_hex(16),node['id'],node_hash(node),canonical(node),user['id'],time.time()))
-                return self.send(201,{'ok':True})
-            return self.send(404,{'error':'Route absente.'})
+                return reply(201,{'ok':True})
+            return reply(404,{'error':'Route absente.'})
 
 
 def main():

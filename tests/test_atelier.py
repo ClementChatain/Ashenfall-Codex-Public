@@ -8,6 +8,7 @@ import sqlite3
 import tempfile
 import threading
 import unittest
+from unittest import mock
 
 spec=importlib.util.spec_from_file_location('atelier_server',Path(__file__).resolve().parents[1]/'atelier/server.py')
 app=importlib.util.module_from_spec(spec);spec.loader.exec_module(app)
@@ -40,6 +41,24 @@ class WorkshopTests(unittest.TestCase):
         status,_,headers=self.request('/api/login',{'name':name,'password':PASSWORD});self.assertEqual(status,200);self.cookie=headers['Set-Cookie'].split(';')[0];status,state,_=self.request('/api/state');self.csrf=state['csrf'];return state
     def put(self,nodes=None,revision=0,**extras):
         return self.request('/api/workspace',{'revision':revision,'document':{'nodes':nodes or [node()],'edges':extras.get('edges',[]),'strokes':extras.get('strokes',[])}})
+    def test_success_responses_only_follow_committed_writes(self):
+        observed=[]
+        original=app.Handler.send
+        def checked(handler,status,data,*args,**kwargs):
+            if status<400:
+                with app.connect(self.db) as db:
+                    path=handler.path
+                    if path=='/api/login': observed.append(db.execute('SELECT count(*) FROM sessions').fetchone()[0]==1)
+                    elif path=='/api/workspace': observed.append(db.execute('SELECT revision FROM workspace').fetchone()[0]==data['revision'])
+                    elif path=='/api/files': observed.append(db.execute('SELECT 1 FROM files WHERE id=?',(data['id'],)).fetchone() is not None)
+                    elif path=='/api/logout': observed.append(db.execute('SELECT count(*) FROM sessions').fetchone()[0]==0)
+            return original(handler,status,data,*args,**kwargs)
+        with mock.patch.object(app.Handler,'send',checked):
+            self.login();self.assertEqual(self.put()[0],200)
+            self.assertEqual(self.request('/api/files',b'test',{'X-File-Name':'test.txt'})[0],201)
+            self.assertEqual(self.request('/api/logout',{})[0],200)
+        self.assertEqual(observed,[True,True,True,True])
+
     def test_private_state_files_exports_require_session(self):
         for route in ['/api/state','/api/files/anything','/api/export']:
             self.assertEqual(self.request(route)[0],401)
