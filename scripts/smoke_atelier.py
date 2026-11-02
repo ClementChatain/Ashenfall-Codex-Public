@@ -21,6 +21,8 @@ def run():
                 browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);context=browser.new_context(viewport={'width':1536,'height':1050});page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
                 def login(page,name):
                     page.goto(base);page.locator('[name=name]').fill(name);page.locator('[name=password]').fill(password);page.get_by_role('button',name='Entrer dans l’atelier →').click();page.wait_for_selector('#app:not([hidden])')
+                def edit(page):
+                    if not page.locator('.idea-editor').evaluate('(e)=>e.open'):page.locator('.idea-editor > summary').click()
                 def saved(page):page.wait_for_function('()=>document.querySelector("#sync").textContent==="Enregistré · privé"')
                 login(page,'Clement');assert page.get_by_text('Tout commence par une idée.').is_visible()
                 page.get_by_role('button',name='＋ Nouvelle idée',exact=True).click();page.locator('#node-title').fill('Cité-test · exemple non canonique');page.locator('#node-body').fill('Une proposition de test, jamais du lore validé.');page.locator('#node-tag').fill('Lieu');saved(page)
@@ -28,7 +30,7 @@ def run():
                 page.locator('#node-status').select_option('review');saved(page)
                 # Real attachment upload through the UI; download is authenticated.
                 image=ROOT/'site/bestiaire/img/golem.png'
-                page.locator('#attachment-input').set_input_files(str(image));page.wait_for_selector('.attachment img');saved(page)
+                page.locator('.idea-resources > summary').click();page.locator('#attachment-input').set_input_files(str(image));page.wait_for_selector('.attachment img');saved(page)
                 with page.expect_download() as download_info:page.locator('.attachment a').click()
                 download=download_info.value;assert Path(download.path()).read_bytes()==image.read_bytes()
                 page.locator('#comment-body').fill('Un commentaire de relecture de test.');page.get_by_role('button',name='Ajouter mon commentaire').click();page.wait_for_selector('.comment')
@@ -40,10 +42,10 @@ def run():
                 page.get_by_role('button',name='⌁ Relier',exact=True).click();page.once('dialog',lambda d:d.accept('Dépend de'));page.locator('[data-node]').nth(0).click();page.locator('[data-node]').nth(1).click();saved(page);assert page.locator('svg text').text_content()=='Dépend de'
                 page.get_by_role('button',name='↖ Déplacer',exact=True).click();card=page.locator('[data-node]').first;box=card.bounding_box();page.mouse.move(box['x']+40,box['y']+30);page.mouse.down();page.mouse.move(box['x']+130,box['y']+75,steps=10);page.mouse.up();saved(page)
                 # Ensure read-only author cannot see validation button; both share the same server data.
-                other=browser.new_context();brother=other.new_page();login(brother,'Frere');brother.locator('[data-node]').first.click();assert brother.get_by_role('button',name='✓ Valider cette version').count()==0
+                other=browser.new_context();brother=other.new_page();login(brother,'Frere');brother.locator('[data-node]').first.click();edit(brother);assert brother.get_by_role('button',name='✓ Valider cette version').count()==0
                 # API collision: no silent overwrite by a stale client.
                 async_state=brother.evaluate('async()=>await(await fetch("/api/state")).json()')
-                page.get_by_role('button',name='▤ Tableau').click();page.locator('[data-node]').first.click();page.locator('#node-title').fill('Cité-test · version récente');saved(page)
+                page.get_by_role('button',name='▤ Tableau').click();page.locator('[data-node]').first.click();edit(page);page.locator('#node-title').fill('Cité-test · version récente');saved(page)
                 status=brother.evaluate('async s=>(await fetch("/api/workspace",{method:"POST",headers:{"Content-Type":"application/json","X-CSRF-Token":s.csrf},body:JSON.stringify({revision:s.revision,document:s.document})})).status',async_state);assert status==409,status
                 brother.locator('#node-body').fill('Version concurrente à conserver dans l’onglet');brother.wait_for_selector('#conflict:not([hidden])');assert brother.locator('#node-body').input_value()=='Version concurrente à conserver dans l’onglet'
                 with brother.expect_download() as exported:brother.get_by_role('button',name='Exporter ma version',exact=True).click()
